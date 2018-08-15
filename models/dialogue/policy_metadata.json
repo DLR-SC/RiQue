@@ -1,0 +1,51 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "id",
+        "reference",
+        "name"
+      ]
+    },
+    "utter_find_entity": {
+      "slots": []
+    },
+    "utter_show_info": {
+      "slots": []
+    },
+    "utter_show_services": {
+      "slots": []
+    },
+    "utter_greeting": {
+      "slots": []
+    },
+    "utter_hide_imports": {
+      "slots": []
+    },
+    "utter_show_imports": {
+      "slots": []
+    },
+    "utter_hide_exports": {
+      "slots": []
+    },
+    "utter_hide_info": {
+      "slots": []
+    },
+    "utter_hide_services": {
+      "slots": []
+    },
+    "utter_show_exports": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.10.3",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

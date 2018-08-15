@@ -1,0 +1,85 @@
+%YAML 1.1
+---
+action_factory: remote
+action_names:
+- utter_greeting
+- utter_find_entity
+- utter_show_exports
+- utter_hide_exports
+- utter_show_imports
+- utter_hide_imports
+- utter_show_services
+- utter_hide_services
+- utter_show_info
+- utter_hide_info
+actions:
+- utter_greeting
+- utter_find_entity
+- utter_show_exports
+- utter_hide_exports
+- utter_show_imports
+- utter_hide_imports
+- utter_show_services
+- utter_hide_services
+- utter_show_info
+- utter_hide_info
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greeting:
+    use_entities: true
+- find_entity_by_name_or_id:
+    use_entities: true
+- show_exports:
+    use_entities: true
+- hide_exports:
+    use_entities: true
+- show_imports:
+    use_entities: true
+- hide_imports:
+    use_entities: true
+- show_services:
+    use_entities: true
+- hide_services:
+    use_entities: true
+- show_info:
+    use_entities: true
+- hide_info:
+    use_entities: true
+- reset_slots:
+    use_entities: true
+slots:
+  entityType:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  id:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  reference:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_find_entity:
+  - text: couldnt find any entities
+  utter_greeting:
+  - text: hi there
+  utter_hide_exports:
+  - text: im hiding the exports for you
+  utter_hide_imports:
+  - text: now you cant see the imports
+  utter_hide_info:
+  - text: now you cant see the info
+  utter_hide_services:
+  - text: now you cant see the services
+  utter_show_exports:
+  - text: right here you can see the exports
+  utter_show_imports:
+  - text: right here you can see the imports
+  utter_show_info:
+  - text: right here you can see the info
+  utter_show_services:
+  - text: right here you can see the services

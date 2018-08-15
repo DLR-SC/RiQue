@@ -1,0 +1,212 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "hello"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "greeting",
+        "text": "howdee"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi there"
+      },
+      {
+        "intent": "greeting",
+        "text": "good morning"
+      },
+      {
+        "intent": "find_entity_by_name_or_id",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "class",
+            "entity": "entityType"
+          },
+          {
+            "start": 11,
+            "end": 24,
+            "value": "event handler",
+            "entity": "name"
+          }
+        ],
+        "text": "find class event handler"
+      },
+      {
+        "intent": "find_entity_by_name_or_id",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "package",
+            "entity": "entityType"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "IO handler",
+            "entity": "name"
+          }
+        ],
+        "text": "show me package IO handler"
+      },
+      {
+        "intent": "find_entity_by_name_or_id",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "class",
+            "entity": "entityType"
+          }
+        ],
+        "text": "I want to have a look at this class"
+      },
+      {
+        "intent": "find_entity_by_name_or_id",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "bundle",
+            "entity": "entityType"
+          },
+          {
+            "start": 22,
+            "end": 35,
+            "value": "state machine",
+            "entity": "name"
+          }
+        ],
+        "text": "find the bundle named state machine"
+      },
+      {
+        "intent": "find_entity_by_name_or_id",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "bundle",
+            "entity": "entityType"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "122",
+            "entity": "id"
+          }
+        ],
+        "text": "where is the bundle with id 122"
+      },
+      {
+        "intent": "show_exports",
+        "text": "show all exports"
+      },
+      {
+        "intent": "show_exports",
+        "text": "what other classes import (this class)[reference]."
+      },
+      {
+        "intent": "show_exports",
+        "text": "show exports"
+      },
+      {
+        "intent": "show_exports",
+        "text": "show (this class)[reference] exports."
+      },
+      {
+        "intent": "hide_exports",
+        "text": "I dont need the exports any longer"
+      },
+      {
+        "intent": "hide_exports",
+        "text": "close exports"
+      },
+      {
+        "intent": "hide_exports",
+        "text": "hide exports"
+      },
+      {
+        "intent": "show_imports",
+        "text": "visualize the imports"
+      },
+      {
+        "intent": "show_imports",
+        "text": "visualize imports"
+      },
+      {
+        "intent": "show_imports",
+        "text": "show imports"
+      },
+      {
+        "intent": "hide_imports",
+        "text": "close imports"
+      },
+      {
+        "intent": "hide_imports",
+        "text": "hide  imports"
+      },
+      {
+        "intent": "show_services",
+        "text": "visualize the services"
+      },
+      {
+        "intent": "show_services",
+        "text": "visualize services"
+      },
+      {
+        "intent": "show_services",
+        "text": "display services"
+      },
+      {
+        "intent": "hide_services",
+        "text": "close services"
+      },
+      {
+        "intent": "hide_services",
+        "text": "hide services"
+      },
+      {
+        "intent": "show_info",
+        "text": "what is this"
+      },
+      {
+        "intent": "show_info",
+        "text": "Show me some information about this"
+      },
+      {
+        "intent": "show_info",
+        "text": "I want to see the info"
+      },
+      {
+        "intent": "show_info",
+        "text": "I want to know more about this"
+      },
+      {
+        "intent": "show_info",
+        "text": "display the info"
+      },
+      {
+        "intent": "show_info",
+        "text": "what do you know about this"
+      },
+      {
+        "intent": "hide_info",
+        "text": "I dont need the informations any longer"
+      },
+      {
+        "intent": "hide_info",
+        "text": "close the information panel"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

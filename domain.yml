@@ -1,0 +1,68 @@
+slots:
+  entityType:
+    type: text
+  name:
+    type: text
+  id:
+    type: text
+  reference:
+    type: text
+
+intents:
+  - greeting
+  - find_entity_by_name_or_id
+  - show_exports
+  - hide_exports
+  - show_imports
+  - hide_imports
+  - show_services
+  - hide_services
+  - show_info
+  - hide_info
+  - reset_slots
+
+action_factory: remote
+
+actions:
+- utter_greeting
+- utter_find_entity
+- utter_show_exports
+- utter_hide_exports
+- utter_show_imports
+- utter_hide_imports
+- utter_show_services
+- utter_hide_services
+- utter_show_info
+- utter_hide_info
+
+templates:
+
+  utter_greeting:
+  - "hi there"
+
+  utter_find_entity:
+  - "couldnt find any entities"
+
+  utter_show_exports:
+  - "right here you can see the exports"
+
+  utter_hide_exports:
+  - "im hiding the exports for you"
+
+  utter_show_imports:
+  - "right here you can see the imports"
+
+  utter_hide_imports:
+  - "now you cant see the imports"
+
+  utter_show_services:
+  - "right here you can see the services"
+
+  utter_hide_services:
+  - "now you cant see the services"
+
+  utter_show_info:
+  - "right here you can see the info"
+
+  utter_hide_info:
+  - "now you cant see the info"
