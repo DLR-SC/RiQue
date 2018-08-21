@@ -1,39 +1,40 @@
 slots:
   entityType:
-    type: text
-  name:
-    type: text
-  id:
-    type: text
-  reference:
-    type: text
+    type: categorical
+    values:
+    - class
+    - bundle
+    - package
+  class_name:
+    type: categorical
+    values:
+    - io.hanlder.export.manager
+    - dialogue.manager.package.main
+    - eventbased.prgogress.bar.devider
+    - colorchooser
+  entity_to_display:
+    type: categorical
+    values:
+    - imports
+    - exports
+    - information
+    - services
 
 intents:
   - greeting
   - find_entity_by_name_or_id
-  - show_exports
-  - hide_exports
-  - show_imports
-  - hide_imports
-  - show_services
-  - hide_services
-  - show_info
-  - hide_info
-  - reset_slots
+  - show_entity
+  - hide_entity
 
 action_factory: remote
 
 actions:
 - utter_greeting
 - utter_find_entity
-- utter_show_exports
-- utter_hide_exports
-- utter_show_imports
-- utter_hide_imports
-- utter_show_services
-- utter_hide_services
-- utter_show_info
-- utter_hide_info
+- utter_show_entity
+- utter_hide_entity
+- utter_done
+- ask_right
 
 templates:
 
@@ -43,26 +44,14 @@ templates:
   utter_find_entity:
   - "couldnt find any entities"
 
-  utter_show_exports:
-  - "right here you can see the exports"
+  utter_show_entity:
+  - "right here you can see what you asked for"
 
-  utter_hide_exports:
-  - "im hiding the exports for you"
+  utter_hide_entity:
+  - "im hiding this for you"
 
-  utter_show_imports:
-  - "right here you can see the imports"
+  ask_right:
+  - "was that right?"
 
-  utter_hide_imports:
-  - "now you cant see the imports"
-
-  utter_show_services:
-  - "right here you can see the services"
-
-  utter_hide_services:
-  - "now you cant see the services"
-
-  utter_show_info:
-  - "right here you can see the info"
-
-  utter_hide_info:
-  - "now you cant see the info"
+  utter_done:
+  - "i am ready to somethin new. just tell me."

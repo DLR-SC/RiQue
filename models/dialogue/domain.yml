@@ -4,25 +4,17 @@ action_factory: remote
 action_names:
 - utter_greeting
 - utter_find_entity
-- utter_show_exports
-- utter_hide_exports
-- utter_show_imports
-- utter_hide_imports
-- utter_show_services
-- utter_hide_services
-- utter_show_info
-- utter_hide_info
+- utter_show_entity
+- utter_hide_entity
+- utter_done
+- ask_right
 actions:
 - utter_greeting
 - utter_find_entity
-- utter_show_exports
-- utter_hide_exports
-- utter_show_imports
-- utter_hide_imports
-- utter_show_services
-- utter_hide_services
-- utter_show_info
-- utter_hide_info
+- utter_show_entity
+- utter_hide_entity
+- utter_done
+- ask_right
 config:
   store_entities_as_slots: true
 entities: []
@@ -31,55 +23,44 @@ intents:
     use_entities: true
 - find_entity_by_name_or_id:
     use_entities: true
-- show_exports:
+- show_entity:
     use_entities: true
-- hide_exports:
-    use_entities: true
-- show_imports:
-    use_entities: true
-- hide_imports:
-    use_entities: true
-- show_services:
-    use_entities: true
-- hide_services:
-    use_entities: true
-- show_info:
-    use_entities: true
-- hide_info:
-    use_entities: true
-- reset_slots:
+- hide_entity:
     use_entities: true
 slots:
+  class_name:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - io.hanlder.export.manager
+    - dialogue.manager.package.main
+    - eventbased.prgogress.bar.devider
+    - colorchooser
   entityType:
     initial_value: null
-    type: rasa_core.slots.TextSlot
-  id:
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - class
+    - bundle
+    - package
+  entity_to_display:
     initial_value: null
-    type: rasa_core.slots.TextSlot
-  name:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  reference:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - imports
+    - exports
+    - information
+    - services
 templates:
+  ask_right:
+  - text: was that right?
+  utter_done:
+  - text: i am ready to somethin new. just tell me.
   utter_find_entity:
   - text: couldnt find any entities
   utter_greeting:
   - text: hi there
-  utter_hide_exports:
-  - text: im hiding the exports for you
-  utter_hide_imports:
-  - text: now you cant see the imports
-  utter_hide_info:
-  - text: now you cant see the info
-  utter_hide_services:
-  - text: now you cant see the services
-  utter_show_exports:
-  - text: right here you can see the exports
-  utter_show_imports:
-  - text: right here you can see the imports
-  utter_show_info:
-  - text: right here you can see the info
-  utter_show_services:
-  - text: right here you can see the services
+  utter_hide_entity:
+  - text: im hiding this for you
+  utter_show_entity:
+  - text: right here you can see what you asked for

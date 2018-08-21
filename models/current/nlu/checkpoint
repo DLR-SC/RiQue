@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\peter.seipel\\Documents\\workspaces\\rasa\\tutorials\\islandVizBot\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "C:\\Users\\peter.seipel\\Documents\\workspaces\\rasa\\tutorials\\islandVizBot\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+model_checkpoint_path: "C:\\Users\\peter.seipel\\Documents\\workspaces\\rasa\\Island-Voiz\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\peter.seipel\\Documents\\workspaces\\rasa\\Island-Voiz\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
