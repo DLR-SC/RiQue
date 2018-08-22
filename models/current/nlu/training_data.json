@@ -28,16 +28,16 @@
             "start": 5,
             "end": 10,
             "value": "class",
-            "entity": "entityType"
+            "entity": "entity_type"
           },
           {
             "start": 11,
-            "end": 24,
-            "value": "event handler",
+            "end": 43,
+            "value": "eventbased.prgogress.bar.devider",
             "entity": "class_name"
           }
         ],
-        "text": "find class event handler"
+        "text": "find class eventbased.prgogress.bar.devider"
       },
       {
         "intent": "find_entity_by_name_or_id",
@@ -46,16 +46,16 @@
             "start": 8,
             "end": 15,
             "value": "package",
-            "entity": "entityType"
+            "entity": "entity_type"
           },
           {
             "start": 16,
-            "end": 26,
-            "value": "IO handler",
+            "end": 48,
+            "value": "eventbased.prgogress.bar.devider",
             "entity": "class_name"
           }
         ],
-        "text": "show me package IO handler"
+        "text": "show me package eventbased.prgogress.bar.devider"
       },
       {
         "intent": "find_entity_by_name_or_id",
@@ -64,10 +64,10 @@
             "start": 30,
             "end": 35,
             "value": "class",
-            "entity": "entityType"
+            "entity": "entity_type"
           }
         ],
-        "text": "I want to have a look at this class"
+        "text": "i want to have a look at this class"
       },
       {
         "intent": "find_entity_by_name_or_id",
@@ -76,34 +76,40 @@
             "start": 9,
             "end": 15,
             "value": "bundle",
-            "entity": "entityType"
+            "entity": "entity_type"
           },
           {
             "start": 22,
-            "end": 35,
-            "value": "state machine",
+            "end": 54,
+            "value": "eventbased.prgogress.bar.devider",
             "entity": "class_name"
           }
         ],
-        "text": "find the bundle named state machine"
+        "text": "find the bundle named eventbased.prgogress.bar.devider"
       },
       {
-        "intent": "find_entity_by_name_or_id",
+        "intent": "show_entity",
         "entities": [
           {
-            "start": 13,
-            "end": 19,
-            "value": "bundle",
-            "entity": "entityType"
-          },
-          {
-            "start": 28,
-            "end": 31,
-            "value": "122",
-            "entity": "id"
+            "start": 9,
+            "end": 17,
+            "value": "services",
+            "entity": "entity_to_display"
           }
         ],
-        "text": "where is the bundle with id 122"
+        "text": "show all services"
+      },
+      {
+        "intent": "show_entity",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "services",
+            "entity": "entity_to_display"
+          }
+        ],
+        "text": "show all service"
       },
       {
         "intent": "show_entity",
@@ -121,85 +127,85 @@
         "intent": "show_entity",
         "entities": [
           {
-            "start": 5,
-            "end": 12,
+            "start": 9,
+            "end": 15,
             "value": "exports",
             "entity": "entity_to_display"
           }
         ],
-        "text": "show exports"
+        "text": "show all export"
       },
       {
         "intent": "show_entity",
         "entities": [
           {
-            "start": 29,
-            "end": 36,
-            "value": "exports",
+            "start": 5,
+            "end": 13,
+            "value": "services",
             "entity": "entity_to_display"
           }
         ],
-        "text": "show (this class)[reference] exports"
+        "text": "show services"
       },
       {
         "intent": "show_entity",
         "entities": [
           {
             "start": 14,
-            "end": 21,
-            "value": "exports",
+            "end": 22,
+            "value": "services",
             "entity": "entity_to_display"
           }
         ],
-        "text": "visualize the exports"
+        "text": "visualize the services"
       },
       {
         "intent": "show_entity",
         "entities": [
           {
             "start": 10,
-            "end": 17,
-            "value": "exports",
+            "end": 18,
+            "value": "services",
             "entity": "entity_to_display"
           }
         ],
-        "text": "visualize exports"
+        "text": "visualize services"
       },
       {
         "intent": "show_entity",
         "entities": [
           {
             "start": 18,
-            "end": 25,
-            "value": "exports",
+            "end": 26,
+            "value": "services",
             "entity": "entity_to_display"
           }
         ],
-        "text": "I want to see the exports"
+        "text": "i want to see the services"
       },
       {
         "intent": "show_entity",
         "entities": [
           {
             "start": 12,
-            "end": 19,
-            "value": "exports",
+            "end": 20,
+            "value": "services",
             "entity": "entity_to_display"
           }
         ],
-        "text": "display the exports"
+        "text": "display the services"
       },
       {
         "intent": "hide_entity",
         "entities": [
           {
             "start": 16,
-            "end": 24,
-            "value": "services",
+            "end": 23,
+            "value": "service",
             "entity": "entity_to_display"
           }
         ],
-        "text": "I dont need the services any longer"
+        "text": "i dont need the service any longer"
       },
       {
         "intent": "hide_entity",
@@ -230,15 +236,28 @@
         "entities": [
           {
             "start": 5,
-            "end": 16,
-            "value": "information",
+            "end": 13,
+            "value": "services",
             "entity": "entity_to_display"
           }
         ],
-        "text": "hide information"
+        "text": "hide services"
       }
     ],
     "regex_features": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "services",
+        "synonyms": [
+          "service"
+        ]
+      },
+      {
+        "value": "exports",
+        "synonyms": [
+          "export"
+        ]
+      }
+    ]
   }
 }

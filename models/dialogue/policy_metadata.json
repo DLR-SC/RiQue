@@ -3,17 +3,20 @@
     "action_listen": {
       "slots": []
     },
+    "ask_right": {
+      "slots": []
+    },
+    "utter_proud": {
+      "slots": []
+    },
     "utter_greeting": {
       "slots": []
     },
     "utter_done": {
       "slots": []
-    },
-    "ask_right": {
-      "slots": []
     }
   },
-  "rasa_core": "0.10.3",
+  "rasa_core": "0.10.4",
   "max_histories": [
     3,
     3

@@ -8,6 +8,7 @@ action_names:
 - utter_hide_entity
 - utter_done
 - ask_right
+- utter_proud
 actions:
 - utter_greeting
 - utter_find_entity
@@ -15,9 +16,13 @@ actions:
 - utter_hide_entity
 - utter_done
 - ask_right
+- utter_proud
 config:
   store_entities_as_slots: true
-entities: []
+entities:
+- entity_type
+- class_name
+- entity_to_display
 intents:
 - greeting:
     use_entities: true
@@ -32,17 +37,10 @@ slots:
     initial_value: null
     type: rasa_core.slots.CategoricalSlot
     values:
-    - io.hanlder.export.manager
+    - io.handler.export.manager
     - dialogue.manager.package.main
     - eventbased.prgogress.bar.devider
     - colorchooser
-  entityType:
-    initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - class
-    - bundle
-    - package
   entity_to_display:
     initial_value: null
     type: rasa_core.slots.CategoricalSlot
@@ -51,6 +49,13 @@ slots:
     - exports
     - information
     - services
+  entity_type:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - class
+    - bundle
+    - package
 templates:
   ask_right:
   - text: was that right?
@@ -62,5 +67,7 @@ templates:
   - text: hi there
   utter_hide_entity:
   - text: im hiding this for you
+  utter_proud:
+  - text: I did that cery well, didn't I.
   utter_show_entity:
   - text: right here you can see what you asked for

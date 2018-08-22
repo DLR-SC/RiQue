@@ -1,5 +1,5 @@
 slots:
-  entityType:
+  entity_type:
     type: categorical
     values:
     - class
@@ -8,7 +8,7 @@ slots:
   class_name:
     type: categorical
     values:
-    - io.hanlder.export.manager
+    - io.handler.export.manager
     - dialogue.manager.package.main
     - eventbased.prgogress.bar.devider
     - colorchooser
@@ -19,6 +19,11 @@ slots:
     - exports
     - information
     - services
+
+entities:
+- entity_type
+- class_name
+- entity_to_display
 
 intents:
   - greeting
@@ -35,6 +40,7 @@ actions:
 - utter_hide_entity
 - utter_done
 - ask_right
+- utter_proud
 
 templates:
 
@@ -55,3 +61,6 @@ templates:
 
   utter_done:
   - "i am ready to somethin new. just tell me."
+
+  utter_proud:
+  - "I did that cery well, didn't I."

@@ -6,23 +6,24 @@
 - good morning
 
 ## intent:find_entity_by_name_or_id
-- find [class](entityType) [event handler](class_name)
-- show me [package](entityType) [IO handler](class_name)
-- I want to have a look at this [class](entityType)
-- find the [bundle](entityType) named [state machine](class_name)
-- where is the [bundle](entityType) with id [122](id)
+- find [class](entity_type) [eventbased.prgogress.bar.devider](class_name)
+- show me [package](entity_type) [eventbased.prgogress.bar.devider](class_name)
+- i want to have a look at this [class](entity_type)
+- find the [bundle](entity_type) named [eventbased.prgogress.bar.devider](class_name)
 
 ## intent:show_entity
+- show all [services](entity_to_display) 
+- show all [service](entity_to_display:services)
 - show all [exports](entity_to_display) 
-- show [exports](entity_to_display) 
-- show (this class)[reference] [exports](entity_to_display)
-- visualize the [exports](entity_to_display)
-- visualize [exports](entity_to_display)
-- I want to see the [exports](entity_to_display)
-- display the [exports](entity_to_display)
+- show all [export](entity_to_display:exports)
+- show [services](entity_to_display) 
+- visualize the [services](entity_to_display)
+- visualize [services](entity_to_display)
+- i want to see the [services](entity_to_display)
+- display the [services](entity_to_display)
 
 ## intent:hide_entity
-- I dont need the [services](entity_to_display) any longer
+- i dont need the [service](entity_to_display:services) any longer
 - close [services](entity_to_display)
 - hide [services](entity_to_display)
-- hide [information](entity_to_display)
+- hide [services](entity_to_display)

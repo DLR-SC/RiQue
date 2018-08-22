@@ -10,7 +10,7 @@
 ## show entities path
 * show_entity
   - utter_show_entity
-  - utter_done
+  - utter_proud
 
 ## hide entities path
 * hide_entity

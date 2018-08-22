@@ -4,17 +4,20 @@
     "intent_greeting",
     "intent_hide_entity",
     "intent_show_entity",
+    "entity_entity_type",
+    "entity_class_name",
+    "entity_entity_to_display",
     "slot_class_name_0",
     "slot_class_name_1",
     "slot_class_name_2",
     "slot_class_name_3",
-    "slot_entityType_0",
-    "slot_entityType_1",
-    "slot_entityType_2",
     "slot_entity_to_display_0",
     "slot_entity_to_display_1",
     "slot_entity_to_display_2",
     "slot_entity_to_display_3",
+    "slot_entity_type_0",
+    "slot_entity_type_1",
+    "slot_entity_type_2",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
@@ -23,6 +26,7 @@
     "prev_utter_show_entity",
     "prev_utter_hide_entity",
     "prev_utter_done",
-    "prev_ask_right"
+    "prev_ask_right",
+    "prev_utter_proud"
   ]
 }
