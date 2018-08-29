@@ -5,13 +5,17 @@ slots:
     - class
     - bundle
     - package
-  class_name:
+  unit_name:
     type: categorical
     values:
-    - io.handler.export.manager
-    - dialogue.manager.package.main
-    - eventbased.prgogress.bar.devider
-    - colorchooser
+    - RCE Components Evaluation Memory Execution
+    - RCE CPACS Writer Component Common
+    - RCE Components DOE Execution
+    - RCE Excel Component Execution
+    - RCE XML Loader Component Common
+    - RCE Input Provider Component Execution
+    - RCE Joiner Component Execution
+    - RCE Components DOE Common
   entity_to_display:
     type: categorical
     values:
@@ -22,7 +26,7 @@ slots:
 
 entities:
 - entity_type
-- class_name
+- unit_name
 - entity_to_display
 
 intents:
