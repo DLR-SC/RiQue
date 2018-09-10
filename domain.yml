@@ -2,20 +2,11 @@ slots:
   entity_type:
     type: categorical
     values:
-    - class
-    - bundle
-    - package
+    - building
+    - region
+    - island
   unit_name:
-    type: categorical
-    values:
-    - RCE Components Evaluation Memory Execution
-    - RCE CPACS Writer Component Common
-    - RCE Components DOE Execution
-    - RCE Excel Component Execution
-    - RCE XML Loader Component Common
-    - RCE Input Provider Component Execution
-    - RCE Joiner Component Execution
-    - RCE Components DOE Common
+    type: text
   entity_to_display:
     type: categorical
     values:
@@ -23,7 +14,7 @@ slots:
     - exports
     - information
     - services
-
+    
 entities:
 - entity_type
 - unit_name
@@ -34,17 +25,20 @@ intents:
   - find_entity_by_name_or_id
   - show_entity
   - hide_entity
-
-action_factory: remote
+  - graph_DB_query_most_exports
+  - graph_DB_query_most_imports
+  - graph_DB_query_most_services
+  - graph_DB_query_bundle_most_classes
+  - graph_DB_query_package_most_classes
+  - graph_DB_query_most_packages
 
 actions:
 - utter_greeting
 - utter_find_entity
 - utter_show_entity
 - utter_hide_entity
-- utter_done
-- ask_right
-- utter_proud
+- action_query_bundles_with_most_exports
+- action_query_bundles_with_most_imports
 
 templates:
 
@@ -59,12 +53,3 @@ templates:
 
   utter_hide_entity:
   - "im hiding this for you"
-
-  ask_right:
-  - "was that right?"
-
-  utter_done:
-  - "i am ready to somethin new. just tell me."
-
-  utter_proud:
-  - "I did that cery well, didn't I."

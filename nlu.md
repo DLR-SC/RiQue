@@ -6,19 +6,23 @@
 - good morning
 
 ## intent:find_entity_by_name_or_id
-- find [class](entity_type) [RCE Components DOE Common](unit_name)
-- where is [RCE Components DOE Common](unit_name)
-- fokus on [RCE Components DOE Common](unit_name)
-- show me [package](entity_type) [RCE Components DOE Common](unit_name)
-- i want to have a look at this [class](entity_type)
-- find the [bundle](entity_type) named [RCE Components DOE Common](unit_name)
-- show me [RCE Components Evaluation Memory Execution](unit_name)
-- show me [RCE CPACS Writer Component Common](unit_name)
-- show me [RCE Components DOE Execution](unit_name)
-- show me [RCE Excel Component Execution](unit_name)
-- show me [RCE Input Provider Component Execution](unit_name)
-- show me [RCE Joiner Component Execution](unit_name)
-- show me [RCE Components DOE Common](unit_name)
+- find [region](entity_type) [DOE](unit_name)
+- find [package](entity_type:region) [DOE](unit_name)
+- where is [DOE](unit_name)
+- fokus on [DOE](unit_name)
+- show me [building](entity_type) [DOE](unit_name)
+- show me [class](entity_type:building) [DOE](unit_name)
+- show me [compilation unit](entity_type:building) [DOE](unit_name)
+- i want to have a look at this [region](entity_type)
+- find the [island](entity_type) named [DOE](unit_name)
+- find the [bundle](entity_type:island) named [DOE](unit_name)
+- show me [Evaluation](unit_name)
+- show me [Writer](unit_name)
+- show me [Execution](unit_name)
+- show me [Excel](unit_name)
+- show me [Input Provider](unit_name)
+- show me [Joiner Component](unit_name)
+- show me [DOE](unit_name)
 
 ## intent:show_entity
 - show all [services](entity_to_display) 
@@ -38,3 +42,23 @@
 - close [services](entity_to_display)
 - hide [services](entity_to_display)
 - hide [services](entity_to_display)
+
+## intent:graph_DB_query_most_exports
+- which bundle contains the highest number of exports
+- find the bundle with the highest number of exports
+- which bundle has the highest number of exports
+
+## intent:graph_DB_query_most_imports
+- which bundle contains the highest number of imports
+
+## intent:graph_DB_query_most_services
+- which bundle contains the highest number of services
+
+## intent:graph_DB_query_bundle_most_classes
+- which bundle contains the highest number of classes
+
+## intent:graph_DB_query_package_most_classes
+- which package contains the highest number of classes
+
+## intent:graph_DB_query_most_packages
+- which bundle contains the highest number of packages
