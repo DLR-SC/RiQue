@@ -1,5 +1,5 @@
-nlg:
-  url: http://localhost:5055/    # url of the nlg endpoint
+action_endpoint:
+  url: "http://localhost:5055/webhook"    # url of the nlg endpoint
   # you can also specify additional parameters, if you need them:
   # headers:
   #   my-custom-header: value

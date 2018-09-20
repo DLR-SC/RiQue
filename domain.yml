@@ -14,31 +14,34 @@ slots:
     - exports
     - information
     - services
-    
+  graph_db_query:
+    type: categorical
+    values:
+    - imports
+    - exports
+    - packages
+    - classes
+    - services
+
 entities:
 - entity_type
 - unit_name
 - entity_to_display
+- graph_db_query
 
 intents:
   - greeting
   - find_entity_by_name_or_id
   - show_entity
   - hide_entity
-  - graph_DB_query_most_exports
-  - graph_DB_query_most_imports
-  - graph_DB_query_most_services
-  - graph_DB_query_bundle_most_classes
-  - graph_DB_query_package_most_classes
-  - graph_DB_query_most_packages
+  - graph_DB_query_most
 
 actions:
 - utter_greeting
 - utter_find_entity
 - utter_show_entity
 - utter_hide_entity
-- action_query_bundles_with_most_exports
-- action_query_bundles_with_most_imports
+- action_query_bundles_with_most
 
 templates:
 
@@ -46,10 +49,13 @@ templates:
   - "hi there"
 
   utter_find_entity:
-  - "couldnt find any entities"
+  - "couldn't find any entities"
 
   utter_show_entity:
   - "right here you can see what you asked for"
 
   utter_hide_entity:
-  - "im hiding this for you"
+  - "i'm hiding this for you"
+
+  utter_graph_db_response:
+  - "\{intentName: {intentName}, entities: {entities}\}"

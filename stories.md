@@ -14,10 +14,6 @@
 * hide_entity
   - utter_hide_entity
 
-## graphDB bundles with most exports
-* graph_DB_query_most_exports
-  - action_query_bundles_with_most_exports
-
-## graphDB bundles with most imports
-* graph_DB_query_most_imports
-  - action_query_bundles_with_most_imports
+## graphDB bundles with most
+* graph_db_query_most
+  - action_query_bundles_with_most

@@ -9,7 +9,7 @@
 - find [region](entity_type) [DOE](unit_name)
 - find [package](entity_type:region) [DOE](unit_name)
 - where is [DOE](unit_name)
-- fokus on [DOE](unit_name)
+- focus on [DOE](unit_name)
 - show me [building](entity_type) [DOE](unit_name)
 - show me [class](entity_type:building) [DOE](unit_name)
 - show me [compilation unit](entity_type:building) [DOE](unit_name)
@@ -43,22 +43,13 @@
 - hide [services](entity_to_display)
 - hide [services](entity_to_display)
 
-## intent:graph_DB_query_most_exports
-- which bundle contains the highest number of exports
-- find the bundle with the highest number of exports
-- which bundle has the highest number of exports
-
-## intent:graph_DB_query_most_imports
-- which bundle contains the highest number of imports
-
-## intent:graph_DB_query_most_services
-- which bundle contains the highest number of services
-
-## intent:graph_DB_query_bundle_most_classes
-- which bundle contains the highest number of classes
-
-## intent:graph_DB_query_package_most_classes
-- which package contains the highest number of classes
-
-## intent:graph_DB_query_most_packages
-- which bundle contains the highest number of packages
+## intent:graph_db_query_most
+- which bundle contains the highest number of [exports](graph_db_query)
+- find the bundle with the highest number of [exports](graph_db_query)
+- which bundle has the highest number of [exports](graph_db_query)
+- which bundle contains the highest number of [imports](graph_db_query)
+- find the bundle with the highest number of [imports](graph_db_query)
+- which bundle has the highest number of [imports](graph_db_query)
+- which bundle contains the highest number of [services](graph_db_query)
+- which bundle contains the highest number of [classes](graph_db_query)
+- which bundle contains the highest number of [packages](graph_db_query)

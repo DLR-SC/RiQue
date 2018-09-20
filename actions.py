@@ -1,34 +1,19 @@
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-from __future__ import unicode_literals
-
-import argparse
-
-from rasa_core import utils
-from rasa_core.actions import Action
-from rasa_core.interpreter import RasaNLUInterpreter
-
-class GraphDBRequester(object):
-    def search(self, info):
-        return "papi's pizza place"
-
+from rasa_core_sdk import Action
+from rasa_core_sdk.events import SlotSet
+import urllib
 
 class ActionQueryBundlesWithMostImports(Action):
     def name(self):
-        return 'action_query_bundles_with_most_imports'
+        return "action_query_bundles_with_most"
 
     def run(self, dispatcher, tracker, domain):
-        response = urllib.request.urlopen("https://api.github.com/users/pseipel/orgs").read()
-        dispatcher.utter_message("here is what I found for imports: " + response)
-        return []
-
-		
-class ActionQueryBundlesWithMostExports(Action):
-    def name(self):
-        return 'action_query_bundles_with_most_exports'
-
-    def run(self, dispatcher, tracker, domain):
-        response = urllib.request.urlopen("https://api.github.com/users/pseipel/orgs").read()
-        dispatcher.utter_message("here is what I found for exports: " + response)
+        # response = urllib.request.urlopen("https://api.github.com/users/pseipel/orgs").read()
+        queryEntity = tracker.get_slot("graph_db_query")
+        if tracker.get_slot("graph_db_query") == "exports":
+            queryString = "MATCH (b:Bundle)-[c:CONTAINS]->(manifest:Manifest),(manifest).[:DECLARES]->(manifestSection), " \
+                          "(manifestSection)-[:HAS]->(me:ManifestEntry) RETURN b, count(me.mame = \"Export-Package\") " \
+                          "as Exports ORDER BY Exports DESC Limit 1"
+            dispatcher.utter_message("utter_graph_db_response", tracker)
+        else:
+            dispatcher.utter_message("I still have to learn the query for this entity: " + queryEntity)
         return []
