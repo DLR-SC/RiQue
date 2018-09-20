@@ -13,7 +13,7 @@ class ActionQueryBundlesWithMostImports(Action):
             queryString = "MATCH (b:Bundle)-[c:CONTAINS]->(manifest:Manifest),(manifest).[:DECLARES]->(manifestSection), " \
                           "(manifestSection)-[:HAS]->(me:ManifestEntry) RETURN b, count(me.mame = \"Export-Package\") " \
                           "as Exports ORDER BY Exports DESC Limit 1"
-            dispatcher.utter_message("utter_graph_db_response", tracker)
+            dispatcher.utter_message(queryString)
         else:
             dispatcher.utter_message("I still have to learn the query for this entity: " + queryEntity)
         return []
