@@ -1,0 +1,4200 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "GPE",
+            "start": 27,
+            "value": "Cologne"
+          }
+        ],
+        "text": "please look restaurants at Cologne city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "GPE",
+            "start": 28,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi provide places to eat at san francisco"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "GPE",
+            "start": 32,
+            "value": "atlanta"
+          }
+        ],
+        "text": "provide where to eat located at atlanta city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "GPE",
+            "start": 34,
+            "value": "bonn"
+          }
+        ],
+        "text": "hello show restaurants located at bonn city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "GPE",
+            "start": 34,
+            "value": "Paris"
+          }
+        ],
+        "text": "hey search restaurants located at Paris city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "GPE",
+            "start": 39,
+            "value": "Cologne"
+          }
+        ],
+        "text": "hey provide restaurants in the area of Cologne city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "GPE",
+            "start": 42,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hello please look where to eat located at Vienna city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "GPE",
+            "start": 45,
+            "value": "bonn"
+          }
+        ],
+        "text": "greetings please look restaurants located at bonn"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "GPE",
+            "start": 26,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hey search restaurants at Vienna city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "GPE",
+            "start": 33,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hi search restaurants located at Vienna"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "GPE",
+            "start": 20,
+            "value": "Cologne"
+          }
+        ],
+        "text": "give restaurants at Cologne city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "GPE",
+            "start": 29,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hey places to eat located at san francisco"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "GPE",
+            "start": 38,
+            "value": "frankfurt"
+          }
+        ],
+        "text": "please search where to eat located at frankfurt"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "GPE",
+            "start": 31,
+            "value": "atlanta"
+          }
+        ],
+        "text": "please search places to eat at atlanta"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "GPE",
+            "start": 51,
+            "value": "new york"
+          }
+        ],
+        "text": "greetings please show places to eat in the area of new york"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "GPE",
+            "start": 45,
+            "value": "Vienna"
+          }
+        ],
+        "text": "greetings please where to eat in the area of Vienna"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "GPE",
+            "start": 30,
+            "value": "new york"
+          }
+        ],
+        "text": "greetings give restaurants at new york city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "GPE",
+            "start": 47,
+            "value": "frankfurt"
+          }
+        ],
+        "text": "hi please provide places to eat in the area of frankfurt"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "GPE",
+            "start": 35,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hi search places to eat located at atlanta"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "GPE",
+            "start": 38,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hello provide where to eat located at atlanta"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "GPE",
+            "start": 38,
+            "value": "Cologne"
+          }
+        ],
+        "text": "hi please show restaurants located at Cologne city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "GPE",
+            "start": 39,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hello provide places to eat located at Vienna"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "GPE",
+            "start": 43,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey please search places to eat located at atlanta city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "GPE",
+            "start": 52,
+            "value": "bonn"
+          }
+        ],
+        "text": "greetings please search where to eat in the area of bonn city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "GPE",
+            "start": 29,
+            "value": "san francisco"
+          }
+        ],
+        "text": "look where to eat located at san francisco city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "GPE",
+            "start": 40,
+            "value": "bonn"
+          }
+        ],
+        "text": "hello look places to eat in the area of bonn"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "GPE",
+            "start": 28,
+            "value": "san francisco"
+          }
+        ],
+        "text": "please give where to eat at san francisco city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "GPE",
+            "start": 27,
+            "value": "new york"
+          }
+        ],
+        "text": "hey provide restaurants at new york"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "GPE",
+            "start": 23,
+            "value": "Cologne"
+          }
+        ],
+        "text": "hi show restaurants at Cologne city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "GPE",
+            "start": 34,
+            "value": "san francisco"
+          }
+        ],
+        "text": "show places to eat in the area of san francisco"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "GPE",
+            "start": 35,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hello please give places to eat at san francisco"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "GPE",
+            "start": 26,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi please where to eat at san francisco"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "GPE",
+            "start": 37,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hey give where to eat in the area of san francisco city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "GPE",
+            "start": 44,
+            "value": "Cologne"
+          }
+        ],
+        "text": "hey please look where to eat in the area of Cologne"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "GPE",
+            "start": 41,
+            "value": "new york"
+          }
+        ],
+        "text": "hey provide places to eat in the area of new york city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "GPE",
+            "start": 32,
+            "value": "Paris"
+          }
+        ],
+        "text": "greetings show places to eat at Paris"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "GPE",
+            "start": 32,
+            "value": "Paris"
+          }
+        ],
+        "text": "show restaurants in the area of Paris city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "GPE",
+            "start": 40,
+            "value": "bonn"
+          }
+        ],
+        "text": "hi please search restaurants located at bonn"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "GPE",
+            "start": 31,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hi look restaurants located at atlanta city"
+      },
+      {
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "GPE",
+            "start": 48,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hello please provide restaurants in the area of san francisco city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "restaurant",
+            "start": 23,
+            "value": "kfc"
+          },
+          {
+            "end": 53,
+            "entity": "GPE",
+            "start": 49,
+            "value": "bonn"
+          }
+        ],
+        "text": "please give info. [of] kfc restaurant located at bonn city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "restaurant",
+            "start": 36,
+            "value": "burger king"
+          },
+          {
+            "end": 68,
+            "entity": "GPE",
+            "start": 62,
+            "value": "Vienna"
+          }
+        ],
+        "text": "greetings please provide info. [of] burger king restaurant at Vienna"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "restaurant",
+            "start": 22,
+            "value": "burger king"
+          },
+          {
+            "end": 67,
+            "entity": "GPE",
+            "start": 60,
+            "value": "Cologne"
+          }
+        ],
+        "text": "look information [of] burger king restaurant in the area of Cologne"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "restaurant",
+            "start": 25,
+            "value": "kfc"
+          },
+          {
+            "end": 50,
+            "entity": "GPE",
+            "start": 43,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hi look information [of] kfc restaurant at atlanta"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "restaurant",
+            "start": 42,
+            "value": "pizza hut"
+          },
+          {
+            "end": 84,
+            "entity": "GPE",
+            "start": 78,
+            "value": "Vienna"
+          }
+        ],
+        "text": "greetings please provide description [of] pizza hut restaurant in the area of Vienna"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "restaurant",
+            "start": 28,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 72,
+            "entity": "GPE",
+            "start": 65,
+            "value": "atlanta"
+          }
+        ],
+        "text": "please provide details [of] mcdonalads restaurant in the area of atlanta"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "restaurant",
+            "start": 34,
+            "value": "kfc"
+          },
+          {
+            "end": 66,
+            "entity": "GPE",
+            "start": 53,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hello please provide details [of] kfc in the area of san francisco"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "restaurant",
+            "start": 18,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 51,
+            "entity": "GPE",
+            "start": 44,
+            "value": "Cologne"
+          }
+        ],
+        "text": "look details [of] mcdonalads in the area of Cologne"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "restaurant",
+            "start": 31,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 63,
+            "entity": "GPE",
+            "start": 57,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hello please show details [of] mcdonalads in the area of Vienna city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "restaurant",
+            "start": 35,
+            "value": "burger king"
+          },
+          {
+            "end": 76,
+            "entity": "GPE",
+            "start": 69,
+            "value": "Cologne"
+          }
+        ],
+        "text": "hello please look description [of] burger king restaurant located at Cologne"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "restaurant",
+            "start": 39,
+            "value": "pizza hut"
+          },
+          {
+            "end": 80,
+            "entity": "GPE",
+            "start": 71,
+            "value": "frankfurt"
+          }
+        ],
+        "text": "greetings please look information [of] pizza hut restaurant located at frankfurt"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "restaurant",
+            "start": 33,
+            "value": "burger king"
+          },
+          {
+            "end": 61,
+            "entity": "GPE",
+            "start": 56,
+            "value": "Paris"
+          }
+        ],
+        "text": "hey please look information [of] burger king located at Paris city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "restaurant",
+            "start": 25,
+            "value": "burger king"
+          },
+          {
+            "end": 58,
+            "entity": "GPE",
+            "start": 51,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hi show description [of] burger king restaurant at atlanta"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "restaurant",
+            "start": 16,
+            "value": "pizza hut"
+          },
+          {
+            "end": 46,
+            "entity": "GPE",
+            "start": 37,
+            "value": "frankfurt"
+          }
+        ],
+        "text": "give info. [of] pizza hut located at frankfurt"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "restaurant",
+            "start": 25,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 54,
+            "entity": "GPE",
+            "start": 47,
+            "value": "atlanta"
+          }
+        ],
+        "text": "please search info. [of] mcdonalads located at atlanta"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "restaurant",
+            "start": 29,
+            "value": "kfc"
+          },
+          {
+            "end": 53,
+            "entity": "GPE",
+            "start": 44,
+            "value": "frankfurt"
+          }
+        ],
+        "text": "please show description [of] kfc located at frankfurt"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "restaurant",
+            "start": 25,
+            "value": "burger king"
+          },
+          {
+            "end": 76,
+            "entity": "GPE",
+            "start": 63,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hey provide details [of] burger king restaurant in the area of san francisco city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "restaurant",
+            "start": 35,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 66,
+            "entity": "GPE",
+            "start": 60,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hey please search description [of] mcdonalads restaurant at Vienna city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "restaurant",
+            "start": 42,
+            "value": "pizza hut"
+          },
+          {
+            "end": 72,
+            "entity": "GPE",
+            "start": 66,
+            "value": "Vienna"
+          }
+        ],
+        "text": "greetings please provide information [of] pizza hut restaurant at Vienna"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "restaurant",
+            "start": 22,
+            "value": "burger king"
+          },
+          {
+            "end": 52,
+            "entity": "GPE",
+            "start": 45,
+            "value": "Cologne"
+          }
+        ],
+        "text": "give description [of] burger king located at Cologne"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "restaurant",
+            "start": 39,
+            "value": "burger king"
+          },
+          {
+            "end": 79,
+            "entity": "GPE",
+            "start": 66,
+            "value": "san francisco"
+          }
+        ],
+        "text": "greetings please show description [of] burger king in the area of san francisco city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "restaurant",
+            "start": 26,
+            "value": "pizza hut"
+          },
+          {
+            "end": 48,
+            "entity": "GPE",
+            "start": 39,
+            "value": "frankfurt"
+          }
+        ],
+        "text": "please provide info. [of] pizza hut at frankfurt city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "restaurant",
+            "start": 29,
+            "value": "pizza hut"
+          },
+          {
+            "end": 55,
+            "entity": "GPE",
+            "start": 50,
+            "value": "Paris"
+          }
+        ],
+        "text": "hey please show details [of] pizza hut located at Paris"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "restaurant",
+            "start": 34,
+            "value": "burger king"
+          },
+          {
+            "end": 67,
+            "entity": "GPE",
+            "start": 61,
+            "value": "Vienna"
+          }
+        ],
+        "text": "greetings search description [of] burger king in the area of Vienna city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "restaurant",
+            "start": 32,
+            "value": "burger king"
+          },
+          {
+            "end": 76,
+            "entity": "GPE",
+            "start": 70,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hi please show description [of] burger king restaurant in the area of Vienna city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "restaurant",
+            "start": 25,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 57,
+            "entity": "GPE",
+            "start": 51,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hi give information [of] mcdonalads in the area of Vienna city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "restaurant",
+            "start": 31,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 72,
+            "entity": "GPE",
+            "start": 68,
+            "value": "bonn"
+          }
+        ],
+        "text": "greetings provide details [of] mcdonalads restaurant in the area of bonn"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "restaurant",
+            "start": 33,
+            "value": "burger king"
+          },
+          {
+            "end": 64,
+            "entity": "GPE",
+            "start": 60,
+            "value": "bonn"
+          }
+        ],
+        "text": "hello please search details [of] burger king in the area of bonn city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "restaurant",
+            "start": 16,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 66,
+            "entity": "GPE",
+            "start": 53,
+            "value": "san francisco"
+          }
+        ],
+        "text": "look info. [of] mcdonalads restaurant in the area of san francisco city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "restaurant",
+            "start": 34,
+            "value": "pizza hut"
+          },
+          {
+            "end": 72,
+            "entity": "GPE",
+            "start": 66,
+            "value": "Vienna"
+          }
+        ],
+        "text": "hello please provide details [of] pizza hut restaurant located at Vienna city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "restaurant",
+            "start": 30,
+            "value": "burger king"
+          },
+          {
+            "end": 71,
+            "entity": "GPE",
+            "start": 64,
+            "value": "Cologne"
+          }
+        ],
+        "text": "greetings search details [of] burger king restaurant located at Cologne city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "restaurant",
+            "start": 31,
+            "value": "kfc"
+          },
+          {
+            "end": 62,
+            "entity": "GPE",
+            "start": 57,
+            "value": "Paris"
+          }
+        ],
+        "text": "hi please provide details [of] kfc restaurant located at Paris"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "restaurant",
+            "start": 29,
+            "value": "kfc"
+          },
+          {
+            "end": 55,
+            "entity": "GPE",
+            "start": 47,
+            "value": "new york"
+          }
+        ],
+        "text": "hello please give info. [of] kfc restaurant at new york"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "restaurant",
+            "start": 28,
+            "value": "pizza hut"
+          },
+          {
+            "end": 60,
+            "entity": "GPE",
+            "start": 53,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hi provide description [of] pizza hut in the area of atlanta"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "restaurant",
+            "start": 32,
+            "value": "kfc"
+          },
+          {
+            "end": 71,
+            "entity": "GPE",
+            "start": 58,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hey please provide details [of] kfc restaurant located at san francisco"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "restaurant",
+            "start": 35,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 74,
+            "entity": "GPE",
+            "start": 68,
+            "value": "Vienna"
+          }
+        ],
+        "text": "greetings provide information [of] mcdonalads restaurant located at Vienna city"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "restaurant",
+            "start": 28,
+            "value": "burger king"
+          },
+          {
+            "end": 70,
+            "entity": "GPE",
+            "start": 62,
+            "value": "new york"
+          }
+        ],
+        "text": "greetings show details [of] burger king restaurant located at new york"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "restaurant",
+            "start": 34,
+            "value": "burger king"
+          },
+          {
+            "end": 55,
+            "entity": "GPE",
+            "start": 49,
+            "value": "Vienna"
+          }
+        ],
+        "text": "greetings search description [of] burger king at Vienna"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "restaurant",
+            "start": 29,
+            "value": "burger king"
+          },
+          {
+            "end": 62,
+            "entity": "GPE",
+            "start": 55,
+            "value": "atlanta"
+          }
+        ],
+        "text": "please give information [of] burger king restaurant at atlanta"
+      },
+      {
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "restaurant",
+            "start": 26,
+            "value": "mcdonalads"
+          },
+          {
+            "end": 68,
+            "entity": "GPE",
+            "start": 59,
+            "value": "frankfurt"
+          }
+        ],
+        "text": "greetings show info. [of] mcdonalads restaurant located at frankfurt city"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "project",
+            "start": 38,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings lets give description [of?] remote component environment"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "project",
+            "start": 34,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey please show information [of?] RCE"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "project",
+            "start": 30,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey please give details [of?] RCE"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "project",
+            "start": 32,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi please lets give info. [of?] RCE project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "project",
+            "start": 24,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "lets look details [of?] remote component environment project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "project",
+            "start": 17,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "give info. [of?] remote component environment project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "project",
+            "start": 32,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey lets give information [of?] remote component environment project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "project",
+            "start": 30,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi lets provide details [of?] RCE"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "project",
+            "start": 27,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi lets show details [of?] RCE"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "project",
+            "start": 39,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey please lets show description [of?] RCE"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "project",
+            "start": 23,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "show information [of?] remote component environment project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "project",
+            "start": 29,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hello give information [of?] remote component environment"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "project",
+            "start": 27,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hi please look info. [of?] remote component environment project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "project",
+            "start": 27,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey show information [of?] remote component environment"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "project",
+            "start": 26,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi give description [of?] RCE project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "project",
+            "start": 38,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings lets look description [of?] remote component environment project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "project",
+            "start": 30,
+            "value": "RCE"
+          }
+        ],
+        "text": "please show description [of?] RCE project"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "project",
+            "start": 41,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello please lets look description [of?] RCE"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "project",
+            "start": 28,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hi search description [of?] remote component environment"
+      },
+      {
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "project",
+            "start": 28,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey lets give details [of?] remote component environment project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "imports"
+          },
+          {
+            "end": 89,
+            "entity": "bundles",
+            "start": 39,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ],
+        "text": "hello lets show imports imports inside rce cpacs vampzero initializer component execution bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "PackagesImports",
+            "start": 12,
+            "value": "imports"
+          },
+          {
+            "end": 52,
+            "entity": "bundles",
+            "start": 20,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "please look imports rce input provider component gui bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "PackagesImports",
+            "start": 15,
+            "value": "package imports"
+          },
+          {
+            "end": 73,
+            "entity": "bundles",
+            "start": 42,
+            "value": "rce xml merger component common"
+          },
+          {
+            "end": 85,
+            "entity": "project",
+            "start": 82,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings list package imports imports in rce xml merger component common bundles RCE project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PackagesImports",
+            "start": 5,
+            "value": "package imports"
+          },
+          {
+            "end": 71,
+            "entity": "bundles",
+            "start": 21,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "look package imports rce decrypter component common (example component) bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "PackagesImports",
+            "start": 0,
+            "value": "imports"
+          },
+          {
+            "end": 51,
+            "entity": "bundles",
+            "start": 19,
+            "value": "rce input provider component gui"
+          },
+          {
+            "end": 66,
+            "entity": "project",
+            "start": 63,
+            "value": "RCE"
+          }
+        ],
+        "text": "imports imports in rce input provider component gui bundles of RCE project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 8,
+            "value": "package imports"
+          },
+          {
+            "end": 82,
+            "entity": "bundles",
+            "start": 32,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "hi look package imports imports rce decrypter component common (example component) bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "imports"
+          },
+          {
+            "end": 54,
+            "entity": "bundles",
+            "start": 24,
+            "value": "rce excel component gui bundle"
+          }
+        ],
+        "text": "hey lets search imports rce excel component gui bundle bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "PackagesImports",
+            "start": 11,
+            "value": "imports"
+          },
+          {
+            "end": 60,
+            "entity": "bundles",
+            "start": 30,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 75,
+            "entity": "project",
+            "start": 72,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello list imports imports in rce excel component gui bundle bundles of RCE project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "imports"
+          },
+          {
+            "end": 64,
+            "entity": "bundles",
+            "start": 32,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "hello lets give imports imports rce input provider component gui bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "PackagesImports",
+            "start": 15,
+            "value": "imports"
+          },
+          {
+            "end": 66,
+            "entity": "bundles",
+            "start": 34,
+            "value": "rce input provider component gui"
+          },
+          {
+            "end": 106,
+            "entity": "project",
+            "start": 78,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hi list search imports imports in rce input provider component gui bundles of remote component environment project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "PackagesImports",
+            "start": 18,
+            "value": "imports"
+          },
+          {
+            "end": 63,
+            "entity": "bundles",
+            "start": 29,
+            "value": "rce xml loader component execution"
+          }
+        ],
+        "text": "hey please search imports of rce xml loader component execution bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PackagesImports",
+            "start": 13,
+            "value": "imports"
+          },
+          {
+            "end": 61,
+            "entity": "bundles",
+            "start": 29,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "hi lets look imports imports rce input provider component gui bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "package imports"
+          },
+          {
+            "end": 93,
+            "entity": "bundles",
+            "start": 43,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 130,
+            "entity": "project",
+            "start": 102,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hi list provide package imports imports in rce decrypter component common (example component) bundles remote component environment project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "PackagesImports",
+            "start": 15,
+            "value": "package imports"
+          },
+          {
+            "end": 62,
+            "entity": "bundles",
+            "start": 31,
+            "value": "rce xml merger component common"
+          }
+        ],
+        "text": "greetings give package imports rce xml merger component common bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 8,
+            "value": "package imports"
+          },
+          {
+            "end": 85,
+            "entity": "bundles",
+            "start": 35,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "provide package imports imports of rce decrypter component common (example component) bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "PackagesImports",
+            "start": 10,
+            "value": "package imports"
+          },
+          {
+            "end": 91,
+            "entity": "bundles",
+            "start": 41,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ],
+        "text": "lets look package imports imports inside rce cpacs vampzero initializer component execution bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "package imports"
+          },
+          {
+            "end": 73,
+            "entity": "bundles",
+            "start": 43,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 110,
+            "entity": "project",
+            "start": 82,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey list search package imports imports in rce excel component gui bundle bundles remote component environment project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "PackagesImports",
+            "start": 11,
+            "value": "package imports"
+          },
+          {
+            "end": 60,
+            "entity": "bundles",
+            "start": 30,
+            "value": "rce excel component gui bundle"
+          }
+        ],
+        "text": "hello show package imports of rce excel component gui bundle bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PackagesImports",
+            "start": 14,
+            "value": "imports"
+          },
+          {
+            "end": 57,
+            "entity": "bundles",
+            "start": 33,
+            "value": "rce joiner component gui"
+          },
+          {
+            "end": 72,
+            "entity": "project",
+            "start": 69,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey list give imports imports in rce joiner component gui bundles of RCE project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "PackagesImports",
+            "start": 22,
+            "value": "imports"
+          },
+          {
+            "end": 80,
+            "entity": "bundles",
+            "start": 30,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "greetings please give imports rce decrypter component common (example component) bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "PackagesImports",
+            "start": 12,
+            "value": "package imports"
+          },
+          {
+            "end": 68,
+            "entity": "bundles",
+            "start": 36,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "please look package imports imports rce input provider component gui bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "PackagesImports",
+            "start": 13,
+            "value": "package imports"
+          },
+          {
+            "end": 71,
+            "entity": "bundles",
+            "start": 40,
+            "value": "rce xml merger component common"
+          },
+          {
+            "end": 83,
+            "entity": "project",
+            "start": 80,
+            "value": "RCE"
+          }
+        ],
+        "text": "list provide package imports imports in rce xml merger component common bundles RCE project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "imports"
+          },
+          {
+            "end": 51,
+            "entity": "bundles",
+            "start": 27,
+            "value": "rce joiner component gui"
+          }
+        ],
+        "text": "hi lets provide imports of rce joiner component gui bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PackagesImports",
+            "start": 13,
+            "value": "imports"
+          },
+          {
+            "end": 63,
+            "entity": "bundles",
+            "start": 29,
+            "value": "rce xml loader component execution"
+          }
+        ],
+        "text": "hi lets give imports imports rce xml loader component execution bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "imports"
+          },
+          {
+            "end": 85,
+            "entity": "bundles",
+            "start": 35,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 100,
+            "entity": "project",
+            "start": 97,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello list look imports imports in rce decrypter component common (example component) bundles of RCE project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PackagesImports",
+            "start": 14,
+            "value": "imports"
+          },
+          {
+            "end": 57,
+            "entity": "bundles",
+            "start": 25,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "please search imports of rce input provider component gui bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "PackagesImports",
+            "start": 10,
+            "value": "imports"
+          },
+          {
+            "end": 79,
+            "entity": "bundles",
+            "start": 29,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 119,
+            "entity": "project",
+            "start": 91,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "list show imports imports in rce decrypter component common (example component) bundles of remote component environment project"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "PackagesImports",
+            "start": 10,
+            "value": "imports"
+          },
+          {
+            "end": 49,
+            "entity": "bundles",
+            "start": 18,
+            "value": "rce xml merger component common"
+          }
+        ],
+        "text": "lets look imports rce xml merger component common bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "imports"
+          },
+          {
+            "end": 66,
+            "entity": "bundles",
+            "start": 32,
+            "value": "rce xml loader component execution"
+          }
+        ],
+        "text": "hey lets search imports imports rce xml loader component execution bundles"
+      },
+      {
+        "intent": "showImportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesImports",
+            "start": 16,
+            "value": "imports"
+          },
+          {
+            "end": 89,
+            "entity": "bundles",
+            "start": 39,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ],
+        "text": "hi lets provide imports imports inside rce cpacs vampzero initializer component execution bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesExports",
+            "start": 16,
+            "value": "exports"
+          },
+          {
+            "end": 51,
+            "entity": "bundles",
+            "start": 27,
+            "value": "rce joiner component gui"
+          }
+        ],
+        "text": "hi lets provide exports of rce joiner component gui bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "PackagesExports",
+            "start": 15,
+            "value": "package exports"
+          },
+          {
+            "end": 68,
+            "entity": "bundles",
+            "start": 34,
+            "value": "rce xml loader component execution"
+          },
+          {
+            "end": 108,
+            "entity": "project",
+            "start": 80,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings look package exports in rce xml loader component execution bundles of remote component environment"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "PackagesExports",
+            "start": 15,
+            "value": "exports"
+          },
+          {
+            "end": 54,
+            "entity": "bundles",
+            "start": 23,
+            "value": "rce xml merger component common"
+          }
+        ],
+        "text": "hi lets search exports rce xml merger component common"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "PackagesExports",
+            "start": 8,
+            "value": "exports"
+          },
+          {
+            "end": 69,
+            "entity": "bundles",
+            "start": 19,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 81,
+            "entity": "project",
+            "start": 78,
+            "value": "RCE"
+          }
+        ],
+        "text": "provide exports in rce decrypter component common (example component) bundles RCE"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PackagesExports",
+            "start": 5,
+            "value": "package exports"
+          },
+          {
+            "end": 74,
+            "entity": "bundles",
+            "start": 24,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 86,
+            "entity": "project",
+            "start": 83,
+            "value": "RCE"
+          }
+        ],
+        "text": "give package exports in rce decrypter component common (example component) bundles RCE"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "PackagesExports",
+            "start": 21,
+            "value": "exports"
+          },
+          {
+            "end": 66,
+            "entity": "bundles",
+            "start": 32,
+            "value": "rce xml loader component execution"
+          }
+        ],
+        "text": "hey please lets show exports of rce xml loader component execution bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "PackagesExports",
+            "start": 17,
+            "value": "package exports"
+          },
+          {
+            "end": 86,
+            "entity": "bundles",
+            "start": 36,
+            "value": "rce cpacs vampzero initializer component execution"
+          },
+          {
+            "end": 101,
+            "entity": "project",
+            "start": 98,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings search package exports in rce cpacs vampzero initializer component execution bundles of RCE"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "PackagesExports",
+            "start": 16,
+            "value": "package exports"
+          },
+          {
+            "end": 67,
+            "entity": "bundles",
+            "start": 35,
+            "value": "rce input provider component gui"
+          },
+          {
+            "end": 82,
+            "entity": "project",
+            "start": 79,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi list provide package exports in rce input provider component gui bundles of RCE"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PackagesExports",
+            "start": 14,
+            "value": "exports"
+          },
+          {
+            "end": 61,
+            "entity": "bundles",
+            "start": 29,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "hey lets look exports inside rce input provider component gui"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "PackagesExports",
+            "start": 10,
+            "value": "package exports"
+          },
+          {
+            "end": 79,
+            "entity": "bundles",
+            "start": 29,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "lets give package exports of rce decrypter component common (example component) bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "PackagesExports",
+            "start": 23,
+            "value": "exports"
+          },
+          {
+            "end": 64,
+            "entity": "bundles",
+            "start": 34,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 101,
+            "entity": "project",
+            "start": 73,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings list provide exports in rce excel component gui bundle bundles remote component environment"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "PackagesExports",
+            "start": 10,
+            "value": "exports"
+          },
+          {
+            "end": 52,
+            "entity": "bundles",
+            "start": 21,
+            "value": "rce xml merger component common"
+          },
+          {
+            "end": 89,
+            "entity": "project",
+            "start": 61,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings exports in rce xml merger component common bundles remote component environment project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "PackagesExports",
+            "start": 12,
+            "value": "package exports"
+          },
+          {
+            "end": 81,
+            "entity": "bundles",
+            "start": 31,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 121,
+            "entity": "project",
+            "start": 93,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey provide package exports in rce decrypter component common (example component) bundles of remote component environment project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesExports",
+            "start": 16,
+            "value": "exports"
+          },
+          {
+            "end": 61,
+            "entity": "bundles",
+            "start": 27,
+            "value": "rce xml loader component execution"
+          }
+        ],
+        "text": "hello lets look exports of rce xml loader component execution bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "PackagesExports",
+            "start": 23,
+            "value": "package exports"
+          },
+          {
+            "end": 72,
+            "entity": "bundles",
+            "start": 42,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 109,
+            "entity": "project",
+            "start": 81,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings list provide package exports in rce excel component gui bundle bundles remote component environment project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "PackagesExports",
+            "start": 18,
+            "value": "package exports"
+          },
+          {
+            "end": 71,
+            "entity": "bundles",
+            "start": 37,
+            "value": "rce xml loader component execution"
+          },
+          {
+            "end": 111,
+            "entity": "project",
+            "start": 83,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hello list search package exports in rce xml loader component execution bundles of remote component environment project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "PackagesExports",
+            "start": 17,
+            "value": "exports"
+          },
+          {
+            "end": 49,
+            "entity": "bundles",
+            "start": 25,
+            "value": "rce joiner component gui"
+          }
+        ],
+        "text": "hey lets provide exports rce joiner component gui bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "PackagesExports",
+            "start": 17,
+            "value": "exports"
+          },
+          {
+            "end": 52,
+            "entity": "bundles",
+            "start": 28,
+            "value": "rce joiner component gui"
+          }
+        ],
+        "text": "please lets look exports of rce joiner component gui bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "PackagesExports",
+            "start": 10,
+            "value": "package exports"
+          },
+          {
+            "end": 53,
+            "entity": "bundles",
+            "start": 29,
+            "value": "rce joiner component gui"
+          },
+          {
+            "end": 93,
+            "entity": "project",
+            "start": 65,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings package exports in rce joiner component gui bundles of remote component environment"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "PackagesExports",
+            "start": 14,
+            "value": "package exports"
+          },
+          {
+            "end": 65,
+            "entity": "bundles",
+            "start": 33,
+            "value": "rce input provider component gui"
+          },
+          {
+            "end": 77,
+            "entity": "project",
+            "start": 74,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey list show package exports in rce input provider component gui bundles RCE project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PackagesExports",
+            "start": 5,
+            "value": "package exports"
+          },
+          {
+            "end": 74,
+            "entity": "bundles",
+            "start": 24,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 111,
+            "entity": "project",
+            "start": 83,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "give package exports in rce decrypter component common (example component) bundles remote component environment"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "PackagesExports",
+            "start": 9,
+            "value": "exports"
+          },
+          {
+            "end": 52,
+            "entity": "bundles",
+            "start": 20,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "hey look exports of rce input provider component gui bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PackagesExports",
+            "start": 16,
+            "value": "exports"
+          },
+          {
+            "end": 57,
+            "entity": "bundles",
+            "start": 27,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 72,
+            "entity": "project",
+            "start": 69,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi list provide exports in rce excel component gui bundle bundles of RCE project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "PackagesExports",
+            "start": 8,
+            "value": "exports"
+          },
+          {
+            "end": 49,
+            "entity": "bundles",
+            "start": 19,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 64,
+            "entity": "project",
+            "start": 61,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi show exports in rce excel component gui bundle bundles of RCE project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PackagesExports",
+            "start": 14,
+            "value": "exports"
+          },
+          {
+            "end": 54,
+            "entity": "bundles",
+            "start": 22,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "hey lets look exports rce input provider component gui"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "PackagesExports",
+            "start": 17,
+            "value": "exports"
+          },
+          {
+            "end": 60,
+            "entity": "bundles",
+            "start": 28,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "hey lets provide exports of rce input provider component gui bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "PackagesExports",
+            "start": 22,
+            "value": "exports"
+          },
+          {
+            "end": 57,
+            "entity": "bundles",
+            "start": 33,
+            "value": "rce joiner component gui"
+          },
+          {
+            "end": 69,
+            "entity": "project",
+            "start": 66,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings list search exports in rce joiner component gui bundles RCE project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "PackagesExports",
+            "start": 17,
+            "value": "exports"
+          },
+          {
+            "end": 58,
+            "entity": "bundles",
+            "start": 28,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 95,
+            "entity": "project",
+            "start": 67,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings search exports in rce excel component gui bundle bundles remote component environment project"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "PackagesExports",
+            "start": 12,
+            "value": "exports"
+          },
+          {
+            "end": 55,
+            "entity": "bundles",
+            "start": 23,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "please show exports of rce input provider component gui bundles"
+      },
+      {
+        "intent": "showExportsInBundle",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "PackagesExports",
+            "start": 5,
+            "value": "exports"
+          },
+          {
+            "end": 46,
+            "entity": "bundles",
+            "start": 16,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 58,
+            "entity": "project",
+            "start": 55,
+            "value": "RCE"
+          }
+        ],
+        "text": "list exports in rce excel component gui bundle bundles RCE"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "bundles",
+            "start": 16,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 98,
+            "entity": "project",
+            "start": 70,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hello list give rce decrypter component common (example component) of remote component environment project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 83,
+            "entity": "bundles",
+            "start": 33,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ],
+        "text": "greetings please navigate inside rce cpacs vampzero initializer component execution"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 82,
+            "entity": "bundles",
+            "start": 32,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "please lets give description of rce decrypter component common (example component)"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 63,
+            "entity": "bundles",
+            "start": 13,
+            "value": "rce cpacs vampzero initializer component execution"
+          },
+          {
+            "end": 78,
+            "entity": "project",
+            "start": 75,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi list look rce cpacs vampzero initializer component execution bundles of RCE project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "bundles",
+            "start": 22,
+            "value": "rce excel component gui bundle"
+          }
+        ],
+        "text": "hello show details of rce excel component gui bundle"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "bundles",
+            "start": 20,
+            "value": "rce xml loader component execution"
+          },
+          {
+            "end": 61,
+            "entity": "project",
+            "start": 58,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings list look rce xml loader component execution of RCE project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "bundles",
+            "start": 26,
+            "value": "rce excel component gui bundle"
+          }
+        ],
+        "text": "hey search description of rce excel component gui bundle"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "bundles",
+            "start": 15,
+            "value": "rce joiner component gui"
+          },
+          {
+            "end": 71,
+            "entity": "project",
+            "start": 43,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hi please show rce joiner component gui of remote component environment"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 75,
+            "entity": "bundles",
+            "start": 25,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ],
+        "text": "lets show description of rce cpacs vampzero initializer component execution bundles"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "bundles",
+            "start": 16,
+            "value": "rce cpacs vampzero initializer component execution"
+          },
+          {
+            "end": 73,
+            "entity": "project",
+            "start": 70,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello list give rce cpacs vampzero initializer component execution of RCE"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "bundles",
+            "start": 24,
+            "value": "rce joiner component gui"
+          }
+        ],
+        "text": "hello lets search info. rce joiner component gui"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "bundles",
+            "start": 22,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 67,
+            "entity": "project",
+            "start": 64,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings list search rce excel component gui bundle bundles of RCE project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 78,
+            "entity": "bundles",
+            "start": 28,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ],
+        "text": "greetings please show info. rce cpacs vampzero initializer component execution"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "bundles",
+            "start": 13,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 50,
+            "entity": "project",
+            "start": 47,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi list look rce excel component gui bundle of RCE project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "bundles",
+            "start": 17,
+            "value": "rce xml loader component execution"
+          },
+          {
+            "end": 55,
+            "entity": "project",
+            "start": 52,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey list provide rce xml loader component execution RCE project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 73,
+            "entity": "bundles",
+            "start": 23,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "provide description of rce decrypter component common (example component)"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "bundles",
+            "start": 10,
+            "value": "rce cpacs vampzero initializer component execution"
+          },
+          {
+            "end": 72,
+            "entity": "project",
+            "start": 69,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi search rce cpacs vampzero initializer component execution bundles RCE"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 71,
+            "entity": "bundles",
+            "start": 40,
+            "value": "rce xml merger component common"
+          }
+        ],
+        "text": "hello please lets search description of rce xml merger component common bundles"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "bundles",
+            "start": 5,
+            "value": "rce decrypter component common (example component)"
+          },
+          {
+            "end": 67,
+            "entity": "project",
+            "start": 64,
+            "value": "RCE"
+          }
+        ],
+        "text": "show rce decrypter component common (example component) bundles RCE"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "bundles",
+            "start": 24,
+            "value": "rce xml loader component execution"
+          }
+        ],
+        "text": "please show information rce xml loader component execution"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "bundles",
+            "start": 16,
+            "value": "rce cpacs vampzero initializer component execution"
+          },
+          {
+            "end": 70,
+            "entity": "project",
+            "start": 67,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey please show rce cpacs vampzero initializer component execution RCE project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 80,
+            "entity": "bundles",
+            "start": 30,
+            "value": "rce decrypter component common (example component)"
+          }
+        ],
+        "text": "greetings look information of rce decrypter component common (example component)"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 70,
+            "entity": "bundles",
+            "start": 20,
+            "value": "rce cpacs vampzero initializer component execution"
+          },
+          {
+            "end": 107,
+            "entity": "project",
+            "start": 79,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "please list provide rce cpacs vampzero initializer component execution bundles remote component environment project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 62,
+            "entity": "bundles",
+            "start": 12,
+            "value": "rce cpacs vampzero initializer component execution"
+          },
+          {
+            "end": 66,
+            "entity": "project",
+            "start": 63,
+            "value": "RCE"
+          }
+        ],
+        "text": "please look rce cpacs vampzero initializer component execution RCE project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "bundles",
+            "start": 35,
+            "value": "rce xml merger component common"
+          }
+        ],
+        "text": "hello please search information of rce xml merger component common"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "bundles",
+            "start": 19,
+            "value": "rce xml merger component common"
+          },
+          {
+            "end": 79,
+            "entity": "project",
+            "start": 51,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey please provide rce xml merger component common remote component environment"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 62,
+            "entity": "bundles",
+            "start": 30,
+            "value": "rce input provider component gui"
+          }
+        ],
+        "text": "greetings please look details rce input provider component gui"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "bundles",
+            "start": 17,
+            "value": "rce excel component gui bundle"
+          },
+          {
+            "end": 76,
+            "entity": "project",
+            "start": 48,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "please list give rce excel component gui bundle remote component environment project"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "bundles",
+            "start": 30,
+            "value": "rce xml merger component common"
+          }
+        ],
+        "text": "greetings please give details rce xml merger component common"
+      },
+      {
+        "intent": "showDetailedBundleProjectInfo",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "bundles",
+            "start": 8,
+            "value": "rce input provider component gui"
+          },
+          {
+            "end": 77,
+            "entity": "project",
+            "start": 49,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hi show rce input provider component gui bundles remote component environment"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "text": "// include information about services"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "service",
+            "start": 26,
+            "value": "component.registration"
+          }
+        ],
+        "text": "greetings please navigate component.registration"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "service",
+            "start": 17,
+            "value": "component.registration"
+          },
+          {
+            "end": 43,
+            "entity": "project",
+            "start": 40,
+            "value": "RCE"
+          }
+        ],
+        "text": "please list show component.registration RCE project"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 86,
+            "entity": "service",
+            "start": 24,
+            "value": "de.rcenvironment.components.excel.common.excelserviceguievents"
+          }
+        ],
+        "text": "please look information de.rcenvironment.components.excel.common.excelserviceguievents service"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "service",
+            "start": 20,
+            "value": "component.registration"
+          },
+          {
+            "end": 46,
+            "entity": "project",
+            "start": 43,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi please list give component.registration RCE project"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 80,
+            "entity": "service",
+            "start": 18,
+            "value": "de.rcenvironment.components.excel.common.excelserviceguievents"
+          },
+          {
+            "end": 120,
+            "entity": "project",
+            "start": 92,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hello please list de.rcenvironment.components.excel.common.excelserviceguievents service of remote component environment"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 76,
+            "entity": "service",
+            "start": 15,
+            "value": "de.rcenvironment.core.component.registration.api.registerable"
+          },
+          {
+            "end": 113,
+            "entity": "project",
+            "start": 85,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hi please list de.rcenvironment.core.component.registration.api.registerable service remote component environment"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 85,
+            "entity": "service",
+            "start": 23,
+            "value": "de.rcenvironment.components.excel.common.excelserviceguievents"
+          },
+          {
+            "end": 97,
+            "entity": "project",
+            "start": 94,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello please list look de.rcenvironment.components.excel.common.excelserviceguievents service RCE"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 107,
+            "entity": "service",
+            "start": 10,
+            "value": "de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice"
+          },
+          {
+            "end": 136,
+            "entity": "project",
+            "start": 108,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "list look de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice remote component environment"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 64,
+            "entity": "service",
+            "start": 14,
+            "value": "de.rcenvironment.components.parametricstudy.common"
+          }
+        ],
+        "text": "show info. of de.rcenvironment.components.parametricstudy.common service"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "service",
+            "start": 18,
+            "value": "component.registration"
+          },
+          {
+            "end": 47,
+            "entity": "project",
+            "start": 44,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings provide component.registration of RCE"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "service",
+            "start": 16,
+            "value": "component.registration"
+          },
+          {
+            "end": 45,
+            "entity": "project",
+            "start": 42,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello list give component.registration of RCE"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "service",
+            "start": 19,
+            "value": "component.registration"
+          },
+          {
+            "end": 56,
+            "entity": "project",
+            "start": 53,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello list provide component.registration service of RCE"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 113,
+            "entity": "service",
+            "start": 16,
+            "value": "de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice"
+          },
+          {
+            "end": 120,
+            "entity": "project",
+            "start": 117,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey please list de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice of RCE"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 82,
+            "entity": "service",
+            "start": 20,
+            "value": "de.rcenvironment.components.excel.common.excelserviceguievents"
+          },
+          {
+            "end": 89,
+            "entity": "project",
+            "start": 86,
+            "value": "RCE"
+          }
+        ],
+        "text": "hi please list give de.rcenvironment.components.excel.common.excelserviceguievents of RCE"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 87,
+            "entity": "service",
+            "start": 21,
+            "value": "de.rcenvironment.components.database.common.jdbc.jdbcdriverservice"
+          },
+          {
+            "end": 124,
+            "entity": "project",
+            "start": 96,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey please list look de.rcenvironment.components.database.common.jdbc.jdbcdriverservice service remote component environment project"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 67,
+            "entity": "service",
+            "start": 6,
+            "value": "de.rcenvironment.core.component.registration.api.registerable"
+          },
+          {
+            "end": 79,
+            "entity": "project",
+            "start": 76,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello de.rcenvironment.core.component.registration.api.registerable service RCE project"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 78,
+            "entity": "service",
+            "start": 16,
+            "value": "de.rcenvironment.components.excel.common.excelserviceguievents"
+          }
+        ],
+        "text": "lets look info. de.rcenvironment.components.excel.common.excelserviceguievents"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "service",
+            "start": 5,
+            "value": "de.rcenvironment.components.parametricstudy.common"
+          },
+          {
+            "end": 92,
+            "entity": "project",
+            "start": 64,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "show de.rcenvironment.components.parametricstudy.common service remote component environment project"
+      },
+      {
+        "intent": "showDetailedServiceProjectInfo",
+        "entities": [
+          {
+            "end": 109,
+            "entity": "service",
+            "start": 12,
+            "value": "de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice"
+          },
+          {
+            "end": 138,
+            "entity": "project",
+            "start": 110,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "please list de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice remote component environment project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "eTypes",
+            "start": 5,
+            "value": "de.rcenvironment.core.configuration.configurationsegment"
+          },
+          {
+            "end": 90,
+            "entity": "project",
+            "start": 62,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "look de.rcenvironment.core.configuration.configurationsegment remote component environment project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "text": "// include information about external types"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 79,
+            "entity": "eTypes",
+            "start": 23,
+            "value": "de.rcenvironment.core.configuration.configurationsegment"
+          }
+        ],
+        "text": "hello please go inside de.rcenvironment.core.configuration.configurationsegment"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 74,
+            "entity": "eTypes",
+            "start": 28,
+            "value": "de.rcenvironment.core.utils.common.stringstils"
+          }
+        ],
+        "text": "please lets look details of de.rcenvironment.core.utils.common.stringstils"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "eTypes",
+            "start": 14,
+            "value": "de.rcenvironment.core.utils.common.stringstils"
+          },
+          {
+            "end": 64,
+            "entity": "project",
+            "start": 61,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello provide de.rcenvironment.core.utils.common.stringstils RCE"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 74,
+            "entity": "eTypes",
+            "start": 18,
+            "value": "de.rcenvironment.core.configuration.configurationsegment"
+          },
+          {
+            "end": 96,
+            "entity": "project",
+            "start": 93,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings provide de.rcenvironment.core.configuration.configurationsegment external Types of RCE project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 67,
+            "entity": "eTypes",
+            "start": 21,
+            "value": "de.rcenvironment.core.utils.common.stringstils"
+          },
+          {
+            "end": 99,
+            "entity": "project",
+            "start": 71,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey please list look de.rcenvironment.core.utils.common.stringstils of remote component environment"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 78,
+            "entity": "eTypes",
+            "start": 22,
+            "value": "de.rcenvironment.core.configuration.configurationsegment"
+          },
+          {
+            "end": 107,
+            "entity": "project",
+            "start": 79,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "greetings please list de.rcenvironment.core.configuration.configurationsegment remote component environment project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 77,
+            "entity": "eTypes",
+            "start": 23,
+            "value": "de.rcenvironment.core.component.api.componentconstants"
+          },
+          {
+            "end": 99,
+            "entity": "project",
+            "start": 96,
+            "value": "RCE"
+          }
+        ],
+        "text": "greetings list provide de.rcenvironment.core.component.api.componentconstants external Types of RCE"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "eTypes",
+            "start": 26,
+            "value": "java.util.map"
+          }
+        ],
+        "text": "please lets give info. of java.util.map external Types"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 68,
+            "entity": "eTypes",
+            "start": 14,
+            "value": "de.rcenvironment.core.component.api.componentconstants"
+          },
+          {
+            "end": 112,
+            "entity": "project",
+            "start": 84,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey list give de.rcenvironment.core.component.api.componentconstants external Types remote component environment"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "eTypes",
+            "start": 14,
+            "value": "de.rcenvironment.core.utils.common.stringstils"
+          },
+          {
+            "end": 89,
+            "entity": "project",
+            "start": 61,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey list give de.rcenvironment.core.utils.common.stringstils remote component environment project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "eTypes",
+            "start": 17,
+            "value": "java.util.stringbuilder"
+          },
+          {
+            "end": 47,
+            "entity": "project",
+            "start": 44,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey list provide java.util.stringbuilder of RCE project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 63,
+            "entity": "eTypes",
+            "start": 9,
+            "value": "de.rcenvironment.core.component.api.componentconstants"
+          },
+          {
+            "end": 85,
+            "entity": "project",
+            "start": 82,
+            "value": "RCE"
+          }
+        ],
+        "text": "hey give de.rcenvironment.core.component.api.componentconstants external Types of RCE project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "eTypes",
+            "start": 21,
+            "value": "java.lang.string"
+          },
+          {
+            "end": 84,
+            "entity": "project",
+            "start": 56,
+            "value": "remote component environment"
+          }
+        ],
+        "text": "hey please list give java.lang.string external Types of remote component environment"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 62,
+            "entity": "eTypes",
+            "start": 16,
+            "value": "de.rcenvironment.core.utils.common.stringstils"
+          },
+          {
+            "end": 69,
+            "entity": "project",
+            "start": 66,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello list give de.rcenvironment.core.utils.common.stringstils of RCE project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 75,
+            "entity": "eTypes",
+            "start": 21,
+            "value": "de.rcenvironment.core.component.api.componentconstants"
+          }
+        ],
+        "text": "please provide info. de.rcenvironment.core.component.api.componentconstants external Types"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "eTypes",
+            "start": 20,
+            "value": "java.util.stringbuilder"
+          },
+          {
+            "end": 62,
+            "entity": "project",
+            "start": 59,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello please search java.util.stringbuilder external Types RCE"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 79,
+            "entity": "eTypes",
+            "start": 25,
+            "value": "de.rcenvironment.core.component.api.componentconstants"
+          },
+          {
+            "end": 101,
+            "entity": "project",
+            "start": 98,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello please list search de.rcenvironment.core.component.api.componentconstants external Types of RCE project"
+      },
+      {
+        "intent": "showDetailedEtypeProjectInfo",
+        "entities": [
+          {
+            "end": 75,
+            "entity": "eTypes",
+            "start": 19,
+            "value": "de.rcenvironment.core.configuration.configurationsegment"
+          },
+          {
+            "end": 82,
+            "entity": "project",
+            "start": 79,
+            "value": "RCE"
+          }
+        ],
+        "text": "hello list provide de.rcenvironment.core.configuration.configurationsegment of RCE"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "holla"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tschuss"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Ciao"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Steven"
+          }
+        ],
+        "text": "greetings I am Steven"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "PERSON",
+            "start": 5,
+            "value": "john"
+          }
+        ],
+        "text": "I am john PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "Ramesh"
+          }
+        ],
+        "text": "greetings My name is Ramesh PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "PERSON",
+            "start": 5,
+            "value": "Jack"
+          }
+        ],
+        "text": "I 'm Jack PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "PERSON",
+            "start": 11,
+            "value": "Harry"
+          }
+        ],
+        "text": "hello I am Harry PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Steven"
+          }
+        ],
+        "text": "hey My name is Steven"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "PERSON",
+            "start": 9,
+            "value": "john"
+          }
+        ],
+        "text": "hey I am john PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "Martin Novak"
+          }
+        ],
+        "text": "greetings My name is Martin Novak"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "PERSON",
+            "start": 8,
+            "value": "Harry"
+          }
+        ],
+        "text": "hi I am Harry"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "PERSON",
+            "start": 17,
+            "value": "Martin Novak"
+          }
+        ],
+        "text": "hello My name is Martin Novak PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "PERSON",
+            "start": 11,
+            "value": "john"
+          }
+        ],
+        "text": "hello I am john"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PERSON",
+            "start": 14,
+            "value": "Ramesh"
+          }
+        ],
+        "text": "hi My name is Ramesh PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "PERSON",
+            "start": 5,
+            "value": "john"
+          }
+        ],
+        "text": "I 'm john PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "Ramesh"
+          }
+        ],
+        "text": "greetings My name is Ramesh"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Jack"
+          }
+        ],
+        "text": "greetings I am Jack PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PERSON",
+            "start": 17,
+            "value": "Steven"
+          }
+        ],
+        "text": "hello My name is Steven"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Harry"
+          }
+        ],
+        "text": "greetings I am Harry PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Harry"
+          }
+        ],
+        "text": "hey My name is Harry"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Potter"
+          }
+        ],
+        "text": "greetings I am Potter PERSON"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "PERSON",
+            "start": 5,
+            "value": "Martin Novak"
+          }
+        ],
+        "text": "I 'm Martin Novak PERSON"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "right"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "never"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremly sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
