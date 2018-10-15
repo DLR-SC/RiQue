@@ -93,7 +93,7 @@ class showDetailedRestaurantInfo(Action):
       if tracker.get_slot('restaurant'):
 
           result = "restaurant slot found"
-          dispatcher.utter_message("action_show_detailed_restaurant_info ..")
+          dispatcher.utter_message(" It is located near HBF. ")
 
       else:
           dispatcher.utter_message("no restaurant in particular city slot being called")

@@ -3,28 +3,28 @@
     "action_listen": {
       "slots": []
     },
-    "action_show_detailed_restaurant_info": {
+    "utter_happy": {
       "slots": []
     },
     "utter_goodbye": {
       "slots": []
     },
+    "utter_no_worries": {
+      "slots": []
+    },
     "action_show_detailed_service_project_info": {
       "slots": []
     },
-    "utter_happy": {
+    "action_show_exports_in_bundle": {
       "slots": []
     },
     "action_give_project_information": {
       "slots": []
     },
-    "utter_no_worries": {
-      "slots": []
-    },
     "utter_how_can_i_help_you": {
       "slots": []
     },
-    "action_show_exports_in_bundle": {
+    "action_show_detailed_restaurant_info": {
       "slots": []
     }
   },

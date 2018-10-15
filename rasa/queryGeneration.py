@@ -3,7 +3,7 @@ import pypher
 from pypher import Pypher, __
 from pypher.builder import Param
 from neo4j.v1 import GraphDatabase
-from train_core_init import TrainBot
+from train_rasa_module import TrainBot
 from rasa_core.interpreter import RasaNLUInterpreter
 
 import json 
