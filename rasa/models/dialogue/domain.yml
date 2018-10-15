@@ -1,0 +1,135 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_no_worries
+- utter_my_name_is
+- action_check_restaurants
+- action_give_project_information
+- action_show_detailed_bundle_project_info
+- action_show_detailed_restaurant_info
+- action_show_detailed_service_project_info
+- action_show_exports_in_bundle
+- utter_how_can_i_help_you
+config:
+  store_entities_as_slots: true
+entities:
+- GPE
+- project
+- PERSON
+- restaurant
+- bundles
+- service
+- eTypes
+- PackagesImports
+- PackagesExports
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- mood_affirm:
+    use_entities: true
+- mood_deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- findRestaurantsByCity:
+    use_entities: true
+- showProjectInformation:
+    use_entities: true
+- showDetailedRestaurantInfo:
+    use_entities: true
+- showDetailedBundleProjectInfo:
+    use_entities: true
+- showDetailedServiceProjectInfo:
+    use_entities: true
+- showDetailedEtypeProjectInfo:
+    use_entities: true
+- showExportsInBundle:
+    use_entities: true
+- showImportsInBundle:
+    use_entities: true
+- my_name_is:
+    use_entities: true
+slots:
+  GPE:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - new york
+    - bonn
+    - frankfurt
+    - atlanta
+  PERSON:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  PackagesExports:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  PackagesImports:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  bundles:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - rce excel component gui bundle
+    - rce input provider component gui
+    - rce joiner component gui
+    - rce xml loader component execution
+    - rce decrypter component common (example component)
+  eTypes:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - de.rcenvironment.core.component.api.componentconstants
+    - java.lang.string
+    - java.util.map
+    - java.util.stringbuilder
+    - de.rcenvironment.core.utils.common.stringstils
+    - de.rcenvironment.core.configuration.configurationsegment
+  project:
+    initial_value: remote component environment
+    type: rasa_core.slots.TextSlot
+  restaurant:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - pizza hut
+    - mcdonalds
+    - kfc
+    - burger king
+  service:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - component.registration
+    - de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice
+    - de.rcenvironment.core.component.registration.api.registerable
+    - de.rcenvironment.components.parametricstudy.common
+    - de.rcenvironment.components.excel.common.excelserviceguievents
+templates:
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How can I help you?
+  utter_happy:
+  - text: Great carry on!
+  utter_how_can_i_help_you:
+  - text: Hey! How can I help you?
+  utter_my_name_is:
+  - text: Nice to meet you, {PERSON}
+  utter_no_worries:
+  - text: Keep calm and watch funny videos

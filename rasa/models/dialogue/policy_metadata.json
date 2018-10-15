@@ -1,0 +1,42 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "action_show_detailed_restaurant_info": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_show_detailed_service_project_info": {
+      "slots": []
+    },
+    "utter_happy": {
+      "slots": []
+    },
+    "action_give_project_information": {
+      "slots": []
+    },
+    "utter_no_worries": {
+      "slots": []
+    },
+    "utter_how_can_i_help_you": {
+      "slots": []
+    },
+    "action_show_exports_in_bundle": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.11.7",
+  "python": "3.6.5",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}
