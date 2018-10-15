@@ -44,19 +44,20 @@
 ### Conversation 1
   
 ```
-* User: ```Hi```
-* Response by bot: ```Hey, How can I help you? ```
-* Possible question by User: ``` I am looking for restaurants in bonn```  
-* Response by bot: ``` List of resturants are: pizza hut, kfc, mcdonalds ```
-* User : ``` Give me details of pizza hut ``` 
-* Response by bot: ``` It is located near HBF ```
-
+* User: Hi
+* Response by bot: Hey, How can I help you? 
+* Possible question by User:  I am looking for restaurants in bonn 
+* Response by bot: List of resturants are: pizza hut, kfc, mcdonalds 
+* User :  Give me details of pizza hut 
+* Response by bot:  It is located near HBF 
+* User: Bye
+* Bot response: Bye
 ```
 
 ### Conversation 2 (Generate queries related to RCE project)
 
 ```
-* User: ```show me information of rce input provider component gui bundles```
+* User: show me information of rce input provider component gui bundles
 * Reponse by bot: Outputs result of query 
 
 ```
