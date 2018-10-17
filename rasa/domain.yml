@@ -1,52 +1,22 @@
 slots:
   GPE:
-    type: categorical
-    values: 
-      - new york
-      - bonn
-      - frankfurt
-      - atlanta
+    type: text
 
   restaurant:
-    type: categorical
-    values:
-      - pizza hut
-      - mcdonalds
-      - kfc
-      - burger king
+    type: text
 
   bundles:
-    type: categorical
-    values: 
-      - rce excel component gui bundle
-      - rce input provider component gui
-      - rce joiner component gui
-      - rce xml loader component execution
-      - rce decrypter component common (example component)
+    type: text
+
 
   service:
-    type: categorical
-    values: 
-      - component.registration
-      - de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice
-      - de.rcenvironment.core.component.registration.api.registerable
-      - de.rcenvironment.components.parametricstudy.common
-      - de.rcenvironment.components.excel.common.excelserviceguievents
+   type: text
 
   eTypes:
-    type: categorical
-    values: 
-      - de.rcenvironment.core.component.api.componentconstants
-      - java.lang.string
-      - java.util.map
-      - java.util.stringbuilder
-      - de.rcenvironment.core.utils.common.stringstils
-      - de.rcenvironment.core.configuration.configurationsegment
-
+    type: text
 
   project:
-    type: text
-    initial_value: remote component environment
+   type: text
 
   PackagesImports:
     type: text
@@ -56,6 +26,9 @@ slots:
 
 
   PERSON:
+    type: text
+
+  node:
     type: text
 
 
@@ -70,6 +43,7 @@ entities:
   - eTypes
   - PackagesImports
   - PackagesExports
+  - node
 
 intents:
   - greet
@@ -86,6 +60,7 @@ intents:
   - showDetailedEtypeProjectInfo
   - showExportsInBundle
   - showImportsInBundle
+  - showNodeInformation
   - my_name_is
 
 actions:
@@ -103,6 +78,7 @@ actions:
 - action_show_detailed_service_project_info
 - action_show_exports_in_bundle
 - utter_how_can_i_help_you
+- action_show_node_information
 
 templates:
   utter_greet:

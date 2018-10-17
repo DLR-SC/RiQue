@@ -1,6 +1,8 @@
-## happy path
+## greet
 * greet
   - utter_greet
+
+## mood happy
 * mood_great
   - utter_happy
 
@@ -48,7 +50,6 @@
 * showDetailedRestaurantInfo
   - action_show_detailed_restaurant_info
 
-
 ## project description
 * showProjectInformation
   - action_give_project_information
@@ -63,6 +64,7 @@
 * showDetailedServiceProjectInfo
   - action_show_detailed_service_project_info
 
-
-
+## search for specific node information
+* showNodeInformation
+  - action_show_node_information
 
