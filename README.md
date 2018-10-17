@@ -63,4 +63,14 @@
 ```
 
 * **Note:** Till now queries are only implemented related to bundles
-.
+
+### Conversation 3 (search information of node with name)
+
+```
+* User: show me details of remote component environment node
+* Reponse by bot: Outputs result of query 
+
+* User: give me info of database node
+* Reponse by bot: Outputs result of query 
+
+```
