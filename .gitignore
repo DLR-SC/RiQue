@@ -3,3 +3,5 @@
 rasa/__pycache__/
 
 rasa/rasa_core\.log
+
+neo4j/\.ipynb_checkpoints/
