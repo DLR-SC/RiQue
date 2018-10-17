@@ -42,24 +42,18 @@ class ActionCheckRestaurants(Action):
             dispatcher.utter_message("list of restaurants in tracker.get_slot('city')")
             dispatcher.utter_message(data)
 
-          result = "It got executed"
           dispatcher.utter_message("action_check_restaurants being called ..")
-          return []
-
 
       else:
-          failure = "slot does not detected"
-          dispatcher.utter_message("no city slot being called")
-          return []
+          dispatcher.utter_message("no GPE slot filled inside action check restaurant")
+          
+      # cuisine = tracker.get_slot('cuisine')
+      # q = "select * from restaurants where cuisine='{0}' limit 1".format(cuisine)
+      # result = db.query(q)
 
+      # return [SlotSet("matches", result if result is not None else [])]
 
-
-
-        # cuisine = tracker.get_slot('cuisine')
-        # q = "select * from restaurants where cuisine='{0}' limit 1".format(cuisine)
-        # result = db.query(q)
-
-        # return [SlotSet("matches", result if result is not None else [])]
+      return []
       
 
 class showDetailedRestaurantInfo(Action):
@@ -104,6 +98,7 @@ class showDetailedRestaurantInfo(Action):
 
 class DisplayGeneralQuery(Action):
 
+
     def name(self):
 
       return "action_give_project_information"
@@ -140,14 +135,14 @@ class DisplayGeneralQuery(Action):
           dispatcher.utter_message("project info being uttered ..")
 
       else:
-          failure = "project slot does not detected"
-          dispatcher.utter_message("no project info action being called")
-
+          
+          dispatcher.utter_message("no project slot is filled inside action give project information action")
 
       return []
-      # return [SlotSet("project", result if result is not None else failure)]
+
 
 class DisplayBundleQuery(Action):
+
 
     def name(self):
 
@@ -179,14 +174,14 @@ class DisplayBundleQuery(Action):
           dispatcher.utter_message("===== result =====")
           dispatcher.utter_message(str(result))
 
-
           dispatcher.utter_message("bundles slot found and action bundle executed")
 
       else:
-          failure = "project slot does not detected"
-          dispatcher.utter_message("no project info action being called")
+          dispatcher.utter_message("no bundles slot filled  inside show detailed bundle project info")
 
       return []
+
+
 
 class DisplayServiceQuery(Action):
 
@@ -223,15 +218,13 @@ class DisplayServiceQuery(Action):
           # dispatcher.utter_message(str(result))
 
           dispatcher.utter_message("service slot found and action service executed")
-
       else:
-          failure = "project slot does not detected"
-          dispatcher.utter_message("no project info action being called")
+
+          dispatcher.utter_message("no service slot filled inside detailed service project action")
 
       return []
 
 '''
-
 Exports lies inside bundle 
 To execute query regarding exports, we need to know the value of bundles slot
 '''
@@ -255,8 +248,7 @@ class DisplayExportQuery(Action):
       failure = None
       bundle_slot = tracker.get_slot('bundles')
 
-      dispatcher.utter_message("current slot values ")
-      dispatcher.utter_message(tracker.current_slot_values())
+
       if tracker.get_slot('PackagesExports'):
 
           gQuery = GenerateQuery(recent_message)
@@ -274,7 +266,46 @@ class DisplayExportQuery(Action):
           dispatcher.utter_message("bundles slot found and action bundle executed")
 
       else:
-          failure = "project slot does not detected"
-          dispatcher.utter_message("no project info action being called")
+
+          dispatcher.utter_message("no PackagesExports slot filled inside show exports action")
 
       return []
+
+'''
+Show specific node information
+'''
+
+class showNodeInformation(Action):
+  
+    def name(self):
+
+          return "action_show_node_information"
+
+    def run(self, dispatcher, tracker, domain):
+
+      dispatcher.utter_message("show node information ")
+
+      recent_message = (tracker.latest_message)['text']
+
+      if tracker.get_slot('node'):
+
+          gQuery = GenerateQuery(recent_message)
+          parse_msg = gQuery.predictIntentionAndEntity()
+          
+          [query, params, result] = gQuery.convertTextToQuery()
+          dispatcher.utter_message("===== Query =====")
+          dispatcher.utter_message(query)
+          dispatcher.utter_message("=== query params =====")
+          dispatcher.utter_message(str(params))
+          dispatcher.utter_message("===== result =====")
+          dispatcher.utter_message(str(result))
+
+
+          dispatcher.utter_message("node slot got filled and action show node information executed")
+
+      else:
+
+          dispatcher.utter_message("no node slot filled inside action show node information")
+
+      return []
+

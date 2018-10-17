@@ -1,1 +1,5 @@
 
+
+rasa/__pycache__/
+
+rasa/rasa_core\.log

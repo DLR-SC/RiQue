@@ -15,6 +15,7 @@ actions:
 - action_show_detailed_service_project_info
 - action_show_exports_in_bundle
 - utter_how_can_i_help_you
+- action_show_node_information
 config:
   store_entities_as_slots: true
 entities:
@@ -27,6 +28,7 @@ entities:
 - eTypes
 - PackagesImports
 - PackagesExports
+- node
 intents:
 - greet:
     use_entities: true
@@ -56,17 +58,14 @@ intents:
     use_entities: true
 - showImportsInBundle:
     use_entities: true
+- showNodeInformation:
+    use_entities: true
 - my_name_is:
     use_entities: true
 slots:
   GPE:
     initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - new york
-    - bonn
-    - frankfurt
-    - atlanta
+    type: rasa_core.slots.TextSlot
   PERSON:
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -78,43 +77,22 @@ slots:
     type: rasa_core.slots.TextSlot
   bundles:
     initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - rce excel component gui bundle
-    - rce input provider component gui
-    - rce joiner component gui
-    - rce xml loader component execution
-    - rce decrypter component common (example component)
+    type: rasa_core.slots.TextSlot
   eTypes:
     initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - de.rcenvironment.core.component.api.componentconstants
-    - java.lang.string
-    - java.util.map
-    - java.util.stringbuilder
-    - de.rcenvironment.core.utils.common.stringstils
-    - de.rcenvironment.core.configuration.configurationsegment
+    type: rasa_core.slots.TextSlot
+  node:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   project:
-    initial_value: remote component environment
+    initial_value: null
     type: rasa_core.slots.TextSlot
   restaurant:
     initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - pizza hut
-    - mcdonalds
-    - kfc
-    - burger king
+    type: rasa_core.slots.TextSlot
   service:
     initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - component.registration
-    - de.rcenvironment.components.evaluationmemory.execution.internal.evaluationmemoryfileaccessservice
-    - de.rcenvironment.core.component.registration.api.registerable
-    - de.rcenvironment.components.parametricstudy.common
-    - de.rcenvironment.components.excel.common.excelserviceguievents
+    type: rasa_core.slots.TextSlot
 templates:
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
