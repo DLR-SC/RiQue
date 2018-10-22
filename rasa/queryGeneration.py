@@ -28,6 +28,7 @@ class GenerateQuery:
         
     def predictIntentionAndEntity(self):
         
+
         self.prediction = self.interpret.parse(self.sentence)
         
         if len(self.prediction.get("entities")) > 0:
@@ -37,7 +38,6 @@ class GenerateQuery:
             self.start_position = self.prediction.get("entities")[0]['start']
             self.end_position = self.prediction.get("entities")[0]['end']
             
-#             print (self.extracted_values)
 
         self.extracted_intents = self.prediction.get("intent")['name']
 
@@ -49,17 +49,18 @@ class GenerateQuery:
 
         return self.prediction
     
-    def getSimpleQuery(self, extracted_intent, extracted_value, query, query_result, params):
+    def getSimpleQuery(self, extracted_entites, extracted_intent, extracted_value, query, query_result, params):
 
 
-        # value = '.*' + str(extracted_value) + ''
         # self.pypherObject.Match.node('u', labels=extracted_intent).WHERE.u.property('name') == extracted_value
-        # print ("extracted value ", extracted_value)
-        # p = Pypher()
-        # p.MATCH.node('n').where.n.__name__.CONTAINS(Param('per_param', 'per')).RETURN.n
-        # print (str(p))
-        self.pypherObject.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', extracted_value))
-        
+        if extracted_intent == 'showNodeInformation':
+            self.pypherObject.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', extracted_value))
+
+        elif extracted_intent == 'countNodes':
+            self.pypherObject.Match.node('u', labels=extracted_entites)
+
+        else:
+            self.pypherObject.Match.node('u', labels=extracted_entites).WHERE.u.property('name') == extracted_value
 
         query = str(self.pypherObject.RETURN.u)
         params = self.pypherObject.bound_params
@@ -80,26 +81,31 @@ class GenerateQuery:
 
     def convertTextToQuery(self, bundle_slot=None):
 
+
         query = None 
         query_result = None
         params = None
 
         if self.extracted_intents == 'showProjectInformation':
             
-            [query, params, query_result] = self.getSimpleQuery(self.extracted_intents, self.extracted_values, query, query_result, params)
+            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
             
 
         # this does not include show all bundles condition
         elif self.extracted_intents == 'showDetailedBundleProjectInfo':
 
-            [query, params, query_result] = self.getSimpleQuery(self.extracted_intents, self.extracted_values, query, query_result, params)
+            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
 
 
         # show specific node information
         elif self.extracted_intents == 'showNodeInformation':
 
-            [query, params, query_result] = self.getSimpleQuery(None, self.extracted_values, query, query_result, params)
+            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
   
+        elif self.extracted_intents =='countNodes':
+
+            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
+                      
         # exports inside bundles
         elif self.extracted_intents == 'showExportsInBundle':
 
@@ -130,8 +136,3 @@ class GenerateQuery:
 
         return [query, params, query_result]
     
-if __name__ == '__main__':
-    
-    
-    generateQuery = GenerateQuery(nlu_interpreter)
-    generateQuery.predictIntentionAndEntity()
