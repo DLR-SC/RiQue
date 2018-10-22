@@ -1,2 +1,0 @@
-model_checkpoint_path: "/home/ramesh/github/Island-Voiz/rasa/./projects/default/default/Neo4jNlu/intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "/home/ramesh/github/Island-Voiz/rasa/./projects/default/default/Neo4jNlu/intent_classifier_tensorflow_embedding.ckpt"

@@ -6,31 +6,25 @@
     "action_show_node_information": {
       "slots": []
     },
-    "utter_happy": {
-      "slots": []
-    },
-    "action_show_detailed_restaurant_info": {
+    "action_give_project_information": {
       "slots": []
     },
     "utter_goodbye": {
       "slots": []
     },
-    "action_show_exports_in_bundle": {
+    "action_count_nodes": {
+      "slots": []
+    },
+    "action_show_detailed_restaurant_info": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "utter_no_worries": {
+    "action_show_exports_in_bundle": {
       "slots": []
     },
     "utter_how_can_i_help_you": {
-      "slots": []
-    },
-    "action_show_detailed_service_project_info": {
-      "slots": []
-    },
-    "action_give_project_information": {
       "slots": []
     }
   },

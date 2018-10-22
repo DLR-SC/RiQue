@@ -9,7 +9,7 @@ slots:
     type: text
 
 
-  service:
+  services:
    type: text
 
   eTypes:
@@ -24,13 +24,14 @@ slots:
   PackagesExports:
     type: text
 
-
   PERSON:
     type: text
 
   node:
     type: text
 
+  countNodes:
+    type: text
 
 entities:
 
@@ -39,67 +40,52 @@ entities:
   - PERSON
   - restaurant
   - bundles
-  - service
+  - services
+  - packages
   - eTypes
   - PackagesImports
   - PackagesExports
   - node
 
 intents:
+
   - greet
   - goodbye
-  - mood_affirm
-  - mood_deny
-  - mood_great
-  - mood_unhappy
   - findRestaurantsByCity
   - showProjectInformation
   - showDetailedRestaurantInfo
   - showDetailedBundleProjectInfo
-  - showDetailedServiceProjectInfo
-  - showDetailedEtypeProjectInfo
-  - showExportsInBundle
-  - showImportsInBundle
   - showNodeInformation
+  - countNodes
   - my_name_is
 
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
 - utter_goodbye
-- utter_no_worries
+- utter_happy
 - utter_my_name_is
 - action_check_restaurants
 - action_give_project_information
 - action_show_detailed_bundle_project_info
 - action_show_detailed_restaurant_info
-- action_show_detailed_service_project_info
 - action_show_exports_in_bundle
 - utter_how_can_i_help_you
 - action_show_node_information
+- action_count_nodes
 
 templates:
   utter_greet:
   - text: "Hey! How can I help you?"
 
+  utter_happy:
+  - text: "I am happy"
+  
   utter_how_can_i_help_you:
   - text: "Hey! How can I help you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
   - text: "Did that help you?"
   
-  utter_no_worries:
-  - text: "Keep calm and watch funny videos"
-
-  utter_happy:
-  - text: "Great carry on!"
-
   utter_goodbye:
   - text: "Bye"
 
