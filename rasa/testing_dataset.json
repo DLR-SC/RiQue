@@ -1,0 +1,1392 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "please places to eat located at atlanta city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "GPE",
+            "start": 32,
+            "value": "atlanta"
+          }
+        ]
+      },
+      {
+        "text": "good morning show where to eat at san francisco city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "GPE",
+            "start": 34,
+            "value": "san francisco"
+          }
+        ]
+      },
+      {
+        "text": "hi please look where to eat located at cologne city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "GPE",
+            "start": 39,
+            "value": "cologne"
+          }
+        ]
+      },
+      {
+        "text": "hi where to eat at Paris",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "GPE",
+            "start": 19,
+            "value": "Paris"
+          }
+        ]
+      },
+      {
+        "text": "guten tag restaurants in the area of bonn",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "GPE",
+            "start": 37,
+            "value": "bonn"
+          }
+        ]
+      },
+      {
+        "text": "holla show where to eat located at cologne",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "GPE",
+            "start": 35,
+            "value": "cologne"
+          }
+        ]
+      },
+      {
+        "text": "bonjour please provide places to eat at atlanta",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "GPE",
+            "start": 40,
+            "value": "atlanta"
+          }
+        ]
+      },
+      {
+        "text": "guten tag please look restaurants in the area of san francisco",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 62,
+            "entity": "GPE",
+            "start": 49,
+            "value": "san francisco"
+          }
+        ]
+      },
+      {
+        "text": "provide places to eat at frankfurt city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "GPE",
+            "start": 25,
+            "value": "frankfurt"
+          }
+        ]
+      },
+      {
+        "text": "hey there give places to eat in the area of san francisco",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "GPE",
+            "start": 44,
+            "value": "san francisco"
+          }
+        ]
+      },
+      {
+        "text": "hey there give restaurants in the area of new york city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "GPE",
+            "start": 42,
+            "value": "new york"
+          }
+        ]
+      },
+      {
+        "text": "hi please look where to eat located at new york city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "GPE",
+            "start": 39,
+            "value": "new york"
+          }
+        ]
+      },
+      {
+        "text": "hey search where to eat present in Paris",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "GPE",
+            "start": 35,
+            "value": "Paris"
+          }
+        ]
+      },
+      {
+        "text": "hey there give restaurants in the area of new york",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "GPE",
+            "start": 42,
+            "value": "new york"
+          }
+        ]
+      },
+      {
+        "text": "good evening please provide places to eat at Paris city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "GPE",
+            "start": 45,
+            "value": "Paris"
+          }
+        ]
+      },
+      {
+        "text": "hi please search places to eat at bonn",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "GPE",
+            "start": 34,
+            "value": "bonn"
+          }
+        ]
+      },
+      {
+        "text": "good morning please search where to eat located at bonn",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "GPE",
+            "start": 51,
+            "value": "bonn"
+          }
+        ]
+      },
+      {
+        "text": "hey there show places to eat present in atlanta city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "GPE",
+            "start": 40,
+            "value": "atlanta"
+          }
+        ]
+      },
+      {
+        "text": "hey there look where to eat in the area of Paris",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "GPE",
+            "start": 43,
+            "value": "Paris"
+          }
+        ]
+      },
+      {
+        "text": "hallo please places to eat present in frankfurt city",
+        "intent": "findRestaurantsByCity",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "GPE",
+            "start": 38,
+            "value": "frankfurt"
+          }
+        ]
+      },
+      {
+        "text": "hallo please lets show details of mcdonalads",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "restaurant",
+            "start": 34,
+            "value": "mcdonalads"
+          }
+        ]
+      },
+      {
+        "text": "hey give info of deja vu restaurant",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "restaurant",
+            "start": 17,
+            "value": "deja vu"
+          }
+        ]
+      },
+      {
+        "text": "show information of kasparas restaurant",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "restaurant",
+            "start": 20,
+            "value": "kasparas"
+          }
+        ]
+      },
+      {
+        "text": "hey there please search details of deja vu",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "restaurant",
+            "start": 35,
+            "value": "deja vu"
+          }
+        ]
+      },
+      {
+        "text": "hello provide info of Thai",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "restaurant",
+            "start": 22,
+            "value": "Thai"
+          }
+        ]
+      },
+      {
+        "text": "hey give details of Pizzeria",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "restaurant",
+            "start": 20,
+            "value": "Pizzeria"
+          }
+        ]
+      },
+      {
+        "text": "hallo please provide description of mcdonalads",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "restaurant",
+            "start": 36,
+            "value": "mcdonalads"
+          }
+        ]
+      },
+      {
+        "text": "holla look details of kasparas",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "restaurant",
+            "start": 22,
+            "value": "kasparas"
+          }
+        ]
+      },
+      {
+        "text": "good morning give information of sushi restaurant",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "restaurant",
+            "start": 33,
+            "value": "sushi"
+          }
+        ]
+      },
+      {
+        "text": "hey lets show information of burger king restaurant",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "restaurant",
+            "start": 29,
+            "value": "burger king"
+          }
+        ]
+      },
+      {
+        "text": "look information of Thai restaurant",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "restaurant",
+            "start": 20,
+            "value": "Thai"
+          }
+        ]
+      },
+      {
+        "text": "hi please lets look details of sushi",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "restaurant",
+            "start": 31,
+            "value": "sushi"
+          }
+        ]
+      },
+      {
+        "text": "provide details of sushi",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "restaurant",
+            "start": 19,
+            "value": "sushi"
+          }
+        ]
+      },
+      {
+        "text": "lets search details of Thai",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "restaurant",
+            "start": 23,
+            "value": "Thai"
+          }
+        ]
+      },
+      {
+        "text": "hey please lets show info of sushi restaurant",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "restaurant",
+            "start": 29,
+            "value": "sushi"
+          }
+        ]
+      },
+      {
+        "text": "holla please look description of deja vu",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "restaurant",
+            "start": 33,
+            "value": "deja vu"
+          }
+        ]
+      },
+      {
+        "text": "hallo please search info of Thai",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "restaurant",
+            "start": 28,
+            "value": "Thai"
+          }
+        ]
+      },
+      {
+        "text": "search info of Chinese restaurant",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "restaurant",
+            "start": 15,
+            "value": "Chinese"
+          }
+        ]
+      },
+      {
+        "text": "holla please lets search details of burger king",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "restaurant",
+            "start": 36,
+            "value": "burger king"
+          }
+        ]
+      },
+      {
+        "text": "holla search description of mcdonalads",
+        "intent": "showDetailedRestaurantInfo",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "restaurant",
+            "start": 28,
+            "value": "mcdonalads"
+          }
+        ]
+      },
+      {
+        "text": "hallo please lets give details of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 62,
+            "entity": "project",
+            "start": 34,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "hi search info of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "project",
+            "start": 18,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "holla please look information of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "project",
+            "start": 33,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "please lets provide info of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "project",
+            "start": 28,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "lets provide information of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "project",
+            "start": 28,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "hello please lets provide information of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 69,
+            "entity": "project",
+            "start": 41,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "guten tag provide info of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "project",
+            "start": 26,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "lets look details of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "project",
+            "start": 21,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "hey there please lets search information of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 72,
+            "entity": "project",
+            "start": 44,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "lets look information of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "project",
+            "start": 25,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "hey lets search details of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "project",
+            "start": 27,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "hi please lets search info of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "project",
+            "start": 30,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "good evening please give information of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 68,
+            "entity": "project",
+            "start": 40,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "hi lets look description of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "project",
+            "start": 28,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "holla please lets show info of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "project",
+            "start": 31,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "good evening lets give info of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "project",
+            "start": 31,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "guten tag please look description of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 65,
+            "entity": "project",
+            "start": 37,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "good evening please lets give description of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 73,
+            "entity": "project",
+            "start": 45,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "bonjour please lets search description of remote component environment",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 70,
+            "entity": "project",
+            "start": 42,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "hallo provide information of remote component environment project",
+        "intent": "showProjectInformation",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "project",
+            "start": 29,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "lets show info of internal",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "node",
+            "start": 18,
+            "value": "internal"
+          }
+        ]
+      },
+      {
+        "text": "guten tag provide information internal",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "node",
+            "start": 30,
+            "value": "internal"
+          }
+        ]
+      },
+      {
+        "text": "hey search description vampzero initializer persistent component description updater",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 84,
+            "entity": "node",
+            "start": 23,
+            "value": "vampzero initializer persistent component description updater"
+          }
+        ]
+      },
+      {
+        "text": "hey please give details of execution node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "node",
+            "start": 27,
+            "value": "execution"
+          }
+        ]
+      },
+      {
+        "text": "good evening please give details of gui node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "node",
+            "start": 36,
+            "value": "gui"
+          }
+        ]
+      },
+      {
+        "text": "hi please search details rce components node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "node",
+            "start": 25,
+            "value": "rce components"
+          }
+        ]
+      },
+      {
+        "text": "hello please give details of remote component environment",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "node",
+            "start": 29,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "please provide info of execution node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "node",
+            "start": 23,
+            "value": "execution"
+          }
+        ]
+      },
+      {
+        "text": "good evening give details execution",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "node",
+            "start": 26,
+            "value": "execution"
+          }
+        ]
+      },
+      {
+        "text": "hi show description of rce cpacs vampzero initializer component execution",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 73,
+            "entity": "node",
+            "start": 23,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ]
+      },
+      {
+        "text": "bonjour show details of concurrency",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "node",
+            "start": 24,
+            "value": "concurrency"
+          }
+        ]
+      },
+      {
+        "text": "good evening give info of vampzero initializer persistent component description updater",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 87,
+            "entity": "node",
+            "start": 26,
+            "value": "vampzero initializer persistent component description updater"
+          }
+        ]
+      },
+      {
+        "text": "hey provide information of vampzero initializer persistent component description updater",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 88,
+            "entity": "node",
+            "start": 27,
+            "value": "vampzero initializer persistent component description updater"
+          }
+        ]
+      },
+      {
+        "text": "lets provide info gui node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "node",
+            "start": 18,
+            "value": "gui"
+          }
+        ]
+      },
+      {
+        "text": "hallo search info database",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "node",
+            "start": 18,
+            "value": "database"
+          }
+        ]
+      },
+      {
+        "text": "hey there please give details execution",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "node",
+            "start": 30,
+            "value": "execution"
+          }
+        ]
+      },
+      {
+        "text": "holla show information of remote component environment node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "node",
+            "start": 26,
+            "value": "remote component environment"
+          }
+        ]
+      },
+      {
+        "text": "please look information rce components",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "node",
+            "start": 24,
+            "value": "rce components"
+          }
+        ]
+      },
+      {
+        "text": "hey there search description execution",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "node",
+            "start": 29,
+            "value": "execution"
+          }
+        ]
+      },
+      {
+        "text": "look info of setup node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "node",
+            "start": 13,
+            "value": "setup"
+          }
+        ]
+      },
+      {
+        "text": "give all packages",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "packages",
+            "start": 9,
+            "value": "packages"
+          }
+        ]
+      },
+      {
+        "text": "please give all bundles units",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "bundles",
+            "start": 16,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "look all services",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "services",
+            "start": 9,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "please list all services units",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "services",
+            "start": 16,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "list all packages",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "packages",
+            "start": 9,
+            "value": "packages"
+          }
+        ]
+      },
+      {
+        "text": "Get all packages",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "packages",
+            "start": 8,
+            "value": "packages"
+          }
+        ]
+      },
+      {
+        "text": "give all packages units",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "packages",
+            "start": 9,
+            "value": "packages"
+          }
+        ]
+      },
+      {
+        "text": "please list all bundles",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "bundles",
+            "start": 16,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "please search all services units",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "services",
+            "start": 18,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "provide all services units",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "services",
+            "start": 12,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "please show all bundles",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "bundles",
+            "start": 16,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "provide all packages units",
+        "intent": "countNodes",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "packages",
+            "start": 12,
+            "value": "packages"
+          }
+        ]
+      },
+      {
+        "text": "bonjour",
+        "intent": "greet",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "holla",
+        "intent": "greet",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "Tschuss",
+        "intent": "goodbye",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "bye, have a nice day",
+        "intent": "goodbye",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "hey there My name is rachel PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "rachel"
+          }
+        ]
+      },
+      {
+        "text": "hi I am Harry PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "PERSON",
+            "start": 8,
+            "value": "Harry"
+          }
+        ]
+      },
+      {
+        "text": "guten tag My name is Harry",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "Harry"
+          }
+        ]
+      },
+      {
+        "text": "guten tag I am Simon PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Simon"
+          }
+        ]
+      },
+      {
+        "text": "hey My name is Harry",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Harry"
+          }
+        ]
+      },
+      {
+        "text": "guten tag I am john PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "john"
+          }
+        ]
+      },
+      {
+        "text": "hello I am nick",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "PERSON",
+            "start": 11,
+            "value": "nick"
+          }
+        ]
+      },
+      {
+        "text": "bonjour My name is nick",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PERSON",
+            "start": 19,
+            "value": "nick"
+          }
+        ]
+      },
+      {
+        "text": "holla Steven here",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "PERSON",
+            "start": 6,
+            "value": "Steven"
+          }
+        ]
+      },
+      {
+        "text": "good morning I am mike",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "PERSON",
+            "start": 18,
+            "value": "mike"
+          }
+        ]
+      },
+      {
+        "text": "hallo My name is peter",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "PERSON",
+            "start": 17,
+            "value": "peter"
+          }
+        ]
+      },
+      {
+        "text": "I am Martin Novak PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "PERSON",
+            "start": 5,
+            "value": "Martin Novak"
+          }
+        ]
+      },
+      {
+        "text": "I 'm mike PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "PERSON",
+            "start": 5,
+            "value": "mike"
+          }
+        ]
+      },
+      {
+        "text": "hi I am peter",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "PERSON",
+            "start": 8,
+            "value": "peter"
+          }
+        ]
+      },
+      {
+        "text": "hello Potter here",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "PERSON",
+            "start": 6,
+            "value": "Potter"
+          }
+        ]
+      },
+      {
+        "text": "holla My name is Steven",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PERSON",
+            "start": 17,
+            "value": "Steven"
+          }
+        ]
+      },
+      {
+        "text": "good morning I am nick",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "PERSON",
+            "start": 18,
+            "value": "nick"
+          }
+        ]
+      },
+      {
+        "text": "bonjour My name is john PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "PERSON",
+            "start": 19,
+            "value": "john"
+          }
+        ]
+      },
+      {
+        "text": "guten tag rachel here",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "PERSON",
+            "start": 10,
+            "value": "rachel"
+          }
+        ]
+      },
+      {
+        "text": "holla I am nick PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "PERSON",
+            "start": 11,
+            "value": "nick"
+          }
+        ]
+      }
+    ]
+  }
+}
