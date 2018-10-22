@@ -74,3 +74,12 @@
 * Reponse by bot: Outputs result of query 
 
 ```
+
+### Conversation 4 (search information of node based on string matching (user don't have to include complete name) )
+
+```
+* User: show me details of remote component node
+* Reponse by bot: Outputs information of all nodes that starts with **remote component**
+
+
+```
