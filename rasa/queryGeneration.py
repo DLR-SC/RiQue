@@ -1,7 +1,7 @@
 import pypher
 
-from pypher import Pypher, __
-from pypher.builder import Param
+# from pypher import __
+from pypher.builder import Param, Pypher
 from neo4j.v1 import GraphDatabase
 from train_rasa_module import TrainBot
 from rasa_core.interpreter import RasaNLUInterpreter
@@ -52,10 +52,20 @@ class GenerateQuery:
     def getSimpleQuery(self, extracted_intent, extracted_value, query, query_result, params):
 
 
-        self.pypherObject.Match.node('u', labels=extracted_intent).WHERE.u.property('name') == extracted_value
+        # value = '.*' + str(extracted_value) + ''
+        # self.pypherObject.Match.node('u', labels=extracted_intent).WHERE.u.property('name') == extracted_value
+        # print ("extracted value ", extracted_value)
+        # p = Pypher()
+        # p.MATCH.node('n').where.n.__name__.CONTAINS(Param('per_param', 'per')).RETURN.n
+        # print (str(p))
+        self.pypherObject.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', extracted_value))
+        
+
         query = str(self.pypherObject.RETURN.u)
         params = self.pypherObject.bound_params
 
+        print (query)
+        print ("params \n ", params)
 
         with self.driver.session() as  session:
                 result = session.run(str(self.pypherObject), **dict(params))

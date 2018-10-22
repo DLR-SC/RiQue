@@ -22,7 +22,7 @@ class TrainBot:
 
 	def __init__(self):
 
-		self.training_data_nlu = "./nlu.json"
+		self.training_data_nlu = "./training_dataset.json"
 		self.conf_path_nlu = "./nlu_config.yml"
 		self.training_data_core = './stories.md'
 		self.model_path_core = './models/dialogue'
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 		agent.train(
 				data,
 				augmentation_factor = 50,
-				epochs = 45,
+				epochs = 40,
 				batch_size = 10,
 				validation_split = 0.2)
 				

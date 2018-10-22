@@ -309,3 +309,40 @@ class showNodeInformation(Action):
 
       return []
 
+'''
+count nodes
+'''
+
+class countNodes(Action):
+  
+    def name(self):
+
+          return "action_count_nodes"
+
+    def run(self, dispatcher, tracker, domain):
+
+      dispatcher.utter_message("count the nodes information ")
+
+      recent_message = (tracker.latest_message)['text']
+
+      if tracker.get_slot('countNodes'):
+
+          # gQuery = GenerateQuery(recent_message)
+          # parse_msg = gQuery.predictIntentionAndEntity()
+          
+          # [query, params, result] = gQuery.convertTextToQuery()
+          # dispatcher.utter_message("===== Query =====")
+          # dispatcher.utter_message(query)
+          # dispatcher.utter_message("=== query params =====")
+          # dispatcher.utter_message(str(params))
+          # dispatcher.utter_message("===== result =====")
+          # dispatcher.utter_message(str(result))
+
+
+          dispatcher.utter_message("countNodes slot got filled and action show node information executed")
+
+      else:
+
+          dispatcher.utter_message("no countNodes slot filled inside action show node information")
+
+      return []
