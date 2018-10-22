@@ -10,5 +10,5 @@ pipeline:
   - name: "ner_crf"
   - name: "ner_spacy"
   - name: "ner_synonyms"
-  - name: "intent_classifier_tensorflow_embedding"
-  # - name: "intent_classifier_sklearn"
+  #- name: "intent_classifier_tensorflow_embedding"
+  - name: "intent_classifier_sklearn"
