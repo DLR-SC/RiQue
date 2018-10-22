@@ -3,6 +3,12 @@
     "action_listen": {
       "slots": []
     },
+    "action_show_exports_in_bundle": {
+      "slots": []
+    },
+    "action_count_nodes": {
+      "slots": []
+    },
     "action_show_node_information": {
       "slots": []
     },
@@ -12,19 +18,13 @@
     "utter_goodbye": {
       "slots": []
     },
-    "action_count_nodes": {
-      "slots": []
-    },
     "action_show_detailed_restaurant_info": {
       "slots": []
     },
-    "utter_greet": {
-      "slots": []
-    },
-    "action_show_exports_in_bundle": {
-      "slots": []
-    },
     "utter_how_can_i_help_you": {
+      "slots": []
+    },
+    "utter_greet": {
       "slots": []
     }
   },

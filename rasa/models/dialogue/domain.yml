@@ -62,9 +62,6 @@ slots:
   bundles:
     initial_value: null
     type: rasa_core.slots.TextSlot
-  countNodes:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
   eTypes:
     initial_value: null
     type: rasa_core.slots.TextSlot

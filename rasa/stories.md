@@ -33,10 +33,6 @@
 * showExportsInBundle
   - action_show_exports_in_bundle
 
-## detailed service description
-##* showDetailedServiceProjectInfo
-##  - action_show_detailed_service_project_info
-
 ## search for specific node information
 * showNodeInformation
   - action_show_node_information
