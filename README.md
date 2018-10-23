@@ -7,6 +7,7 @@
 * pip3 install python_cypher
 * pip3 install rasa_nlu
 * pip3 install rasa_nlu[spacy]
+* pip3 install rasa_core
 * python -m spacy download en_core_web_md
 * python -m spacy link en_core_web_md en
 * pip3 install rasa_nlu[tensorflow]
