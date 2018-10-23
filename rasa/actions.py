@@ -4,8 +4,7 @@ import pypher
 from pypher import Pypher, __
 from pypher.builder import Param
 from queryGeneration import GenerateQuery
-
-# import logging 
+from rasa_core.events import AllSlotsReset, Restarted
 
 class ActionCheckRestaurants(Action):
 
@@ -118,16 +117,17 @@ class DisplayGeneralQuery(Action):
       failure = None
       if tracker.get_slot('project'):
 
-          gQuery = GenerateQuery(recent_message)
-          parse_msg = gQuery.predictIntentionAndEntity()
+          displayQueryOutput(recent_message, dispatcher)
+          # gQuery = GenerateQuery(recent_message)
+          # parse_msg = gQuery.predictIntentionAndEntity()
           
-          [query, params, result] = gQuery.convertTextToQuery()
-          dispatcher.utter_message("===== Query =====")
-          dispatcher.utter_message(query)
-          dispatcher.utter_message("=== query params =====")
-          dispatcher.utter_message(str(params))
-          dispatcher.utter_message("===== result =====")
-          dispatcher.utter_message(str(result))
+          # [query, params, result] = gQuery.convertTextToQuery()
+          # dispatcher.utter_message("===== Query =====")
+          # dispatcher.utter_message(query)
+          # dispatcher.utter_message("=== query params =====")
+          # dispatcher.utter_message(str(params))
+          # dispatcher.utter_message("===== result =====")
+          # dispatcher.utter_message(str(result))
 
           # print ("parse msg")
 
@@ -163,16 +163,17 @@ class DisplayBundleQuery(Action):
 
       if tracker.get_slot('bundles'):
 
-          gQuery = GenerateQuery(recent_message)
-          parse_msg = gQuery.predictIntentionAndEntity()
+          displayQueryOutput(recent_message, dispatcher)
+          # gQuery = GenerateQuery(recent_message)
+          # parse_msg = gQuery.predictIntentionAndEntity()
           
-          [query, params, result] = gQuery.convertTextToQuery()
-          dispatcher.utter_message("===== Query =====")
-          dispatcher.utter_message(query)
-          dispatcher.utter_message("=== query params =====")
-          dispatcher.utter_message(str(params))
-          dispatcher.utter_message("===== result =====")
-          dispatcher.utter_message(str(result))
+          # [query, params, result] = gQuery.convertTextToQuery()
+          # dispatcher.utter_message("===== Query =====")
+          # dispatcher.utter_message(query)
+          # dispatcher.utter_message("=== query params =====")
+          # dispatcher.utter_message(str(params))
+          # dispatcher.utter_message("===== result =====")
+          # dispatcher.utter_message(str(result))
 
           dispatcher.utter_message("bundles slot found and action bundle executed")
 
@@ -251,10 +252,11 @@ class DisplayExportQuery(Action):
 
       if tracker.get_slot('PackagesExports'):
 
-          gQuery = GenerateQuery(recent_message)
-          parse_msg = gQuery.predictIntentionAndEntity()
+          displayQueryOutput(recent_message, dispatcher)
+          # gQuery = GenerateQuery(recent_message)
+          # parse_msg = gQuery.predictIntentionAndEntity()
           
-          [query, params, result] = gQuery.convertTextToQuery(bundle_slot)
+          # [query, params, result] = gQuery.convertTextToQuery(bundle_slot)
           # dispatcher.utter_message("===== Query =====")
           # dispatcher.utter_message(query)
           # dispatcher.utter_message("=== query params =====")
@@ -287,18 +289,21 @@ class showNodeInformation(Action):
 
       recent_message = (tracker.latest_message)['text']
 
+      print(tracker.current_slot_values())
+
       if tracker.get_slot('node'):
 
-          gQuery = GenerateQuery(recent_message)
-          parse_msg = gQuery.predictIntentionAndEntity()
+          displayQueryOutput(recent_message, dispatcher)
+          # gQuery = GenerateQuery(recent_message)
+          # parse_msg = gQuery.predictIntentionAndEntity()
           
-          [query, params, result] = gQuery.convertTextToQuery()
-          dispatcher.utter_message("===== Query =====")
-          dispatcher.utter_message(query)
-          dispatcher.utter_message("=== query params =====")
-          dispatcher.utter_message(str(params))
-          dispatcher.utter_message("===== result =====")
-          dispatcher.utter_message(str(result))
+          # [query, params, result] = gQuery.convertTextToQuery()
+          # dispatcher.utter_message("===== Query =====")
+          # dispatcher.utter_message(query)
+          # dispatcher.utter_message("=== query params =====")
+          # dispatcher.utter_message(str(params))
+          # dispatcher.utter_message("===== result =====")
+          # dispatcher.utter_message(str(result))
 
 
           dispatcher.utter_message("node slot got filled and action show node information executed")
@@ -310,39 +315,131 @@ class showNodeInformation(Action):
       return []
 
 '''
-count nodes
+show nodes
 '''
 
-class countNodes(Action):
+class showAllNodes(Action):
   
     def name(self):
 
-          return "action_count_nodes"
+          return "action_show_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
 
-      dispatcher.utter_message("count the nodes information ")
+      dispatcher.utter_message("show all the nodes information ")
 
       recent_message = (tracker.latest_message)['text']
 
-      if tracker.get_slot('bundles'):
+      dispatcher.utter_message("get current slot values ")
 
-          gQuery = GenerateQuery(recent_message)
-          parse_msg = gQuery.predictIntentionAndEntity()
-          
-          [query, params, result] = gQuery.convertTextToQuery()
-          dispatcher.utter_message("===== Query =====")
-          dispatcher.utter_message(query)
-          dispatcher.utter_message("=== query params =====")
-          dispatcher.utter_message(str(params))
-          dispatcher.utter_message("===== result =====")
-          dispatcher.utter_message(str(result))
+      print(tracker.current_slot_values())
 
+      if tracker.get_slot('packages'):
 
-          dispatcher.utter_message("countNodes slot got filled and action show node information executed")
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('bundles'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('services'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('compilationUnit'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('Methods'):
+
+          displayQueryOutput(recent_message, dispatcher)
 
       else:
 
-          dispatcher.utter_message("no countNodes slot filled inside action show node information")
+          dispatcher.utter_message("no slot filled inside action show all information")
 
       return []
+
+'''
+count all nodes
+'''
+
+class countAllNodes(Action):
+  
+
+    def name(self):
+
+          return "action_count_all_nodes"
+
+
+    def run(self, dispatcher, tracker, domain):
+
+      dispatcher.utter_message("count all nodes")
+
+      recent_message = (tracker.latest_message)['text']
+
+      dispatcher.utter_message("get current slot values ")
+
+      print(tracker.current_slot_values())
+
+      if tracker.get_slot('packages'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('bundles'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('services'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('compilationUnit'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      elif tracker.get_slot('Methods'):
+
+          displayQueryOutput(recent_message, dispatcher)
+
+      else:
+
+          dispatcher.utter_message("no slot filled count all nodes")
+
+      return []
+
+'''
+This class resets the slots
+'''
+
+class ActionRenew(Action):
+
+    def name(self):
+      return 'action_renew'
+
+
+    def run(self, dispatcher, tracker, domain):
+
+      return_slots = []
+
+      for slot in tracker.slots:
+        if slot != 'foo':
+          return_slots.append(SlotSet(slot, None))
+
+      return return_slots
+
+
+def displayQueryOutput(recent_message, dispatcher, bundle_slot=None):
+
+  gQuery = GenerateQuery(recent_message)
+
+  parse_msg = gQuery.predictIntentionAndEntity()
+  
+  [query, params, result] = gQuery.convertTextToQuery(bundle_slot)
+  dispatcher.utter_message("===== Query =====")
+  dispatcher.utter_message(query)
+  dispatcher.utter_message("=== query params =====")
+  dispatcher.utter_message(str(params))
+  dispatcher.utter_message("===== result =====")
+  dispatcher.utter_message(str(result))
+
