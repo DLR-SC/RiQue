@@ -8,6 +8,8 @@ slots:
   bundles:
     type: text
 
+  packages:
+    type: text
 
   services:
    type: text
@@ -30,7 +32,12 @@ slots:
   node:
     type: text
 
+  compilationUnit:
+    type: text
 
+  Methods:
+    type: text
+    
 entities:
 
   - GPE
@@ -44,6 +51,8 @@ entities:
   - PackagesImports
   - PackagesExports
   - node
+  - compilationUnit
+  - Methods
 
 intents:
 
@@ -54,10 +63,12 @@ intents:
   - showDetailedRestaurantInfo
   - showDetailedBundleProjectInfo
   - showNodeInformation
-  - countNodes
+  - showAllNodes
   - my_name_is
+  - countAllNodes
 
 actions:
+
 - utter_greet
 - utter_goodbye
 - utter_happy
@@ -69,9 +80,12 @@ actions:
 - action_show_exports_in_bundle
 - utter_how_can_i_help_you
 - action_show_node_information
-- action_count_nodes
+- action_show_all_nodes
+- action_count_all_nodes
+- action_renew
 
 templates:
+
   utter_greet:
   - text: "Hey! How can I help you?"
 

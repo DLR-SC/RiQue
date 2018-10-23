@@ -36,7 +36,14 @@
 ## search for specific node information
 * showNodeInformation
   - action_show_node_information
+  - action_renew
 
-## count nodes
-* countNodes
-  - action_count_nodes
+## show all nodes e.g packages/bundles
+* showAllNodes
+  - action_show_all_nodes
+  - action_renew
+
+## count all nodes e.g packages/bundles
+* countAllNodes
+  - action_count_all_nodes
+  - action_renew
