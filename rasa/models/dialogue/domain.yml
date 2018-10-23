@@ -12,7 +12,9 @@ actions:
 - action_show_exports_in_bundle
 - utter_how_can_i_help_you
 - action_show_node_information
-- action_count_nodes
+- action_show_all_nodes
+- action_count_all_nodes
+- action_renew
 config:
   store_entities_as_slots: true
 entities:
@@ -27,6 +29,8 @@ entities:
 - PackagesImports
 - PackagesExports
 - node
+- compilationUnit
+- Methods
 intents:
 - greet:
     use_entities: true
@@ -42,12 +46,17 @@ intents:
     use_entities: true
 - showNodeInformation:
     use_entities: true
-- countNodes:
+- showAllNodes:
     use_entities: true
 - my_name_is:
     use_entities: true
+- countAllNodes:
+    use_entities: true
 slots:
   GPE:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  Methods:
     initial_value: null
     type: rasa_core.slots.TextSlot
   PERSON:
@@ -62,10 +71,16 @@ slots:
   bundles:
     initial_value: null
     type: rasa_core.slots.TextSlot
+  compilationUnit:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   eTypes:
     initial_value: null
     type: rasa_core.slots.TextSlot
   node:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  packages:
     initial_value: null
     type: rasa_core.slots.TextSlot
   project:

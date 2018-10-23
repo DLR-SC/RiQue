@@ -3,28 +3,25 @@
     "action_listen": {
       "slots": []
     },
-    "action_show_exports_in_bundle": {
+    "utter_how_can_i_help_you": {
       "slots": []
     },
-    "action_count_nodes": {
+    "action_renew": {
       "slots": []
     },
-    "action_show_node_information": {
-      "slots": []
-    },
-    "action_give_project_information": {
-      "slots": []
-    },
-    "utter_goodbye": {
+    "utter_greet": {
       "slots": []
     },
     "action_show_detailed_restaurant_info": {
       "slots": []
     },
-    "utter_how_can_i_help_you": {
+    "action_show_exports_in_bundle": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_give_project_information": {
       "slots": []
     }
   },
