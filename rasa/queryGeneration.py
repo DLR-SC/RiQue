@@ -1,6 +1,6 @@
 import pypher
 
-# from pypher import __
+from pypher import __
 from pypher.builder import Param, Pypher
 from neo4j.v1 import GraphDatabase
 from train_rasa_module import TrainBot
@@ -55,20 +55,35 @@ class GenerateQuery:
         # self.pypherObject.Match.node('u', labels=extracted_intent).WHERE.u.property('name') == extracted_value
         if extracted_intent == 'showNodeInformation':
             self.pypherObject.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', extracted_value))
+            query = str(self.pypherObject.RETURN.u)
+            params = self.pypherObject.bound_params
 
-        elif extracted_intent == 'countNodes':
+
+        elif extracted_intent == 'showAllNodes':
             self.pypherObject.Match.node('u', labels=extracted_entites)
+            query = str(self.pypherObject.RETURN.u)
+            params = self.pypherObject.bound_params
+
+        elif extracted_intent == 'countAllNodes':
+            self.pypherObject.Match.node('u', labels=extracted_entites)
+            # self.pypherObject.Match.node('u', labels=extracted_entites).where.u.__name__.COUNT(Param('per_param', 'u'))
+
+
+            self.pypherObject.RETURN(__.count('u'))
+            query = str(self.pypherObject)
+            params = self.pypherObject.bound_params
+            # cprint(p)
 
         else:
             self.pypherObject.Match.node('u', labels=extracted_entites).WHERE.u.property('name') == extracted_value
+            query = str(self.pypherObject.RETURN.u)
+            params = self.pypherObject.bound_params
 
-        query = str(self.pypherObject.RETURN.u)
-        params = self.pypherObject.bound_params
 
         print (query)
         print ("params \n ", params)
 
-        with self.driver.session() as  session:
+        with self.driver.session() as session:
                 result = session.run(str(self.pypherObject), **dict(params))
 
                 # session.close()
@@ -102,10 +117,17 @@ class GenerateQuery:
 
             [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
   
-        elif self.extracted_intents =='countNodes':
+        # show all nodes such as packages/bundles
+        elif self.extracted_intents =='showAllNodes':
 
             [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
-                      
+             
+        # count all nodes such as packages/bundles
+        elif self.extracted_intents == 'countAllNodes':
+
+            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
+
+
         # exports inside bundles
         elif self.extracted_intents == 'showExportsInBundle':
 
