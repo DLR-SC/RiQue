@@ -1,0 +1,20 @@
+{
+    "intent_errors": [
+        {
+            "text": "good evening search info of burger king restaurant",
+            "intent": "showDetailedRestaurantInfo",
+            "intent_prediction": {
+                "name": "showNodeInformation",
+                "confidence": 0.48255507618362886
+            }
+        },
+        {
+            "text": "guten tag",
+            "intent": "greet",
+            "intent_prediction": {
+                "name": "showNodeInformation",
+                "confidence": 0.27823775162932957
+            }
+        }
+    ]
+}
