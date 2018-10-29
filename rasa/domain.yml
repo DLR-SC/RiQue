@@ -19,6 +19,7 @@ slots:
 
   project:
    type: text
+   initial_value: 'remote component environment'
 
   PackagesImports:
     type: text
