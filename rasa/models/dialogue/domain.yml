@@ -84,7 +84,7 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
   project:
-    initial_value: null
+    initial_value: remote component environment
     type: rasa_core.slots.TextSlot
   restaurant:
     initial_value: null
