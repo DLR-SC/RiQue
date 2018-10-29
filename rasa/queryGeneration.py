@@ -131,9 +131,6 @@ class GenerateQuery:
         # exports inside bundles
         elif self.extracted_intents == 'showExportsInBundle':
 
-
-            print ("*********** show exports in bundle **************")
-            print ("bundle slot value ", bundle_slot)
             self.pypherObject.Match.node('u', labels='bundles').relationship('r').node('b', labels='PackagesExports')
             query = str(self.pypherObject.RETURN('u','b', 'r'))
             params = self.pypherObject.bound_params
