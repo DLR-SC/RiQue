@@ -115,6 +115,8 @@ class DisplayGeneralQuery(Action):
 
       result = None
       failure = None
+      dispatcher.utter_message("project slot value")
+      dispatcher.utter_message(tracker.get_slot('project'))
       if tracker.get_slot('project'):
 
           displayQueryOutput(recent_message, dispatcher)
