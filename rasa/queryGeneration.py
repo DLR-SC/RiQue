@@ -18,7 +18,7 @@ class GenerateQuery:
 
         # self.interpret = interpreter
         self.extracted_intents = None
-        self.extracted_entities = None
+        
         self.extracted_values = None # entities values
         self.prediction = None
         self.pypherObject = Pypher()
@@ -30,15 +30,19 @@ class GenerateQuery:
         
 
         self.prediction = self.interpret.parse(self.sentence)
+        print ("length of entities ", len(self.prediction.get("entities")))
         
         if len(self.prediction.get("entities")) > 0:
-            
+            self.extracted_entities = None
             self.extracted_entities = self.prediction.get("entities")[0]['entity']
             self.extracted_values = self.prediction.get("entities")[0]['value']
-            self.start_position = self.prediction.get("entities")[0]['start']
-            self.end_position = self.prediction.get("entities")[0]['end']
             
-
+        if len(self.prediction.get("entities")) > 1:
+            self.extracted_entities = dict()
+            self.extracted_entities = \
+                {self.prediction.get("entities")[entity]['entity']: self.prediction.get("entities")[entity]['value'] 
+                        for entity in range(len(self.prediction.get("entities")))}
+            
         self.extracted_intents = self.prediction.get("intent")['name']
 
         print ("Intent: ", self.extracted_intents)
@@ -72,7 +76,34 @@ class GenerateQuery:
             self.pypherObject.RETURN(__.count('u'))
             query = str(self.pypherObject)
             params = self.pypherObject.bound_params
-            # cprint(p)
+            
+        elif extracted_intent == 'showDetailInfoBundles':
+
+            print ("extracted_entites ", self.extracted_entities)
+            bundle_name = None
+            key_value = None
+            for key, value in self.extracted_entities.items():
+
+                if key == 'BundlesName':
+                    bundle_name = value
+                elif key == 'Imports' or key == 'Exports':
+                    key_value = value
+                elif key == 'packages':
+                    key_value = 'uses_pkgs'
+                elif key == 'components':
+                    key_value = 'uses_components'
+                elif key == 'compilationUnit':
+                    key_value = 'compiled_By'
+
+            if key_value == 'compiled_By':
+                self.pypherObject.Match.node('u', labels='bundles').relationship('f', labels="Pkg_fragment").node('n').relationship('c', labels="compiled_By").node("m")
+
+            else:
+                self.pypherObject.Match.node('u', labels='bundles').relationship('r', labels=key_value).node('m')
+
+            self.pypherObject.WHERE(__.u.__name__ == bundle_name)
+            query = str(self.pypherObject.RETURN('u', 'm'))
+            params = self.pypherObject.bound_params
 
         else:
             self.pypherObject.Match.node('u', labels=extracted_entites).WHERE.u.property('name') == extracted_value
@@ -80,14 +111,9 @@ class GenerateQuery:
             params = self.pypherObject.bound_params
 
 
-        print (query)
-        print ("params \n ", params)
-
         with self.driver.session() as session:
                 result = session.run(str(self.pypherObject), **dict(params))
 
-                # session.close()
-                # result = session.run(str(p))
                 print ("\n ========= result from neo4j ============ \n")
                 query_result = result.data()
 
@@ -101,14 +127,15 @@ class GenerateQuery:
         query_result = None
         params = None
 
+        print (" self.extracted_intents ", self.extracted_intents)
+        
         if self.extracted_intents == 'showProjectInformation':
             
             [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
             
 
         # this does not include show all bundles condition
-        elif self.extracted_intents == 'showDetailedBundleProjectInfo':
-
+        elif self.extracted_intents == 'showDetailInfoBundles':
             [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
 
 
@@ -146,7 +173,6 @@ class GenerateQuery:
                 print ("\n ========= result from neo4j ============ \n")
 
                 query_result = result.data()
-                # print (query_result)
 
 
         else:
