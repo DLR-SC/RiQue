@@ -46,29 +46,14 @@ For easier installation, clone this repository and execute: ```pip install -r re
 ## General Conversation Examples
 
 ### Conversation 1
-  
-```
-* User: Hi
-* Response by bot: Hey, How can I help you? 
-* Possible question by User:  I am looking for restaurants in bonn 
-* Response by bot: List of resturants are: pizza hut, kfc, mcdonalds 
-* User :  Give me details of pizza hut 
-* Response by bot:  It is located near HBF 
-* User: Bye
-* Bot response: Bye
-```
-
-### Conversation 2 (Generate queries related to RCE project)
 
 ```
-* User: show me information of rce input provider component gui bundles
+* User: show me information of rce input provider component gui bundle
 * Reponse by bot: Outputs result of query 
 
 ```
 
-* **Note:** Till now queries are only implemented related to bundles
-
-### Conversation 3 (search information of node with name)
+### Conversation 2 (search information of node with name)
 
 ```
 * User: show me details of remote component environment node
@@ -79,7 +64,7 @@ For easier installation, clone this repository and execute: ```pip install -r re
 
 ```
 
-### Conversation 4 (search information of node based on string matching (user don't have to include complete name) )
+### Conversation 3 (search information of node based on string matching (user don't have to include complete name) )
 
 ```
 * User: show me details of remote component node
@@ -88,7 +73,7 @@ For easier installation, clone this repository and execute: ```pip install -r re
 
 ```
 
-### Conversation 5 (Show all the nodes) 
+### Conversation 4 (Show all the nodes) 
 
 ```
 * User: show all the bundles units
@@ -106,7 +91,7 @@ For easier installation, clone this repository and execute: ```pip install -r re
 ```
 
 
-### Conversation 6 (count all the nodes) 
+### Conversation 5 (count all the nodes) 
 
 ```
 * User: give me count of all the bundles units
@@ -120,5 +105,25 @@ For easier installation, clone this repository and execute: ```pip install -r re
 
 * User: give me count of all the services units
 * Response by bot: Outputs count of all services in the project
+
+```
+
+### Conversation 6 (Show information related to specific bundle) 
+
+```
+* User: find imports of rce cluster component gui bundle
+* Response by bot: Outputs imports of rce cluster component gui  bundles in the project
+
+* User: find packages of rce cluster component gui bundle
+* Response by bot: Outputs packages of rce cluster component gui bundle
+
+* User: find components of rce components doe execution bundle
+* Response by bot: Outputs components of rce components doe execution bundle
+
+* User: give compilation units of rce xml loader component gui
+* Response by bot: Outputs compilation units of rce xml loader component gui
+
+* User: show exports of rce components doe execution bundle
+* Response by bot: Outputs exports of rce components doe execution bundle
 
 ```
