@@ -5,3 +5,7 @@ rasa/__pycache__/
 rasa/rasa_core\.log
 
 neo4j/\.ipynb_checkpoints/
+
+rasa_core\.log
+
+rasa/errors\.json
