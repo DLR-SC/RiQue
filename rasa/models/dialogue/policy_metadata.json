@@ -6,22 +6,16 @@
     "action_renew": {
       "slots": []
     },
-    "action_show_exports_in_bundle": {
-      "slots": []
-    },
     "action_give_project_information": {
-      "slots": []
-    },
-    "utter_goodbye": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "action_show_detailed_restaurant_info": {
+    "utter_how_can_i_help_you": {
       "slots": []
     },
-    "utter_how_can_i_help_you": {
+    "utter_goodbye": {
       "slots": []
     }
   },
