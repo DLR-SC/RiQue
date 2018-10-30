@@ -1,10 +1,4 @@
 slots:
-  GPE:
-    type: text
-
-  restaurant:
-    type: text
-
   bundles:
     type: text
 
@@ -21,12 +15,6 @@ slots:
    type: text
    initial_value: 'remote component environment'
 
-  PackagesImports:
-    type: text
-
-  PackagesExports:
-    type: text
-
   PERSON:
     type: text
 
@@ -39,6 +27,11 @@ slots:
   Methods:
     type: text
     
+  # BundlesName slot is to show info for specific bundle
+
+  BundlesName:
+    type: text
+    
 entities:
 
   - GPE
@@ -49,24 +42,24 @@ entities:
   - services
   - packages
   - eTypes
-  - PackagesImports
-  - PackagesExports
   - node
   - compilationUnit
   - Methods
+  - imports
+  - exports 
+  - BundlesName
+  - components
 
 intents:
 
   - greet
   - goodbye
-  - findRestaurantsByCity
   - showProjectInformation
-  - showDetailedRestaurantInfo
-  - showDetailedBundleProjectInfo
   - showNodeInformation
   - showAllNodes
   - my_name_is
   - countAllNodes
+  - showDetailInfoBundles
 
 actions:
 
@@ -74,10 +67,8 @@ actions:
 - utter_goodbye
 - utter_happy
 - utter_my_name_is
-- action_check_restaurants
 - action_give_project_information
-- action_show_detailed_bundle_project_info
-- action_show_detailed_restaurant_info
+- action_show_show_detail_info_bundles
 - action_show_exports_in_bundle
 - utter_how_can_i_help_you
 - action_show_node_information
