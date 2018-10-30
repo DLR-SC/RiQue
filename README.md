@@ -16,6 +16,9 @@
 * * Stop neo4j server using ```sudo service neo4j stop```
 * * To restart neo4j server ```sudo service neo4j restart```
 
+## Installation
+
+For easier installation, clone this repository and execute: ```pip install -r requirements.txt```
 ## Steps
 
 * First convert json to neo4j by executing ```neo4j/JsonToNeo4j.ipynb``` (Remember to start the neo4j server and configure it)
