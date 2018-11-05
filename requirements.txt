@@ -1,10 +1,10 @@
 -r requirements_spacy_sklearn.txt
 
-neo4j_driver>=1.6.1
+ipython==6.4.0
+jupyter-console==5.2.0
 rasa_nlu~=0.13.2
 rasa_core==0.11.7
 rasa_core_sdk~=0.11.3
 python_cypher==0.14.2
-neo4j==1.7.0
-pypher==0.6.4
+py2neo>=4.1.0
 ruamel.base==1.0.0

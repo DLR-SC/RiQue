@@ -18,7 +18,7 @@
 
 ## Installation
 
-For easier installation, clone this repository and execute: ```pip install -r requirements.txt```
+For easier installation, clone this repository, create new python 3 environment and execute: ```pip install -r requirements.txt```
 ## Steps
 
 * First convert json to neo4j by executing ```neo4j/JsonToNeo4j.ipynb``` (Remember to start the neo4j server and configure it)
