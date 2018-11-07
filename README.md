@@ -39,7 +39,6 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 * ```stories.md``` tells the bot what actions to take during the dialogue. In other words, it is a training data for the dialogue system 
 * ```actions.py``` has information about custom actions
 * ```endpoints.yml``` defines the action end point using url 
-* ```restaurants.txt``` has list of restaurants, that are fetched by actions
 * ```queryGeneration.py``` helps bot to generate query based on predicted intents and entities
 * ```train_nlu.py``` trains the nlu and stores the model in directory: ```projects/default/default/Neo4jNlu```
 * ```train_rasa_module.py``` trains rasa core and nlu with command line input ```python  train_rasa_module.py 'train-all' ```
