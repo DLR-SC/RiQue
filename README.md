@@ -19,6 +19,8 @@
 ## Installation
 
 For easier installation, clone this repository, create new python 3 environment and execute: ```pip install -r requirements.txt```
+
+To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netlify.com/blog/2016/09/installing-neo4j-on-ubuntu-16.04/)
 ## Steps
 
 * First convert json to neo4j by executing ```neo4j/JsonToNeo4j.ipynb``` (Remember to start the neo4j server and configure it)
