@@ -12,10 +12,10 @@
     "utter_greet": {
       "slots": []
     },
-    "utter_how_can_i_help_you": {
+    "utter_goodbye": {
       "slots": []
     },
-    "utter_goodbye": {
+    "utter_how_can_i_help_you": {
       "slots": []
     }
   },
