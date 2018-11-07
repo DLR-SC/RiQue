@@ -46,15 +46,8 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 ## General Conversation Examples
 
-### Conversation 1
 
-```
-* User: show me information of rce input provider component gui bundle
-* Reponse by bot: Outputs result of query 
-
-```
-
-### Conversation 2 (search information of node with name)
+### Conversation 1 (search information of node with name)
 
 ```
 * User: show me details of remote component environment node
@@ -65,7 +58,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 ```
 
-### Conversation 3 (search information of node based on string matching (user don't have to include complete name) )
+### Conversation 2 (search information of node based on string matching (user don't have to include complete name) )
 
 ```
 * User: show me details of remote component node
@@ -74,7 +67,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 ```
 
-### Conversation 4 (Show all the nodes) 
+### Conversation 3 (Show all the nodes) 
 
 ```
 * User: show all the bundles units
@@ -92,7 +85,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 ```
 
 
-### Conversation 5 (count all the nodes) 
+### Conversation 4 (count all the nodes) 
 
 ```
 * User: give me count of all the bundles units
@@ -109,7 +102,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 ```
 
-### Conversation 6 (Show information related to specific bundle) 
+### Conversation 5 (Show information related to specific bundle) 
 
 ```
 * User: find imports of rce cluster component gui bundle
@@ -129,7 +122,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 ```
 
-### Conversation 7 (Show methods of specific bundle) 
+### Conversation 6 (Show methods of specific bundle) 
 
 ```
 * User: find methods of rce cluster component gui bundle
