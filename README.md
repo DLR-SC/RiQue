@@ -129,3 +129,18 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 * Response by bot: Outputs exports of rce components doe execution bundle
 
 ```
+
+### Conversation 7 (Show methods of specific bundle) 
+
+```
+* User: find methods of rce cluster component gui bundle
+* Response by bot: Outputs methods name 
+
+* User: show methods of rce xml loader component gui bundle
+* Response by bot: Outputs methods name 
+
+* User: give methods of rce components doe execution bundle
+* Response by bot: Outputs methods name 
+
+```
+
