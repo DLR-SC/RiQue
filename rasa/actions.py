@@ -3,8 +3,10 @@ from rasa_core_sdk.events import SlotSet
 import pypher
 from pypher import Pypher, __
 from pypher.builder import Param
-from queryGeneration import GenerateQuery
+from utils import Utility
 from rasa_core.events import AllSlotsReset, Restarted
+
+util = Utility()
 
 class DisplayGeneralQuery(Action):
 
@@ -28,7 +30,7 @@ class DisplayGeneralQuery(Action):
 
       if tracker.get_slot('project'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
           dispatcher.utter_message("project info being uttered ..")
 
@@ -61,7 +63,7 @@ class DisplayBundleDetailedQuery(Action):
           dispatcher.utter_message("Slot value ")
           dispatcher.utter_message(tracker.get_slot('BundlesName'))
           
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
           dispatcher.utter_message("bundles slot found and action bundle executed")
 
@@ -70,37 +72,6 @@ class DisplayBundleDetailedQuery(Action):
 
       return []
 
-
-
-class DisplayServiceQuery(Action):
-
-
-    def name(self):
-
-      return "action_show_detailed_service_project_info"
-
-    def run(self, dispatcher, tracker, domain):
-      # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
-
-    # tracker.get_slot('city')[bool(tracker.get_slot('city'))] 
-      dispatcher.utter_message("action give **detailed** project info being called ")
-
-      recent_message = (tracker.latest_message)['text']
-
-      dispatcher.utter_message(" ==== current state of tracker ======")
-      # dispatcher.utter_message(tracker.current_state)
-
-      result = None
-      failure = None
-
-      if tracker.get_slot('service'):
-
-          dispatcher.utter_message("service slot found and action service executed")
-      else:
-
-          dispatcher.utter_message("no service slot filled inside detailed service project action")
-
-      return []
 
 '''
 Exports lies inside bundle 
@@ -129,7 +100,7 @@ class DisplayExportQuery(Action):
 
       if tracker.get_slot('PackagesExports'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
           dispatcher.utter_message("bundles slot found and action bundle executed")
 
       else:
@@ -158,7 +129,7 @@ class showNodeInformation(Action):
 
       if tracker.get_slot('node'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
           dispatcher.utter_message("node slot got filled and action show node information executed")
 
       else:
@@ -189,23 +160,23 @@ class showAllNodes(Action):
 
       if tracker.get_slot('packages'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('bundles'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('services'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('compilationUnit'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('Methods'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       else:
 
@@ -237,23 +208,23 @@ class countAllNodes(Action):
 
       if tracker.get_slot('packages'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('bundles'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('services'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('compilationUnit'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       elif tracker.get_slot('Methods'):
 
-          displayQueryOutput(recent_message, dispatcher)
+          util.displayQueryOutput(recent_message, dispatcher)
 
       else:
 
@@ -282,16 +253,16 @@ class ActionRenew(Action):
       return return_slots
 
 
-def displayQueryOutput(recent_message, dispatcher, bundle_slot=None):
+# def displayQueryOutput(recent_message, dispatcher, bundle_slot=None):
 
-  gQuery = GenerateQuery(recent_message)
+#   gQuery = GenerateQuery(recent_message)
 
-  parse_msg = gQuery.predictIntentionAndEntity()
+#   parse_msg = gQuery.predictIntentionAndEntity()
   
-  [query, params, result] = gQuery.convertTextToQuery(bundle_slot)
-  dispatcher.utter_message("===== Query =====")
-  dispatcher.utter_message(query)
-  dispatcher.utter_message("=== query params =====")
-  dispatcher.utter_message(str(params))
-  dispatcher.utter_message("===== result =====")
-  dispatcher.utter_message(str(result))
+#   [query, params, result] = gQuery.convertTextToQuery(bundle_slot)
+#   dispatcher.utter_message("===== Query =====")
+#   dispatcher.utter_message(query)
+#   dispatcher.utter_message("=== query params =====")
+#   dispatcher.utter_message(str(params))
+#   dispatcher.utter_message("===== result =====")
+#   dispatcher.utter_message(str(result))
