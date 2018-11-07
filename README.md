@@ -25,7 +25,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 * First convert json to neo4j by executing ```neo4j/JsonToNeo4j.ipynb``` (Remember to start the neo4j server and configure it)
 * In one terminal: Run ``` python  train_rasa_module.py 'train-all' ``` to train and save the rasa nlu and core models
-   **If models are already saved, then you this step is optional**
+   **If models are already saved, then this step is optional**
 * In second terminal: Run action server using ``` python -m rasa_core_sdk.endpoint --actions actions ```
 * In third terminal: Pass user messages and end points to rasa core using:
     ``` python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml ```
