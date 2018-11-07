@@ -94,15 +94,23 @@ class GenerateQuery:
                     key_value = 'uses_components'
                 elif key == 'compilationUnit':
                     key_value = 'compiled_By'
+                elif key == 'Methods':
+                    key_value = 'Methods_Contains'
 
             if key_value == 'compiled_By':
                 self.pypherObject.Match.node('u', labels='bundles').relationship('f', labels="Pkg_fragment").node('n').relationship('c', labels="compiled_By").node("m")
-
+            
+            elif key_value == 'Methods_Contains':
+                self.pypherObject.Match.node('u', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k').relationship('kl', labels='compiled_By').node('n').relationship('r', labels = 'compiledUnits_topLevelType').node('nl').relationship('rl', labels = 'Methods_Contains').node('m')
+                # query = str(self.pypherObject.RETURN('u', 'otherNodes'))
+                # params = self.pypherObject.bound_params
+            
             else:
                 self.pypherObject.Match.node('u', labels='bundles').relationship('r', labels=key_value).node('m')
 
             self.pypherObject.WHERE(__.u.__name__ == bundle_name)
-            query = str(self.pypherObject.RETURN('u', 'm'))
+            # query = str(self.pypherObject.RETURN('u.name', 'm.name'))
+            query = str(self.pypherObject.RETURN('m.name'))
             params = self.pypherObject.bound_params
 
         else:
