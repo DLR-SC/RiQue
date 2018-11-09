@@ -34,7 +34,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 ## Files Details
 
 * ```nlu.json``` contains the training data for rasa nlu part
-* ```nlu.config``` contains the configuration files of rasa nlu
+* ```nlu_config.yml``` contains the configuration files of rasa nlu
 * ```domain.yml``` defines the templates, intents, actions for the bot. These are used by rasa core
 * ```stories.md``` tells the bot what actions to take during the dialogue. In other words, it is a training data for the dialogue system 
 * ```actions.py``` has information about custom actions
