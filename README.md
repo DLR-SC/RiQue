@@ -120,16 +120,21 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 ```
 
-### Conversation 8 (Show largest Compilation Unit based on code lines) 
+### Conversation 8 (Show largest Compilation Unit  in bundle based on code lines) 
 
 ```
 * User: find bundle with largest compilation unit
 * Response by bot: Outputs bundle name with number of lines of code
+
+* User: find largest compilation unit in rce cluster component gui bundle 
+* Response by bot: Outputs bundle largest compilation unit in this bundle
+
 
 * User: show largest compilation unit
 * Response by bot: Outputs bundle name with number of lines of code
 
 * User: give compilation unit with highest lines of code
 * Response by bot: Outputs methods name 
+
 
 ```
