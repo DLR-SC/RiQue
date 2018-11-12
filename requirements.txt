@@ -1,5 +1,8 @@
--r requirements_spacy_sklearn.txt
-
+spacy==2.0.11
+scikit-learn==0.19.1
+scipy==1.1.0
+sklearn-crfsuite==0.3.6
+tensorflow~=1.10.0
 ipython==6.4.0
 jupyter-console==5.2.0
 rasa_nlu~=0.13.2
