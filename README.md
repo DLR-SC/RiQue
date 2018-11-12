@@ -1,20 +1,5 @@
 # Island-Voiz
 
-## Dependencies 
-
-* raumel.yaml (pip3 install ruamel.yaml)
-* py2neo (conda install -c conda-forge py2neo)
-* pip3 install python_cypher
-* pip3 install rasa_nlu
-* pip3 install rasa_nlu[spacy]
-* pip3 install rasa_core
-* python -m spacy download en_core_web_md
-* python -m spacy link en_core_web_md en
-* pip3 install rasa_nlu[tensorflow]
-* [Install neo4j ubuntu 16.04](https://datawookie.netlify.com/blog/2016/09/installing-neo4j-on-ubuntu-16.04/)
-* * Start neo4j server using ```sudo service neo4j start```
-* * Stop neo4j server using ```sudo service neo4j stop```
-* * To restart neo4j server ```sudo service neo4j restart```
 
 ## Installation
 
@@ -31,18 +16,6 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
     ``` python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml ```
 * Now you can pass the messages to the bot and wait for the responses 
 
-## Files Details
-
-* ```nlu.json``` contains the training data for rasa nlu part
-* ```nlu_config.yml``` contains the configuration files of rasa nlu
-* ```domain.yml``` defines the templates, intents, actions for the bot. These are used by rasa core
-* ```stories.md``` tells the bot what actions to take during the dialogue. In other words, it is a training data for the dialogue system 
-* ```actions.py``` has information about custom actions
-* ```endpoints.yml``` defines the action end point using url 
-* ```queryGeneration.py``` helps bot to generate query based on predicted intents and entities
-* ```train_nlu.py``` trains the nlu and stores the model in directory: ```projects/default/default/Neo4jNlu```
-* ```train_rasa_module.py``` trains rasa core and nlu with command line input ```python  train_rasa_module.py 'train-all' ```
-     and saves the trained model. Rasa core model is saved in ```models/dialogue```
 
 ## General Conversation Examples
 
