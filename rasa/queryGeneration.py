@@ -12,11 +12,10 @@ class GenerateQuery:
     
     def __init__(self, sentence):
         
-        # self.interpret = Interpreter.load(train.model_directory)
         self.trainedBot = TrainBot()
         self.interpret = RasaNLUInterpreter(self.trainedBot.model_path_nlu)
 
-        # self.interpret = interpreter
+
         self.extracted_intents = None
         
         self.extracted_values = None # entities values
@@ -26,6 +25,7 @@ class GenerateQuery:
         self.driver = GraphDatabase.driver(self.uri, auth=("neo4j", "123456"))
         self.sentence = sentence
         
+
     def predictIntentionAndEntity(self):
         
 
@@ -45,10 +45,6 @@ class GenerateQuery:
             
         self.extracted_intents = self.prediction.get("intent")['name']
 
-        # print ("Intent: ", self.extracted_intents)
-        # print ("entity type: ", self.extracted_entities)
-        # print ("entity value: ", self.extracted_values)
-        # print ("=======================================")
         print(json.dumps(self.prediction, indent=2))
 
         return self.prediction
@@ -159,7 +155,7 @@ class GenerateQuery:
         query_result = None
         params = None
 
-        print (" self.extracted_intents ", self.extracted_intents)
+        # print (" self.extracted_intents ", self.extracted_intents)
         
         [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params, bundle_slot) 
 
