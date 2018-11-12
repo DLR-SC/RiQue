@@ -15,7 +15,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 * In second terminal: Run action server using ``` python -m rasa_core_sdk.endpoint --actions actions ```
 * In third terminal: Pass user messages and end points to rasa core using:
     ``` python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml ```
-* Now you can pass the messages to the bot and wait for the responses 
+* Now you can pass the messages as [shown here](https://github.com/Pseipel/Island-Voiz#general-conversation-examples) to the bot and wait for the responses 
 
 ## Information about how sentences are converted to Neo4j query can be found here: ![SentenceToQuery](https://github.com/Pseipel/Island-Voiz/tree/master/SentenceToQuery)
 
