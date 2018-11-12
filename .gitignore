@@ -13,3 +13,11 @@ rasa/errors\.json
 rasa/models/dialogue/
 
 rasa/projects/default/default/Neo4jNlu/
+
+SentenceToQuery/__pycache__/
+
+SentenceToQuery/projects/default/default/Neo4jNlu/
+
+SentenceToQuery/models/dialogue/
+
+SentenceToQuery/errors\.json
