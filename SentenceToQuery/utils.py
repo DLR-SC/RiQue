@@ -2,8 +2,6 @@ from queryGeneration import GenerateQuery
 
 class Utility:
 
-	def __init__(self):
-
 	def getQuery(self,recent_message, dispatcher, bundle_slot=None):
 
 		gQuery = GenerateQuery(recent_message)
