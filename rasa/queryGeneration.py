@@ -31,9 +31,9 @@ class GenerateQuery:
 
         self.prediction = self.interpret.parse(self.sentence)
         print ("length of entities ", len(self.prediction.get("entities")))
-        
+        self.extracted_entities = None
         if len(self.prediction.get("entities")) > 0:
-            self.extracted_entities = None
+            # self.extracted_entities = None
             self.extracted_entities = self.prediction.get("entities")[0]['entity']
             self.extracted_values = self.prediction.get("entities")[0]['value']
             
@@ -45,15 +45,15 @@ class GenerateQuery:
             
         self.extracted_intents = self.prediction.get("intent")['name']
 
-        print ("Intent: ", self.extracted_intents)
-        print ("entity type: ", self.extracted_entities)
-        print ("entity value: ", self.extracted_values)
-        print ("=======================================")
+        # print ("Intent: ", self.extracted_intents)
+        # print ("entity type: ", self.extracted_entities)
+        # print ("entity value: ", self.extracted_values)
+        # print ("=======================================")
         print(json.dumps(self.prediction, indent=2))
 
         return self.prediction
     
-    def getSimpleQuery(self, extracted_entites, extracted_intent, extracted_value, query, query_result, params):
+    def getSimpleQuery(self, extracted_entites, extracted_intent, extracted_value, query, query_result, params, bundle_slot=None):
 
 
         # self.pypherObject.Match.node('u', labels=extracted_intent).WHERE.u.property('name') == extracted_value
@@ -77,9 +77,22 @@ class GenerateQuery:
             query = str(self.pypherObject)
             params = self.pypherObject.bound_params
             
+        elif extracted_intent == 'showLargestCompilationUnit':
+            self.pypherObject.Match.node('u', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k').relationship('kl', labels='compiled_By').node('m')
+
+            if bundle_slot is not None:
+                self.pypherObject.WHERE(__.u.__name__ == bundle_name)
+            self.pypherObject.RETURN('u.name','m.Loc')
+            self.pypherObject.OrderBy(__.m.__Loc__)
+            self.pypherObject.Desc()
+            self.pypherObject.Limit(1)
+
+            query = str(self.pypherObject)
+            params = self.pypherObject.bound_params
+
         elif extracted_intent == 'showDetailInfoBundles':
 
-            print ("extracted_entites ", self.extracted_entities)
+            # print ("extracted_entites ", self.extracted_entities)
             bundle_name = None
             key_value = None
             for key, value in self.extracted_entities.items():
@@ -97,20 +110,31 @@ class GenerateQuery:
                 elif key == 'Methods':
                     key_value = 'Methods_Contains'
 
+            # this is relation name
             if key_value == 'compiled_By':
+
                 self.pypherObject.Match.node('u', labels='bundles').relationship('f', labels="Pkg_fragment").node('n').relationship('c', labels="compiled_By").node("m")
             
             elif key_value == 'Methods_Contains':
                 self.pypherObject.Match.node('u', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k').relationship('kl', labels='compiled_By').node('n').relationship('r', labels = 'compiledUnits_topLevelType').node('nl').relationship('rl', labels = 'Methods_Contains').node('m')
                 # query = str(self.pypherObject.RETURN('u', 'otherNodes'))
                 # params = self.pypherObject.bound_params
-            
+
             else:
                 self.pypherObject.Match.node('u', labels='bundles').relationship('r', labels=key_value).node('m')
 
             self.pypherObject.WHERE(__.u.__name__ == bundle_name)
+
+            # this can be changed according to req. if we need all info or just names of packages
             # query = str(self.pypherObject.RETURN('u.name', 'm.name'))
-            query = str(self.pypherObject.RETURN('m.name'))
+
+            query = str(self.pypherObject.RETURN('u.name','m.name'))
+            params = self.pypherObject.bound_params
+
+        elif self.extracted_intents == 'showProjectInformation':
+            self.pypherObject.Match.node('u')
+            self.pypherObject.WHERE(__.u.__name__ == bundle_slot)
+            query = str(self.pypherObject.RETURN.u)
             params = self.pypherObject.bound_params
 
         else:
@@ -122,7 +146,7 @@ class GenerateQuery:
         with self.driver.session() as session:
                 result = session.run(str(self.pypherObject), **dict(params))
 
-                print ("\n ========= result from neo4j ============ \n")
+                # print ("\n ========= result from neo4j ============ \n")
                 query_result = result.data()
 
         return [query, params, query_result]
@@ -137,55 +161,10 @@ class GenerateQuery:
 
         print (" self.extracted_intents ", self.extracted_intents)
         
-        if self.extracted_intents == 'showProjectInformation':
-            
-            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
-            
+        [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params, bundle_slot) 
 
-        # this does not include show all bundles condition
-        elif self.extracted_intents == 'showDetailInfoBundles':
-            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
-
-
-        # show specific node information
-        elif self.extracted_intents == 'showNodeInformation':
-
-            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
-  
-        # show all nodes such as packages/bundles
-        elif self.extracted_intents =='showAllNodes':
-
-            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
-             
-        # count all nodes such as packages/bundles
-        elif self.extracted_intents == 'countAllNodes':
-
-            [query, params, query_result] = self.getSimpleQuery(self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params)
-
-
-        # exports inside bundles
-        elif self.extracted_intents == 'showExportsInBundle':
-
-            self.pypherObject.Match.node('u', labels='bundles').relationship('r').node('b', labels='PackagesExports')
-            query = str(self.pypherObject.RETURN('u','b', 'r'))
-            params = self.pypherObject.bound_params
-            print ("\n ========== generated queries ===========")
-            print (query)
-            print (params)
-            # print(json.dumps(self.prediction, indent=2))
-            
-            with self.driver.session() as  session:
-                result = session.run(str(self.pypherObject), **dict(self.pypherObject.bound_params))
-
-
-                print ("\n ========= result from neo4j ============ \n")
-
-                query_result = result.data()
-
-
-        else:
-            print ("\n no Query written regarding this intention")
-            print ("Intent is: \n ", self.extracted_intents)
+        if query == None or params == None or query_result == None:
+            print ("\n no Query written regarding this intention or intent prediction is not valid")      
 
         return [query, params, query_result]
     
