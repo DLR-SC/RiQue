@@ -9,3 +9,7 @@ neo4j/\.ipynb_checkpoints/
 rasa_core\.log
 
 rasa/errors\.json
+
+rasa/models/dialogue/
+
+rasa/projects/default/default/Neo4jNlu/
