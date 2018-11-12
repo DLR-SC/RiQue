@@ -60,6 +60,7 @@ intents:
   - my_name_is
   - countAllNodes
   - showDetailInfoBundles
+  - showLargestCompilationUnit
 
 actions:
 
@@ -74,7 +75,8 @@ actions:
 - action_show_node_information
 - action_show_all_nodes
 - action_count_all_nodes
-- action_renew
+- action_reset
+- action_show_largest_compilationUnit
 
 templates:
 

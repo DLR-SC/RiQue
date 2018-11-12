@@ -19,19 +19,24 @@
 ## bundles information
 * showDetailInfoBundles
   - action_show_show_detail_info_bundles
-  - action_renew
+  - action_reset
   
 ## search for specific node information
 * showNodeInformation
   - action_show_node_information
-  - action_renew
+  - action_reset
 
 ## show all nodes e.g packages/bundles
 * showAllNodes
   - action_show_all_nodes
-  - action_renew
+  - action_reset
 
 ## count all nodes e.g packages/bundles
 * countAllNodes
   - action_count_all_nodes
-  - action_renew
+  - action_reset
+
+## show largest compilation unit
+* showLargestCompilationUnit
+  - action_show_largest_compilationUnit
+  - action_reset
