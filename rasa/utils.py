@@ -2,11 +2,13 @@ from queryGeneration import GenerateQuery
 
 class Utility:
 
-	def displayQueryOutput(self,recent_message, dispatcher, bundle_slot=None):
+	def getQuery(self,recent_message, dispatcher, bundle_slot=None):
 
 		gQuery = GenerateQuery(recent_message)
 		parse_msg = gQuery.predictIntentionAndEntity()
 		[query, params, result] = gQuery.convertTextToQuery(bundle_slot)
+
+
 		dispatcher.utter_message("===== Query =====")
 		dispatcher.utter_message(query)
 		dispatcher.utter_message("=== query params =====")
