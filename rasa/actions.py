@@ -18,19 +18,13 @@ class DisplayGeneralQuery(Action):
     def run(self, dispatcher, tracker, domain):
       # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
-    # tracker.get_slot('city')[bool(tracker.get_slot('city'))] 
       dispatcher.utter_message("action give project info being called ")
 
       recent_message = (tracker.latest_message)['text']
 
-      dispatcher.utter_message(" ==== current state of tracker ======")
-
-      dispatcher.utter_message("project slot value")
-      dispatcher.utter_message(tracker.get_slot('project'))
-
       if tracker.get_slot('project'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher, tracker.get_slot('project'))
 
           dispatcher.utter_message("project info being uttered ..")
 
@@ -51,7 +45,6 @@ class DisplayBundleDetailedQuery(Action):
     def run(self, dispatcher, tracker, domain):
       # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
-    # tracker.get_slot('city')[bool(tracker.get_slot('city'))] 
       dispatcher.utter_message("action show detail info bundle")
 
       recent_message = (tracker.latest_message)['text']
@@ -63,7 +56,7 @@ class DisplayBundleDetailedQuery(Action):
           dispatcher.utter_message("Slot value ")
           dispatcher.utter_message(tracker.get_slot('BundlesName'))
           
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
           dispatcher.utter_message("bundles slot found and action bundle executed")
 
@@ -72,42 +65,38 @@ class DisplayBundleDetailedQuery(Action):
 
       return []
 
+'''
+Get compilation units with highest number of code lines
+'''
 
-'''
-Exports lies inside bundle 
-To execute query regarding exports, we need to know the value of bundles slot
-'''
-class DisplayExportQuery(Action):
+class DisplayLargestCompilationUnit(Action):
+
 
     def name(self):
 
-      return "action_show_exports_in_bundle"
+      return "action_show_largest_compilationUnit"
 
     def run(self, dispatcher, tracker, domain):
       # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
     # tracker.get_slot('city')[bool(tracker.get_slot('city'))] 
-      dispatcher.utter_message("Export Query action ")
+      dispatcher.utter_message("action show largest compilation units")
 
       recent_message = (tracker.latest_message)['text']
 
       # dispatcher.utter_message(tracker.current_state)
 
-      result = None
-      failure = None
-      bundle_slot = tracker.get_slot('bundles')
+      if tracker.get_slot('compilationUnit'):
+          
+          util.getQuery(recent_message, dispatcher, tracker.get_slot('BundlesName'))
 
-
-      if tracker.get_slot('PackagesExports'):
-
-          util.displayQueryOutput(recent_message, dispatcher)
           dispatcher.utter_message("bundles slot found and action bundle executed")
 
       else:
-
-          dispatcher.utter_message("no PackagesExports slot filled inside show exports action")
+          dispatcher.utter_message("compilationUnit is not filled")
 
       return []
+
 
 '''
 Show specific node information
@@ -129,7 +118,7 @@ class showNodeInformation(Action):
 
       if tracker.get_slot('node'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
           dispatcher.utter_message("node slot got filled and action show node information executed")
 
       else:
@@ -160,23 +149,23 @@ class showAllNodes(Action):
 
       if tracker.get_slot('packages'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('bundles'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('services'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('compilationUnit'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('Methods'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       else:
 
@@ -208,23 +197,23 @@ class countAllNodes(Action):
 
       if tracker.get_slot('packages'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('bundles'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('services'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('compilationUnit'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       elif tracker.get_slot('Methods'):
 
-          util.displayQueryOutput(recent_message, dispatcher)
+          util.getQuery(recent_message, dispatcher)
 
       else:
 
@@ -234,12 +223,14 @@ class countAllNodes(Action):
 
 '''
 This class resets the slots
+reset all the slots except project 
+because this slot is not being used for other intents
 '''
 
-class ActionRenew(Action):
+class ActionReset(Action):
 
     def name(self):
-      return 'action_renew'
+      return 'action_reset'
 
 
     def run(self, dispatcher, tracker, domain):
@@ -247,22 +238,7 @@ class ActionRenew(Action):
       return_slots = []
 
       for slot in tracker.slots:
-        if slot != 'foo':
+        if slot != 'project':
           return_slots.append(SlotSet(slot, None))
 
       return return_slots
-
-
-# def displayQueryOutput(recent_message, dispatcher, bundle_slot=None):
-
-#   gQuery = GenerateQuery(recent_message)
-
-#   parse_msg = gQuery.predictIntentionAndEntity()
-  
-#   [query, params, result] = gQuery.convertTextToQuery(bundle_slot)
-#   dispatcher.utter_message("===== Query =====")
-#   dispatcher.utter_message(query)
-#   dispatcher.utter_message("=== query params =====")
-#   dispatcher.utter_message(str(params))
-#   dispatcher.utter_message("===== result =====")
-#   dispatcher.utter_message(str(result))
