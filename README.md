@@ -6,16 +6,18 @@
 For easier installation, clone this repository, create new python 3 environment and execute: ```pip install -r requirements.txt```
 
 To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netlify.com/blog/2016/09/installing-neo4j-on-ubuntu-16.04/)
+
 ## Steps
 
 * First convert json to neo4j by executing ```neo4j/JsonToNeo4j.ipynb``` (Remember to start the neo4j server and configure it)
-* In one terminal: Run ``` python  train_rasa_module.py 'train-all' ``` to train and save the rasa nlu and core models
+* Navigate to SentenceToQuery directory, now in one terminal: Run ``` python  train_rasa_module.py 'train-all' ``` to train and save the rasa nlu and core models
    **If models are already saved, then this step is optional**
 * In second terminal: Run action server using ``` python -m rasa_core_sdk.endpoint --actions actions ```
 * In third terminal: Pass user messages and end points to rasa core using:
     ``` python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml ```
 * Now you can pass the messages to the bot and wait for the responses 
 
+## Information about how sentences are converted to Neo4j query can be found here: ![SentenceToQuery](https://github.com/Pseipel/Island-Voiz/tree/master/SentenceToQuery)
 
 ## General Conversation Examples
 
