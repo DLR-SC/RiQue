@@ -24,9 +24,9 @@ class DisplayGeneralQuery(Action):
 
       if tracker.get_slot('project'):
 
-          util.getQuery(recent_message, dispatcher, tracker.get_slot('project'))
+          util.getQuery(recent_message, dispatcher, tracker.current_slot_values())
 
-          dispatcher.utter_message("project info being uttered ..")
+          # dispatcher.utter_message("project info being uttered ..")
 
       else:
           
@@ -53,12 +53,12 @@ class DisplayBundleDetailedQuery(Action):
 
       if tracker.get_slot('BundlesName'):
 
-          dispatcher.utter_message("Slot value ")
-          dispatcher.utter_message(tracker.get_slot('BundlesName'))
+          # dispatcher.utter_message("Slot value ")
+          # dispatcher.utter_message(tracker.get_slot('BundlesName'))
           
           util.getQuery(recent_message, dispatcher)
 
-          dispatcher.utter_message("bundles slot found and action bundle executed")
+          # dispatcher.utter_message("bundles slot found and action bundle executed")
 
       else:
           dispatcher.utter_message("no bundles slot filled  inside show detailed bundle project info")
@@ -87,10 +87,10 @@ class DisplayLargestCompilationUnit(Action):
       # dispatcher.utter_message(tracker.current_state)
 
       if tracker.get_slot('compilationUnit'):
-          
-          util.getQuery(recent_message, dispatcher, tracker.get_slot('BundlesName'))
+          # print(tracker.current_slot_values())
+          util.getQuery(recent_message, dispatcher, tracker.current_slot_values())
 
-          dispatcher.utter_message("bundles slot found and action bundle executed")
+          # dispatcher.utter_message("compilation slot found and show largest compilation unit executed")
 
       else:
           dispatcher.utter_message("compilationUnit is not filled")
@@ -114,7 +114,7 @@ class showNodeInformation(Action):
 
       recent_message = (tracker.latest_message)['text']
 
-      print(tracker.current_slot_values())
+      # print(tracker.current_slot_values())
 
       if tracker.get_slot('node'):
 
@@ -145,7 +145,7 @@ class showAllNodes(Action):
 
       dispatcher.utter_message("get current slot values ")
 
-      print(tracker.current_slot_values())
+      # print(tracker.current_slot_values())
 
       if tracker.get_slot('packages'):
 
@@ -193,7 +193,7 @@ class countAllNodes(Action):
 
       dispatcher.utter_message("get current slot values ")
 
-      print(tracker.current_slot_values())
+      # print(tracker.current_slot_values())
 
       if tracker.get_slot('packages'):
 
