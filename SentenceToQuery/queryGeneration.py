@@ -14,10 +14,7 @@ class GenerateQuery:
         
         self.trainedBot = TrainBot()
         self.interpret = RasaNLUInterpreter(self.trainedBot.model_path_nlu)
-
-
         self.extracted_intents = None
-        
         self.extracted_values = None # entities values
         self.prediction = None
         self.pypherObject = Pypher()
@@ -74,12 +71,12 @@ class GenerateQuery:
             params = self.pypherObject.bound_params
             
         elif extracted_intent == 'showLargestCompilationUnit':
-            self.pypherObject.Match.node('u', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k').relationship('kl', labels='compiled_By').node('m')
+            self.pypherObject.Match.node('bundle', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k').relationship('kl', labels='compiled_By').node('cmp')
 
             if bundle_slot is not None:
-                self.pypherObject.WHERE(__.u.__name__ == bundle_name)
-            self.pypherObject.RETURN('u.name','m.Loc')
-            self.pypherObject.OrderBy(__.m.__Loc__)
+                self.pypherObject.WHERE(__.bundle.__name__ == bundle_slot)
+            self.pypherObject.RETURN('bundle.name', 'cmp.name', 'cmp.Loc')
+            self.pypherObject.OrderBy(__.cmp.__Loc__)
             self.pypherObject.Desc()
             self.pypherObject.Limit(1)
 
