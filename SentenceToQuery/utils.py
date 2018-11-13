@@ -10,12 +10,10 @@ class Utility:
 		
 		# restructure query
 		for key, value in params.items():
-			print ("key ", key)
 			if (key in query):
-
+				# because key present in param does nto have $ sign
 				modified_key = "$" + key
 				query = query.replace(modified_key, '"'+str(value)+'"')
-
 
 		# dispatcher.utter_message("===== Query =====")
 		dispatcher.utter_message(query)
