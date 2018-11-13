@@ -135,6 +135,14 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 
 * User: give compilation unit with highest lines of code
 * Response by bot: Outputs methods name 
+```
 
+### Conversation 9 (Show Compilation Unit with highest number of methods) 
 
+```
+* User: find compilation unit with highest number of methods
+* Response by bot: Outputs bundle name, compilation unit and total number of methods
+
+* User: show compilation unit with most methods
+* Response by bot: Outputs bundle name, compilation unit and total number of methods
 ```
