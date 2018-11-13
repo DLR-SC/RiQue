@@ -126,7 +126,7 @@ To install neo4j follow: [Installation neo4j guidelines](https://datawookie.netl
 * User: find bundle with largest compilation unit
 * Response by bot: Outputs bundle name with number of lines of code
 
-* User: find largest compilation unit in rce cluster component gui bundle 
+* User: find largest compilation unit in rce xml loader component execution bundle 
 * Response by bot: Outputs bundle largest compilation unit in this bundle
 
 
