@@ -1,4 +1,4 @@
-# RiQue
+# RiQue (Request into Query)
 
 
 ## Installation
