@@ -1,4 +1,4 @@
-# Island-Voiz
+# RiQue
 
 
 ## Installation
@@ -19,7 +19,7 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
     ``` python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml ```
 * Now you can pass the messages as [shown here](https://github.com/Pseipel/Island-Voiz#general-conversation-examples) to the bot and wait for the responses 
 
-## Information about how sentences are converted to Neo4j query can be found here: ![SentenceToQuery](https://github.com/Pseipel/Island-Voiz/tree/master/SentenceToQuery)
+## Information about how sentences are converted to Neo4j query can be found here: ![SentenceToQuery](https://github.com/DLR-SC/RiQue/tree/master/SentenceToQuery)
 
 ## General Conversation Examples
 
