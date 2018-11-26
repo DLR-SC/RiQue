@@ -3,7 +3,7 @@
 This system take input as request/command and returns neo4j graph database query. This query is then sent to the Hololens which is connected with the neo4j graph database and as a response, result of a query is displayed on the hololens. However, this system can also be used independently. For that, user has to execute [Json File To Neo4j database](https://github.com/DLR-SC/RiQue/blob/master/neo4j/JsonToNeo4j.ipynb) file which creates neo4j database in user's local system. After that database is queried based on output of RiQue and results are returned. Following diagram explains the input and output of the RiQue:
 
 <p align="center">
-  <img width="300" height="200" src="./images/RiQue_diagram.jpg">
+  <img width="400" height="50" src="./images/RiQue_diagram.jpg">
 </p>
 
 ## Installation
