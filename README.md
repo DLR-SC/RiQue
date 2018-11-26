@@ -5,7 +5,7 @@
 
 This project is developed and tested in Ubuntu 16.04
 
-For easier installation, clone this repository, create new python 3 environment and execute: ```pip install -r requirements.txt```
+For easier installation, clone this repository, create new ```python 3.6.5``` environment and execute: ```pip install -r requirements.txt```
 
 To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https://datawookie.netlify.com/blog/2016/09/installing-neo4j-on-ubuntu-16.04/)
 
