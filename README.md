@@ -1,6 +1,6 @@
 # RiQue (Request into Query)
 
-This system take input as request/command and returns neo4j graph database query. This query is then sent to the Hololens which is connected with the neo4j graph database and as a response result of a query is displayed on the hololens. However, this system can also be used independently. For that, user has to execute [Json File To Neo4j database](https://github.com/DLR-SC/RiQue/blob/master/neo4j/JsonToNeo4j.ipynb) file which creates neo4j database in user's local system. After that database is queried based on output of RiQue and results are returned. Following diagram explains the input and output of the RiQue:
+This system take input as request/command and returns neo4j graph database query. This query is then sent to the Hololens which is connected with the neo4j graph database and as a response, result of a query is displayed on the hololens. However, this system can also be used independently. For that, user has to execute [Json File To Neo4j database](https://github.com/DLR-SC/RiQue/blob/master/neo4j/JsonToNeo4j.ipynb) file which creates neo4j database in user's local system. After that database is queried based on output of RiQue and results are returned. Following diagram explains the input and output of the RiQue:
 
 ![RiQue](./images/RiQue_diagram.jpg)
 
@@ -62,10 +62,20 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 * User: show all the bundles units
 * Response by bot: Outputs all bundles in the project
 
+* User: show me all island units
+* Response by bot: Outputs all bundles in the project
+
 * User: show all the packages units
 * Response by bot: Outputs all packages in the project
 
+* User: show all the regions
+* Response by bot: Outputs all packages in the project
+
+
 * User: show all the compilation units
+* Response by bot: Outputs all compilation units in the project
+
+* User: show all the building units
 * Response by bot: Outputs all compilation units in the project
 
 * User: show all the services
@@ -83,7 +93,13 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 * User: find count of all the packages units
 * Response by bot: Outputs count of all packages in the project
 
+* User: find count of all the regions 
+* Response by bot: Outputs count of all packages in the project
+
 * User: find count of all compilation units
+* Response by bot: Outputs count of compilation units in the project
+
+* User: find count of all buildings
 * Response by bot: Outputs count of compilation units in the project
 
 * User: give me count of all the services units
@@ -95,6 +111,9 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 ```
 * User: find imports of rce cluster component gui bundle
+* Response by bot: Outputs imports of rce cluster component gui  bundles in the project
+
+* User: show imports of rce cluster component gui island
 * Response by bot: Outputs imports of rce cluster component gui  bundles in the project
 
 * User: find packages of rce cluster component gui bundle
