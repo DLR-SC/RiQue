@@ -18,7 +18,7 @@ class DisplayGeneralQuery(Action):
     def run(self, dispatcher, tracker, domain):
       # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
-      dispatcher.utter_message("action give project info being called ")
+      # dispatcher.utter_message("action give project info being called ")
 
       recent_message = (tracker.latest_message)['text']
 
@@ -45,7 +45,7 @@ class DisplayBundleDetailedQuery(Action):
     def run(self, dispatcher, tracker, domain):
       # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
-      dispatcher.utter_message("action show detail info bundle")
+      #dispatcher.utter_message("action show detail info bundle")
 
       recent_message = (tracker.latest_message)['text']
 
@@ -80,7 +80,7 @@ class DisplayLargestCompilationUnit(Action):
       # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
     # tracker.get_slot('city')[bool(tracker.get_slot('city'))] 
-      dispatcher.utter_message("action show largest compilation units")
+      #dispatcher.utter_message("action show largest compilation units")
 
       recent_message = (tracker.latest_message)['text']
 
@@ -93,7 +93,7 @@ class DisplayLargestCompilationUnit(Action):
           # dispatcher.utter_message("compilation slot found and show largest compilation unit executed")
 
       else:
-          dispatcher.utter_message("compilationUnit is not filled")
+          dispatcher.utter_message("compilationUnit slot is not filled")
 
       return []
 
@@ -110,7 +110,7 @@ class showNodeInformation(Action):
 
     def run(self, dispatcher, tracker, domain):
 
-      dispatcher.utter_message("show node information ")
+      #dispatcher.utter_message("show node information ")
 
       recent_message = (tracker.latest_message)['text']
 
@@ -119,7 +119,7 @@ class showNodeInformation(Action):
       if tracker.get_slot('node'):
 
           util.getQuery(recent_message, dispatcher)
-          dispatcher.utter_message("node slot got filled and action show node information executed")
+          #dispatcher.utter_message("node slot got filled and action show node information executed")
 
       else:
 
@@ -139,11 +139,11 @@ class showAllNodes(Action):
 
     def run(self, dispatcher, tracker, domain):
 
-      dispatcher.utter_message("show all the nodes information ")
+      #dispatcher.utter_message("show all the nodes information ")
 
       recent_message = (tracker.latest_message)['text']
 
-      dispatcher.utter_message("get current slot values ")
+      #dispatcher.utter_message("get current slot values ")
 
       # print(tracker.current_slot_values())
 
@@ -187,11 +187,11 @@ class countAllNodes(Action):
 
     def run(self, dispatcher, tracker, domain):
 
-      dispatcher.utter_message("count all nodes")
+      #dispatcher.utter_message("count all nodes")
 
       recent_message = (tracker.latest_message)['text']
 
-      dispatcher.utter_message("get current slot values ")
+      #dispatcher.utter_message("get current slot values ")
 
       # print(tracker.current_slot_values())
 
