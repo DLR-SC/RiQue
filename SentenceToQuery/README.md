@@ -3,7 +3,9 @@
 This component takes input in the form of text, uses [RASA](https://rasa.com/) library to predict the intents and entities, based on predicted intents, 
 custom actions are executed and [pypher](https://github.com/emehrkay/Pypher) library is used to convert sentences in the form of neo4j Queries.
 
-![sentence2Query](../images/sentence2Query.jpg)
+<p align="center">
+  <img width="620" height="66" src="../images/sentence2Query.jpg">
+</p>
 
 
 ## Files Details
