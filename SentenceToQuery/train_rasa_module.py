@@ -88,7 +88,7 @@ if __name__ == '__main__':
 		agent.train(
 				data,
 				augmentation_factor = 50,
-				epochs = 45,
+				epochs = 40,
 				batch_size = 10,
 				validation_split = 0.2)
 				
