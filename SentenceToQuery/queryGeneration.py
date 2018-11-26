@@ -1,5 +1,9 @@
 import pypher
 import json
+import warnings
+import ruamel.yaml as yaml
+
+warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 
 from pypher import __
 from pypher.builder import Param, Pypher
