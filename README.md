@@ -62,10 +62,20 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 * User: show all the bundles units
 * Response by bot: Outputs all bundles in the project
 
+* User: show me all island units
+* Response by bot: Outputs all bundles in the project
+
 * User: show all the packages units
 * Response by bot: Outputs all packages in the project
 
+* User: show all the regions
+* Response by bot: Outputs all packages in the project
+
+
 * User: show all the compilation units
+* Response by bot: Outputs all compilation units in the project
+
+* User: show all the building units
 * Response by bot: Outputs all compilation units in the project
 
 * User: show all the services
@@ -83,7 +93,13 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 * User: find count of all the packages units
 * Response by bot: Outputs count of all packages in the project
 
+* User: find count of all the regions 
+* Response by bot: Outputs count of all packages in the project
+
 * User: find count of all compilation units
+* Response by bot: Outputs count of compilation units in the project
+
+* User: find count of all buildings
 * Response by bot: Outputs count of compilation units in the project
 
 * User: give me count of all the services units
@@ -95,6 +111,9 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 ```
 * User: find imports of rce cluster component gui bundle
+* Response by bot: Outputs imports of rce cluster component gui  bundles in the project
+
+* User: show imports of rce cluster component gui island
 * Response by bot: Outputs imports of rce cluster component gui  bundles in the project
 
 * User: find packages of rce cluster component gui bundle
