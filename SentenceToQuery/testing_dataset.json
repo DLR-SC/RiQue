@@ -2,111 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "show info of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please show info of current project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "give details of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "lets search details of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please lets provide info of current project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please show information of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "lets give description of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "look details of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please show description of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please lets look info of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please give info of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please lets give information of current project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "provide details of current working project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "please show description of current project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "lets provide information of current project",
-        "intent": "showProjectInformation",
-        "entities": [
-          
-        ]
-      },
-      {
         "text": "please show details of current working project",
         "intent": "showProjectInformation",
         "entities": [
@@ -114,21 +9,56 @@
         ]
       },
       {
-        "text": "please lets give description of current working project",
+        "text": "please lets search info of current working project",
         "intent": "showProjectInformation",
         "entities": [
           
         ]
       },
       {
-        "text": "please lets search details of current project",
+        "text": "show info of current project",
         "intent": "showProjectInformation",
         "entities": [
           
         ]
       },
       {
-        "text": "lets give details of current working project",
+        "text": "look description of current working project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "lets show description of current project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "please search information of current working project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "please search details of current project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "provide description of current project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "lets look details of current project",
         "intent": "showProjectInformation",
         "entities": [
           
@@ -142,380 +72,180 @@
         ]
       },
       {
-        "text": "greet please show compilation unit of rce xml loader component execution",
-        "intent": "showDetailInfoBundles",
+        "text": "look information of current project",
+        "intent": "showProjectInformation",
         "entities": [
-          {
-            "end": 29,
-            "entity": "compilationUnit",
-            "start": 18,
-            "value": "compilation"
-          },
-          {
-            "end": 72,
-            "entity": "BundlesName",
-            "start": 38,
-            "value": "rce xml loader component execution"
-          }
+          
         ]
       },
       {
-        "text": "please give imports of rce joiner component gui",
-        "intent": "showDetailInfoBundles",
+        "text": "lets look information of current project",
+        "intent": "showProjectInformation",
         "entities": [
-          {
-            "end": 19,
-            "entity": "Imports",
-            "start": 12,
-            "value": "imports"
-          },
-          {
-            "end": 47,
-            "entity": "BundlesName",
-            "start": 23,
-            "value": "rce joiner component gui"
-          }
+          
         ]
       },
       {
-        "text": "please lets search packages of rce xml loader component execution",
-        "intent": "showDetailInfoBundles",
+        "text": "show information of current project",
+        "intent": "showProjectInformation",
         "entities": [
-          {
-            "end": 27,
-            "entity": "packages",
-            "start": 19,
-            "value": "packages"
-          },
-          {
-            "end": 65,
-            "entity": "BundlesName",
-            "start": 31,
-            "value": "rce xml loader component execution"
-          }
+          
         ]
       },
       {
-        "text": "show packages of rce xml merger component common bundle",
-        "intent": "showDetailInfoBundles",
+        "text": "give information of current project",
+        "intent": "showProjectInformation",
         "entities": [
-          {
-            "end": 13,
-            "entity": "packages",
-            "start": 5,
-            "value": "packages"
-          },
-          {
-            "end": 48,
-            "entity": "BundlesName",
-            "start": 17,
-            "value": "rce xml merger component common"
-          }
+          
         ]
       },
       {
-        "text": "greet lets give methods of rce joiner component gui bundle",
-        "intent": "showDetailInfoBundles",
+        "text": "please lets show info of current working project",
+        "intent": "showProjectInformation",
         "entities": [
-          {
-            "end": 23,
-            "entity": "Methods",
-            "start": 16,
-            "value": "methods"
-          },
-          {
-            "end": 51,
-            "entity": "BundlesName",
-            "start": 27,
-            "value": "rce joiner component gui"
-          }
+          
         ]
       },
       {
-        "text": "greet please provide package of rce joiner component gui",
-        "intent": "showDetailInfoBundles",
+        "text": "lets search details of current working project",
+        "intent": "showProjectInformation",
         "entities": [
-          {
-            "end": 28,
-            "entity": "packages",
-            "start": 21,
-            "value": "package"
-          },
-          {
-            "end": 56,
-            "entity": "BundlesName",
-            "start": 32,
-            "value": "rce joiner component gui"
-          }
+          
         ]
       },
       {
-        "text": "lets provide compilation unit of rce joiner component gui",
+        "text": "lets give description of current working project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "please lets give information of current project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "lets show details of current project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "please give information of current project",
+        "intent": "showProjectInformation",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "please lets look regions of rce xml loader component execution bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
-            "start": 13,
-            "value": "compilation"
+            "entity": "packages",
+            "start": 17,
+            "value": "regions"
           },
           {
-            "end": 57,
+            "end": 62,
             "entity": "BundlesName",
-            "start": 33,
-            "value": "rce joiner component gui"
+            "start": 28,
+            "value": "rce xml loader component execution"
           }
         ]
       },
       {
-        "text": "greet lets provide package of rce cpacs vampzero initializer component execution bundle",
+        "text": "give package of rce toolkit - common modules",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 26,
+            "end": 12,
             "entity": "packages",
-            "start": 19,
+            "start": 5,
             "value": "package"
           },
           {
-            "end": 80,
+            "end": 44,
             "entity": "BundlesName",
-            "start": 30,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "please search methods of rce decrypter component common (example component)",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "Methods",
-            "start": 14,
-            "value": "methods"
-          },
-          {
-            "end": 75,
-            "entity": "BundlesName",
-            "start": 25,
-            "value": "rce decrypter component common (example component)"
-          }
-        ]
-      },
-      {
-        "text": "greet please lets provide exports of rce toolkit - common modules bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "Exports",
-            "start": 26,
-            "value": "exports"
-          },
-          {
-            "end": 65,
-            "entity": "BundlesName",
-            "start": 37,
+            "start": 16,
             "value": "rce toolkit - common modules"
           }
         ]
       },
       {
-        "text": "please provide imports of rce excel component gui bundle",
+        "text": "give imports of rce xml loader component execution",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 22,
+            "end": 12,
             "entity": "Imports",
-            "start": 15,
+            "start": 5,
             "value": "imports"
           },
           {
-            "end": 56,
+            "end": 50,
             "entity": "BundlesName",
-            "start": 26,
-            "value": "rce excel component gui bundle"
+            "start": 16,
+            "value": "rce xml loader component execution"
           }
         ]
       },
       {
-        "text": "show packages of rce cpacs vampzero initializer component execution bundle",
+        "text": "greet search components of rce xml merger component common bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 13,
-            "entity": "packages",
-            "start": 5,
-            "value": "packages"
-          },
-          {
-            "end": 67,
-            "entity": "BundlesName",
-            "start": 17,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "search components of rce parametric study component common",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 17,
+            "end": 23,
             "entity": "components",
-            "start": 7,
+            "start": 13,
             "value": "components"
           },
           {
             "end": 58,
             "entity": "BundlesName",
-            "start": 21,
-            "value": "rce parametric study component common"
+            "start": 27,
+            "value": "rce xml merger component common"
           }
         ]
       },
       {
-        "text": "search imports of rce decrypter component common (example component) bundle",
+        "text": "greet please give methods of rce input provider component gui bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 14,
-            "entity": "Imports",
-            "start": 7,
-            "value": "imports"
-          },
-          {
-            "end": 68,
-            "entity": "BundlesName",
-            "start": 18,
-            "value": "rce decrypter component common (example component)"
-          }
-        ]
-      },
-      {
-        "text": "greet give exports of rce xml loader component execution bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "Exports",
-            "start": 11,
-            "value": "exports"
-          },
-          {
-            "end": 56,
-            "entity": "BundlesName",
-            "start": 22,
-            "value": "rce xml loader component execution"
-          }
-        ]
-      },
-      {
-        "text": "please lets show package of rce joiner component gui bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "packages",
-            "start": 17,
-            "value": "package"
-          },
-          {
-            "end": 52,
-            "entity": "BundlesName",
-            "start": 28,
-            "value": "rce joiner component gui"
-          }
-        ]
-      },
-      {
-        "text": "greet please give compilation unit of rce joiner component gui bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "compilationUnit",
-            "start": 18,
-            "value": "compilation"
-          },
-          {
-            "end": 62,
-            "entity": "BundlesName",
-            "start": 38,
-            "value": "rce joiner component gui"
-          }
-        ]
-      },
-      {
-        "text": "greet show methods of rce input provider component gui",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 18,
+            "end": 25,
             "entity": "Methods",
-            "start": 11,
+            "start": 18,
             "value": "methods"
           },
           {
-            "end": 54,
+            "end": 61,
             "entity": "BundlesName",
-            "start": 22,
+            "start": 29,
             "value": "rce input provider component gui"
           }
         ]
       },
       {
-        "text": "give packages of rce toolkit - common modules",
+        "text": "lets look imports of rce xml merger component common",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 13,
-            "entity": "packages",
-            "start": 5,
-            "value": "packages"
-          },
-          {
-            "end": 45,
-            "entity": "BundlesName",
-            "start": 17,
-            "value": "rce toolkit - common modules"
-          }
-        ]
-      },
-      {
-        "text": "greet show exports of rce cpacs vampzero initializer component execution bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "Exports",
-            "start": 11,
-            "value": "exports"
-          },
-          {
-            "end": 72,
-            "entity": "BundlesName",
-            "start": 22,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "lets provide imports of rce toolkit - common modules bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 20,
+            "end": 17,
             "entity": "Imports",
-            "start": 13,
+            "start": 10,
             "value": "imports"
           },
           {
             "end": 52,
             "entity": "BundlesName",
-            "start": 24,
-            "value": "rce toolkit - common modules"
+            "start": 21,
+            "value": "rce xml merger component common"
           }
         ]
       },
@@ -538,50 +268,212 @@
         ]
       },
       {
-        "text": "give compilation unit of rce parametric study component common",
+        "text": "look regions of rce decrypter component common (example component)",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 16,
+            "end": 12,
+            "entity": "packages",
+            "start": 5,
+            "value": "regions"
+          },
+          {
+            "end": 66,
+            "entity": "BundlesName",
+            "start": 16,
+            "value": "rce decrypter component common (example component)"
+          }
+        ]
+      },
+      {
+        "text": "greet give exports of rce cluster component gui",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "Exports",
+            "start": 11,
+            "value": "exports"
+          },
+          {
+            "end": 47,
+            "entity": "BundlesName",
+            "start": 22,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "give buildings unit of rce cluster component gui bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 14,
             "entity": "compilationUnit",
             "start": 5,
+            "value": "buildings"
+          },
+          {
+            "end": 48,
+            "entity": "BundlesName",
+            "start": 23,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "provide compilation unit of rce toolkit - common modules bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "compilationUnit",
+            "start": 8,
             "value": "compilation"
           },
           {
-            "end": 62,
+            "end": 56,
             "entity": "BundlesName",
-            "start": 25,
-            "value": "rce parametric study component common"
+            "start": 28,
+            "value": "rce toolkit - common modules"
           }
         ]
       },
       {
-        "text": "greet look components of rce parametric study component common",
+        "text": "provide exports of rce decrypter component common (example component) bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 21,
-            "entity": "components",
-            "start": 11,
-            "value": "components"
+            "end": 15,
+            "entity": "Exports",
+            "start": 8,
+            "value": "exports"
           },
           {
-            "end": 62,
+            "end": 69,
             "entity": "BundlesName",
-            "start": 25,
-            "value": "rce parametric study component common"
+            "start": 19,
+            "value": "rce decrypter component common (example component)"
           }
         ]
       },
       {
-        "text": "please provide packages of rce parametric study component common",
+        "text": "give components of rce cluster component gui bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "components",
+            "start": 5,
+            "value": "components"
+          },
+          {
+            "end": 44,
+            "entity": "BundlesName",
+            "start": 19,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "please lets show package of rce excel component gui bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "packages",
+            "start": 17,
+            "value": "package"
+          },
+          {
+            "end": 58,
+            "entity": "BundlesName",
+            "start": 28,
+            "value": "rce excel component gui bundle"
+          }
+        ]
+      },
+      {
+        "text": "please give building unit of rce excel component gui bundle bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "compilationUnit",
+            "start": 12,
+            "value": "building"
+          },
+          {
+            "end": 59,
+            "entity": "BundlesName",
+            "start": 29,
+            "value": "rce excel component gui bundle"
+          }
+        ]
+      },
+      {
+        "text": "greet lets search regions of rce toolkit - common modules bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "packages",
+            "start": 18,
+            "value": "regions"
+          },
+          {
+            "end": 57,
+            "entity": "BundlesName",
+            "start": 29,
+            "value": "rce toolkit - common modules"
+          }
+        ]
+      },
+      {
+        "text": "show buildings unit of rce decrypter component common (example component) bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "compilationUnit",
+            "start": 5,
+            "value": "buildings"
+          },
+          {
+            "end": 73,
+            "entity": "BundlesName",
+            "start": 23,
+            "value": "rce decrypter component common (example component)"
+          }
+        ]
+      },
+      {
+        "text": "greet look regions of rce input provider component gui",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "packages",
+            "start": 11,
+            "value": "regions"
+          },
+          {
+            "end": 54,
+            "entity": "BundlesName",
+            "start": 22,
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet lets give regions of rce parametric study component common bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
             "end": 23,
             "entity": "packages",
-            "start": 15,
-            "value": "packages"
+            "start": 16,
+            "value": "regions"
           },
           {
             "end": 64,
@@ -592,61 +484,79 @@
         ]
       },
       {
-        "text": "greet please lets show components of rce decrypter component common (example component) bundle",
+        "text": "give imports of rce cpacs vampzero initializer component execution bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 33,
-            "entity": "components",
-            "start": 23,
-            "value": "components"
-          },
-          {
-            "end": 87,
-            "entity": "BundlesName",
-            "start": 37,
-            "value": "rce decrypter component common (example component)"
-          }
-        ]
-      },
-      {
-        "text": "greet please search package of rce xml merger component common bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "packages",
-            "start": 20,
-            "value": "package"
-          },
-          {
-            "end": 62,
-            "entity": "BundlesName",
-            "start": 31,
-            "value": "rce xml merger component common"
-          }
-        ]
-      },
-      {
-        "text": "please provide imports of rce xml merger component common bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 22,
+            "end": 12,
             "entity": "Imports",
-            "start": 15,
+            "start": 5,
             "value": "imports"
           },
           {
-            "end": 57,
+            "end": 66,
             "entity": "BundlesName",
-            "start": 26,
-            "value": "rce xml merger component common"
+            "start": 16,
+            "value": "rce cpacs vampzero initializer component execution"
           }
         ]
       },
       {
-        "text": "lets show methods of rce cpacs vampzero initializer component execution",
+        "text": "search components of rce xml loader component execution bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "components",
+            "start": 7,
+            "value": "components"
+          },
+          {
+            "end": 55,
+            "entity": "BundlesName",
+            "start": 21,
+            "value": "rce xml loader component execution"
+          }
+        ]
+      },
+      {
+        "text": "greet search package of rce xml loader component execution bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "packages",
+            "start": 13,
+            "value": "package"
+          },
+          {
+            "end": 58,
+            "entity": "BundlesName",
+            "start": 24,
+            "value": "rce xml loader component execution"
+          }
+        ]
+      },
+      {
+        "text": "greet search exports of rce xml loader component execution bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "Exports",
+            "start": 13,
+            "value": "exports"
+          },
+          {
+            "end": 58,
+            "entity": "BundlesName",
+            "start": 24,
+            "value": "rce xml loader component execution"
+          }
+        ]
+      },
+      {
+        "text": "lets show methods of rce decrypter component common (example component) bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
@@ -659,361 +569,343 @@
             "end": 71,
             "entity": "BundlesName",
             "start": 21,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "greet lets show exports of rce cpacs vampzero initializer component execution",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "Exports",
-            "start": 16,
-            "value": "exports"
-          },
-          {
-            "end": 77,
-            "entity": "BundlesName",
-            "start": 27,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "look compilation unit of rce cpacs vampzero initializer component execution bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "compilationUnit",
-            "start": 5,
-            "value": "compilation"
-          },
-          {
-            "end": 75,
-            "entity": "BundlesName",
-            "start": 25,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "greet lets look package of rce parametric study component common",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "packages",
-            "start": 16,
-            "value": "package"
-          },
-          {
-            "end": 64,
-            "entity": "BundlesName",
-            "start": 27,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "please lets give components of rce decrypter component common (example component)",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "components",
-            "start": 17,
-            "value": "components"
-          },
-          {
-            "end": 81,
-            "entity": "BundlesName",
-            "start": 31,
             "value": "rce decrypter component common (example component)"
           }
         ]
       },
       {
-        "text": "lets look exports of rce parametric study component common",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "Exports",
-            "start": 10,
-            "value": "exports"
-          },
-          {
-            "end": 58,
-            "entity": "BundlesName",
-            "start": 21,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "lets search compilation unit of rce decrypter component common (example component) bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "compilationUnit",
-            "start": 12,
-            "value": "compilation"
-          },
-          {
-            "end": 82,
-            "entity": "BundlesName",
-            "start": 32,
-            "value": "rce decrypter component common (example component)"
-          }
-        ]
-      },
-      {
-        "text": "greet please lets look packages of rce parametric study component common bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 31,
-            "entity": "packages",
-            "start": 23,
-            "value": "packages"
-          },
-          {
-            "end": 72,
-            "entity": "BundlesName",
-            "start": 35,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "greet search imports of rce decrypter component common (example component)",
+        "text": "please look building unit of rce cluster component gui",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
             "end": 20,
-            "entity": "Imports",
-            "start": 13,
-            "value": "imports"
+            "entity": "compilationUnit",
+            "start": 12,
+            "value": "building"
           },
           {
-            "end": 74,
-            "entity": "BundlesName",
-            "start": 24,
-            "value": "rce decrypter component common (example component)"
-          }
-        ]
-      },
-      {
-        "text": "greet show methods of rce joiner component gui bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "Methods",
-            "start": 11,
-            "value": "methods"
-          },
-          {
-            "end": 46,
-            "entity": "BundlesName",
-            "start": 22,
-            "value": "rce joiner component gui"
-          }
-        ]
-      },
-      {
-        "text": "greet lets search package of rce parametric study component common",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "packages",
-            "start": 18,
-            "value": "package"
-          },
-          {
-            "end": 66,
+            "end": 54,
             "entity": "BundlesName",
             "start": 29,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet lets provide regions of rce parametric study component common",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "packages",
+            "start": 19,
+            "value": "regions"
+          },
+          {
+            "end": 67,
+            "entity": "BundlesName",
+            "start": 30,
             "value": "rce parametric study component common"
           }
         ]
       },
       {
-        "text": "greet please lets provide packages of rce decrypter component common (example component) bundle",
+        "text": "greet look buildings unit of rce xml merger component common",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 34,
-            "entity": "packages",
-            "start": 26,
-            "value": "packages"
+            "end": 20,
+            "entity": "compilationUnit",
+            "start": 11,
+            "value": "buildings"
           },
           {
-            "end": 88,
+            "end": 60,
             "entity": "BundlesName",
-            "start": 38,
-            "value": "rce decrypter component common (example component)"
+            "start": 29,
+            "value": "rce xml merger component common"
           }
         ]
       },
       {
-        "text": "greet lets provide components of rce toolkit - common modules bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "components",
-            "start": 19,
-            "value": "components"
-          },
-          {
-            "end": 61,
-            "entity": "BundlesName",
-            "start": 33,
-            "value": "rce toolkit - common modules"
-          }
-        ]
-      },
-      {
-        "text": "lets show imports of rce xml loader component execution bundle",
+        "text": "what are building unit of rce input provider component gui bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
             "end": 17,
-            "entity": "Imports",
-            "start": 10,
-            "value": "imports"
-          },
-          {
-            "end": 55,
-            "entity": "BundlesName",
-            "start": 21,
-            "value": "rce xml loader component execution"
-          }
-        ]
-      },
-      {
-        "text": "greet please lets provide methods of rce decrypter component common (example component)",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "Methods",
-            "start": 26,
-            "value": "methods"
-          },
-          {
-            "end": 87,
-            "entity": "BundlesName",
-            "start": 37,
-            "value": "rce decrypter component common (example component)"
-          }
-        ]
-      },
-      {
-        "text": "greet please provide exports of rce xml loader component execution bundle",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "Exports",
-            "start": 21,
-            "value": "exports"
-          },
-          {
-            "end": 66,
-            "entity": "BundlesName",
-            "start": 32,
-            "value": "rce xml loader component execution"
-          }
-        ]
-      },
-      {
-        "text": "greet please give compilation unit of rce input provider component gui",
-        "intent": "showDetailInfoBundles",
-        "entities": [
-          {
-            "end": 29,
             "entity": "compilationUnit",
-            "start": 18,
-            "value": "compilation"
+            "start": 9,
+            "value": "building"
           },
           {
-            "end": 70,
+            "end": 58,
             "entity": "BundlesName",
-            "start": 38,
+            "start": 26,
             "value": "rce input provider component gui"
           }
         ]
       },
       {
-        "text": "greet show packages of rce decrypter component common (example component) bundle",
+        "text": "greet list building unit of rce xml loader component execution",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "compilationUnit",
             "start": 11,
-            "value": "packages"
+            "value": "building"
           },
           {
-            "end": 73,
+            "end": 62,
             "entity": "BundlesName",
-            "start": 23,
-            "value": "rce decrypter component common (example component)"
+            "start": 28,
+            "value": "rce xml loader component execution"
           }
         ]
       },
       {
-        "text": "greet list components of rce decrypter component common (example component)",
+        "text": "lets give compilation unit of rce decrypter component common (example component) bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
             "end": 21,
-            "entity": "components",
-            "start": 11,
-            "value": "components"
+            "entity": "compilationUnit",
+            "start": 10,
+            "value": "compilation"
           },
           {
-            "end": 75,
+            "end": 80,
             "entity": "BundlesName",
-            "start": 25,
+            "start": 30,
             "value": "rce decrypter component common (example component)"
           }
         ]
       },
       {
-        "text": "what are package of rce toolkit - common modules",
+        "text": "greet please lets provide region of rce input provider component gui",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 16,
+            "end": 32,
             "entity": "packages",
-            "start": 9,
+            "start": 26,
+            "value": "region"
+          },
+          {
+            "end": 68,
+            "entity": "BundlesName",
+            "start": 36,
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet please provide building unit of rce joiner component gui bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "compilationUnit",
+            "start": 21,
+            "value": "building"
+          },
+          {
+            "end": 62,
+            "entity": "BundlesName",
+            "start": 38,
+            "value": "rce joiner component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet please show region of rce cluster component gui",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "packages",
+            "start": 18,
+            "value": "region"
+          },
+          {
+            "end": 53,
+            "entity": "BundlesName",
+            "start": 28,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "please give methods of rce input provider component gui bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "Methods",
+            "start": 12,
+            "value": "methods"
+          },
+          {
+            "end": 55,
+            "entity": "BundlesName",
+            "start": 23,
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "look package of rce cluster component gui",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "packages",
+            "start": 5,
             "value": "package"
           },
           {
-            "end": 48,
+            "end": 41,
             "entity": "BundlesName",
-            "start": 20,
+            "start": 16,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "please look imports of rce toolkit - common modules bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "Imports",
+            "start": 12,
+            "value": "imports"
+          },
+          {
+            "end": 51,
+            "entity": "BundlesName",
+            "start": 23,
             "value": "rce toolkit - common modules"
           }
         ]
       },
       {
-        "text": "greet what are methods of rce decrypter component common (example component) bundle",
+        "text": "greet please lets search exports of rce decrypter component common (example component) bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "Exports",
+            "start": 25,
+            "value": "exports"
+          },
+          {
+            "end": 86,
+            "entity": "BundlesName",
+            "start": 36,
+            "value": "rce decrypter component common (example component)"
+          }
+        ]
+      },
+      {
+        "text": "greet please lets give buildings unit of rce decrypter component common (example component)",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "compilationUnit",
+            "start": 23,
+            "value": "buildings"
+          },
+          {
+            "end": 91,
+            "entity": "BundlesName",
+            "start": 41,
+            "value": "rce decrypter component common (example component)"
+          }
+        ]
+      },
+      {
+        "text": "please lets search region of rce input provider component gui bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "packages",
+            "start": 19,
+            "value": "region"
+          },
+          {
+            "end": 61,
+            "entity": "BundlesName",
+            "start": 29,
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "lets look components of rce toolkit - common modules",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "components",
+            "start": 10,
+            "value": "components"
+          },
+          {
+            "end": 52,
+            "entity": "BundlesName",
+            "start": 24,
+            "value": "rce toolkit - common modules"
+          }
+        ]
+      },
+      {
+        "text": "please provide package of rce toolkit - common modules bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
             "end": 22,
-            "entity": "Methods",
+            "entity": "packages",
             "start": 15,
-            "value": "methods"
+            "value": "package"
+          },
+          {
+            "end": 54,
+            "entity": "BundlesName",
+            "start": 26,
+            "value": "rce toolkit - common modules"
+          }
+        ]
+      },
+      {
+        "text": "lets give compilation unit of rce cpacs vampzero initializer component execution",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "compilationUnit",
+            "start": 10,
+            "value": "compilation"
+          },
+          {
+            "end": 80,
+            "entity": "BundlesName",
+            "start": 30,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ]
+      },
+      {
+        "text": "please provide regions of rce decrypter component common (example component) bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "packages",
+            "start": 15,
+            "value": "regions"
           },
           {
             "end": 76,
@@ -1024,43 +916,151 @@
         ]
       },
       {
-        "text": "please show components of rce joiner component gui bundle",
+        "text": "look compilation unit of rce excel component gui bundle",
         "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 22,
-            "entity": "components",
-            "start": 12,
-            "value": "components"
+            "end": 16,
+            "entity": "compilationUnit",
+            "start": 5,
+            "value": "compilation"
           },
           {
-            "end": 50,
+            "end": 55,
             "entity": "BundlesName",
-            "start": 26,
+            "start": 25,
+            "value": "rce excel component gui bundle"
+          }
+        ]
+      },
+      {
+        "text": "search compilation unit of rce joiner component gui",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "compilationUnit",
+            "start": 7,
+            "value": "compilation"
+          },
+          {
+            "end": 51,
+            "entity": "BundlesName",
+            "start": 27,
             "value": "rce joiner component gui"
           }
         ]
       },
       {
-        "text": "greet give highest compilation unit of rce toolkit - common modules bundle",
-        "intent": "showLargestCompilationUnit",
+        "text": "please lets search package of rce joiner component gui",
+        "intent": "showDetailInfoBundles",
         "entities": [
           {
-            "end": 30,
-            "entity": "compilationUnit",
+            "end": 26,
+            "entity": "packages",
             "start": 19,
-            "value": "compilation"
+            "value": "package"
           },
           {
-            "end": 67,
+            "end": 54,
             "entity": "BundlesName",
-            "start": 39,
-            "value": "rce toolkit - common modules"
+            "start": 30,
+            "value": "rce joiner component gui"
           }
         ]
       },
       {
-        "text": "please lets search highest compilation unit of rce cpacs vampzero initializer component execution",
+        "text": "greet what are package of rce input provider component gui",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "packages",
+            "start": 15,
+            "value": "package"
+          },
+          {
+            "end": 58,
+            "entity": "BundlesName",
+            "start": 26,
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "list region of rce cpacs vampzero initializer component execution",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "packages",
+            "start": 5,
+            "value": "region"
+          },
+          {
+            "end": 65,
+            "entity": "BundlesName",
+            "start": 15,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ]
+      },
+      {
+        "text": "greet give region of rce parametric study component common bundle",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "packages",
+            "start": 11,
+            "value": "region"
+          },
+          {
+            "end": 58,
+            "entity": "BundlesName",
+            "start": 21,
+            "value": "rce parametric study component common"
+          }
+        ]
+      },
+      {
+        "text": "please provide components of rce cpacs vampzero initializer component execution",
+        "intent": "showDetailInfoBundles",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "components",
+            "start": 15,
+            "value": "components"
+          },
+          {
+            "end": 79,
+            "entity": "BundlesName",
+            "start": 29,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ]
+      },
+      {
+        "text": "please lets search highest building unit of rce cpacs vampzero initializer component execution",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "compilationUnit",
+            "start": 27,
+            "value": "building"
+          },
+          {
+            "end": 94,
+            "entity": "BundlesName",
+            "start": 44,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ]
+      },
+      {
+        "text": "greet lets provide highest compilation unit of rce cpacs vampzero initializer component execution",
         "intent": "showLargestCompilationUnit",
         "entities": [
           {
@@ -1078,139 +1078,25 @@
         ]
       },
       {
-        "text": "lets search highest compilation unit of rce parametric study component common bundle",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 31,
-            "entity": "compilationUnit",
-            "start": 20,
-            "value": "compilation"
-          },
-          {
-            "end": 77,
-            "entity": "BundlesName",
-            "start": 40,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "greet give highest compilation unit of rce xml loader component execution",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "compilationUnit",
-            "start": 19,
-            "value": "compilation"
-          },
-          {
-            "end": 73,
-            "entity": "BundlesName",
-            "start": 39,
-            "value": "rce xml loader component execution"
-          }
-        ]
-      },
-      {
-        "text": "please look compilation unit with biggest code lines",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "compilationUnit",
-            "start": 12,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "please search highest compilation unit of rce xml merger component common",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "compilationUnit",
-            "start": 22,
-            "value": "compilation"
-          },
-          {
-            "end": 73,
-            "entity": "BundlesName",
-            "start": 42,
-            "value": "rce xml merger component common"
-          }
-        ]
-      },
-      {
-        "text": "greet please lets look highest compilation unit",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 42,
-            "entity": "compilationUnit",
-            "start": 31,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "show biggest compilation unit with most methods",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "compilationUnit",
-            "start": 13,
-            "value": "compilation"
-          },
-          {
-            "end": 47,
-            "entity": "Methods",
-            "start": 40,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "please lets give highest compilation unit of rce xml merger component common bundle",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 36,
-            "entity": "compilationUnit",
-            "start": 25,
-            "value": "compilation"
-          },
-          {
-            "end": 76,
-            "entity": "BundlesName",
-            "start": 45,
-            "value": "rce xml merger component common"
-          }
-        ]
-      },
-      {
-        "text": "lets show highest compilation unit of rce joiner component gui",
+        "text": "lets provide biggest building unit of rce xml merger component common",
         "intent": "showLargestCompilationUnit",
         "entities": [
           {
             "end": 29,
             "entity": "compilationUnit",
-            "start": 18,
-            "value": "compilation"
+            "start": 21,
+            "value": "building"
           },
           {
-            "end": 62,
+            "end": 69,
             "entity": "BundlesName",
             "start": 38,
-            "value": "rce joiner component gui"
+            "value": "rce xml merger component common"
           }
         ]
       },
       {
-        "text": "greet please look highest compilation unit of rce xml loader component execution bundle",
+        "text": "greet please give biggest compilation unit of rce input provider component gui",
         "intent": "showLargestCompilationUnit",
         "entities": [
           {
@@ -1220,15 +1106,105 @@
             "value": "compilation"
           },
           {
-            "end": 80,
+            "end": 78,
             "entity": "BundlesName",
             "start": 46,
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "please give highest building unit of rce joiner component gui bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "compilationUnit",
+            "start": 20,
+            "value": "building"
+          },
+          {
+            "end": 61,
+            "entity": "BundlesName",
+            "start": 37,
+            "value": "rce joiner component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet please lets provide highest building unit of rce xml loader component execution bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "compilationUnit",
+            "start": 34,
+            "value": "building"
+          },
+          {
+            "end": 85,
+            "entity": "BundlesName",
+            "start": 51,
             "value": "rce xml loader component execution"
           }
         ]
       },
       {
-        "text": "greet lets provide highest compilation unit of rce parametric study component common bundle",
+        "text": "greet please lets show biggest buildings unit of rce toolkit - common modules bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "compilationUnit",
+            "start": 31,
+            "value": "buildings"
+          },
+          {
+            "end": 77,
+            "entity": "BundlesName",
+            "start": 49,
+            "value": "rce toolkit - common modules"
+          }
+        ]
+      },
+      {
+        "text": "greet look biggest compilation unit of rce xml merger component common bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "compilationUnit",
+            "start": 19,
+            "value": "compilation"
+          },
+          {
+            "end": 70,
+            "entity": "BundlesName",
+            "start": 39,
+            "value": "rce xml merger component common"
+          }
+        ]
+      },
+      {
+        "text": "lets show highest buildings unit of rce joiner component gui",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "compilationUnit",
+            "start": 18,
+            "value": "buildings"
+          },
+          {
+            "end": 60,
+            "entity": "BundlesName",
+            "start": 36,
+            "value": "rce joiner component gui"
+          }
+        ]
+      },
+      {
+        "text": "please lets search biggest compilation unit of rce decrypter component common (example component)",
         "intent": "showLargestCompilationUnit",
         "entities": [
           {
@@ -1238,33 +1214,69 @@
             "value": "compilation"
           },
           {
-            "end": 84,
+            "end": 97,
             "entity": "BundlesName",
             "start": 47,
+            "value": "rce decrypter component common (example component)"
+          }
+        ]
+      },
+      {
+        "text": "greet please provide biggest building unit of rce decrypter component common (example component) bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "compilationUnit",
+            "start": 29,
+            "value": "building"
+          },
+          {
+            "end": 96,
+            "entity": "BundlesName",
+            "start": 46,
+            "value": "rce decrypter component common (example component)"
+          }
+        ]
+      },
+      {
+        "text": "please lets look biggest buildings unit of rce xml merger component common",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "compilationUnit",
+            "start": 25,
+            "value": "buildings"
+          },
+          {
+            "end": 74,
+            "entity": "BundlesName",
+            "start": 43,
+            "value": "rce xml merger component common"
+          }
+        ]
+      },
+      {
+        "text": "greet show highest compilation unit of rce parametric study component common bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "compilationUnit",
+            "start": 19,
+            "value": "compilation"
+          },
+          {
+            "end": 76,
+            "entity": "BundlesName",
+            "start": 39,
             "value": "rce parametric study component common"
           }
         ]
       },
       {
-        "text": "greet please lets look highest compilation unit of rce joiner component gui bundle",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 42,
-            "entity": "compilationUnit",
-            "start": 31,
-            "value": "compilation"
-          },
-          {
-            "end": 75,
-            "entity": "BundlesName",
-            "start": 51,
-            "value": "rce joiner component gui"
-          }
-        ]
-      },
-      {
-        "text": "please show highest compilation unit of rce joiner component gui bundle",
+        "text": "please show biggest compilation unit of rce cluster component gui bundle",
         "intent": "showLargestCompilationUnit",
         "entities": [
           {
@@ -1274,15 +1286,273 @@
             "value": "compilation"
           },
           {
-            "end": 64,
+            "end": 65,
             "entity": "BundlesName",
             "start": 40,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "please lets provide biggest buildings unit of rce joiner component gui bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "compilationUnit",
+            "start": 28,
+            "value": "buildings"
+          },
+          {
+            "end": 70,
+            "entity": "BundlesName",
+            "start": 46,
             "value": "rce joiner component gui"
           }
         ]
       },
       {
-        "text": "greet please look biggest compilation unit of rce joiner component gui bundle",
+        "text": "greet give biggest compilation unit of rce input provider component gui",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "compilationUnit",
+            "start": 19,
+            "value": "compilation"
+          },
+          {
+            "end": 71,
+            "entity": "BundlesName",
+            "start": 39,
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet please give biggest buildings unit of rce parametric study component common bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "compilationUnit",
+            "start": 26,
+            "value": "buildings"
+          },
+          {
+            "end": 81,
+            "entity": "BundlesName",
+            "start": 44,
+            "value": "rce parametric study component common"
+          }
+        ]
+      },
+      {
+        "text": "greet please show highest building unit of rce toolkit - common modules bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "compilationUnit",
+            "start": 26,
+            "value": "building"
+          },
+          {
+            "end": 71,
+            "entity": "BundlesName",
+            "start": 43,
+            "value": "rce toolkit - common modules"
+          }
+        ]
+      },
+      {
+        "text": "greet please lets provide highest building unit",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "compilationUnit",
+            "start": 34,
+            "value": "building"
+          }
+        ]
+      },
+      {
+        "text": "greet lets look compilation unit with biggest code lines",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "compilationUnit",
+            "start": 16,
+            "value": "compilation"
+          }
+        ]
+      },
+      {
+        "text": "greet search biggest building unit with most methods",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "compilationUnit",
+            "start": 21,
+            "value": "building"
+          },
+          {
+            "end": 52,
+            "entity": "Methods",
+            "start": 45,
+            "value": "methods"
+          }
+        ]
+      },
+      {
+        "text": "greet look highest buildings unit of rce parametric study component common",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "compilationUnit",
+            "start": 19,
+            "value": "buildings"
+          },
+          {
+            "end": 74,
+            "entity": "BundlesName",
+            "start": 37,
+            "value": "rce parametric study component common"
+          }
+        ]
+      },
+      {
+        "text": "greet please lets show biggest buildings unit of rce parametric study component common",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "compilationUnit",
+            "start": 31,
+            "value": "buildings"
+          },
+          {
+            "end": 86,
+            "entity": "BundlesName",
+            "start": 49,
+            "value": "rce parametric study component common"
+          }
+        ]
+      },
+      {
+        "text": "please lets give biggest building unit of rce joiner component gui",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "compilationUnit",
+            "start": 25,
+            "value": "building"
+          },
+          {
+            "end": 66,
+            "entity": "BundlesName",
+            "start": 42,
+            "value": "rce joiner component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet provide highest building unit of rce cluster component gui bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "compilationUnit",
+            "start": 22,
+            "value": "building"
+          },
+          {
+            "end": 64,
+            "entity": "BundlesName",
+            "start": 39,
+            "value": "rce cluster component gui"
+          }
+        ]
+      },
+      {
+        "text": "greet provide highest buildings unit of rce decrypter component common (example component)",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "compilationUnit",
+            "start": 22,
+            "value": "buildings"
+          },
+          {
+            "end": 90,
+            "entity": "BundlesName",
+            "start": 40,
+            "value": "rce decrypter component common (example component)"
+          }
+        ]
+      },
+      {
+        "text": "greet please look highest building unit of rce excel component gui bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "compilationUnit",
+            "start": 26,
+            "value": "building"
+          },
+          {
+            "end": 73,
+            "entity": "BundlesName",
+            "start": 43,
+            "value": "rce excel component gui bundle"
+          }
+        ]
+      },
+      {
+        "text": "please lets look biggest buildings unit of rce xml merger component common bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "compilationUnit",
+            "start": 25,
+            "value": "buildings"
+          },
+          {
+            "end": 74,
+            "entity": "BundlesName",
+            "start": 43,
+            "value": "rce xml merger component common"
+          }
+        ]
+      },
+      {
+        "text": "please lets provide highest buildings unit of rce excel component gui bundle bundle",
+        "intent": "showLargestCompilationUnit",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "compilationUnit",
+            "start": 28,
+            "value": "buildings"
+          },
+          {
+            "end": 76,
+            "entity": "BundlesName",
+            "start": 46,
+            "value": "rce excel component gui bundle"
+          }
+        ]
+      },
+      {
+        "text": "greet please give biggest compilation unit of rce joiner component gui",
         "intent": "showLargestCompilationUnit",
         "entities": [
           {
@@ -1300,343 +1570,163 @@
         ]
       },
       {
-        "text": "please provide biggest compilation unit of rce cpacs vampzero initializer component execution",
-        "intent": "showLargestCompilationUnit",
+        "text": "holla look details rce encrypter",
+        "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 34,
-            "entity": "compilationUnit",
-            "start": 23,
-            "value": "compilation"
-          },
-          {
-            "end": 93,
-            "entity": "BundlesName",
-            "start": 43,
-            "value": "rce cpacs vampzero initializer component execution"
+            "end": 32,
+            "entity": "node",
+            "start": 19,
+            "value": "rce encrypter"
           }
         ]
       },
       {
-        "text": "lets search biggest compilation unit of rce parametric study component common",
-        "intent": "showLargestCompilationUnit",
+        "text": "hey there give description rce input provider component gui",
+        "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 31,
-            "entity": "compilationUnit",
-            "start": 20,
-            "value": "compilation"
-          },
-          {
-            "end": 77,
-            "entity": "BundlesName",
-            "start": 40,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "lets give biggest compilation unit of rce parametric study component common bundle",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "compilationUnit",
-            "start": 18,
-            "value": "compilation"
-          },
-          {
-            "end": 75,
-            "entity": "BundlesName",
-            "start": 38,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "greet please lets search biggest compilation unit of rce parametric study component common",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 44,
-            "entity": "compilationUnit",
-            "start": 33,
-            "value": "compilation"
-          },
-          {
-            "end": 90,
-            "entity": "BundlesName",
-            "start": 53,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "provide biggest compilation unit of rce parametric study component common",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "compilationUnit",
-            "start": 16,
-            "value": "compilation"
-          },
-          {
-            "end": 73,
-            "entity": "BundlesName",
-            "start": 36,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "please lets search highest compilation unit of rce excel component gui bundle",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 38,
-            "entity": "compilationUnit",
+            "end": 59,
+            "entity": "node",
             "start": 27,
-            "value": "compilation"
-          },
+            "value": "rce input provider component gui"
+          }
+        ]
+      },
+      {
+        "text": "guten tag please provide information of rce excel component gui bundle node",
+        "intent": "showNodeInformation",
+        "entities": [
           {
-            "end": 77,
-            "entity": "BundlesName",
-            "start": 47,
+            "end": 70,
+            "entity": "node",
+            "start": 40,
             "value": "rce excel component gui bundle"
           }
         ]
       },
       {
-        "text": "please lets look highest compilation unit of rce xml loader component execution",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 36,
-            "entity": "compilationUnit",
-            "start": 25,
-            "value": "compilation"
-          },
-          {
-            "end": 79,
-            "entity": "BundlesName",
-            "start": 45,
-            "value": "rce xml loader component execution"
-          }
-        ]
-      },
-      {
-        "text": "lets show biggest compilation unit of rce xml merger component common",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "compilationUnit",
-            "start": 18,
-            "value": "compilation"
-          },
-          {
-            "end": 69,
-            "entity": "BundlesName",
-            "start": 38,
-            "value": "rce xml merger component common"
-          }
-        ]
-      },
-      {
-        "text": "greet please lets search highest compilation unit of rce parametric study component common bundle",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 44,
-            "entity": "compilationUnit",
-            "start": 33,
-            "value": "compilation"
-          },
-          {
-            "end": 90,
-            "entity": "BundlesName",
-            "start": 53,
-            "value": "rce parametric study component common"
-          }
-        ]
-      },
-      {
-        "text": "greet lets give biggest compilation unit of rce input provider component gui",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 35,
-            "entity": "compilationUnit",
-            "start": 24,
-            "value": "compilation"
-          },
-          {
-            "end": 76,
-            "entity": "BundlesName",
-            "start": 44,
-            "value": "rce input provider component gui"
-          }
-        ]
-      },
-      {
-        "text": "give highest compilation unit",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "compilationUnit",
-            "start": 13,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "greet look bundle with highest compilation unit",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 42,
-            "entity": "compilationUnit",
-            "start": 31,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "show compilation unit with most number of methods",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "compilationUnit",
-            "start": 5,
-            "value": "compilation"
-          },
-          {
-            "end": 49,
-            "entity": "Methods",
-            "start": 42,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "greet search highest compilation unit of rce input provider component gui",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 32,
-            "entity": "compilationUnit",
-            "start": 21,
-            "value": "compilation"
-          },
-          {
-            "end": 73,
-            "entity": "BundlesName",
-            "start": 41,
-            "value": "rce input provider component gui"
-          }
-        ]
-      },
-      {
-        "text": "provide compilation unit with highest code lines",
-        "intent": "showLargestCompilationUnit",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "compilationUnit",
-            "start": 8,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "bonjour show information of gui node",
+        "text": "hey look details of rce components node",
         "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 31,
+            "end": 34,
             "entity": "node",
-            "start": 28,
-            "value": "gui"
+            "start": 20,
+            "value": "rce components"
           }
         ]
       },
       {
-        "text": "hey please search description execution",
+        "text": "lets give info of rce excel component gui bundle node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "node",
+            "start": 18,
+            "value": "rce excel component gui bundle"
+          }
+        ]
+      },
+      {
+        "text": "hey there provide details of internal node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "node",
+            "start": 29,
+            "value": "internal"
+          }
+        ]
+      },
+      {
+        "text": "please look information rce joiner component gui",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "node",
+            "start": 24,
+            "value": "rce joiner component gui"
+          }
+        ]
+      },
+      {
+        "text": "please look details of properties node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "node",
+            "start": 23,
+            "value": "properties"
+          }
+        ]
+      },
+      {
+        "text": "hey there please show description of remote component node",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "node",
+            "start": 37,
+            "value": "remote component"
+          }
+        ]
+      },
+      {
+        "text": "hello please provide details properties",
         "intent": "showNodeInformation",
         "entities": [
           {
             "end": 39,
             "entity": "node",
-            "start": 30,
-            "value": "execution"
-          }
-        ]
-      },
-      {
-        "text": "hi please search description rce input provider component gui",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 61,
-            "entity": "node",
             "start": 29,
-            "value": "rce input provider component gui"
+            "value": "properties"
           }
         ]
       },
       {
-        "text": "hey there give information rce cpacs vampzero initializer component execution",
+        "text": "hello look description of gui node",
         "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 77,
-            "entity": "node",
-            "start": 27,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "please lets provide information of rce cpacs vampzero initializer component execution",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 85,
-            "entity": "node",
-            "start": 35,
-            "value": "rce cpacs vampzero initializer component execution"
-          }
-        ]
-      },
-      {
-        "text": "good morning please show information setup node",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 42,
-            "entity": "node",
-            "start": 37,
-            "value": "setup"
-          }
-        ]
-      },
-      {
-        "text": "hallo please show details rce xml loader component execution node",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 60,
+            "end": 29,
             "entity": "node",
             "start": 26,
+            "value": "gui"
+          }
+        ]
+      },
+      {
+        "text": "give information of rce xml loader component execution",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "node",
+            "start": 20,
             "value": "rce xml loader component execution"
           }
         ]
       },
       {
-        "text": "search info of setup",
+        "text": "holla search information of rce encrypter",
+        "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "node",
+            "start": 28,
+            "value": "rce encrypter"
+          }
+        ]
+      },
+      {
+        "text": "search details setup node",
         "intent": "showNodeInformation",
         "entities": [
           {
@@ -1648,163 +1738,523 @@
         ]
       },
       {
-        "text": "bonjour show details of concurrency node",
+        "text": "hi please search info of rce encrypter node",
         "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 35,
+            "end": 38,
             "entity": "node",
-            "start": 24,
-            "value": "concurrency"
-          }
-        ]
-      },
-      {
-        "text": "hey please look details of remote component node",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 43,
-            "entity": "node",
-            "start": 27,
-            "value": "remote component"
-          }
-        ]
-      },
-      {
-        "text": "search details of rce components evaluation memory gui node",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 54,
-            "entity": "node",
-            "start": 18,
-            "value": "rce components evaluation memory gui"
-          }
-        ]
-      },
-      {
-        "text": "lets look details of rce encrypter node",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 34,
-            "entity": "node",
-            "start": 21,
+            "start": 25,
             "value": "rce encrypter"
           }
         ]
       },
       {
-        "text": "greetings please provide information of remote component node",
+        "text": "guten tag give description of database node",
         "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 56,
+            "end": 38,
             "entity": "node",
-            "start": 40,
-            "value": "remote component"
-          }
-        ]
-      },
-      {
-        "text": "hey please give details of database node",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 35,
-            "entity": "node",
-            "start": 27,
+            "start": 30,
             "value": "database"
           }
         ]
       },
       {
-        "text": "hi please provide details rce xml loader component execution node",
+        "text": "hi provide info rce components evaluation memory gui",
         "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 60,
+            "end": 52,
             "entity": "node",
-            "start": 26,
-            "value": "rce xml loader component execution"
-          }
-        ]
-      },
-      {
-        "text": "hi please search information of rce components evaluation memory gui node",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 68,
-            "entity": "node",
-            "start": 32,
+            "start": 16,
             "value": "rce components evaluation memory gui"
           }
         ]
       },
       {
-        "text": "good morning provide info rce joiner component gui",
+        "text": "greetings please search information gui node",
         "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 50,
+            "end": 39,
             "entity": "node",
-            "start": 26,
-            "value": "rce joiner component gui"
-          }
-        ]
-      },
-      {
-        "text": "greetings please show info of gui",
-        "intent": "showNodeInformation",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "node",
-            "start": 30,
+            "start": 36,
             "value": "gui"
           }
         ]
       },
       {
-        "text": "howdie please show information setup",
+        "text": "hey there please provide details remote component node",
         "intent": "showNodeInformation",
         "entities": [
           {
-            "end": 36,
+            "end": 49,
             "entity": "node",
-            "start": 31,
-            "value": "setup"
+            "start": 33,
+            "value": "remote component"
           }
         ]
       },
       {
-        "text": "show info properties node",
+        "text": "please look details of rce cpacs vampzero initializer component execution node",
         "intent": "showNodeInformation",
+        "entities": [
+          {
+            "end": 73,
+            "entity": "node",
+            "start": 23,
+            "value": "rce cpacs vampzero initializer component execution"
+          }
+        ]
+      },
+      {
+        "text": "please Get all regions",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "packages",
+            "start": 15,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "please Get all compilation units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "compilationUnit",
+            "start": 15,
+            "value": "compilation"
+          }
+        ]
+      },
+      {
+        "text": "Get all services units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "services",
+            "start": 8,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "search all regions",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "packages",
+            "start": 11,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "show all buildings",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "compilationUnit",
+            "start": 9,
+            "value": "buildings"
+          }
+        ]
+      },
+      {
+        "text": "give all services",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "services",
+            "start": 9,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "give all compilation units",
+        "intent": "showAllNodes",
         "entities": [
           {
             "end": 20,
-            "entity": "node",
-            "start": 10,
-            "value": "properties"
+            "entity": "compilationUnit",
+            "start": 9,
+            "value": "compilation"
           }
         ]
       },
       {
-        "text": "please show all bundles units",
+        "text": "please show all islands",
         "intent": "showAllNodes",
         "entities": [
           {
             "end": 23,
             "entity": "bundles",
             "start": 16,
+            "value": "islands"
+          }
+        ]
+      },
+      {
+        "text": "provide all methods units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "Methods",
+            "start": 12,
+            "value": "methods"
+          }
+        ]
+      },
+      {
+        "text": "look all packages units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "packages",
+            "start": 9,
+            "value": "packages"
+          }
+        ]
+      },
+      {
+        "text": "search all package",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "packages",
+            "start": 11,
+            "value": "package"
+          }
+        ]
+      },
+      {
+        "text": "please search all island units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "bundles",
+            "start": 18,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "show all service units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "services",
+            "start": 9,
+            "value": "service"
+          }
+        ]
+      },
+      {
+        "text": "please look all regions units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "packages",
+            "start": 16,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "list all islands",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "bundles",
+            "start": 9,
+            "value": "islands"
+          }
+        ]
+      },
+      {
+        "text": "please list all compilation units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "compilationUnit",
+            "start": 16,
+            "value": "compilation"
+          }
+        ]
+      },
+      {
+        "text": "please provide all packages",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "packages",
+            "start": 19,
+            "value": "packages"
+          }
+        ]
+      },
+      {
+        "text": "please provide all island",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "bundles",
+            "start": 19,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "show all buildings units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "compilationUnit",
+            "start": 9,
+            "value": "buildings"
+          }
+        ]
+      },
+      {
+        "text": "look all package units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "packages",
+            "start": 9,
+            "value": "package"
+          }
+        ]
+      },
+      {
+        "text": "please provide all building",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "compilationUnit",
+            "start": 19,
+            "value": "building"
+          }
+        ]
+      },
+      {
+        "text": "search all bundles units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "bundles",
+            "start": 11,
             "value": "bundles"
           }
         ]
       },
       {
-        "text": "list all service units",
+        "text": "provide all package",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "packages",
+            "start": 12,
+            "value": "package"
+          }
+        ]
+      },
+      {
+        "text": "Get all regions",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "packages",
+            "start": 8,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "please list all services units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "services",
+            "start": 16,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "please list all regions units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "packages",
+            "start": 16,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "give all island",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "bundles",
+            "start": 9,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "look all bundles units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "bundles",
+            "start": 9,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "please give all service units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "services",
+            "start": 16,
+            "value": "service"
+          }
+        ]
+      },
+      {
+        "text": "show all island units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "bundles",
+            "start": 9,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "list all island",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "bundles",
+            "start": 9,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "give all building units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "compilationUnit",
+            "start": 9,
+            "value": "building"
+          }
+        ]
+      },
+      {
+        "text": "Get all compilation units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "compilationUnit",
+            "start": 8,
+            "value": "compilation"
+          }
+        ]
+      },
+      {
+        "text": "please look all services",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "services",
+            "start": 16,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "list all regions units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "packages",
+            "start": 9,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "look all island units",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "bundles",
+            "start": 9,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "please look all building",
+        "intent": "showAllNodes",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "compilationUnit",
+            "start": 16,
+            "value": "building"
+          }
+        ]
+      },
+      {
+        "text": "give all service",
         "intent": "showAllNodes",
         "entities": [
           {
@@ -1828,758 +2278,86 @@
         ]
       },
       {
-        "text": "please Get all service",
+        "text": "provide all buildings",
         "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 22,
-            "entity": "services",
-            "start": 15,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "search all service units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "services",
-            "start": 11,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "show all methods units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "Methods",
-            "start": 9,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "provide all packages",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "packages",
-            "start": 12,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "please look all bundles",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "bundles",
-            "start": 16,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "please give all services",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "services",
-            "start": 16,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "please search all bundles",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "bundles",
-            "start": 18,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "please give all methods",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "Methods",
-            "start": 16,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "please search all package units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "packages",
-            "start": 18,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "please list all service units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "services",
-            "start": 16,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "provide all service units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "services",
-            "start": 12,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "please give all packages units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "packages",
-            "start": 16,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "list all methods units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "Methods",
-            "start": 9,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "give all bundles",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "bundles",
-            "start": 9,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "Get all package",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "packages",
-            "start": 8,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "please Get all bundles",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 22,
-            "entity": "bundles",
-            "start": 15,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "list all bundles units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "bundles",
-            "start": 9,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "look all service",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "services",
-            "start": 9,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "show all bundles",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "bundles",
-            "start": 9,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "please look all compilation",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "compilationUnit",
-            "start": 16,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "please search all methods units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "Methods",
-            "start": 18,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "provide all services",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "services",
-            "start": 12,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "please give all bundles",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "bundles",
-            "start": 16,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "please provide all packages",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "packages",
-            "start": 19,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "list all package",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "packages",
-            "start": 9,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "please list all service",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "services",
-            "start": 16,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "please provide all methods",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "Methods",
-            "start": 19,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "please give all service",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "services",
-            "start": 16,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "please search all service units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "services",
-            "start": 18,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "please search all packages units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "packages",
-            "start": 18,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "please show all bundles",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "bundles",
-            "start": 16,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "please Get all compilation units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "compilationUnit",
-            "start": 15,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "list all compilation units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "compilationUnit",
-            "start": 9,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "please provide all service",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "services",
-            "start": 19,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "give all package",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "packages",
-            "start": 9,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "provide all packages units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "packages",
-            "start": 12,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "show all services units",
-        "intent": "showAllNodes",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "services",
-            "start": 9,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "please total all packages",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "packages",
-            "start": 17,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "please calculate all service units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "services",
-            "start": 21,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "give calculate of service",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "services",
-            "start": 18,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "please search total of services units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 31,
-            "entity": "services",
-            "start": 23,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "search total of package units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "packages",
-            "start": 16,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "please provide total number of all bundles units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 42,
-            "entity": "bundles",
-            "start": 35,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "please show calculate of package",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 32,
-            "entity": "packages",
-            "start": 25,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "please search total of methods",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "Methods",
-            "start": 23,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "show number of compilation units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "compilationUnit",
-            "start": 15,
-            "value": "compilation"
-          }
-        ]
-      },
-      {
-        "text": "look number of services units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "services",
-            "start": 15,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "please total number package",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "packages",
-            "start": 20,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "give total of all methods",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "Methods",
-            "start": 18,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "calculate compilation units",
-        "intent": "countAllNodes",
         "entities": [
           {
             "end": 21,
             "entity": "compilationUnit",
-            "start": 10,
-            "value": "compilation"
+            "start": 12,
+            "value": "buildings"
           }
         ]
       },
       {
-        "text": "please total number all methods units",
+        "text": "return total number of building",
         "intent": "countAllNodes",
         "entities": [
           {
             "end": 31,
+            "entity": "compilationUnit",
+            "start": 23,
+            "value": "building"
+          }
+        ]
+      },
+      {
+        "text": "give total of island units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "bundles",
+            "start": 14,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "please give total of all methods units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 32,
             "entity": "Methods",
-            "start": 24,
+            "start": 25,
             "value": "methods"
           }
         ]
       },
       {
-        "text": "search number of service",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "services",
-            "start": 17,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "please return total of packages",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 31,
-            "entity": "packages",
-            "start": 23,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "total all service units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "services",
-            "start": 10,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "please return number of services units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 32,
-            "entity": "services",
-            "start": 24,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "give total number of services",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "services",
-            "start": 21,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "show calculate of package",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "packages",
-            "start": 18,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "provide total of bundles",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "bundles",
-            "start": 17,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "number all bundles units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "bundles",
-            "start": 11,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "please look total of methods units",
+        "text": "give total number of islands units",
         "intent": "countAllNodes",
         "entities": [
           {
             "end": 28,
-            "entity": "Methods",
+            "entity": "bundles",
             "start": 21,
-            "value": "methods"
+            "value": "islands"
           }
         ]
       },
       {
-        "text": "give total number of compilation",
+        "text": "show total number of island units",
         "intent": "countAllNodes",
         "entities": [
           {
-            "end": 32,
-            "entity": "compilationUnit",
+            "end": 27,
+            "entity": "bundles",
             "start": 21,
-            "value": "compilation"
+            "value": "island"
           }
         ]
       },
       {
-        "text": "give total of services units",
+        "text": "please show number of region",
         "intent": "countAllNodes",
         "entities": [
           {
-            "end": 22,
-            "entity": "services",
-            "start": 14,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "give number of packages",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 23,
+            "end": 28,
             "entity": "packages",
-            "start": 15,
-            "value": "packages"
+            "start": 22,
+            "value": "region"
           }
         ]
       },
@@ -2596,177 +2374,410 @@
         ]
       },
       {
-        "text": "please search calculate of service units",
+        "text": "please show total number of compilation units",
         "intent": "countAllNodes",
         "entities": [
           {
-            "end": 34,
-            "entity": "services",
-            "start": 27,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "search total of all bundles units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "bundles",
-            "start": 20,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "give total of packages units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 22,
-            "entity": "packages",
-            "start": 14,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "please total services",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "services",
-            "start": 13,
-            "value": "services"
-          }
-        ]
-      },
-      {
-        "text": "give calculate of all service",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "services",
-            "start": 22,
-            "value": "service"
-          }
-        ]
-      },
-      {
-        "text": "total number packages units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "packages",
-            "start": 13,
-            "value": "packages"
-          }
-        ]
-      },
-      {
-        "text": "give total of package units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "packages",
-            "start": 14,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "please look number of bundles",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "bundles",
-            "start": 22,
-            "value": "bundles"
-          }
-        ]
-      },
-      {
-        "text": "search total of methods",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "Methods",
-            "start": 16,
-            "value": "methods"
-          }
-        ]
-      },
-      {
-        "text": "please show number of package",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "packages",
-            "start": 22,
-            "value": "package"
-          }
-        ]
-      },
-      {
-        "text": "provide calculate of compilation units",
-        "intent": "countAllNodes",
-        "entities": [
-          {
-            "end": 32,
+            "end": 39,
             "entity": "compilationUnit",
-            "start": 21,
+            "start": 28,
             "value": "compilation"
           }
         ]
       },
       {
-        "text": "please search total number of packages",
+        "text": "give calculate of package",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "packages",
+            "start": 18,
+            "value": "package"
+          }
+        ]
+      },
+      {
+        "text": "please give total of all bundles units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "bundles",
+            "start": 25,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "please give total number of all region",
         "intent": "countAllNodes",
         "entities": [
           {
             "end": 38,
             "entity": "packages",
-            "start": 30,
+            "start": 32,
+            "value": "region"
+          }
+        ]
+      },
+      {
+        "text": "please total all regions",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "packages",
+            "start": 17,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "show total number of buildings units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "compilationUnit",
+            "start": 21,
+            "value": "buildings"
+          }
+        ]
+      },
+      {
+        "text": "give number of islands",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "bundles",
+            "start": 15,
+            "value": "islands"
+          }
+        ]
+      },
+      {
+        "text": "provide total number of packages units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "packages",
+            "start": 24,
             "value": "packages"
           }
         ]
       },
       {
-        "text": "search number of services units",
+        "text": "please calculate buildings units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "compilationUnit",
+            "start": 17,
+            "value": "buildings"
+          }
+        ]
+      },
+      {
+        "text": "give total of bundles",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "bundles",
+            "start": 14,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "please give total number of all buildings units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "compilationUnit",
+            "start": 32,
+            "value": "buildings"
+          }
+        ]
+      },
+      {
+        "text": "number bundles",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "bundles",
+            "start": 7,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "look calculate of island units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "bundles",
+            "start": 18,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "please give total number of package",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "packages",
+            "start": 28,
+            "value": "package"
+          }
+        ]
+      },
+      {
+        "text": "look total number of all islands units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "bundles",
+            "start": 25,
+            "value": "islands"
+          }
+        ]
+      },
+      {
+        "text": "please provide number of service",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "services",
+            "start": 25,
+            "value": "service"
+          }
+        ]
+      },
+      {
+        "text": "search number of building units",
         "intent": "countAllNodes",
         "entities": [
           {
             "end": 25,
-            "entity": "services",
+            "entity": "compilationUnit",
             "start": 17,
+            "value": "building"
+          }
+        ]
+      },
+      {
+        "text": "please search calculate of all island units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "bundles",
+            "start": 31,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "please total number services units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "services",
+            "start": 20,
             "value": "services"
           }
         ]
       },
       {
+        "text": "give number of all services units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "services",
+            "start": 19,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "please return calculate of package",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "packages",
+            "start": 27,
+            "value": "package"
+          }
+        ]
+      },
+      {
+        "text": "please total number region",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "packages",
+            "start": 20,
+            "value": "region"
+          }
+        ]
+      },
+      {
+        "text": "please give number of regions units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "packages",
+            "start": 22,
+            "value": "regions"
+          }
+        ]
+      },
+      {
+        "text": "please search calculate of islands",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "bundles",
+            "start": 27,
+            "value": "islands"
+          }
+        ]
+      },
+      {
+        "text": "give total of island",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "bundles",
+            "start": 14,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "please provide total of package",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "packages",
+            "start": 24,
+            "value": "package"
+          }
+        ]
+      },
+      {
+        "text": "show total number of services",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "services",
+            "start": 21,
+            "value": "services"
+          }
+        ]
+      },
+      {
+        "text": "please give number of all buildings units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "compilationUnit",
+            "start": 26,
+            "value": "buildings"
+          }
+        ]
+      },
+      {
+        "text": "total number buildings units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "compilationUnit",
+            "start": 13,
+            "value": "buildings"
+          }
+        ]
+      },
+      {
+        "text": "please total bundles",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "bundles",
+            "start": 13,
+            "value": "bundles"
+          }
+        ]
+      },
+      {
+        "text": "please return total number of island",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "bundles",
+            "start": 30,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "please show calculate of all island",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "bundles",
+            "start": 29,
+            "value": "island"
+          }
+        ]
+      },
+      {
+        "text": "please return calculate of compilation units",
+        "intent": "countAllNodes",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "compilationUnit",
+            "start": 27,
+            "value": "compilation"
+          }
+        ]
+      },
+      {
+        "text": "guten tag",
+        "intent": "greet",
+        "entities": [
+          
+        ]
+      },
+      {
         "text": "hello",
-        "intent": "greet",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "hallo",
-        "intent": "greet",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "greetings",
         "intent": "greet",
         "entities": [
           
@@ -2780,6 +2791,27 @@
         ]
       },
       {
+        "text": "howdie",
+        "intent": "greet",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": [
+          
+        ]
+      },
+      {
+        "text": "Tschuss",
+        "intent": "goodbye",
+        "entities": [
+          
+        ]
+      },
+      {
         "text": "bye bye",
         "intent": "goodbye",
         "entities": [
@@ -2787,100 +2819,50 @@
         ]
       },
       {
-        "text": "bye, see you later",
+        "text": "Catch you later!",
         "intent": "goodbye",
         "entities": [
           
         ]
       },
       {
-        "text": "bye, have a nice day",
-        "intent": "goodbye",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "All right then!",
-        "intent": "goodbye",
-        "entities": [
-          
-        ]
-      },
-      {
-        "text": "hi My name is Potter PERSON",
+        "text": "holla I am Ramesh PERSON",
         "intent": "my_name_is",
         "entities": [
           {
-            "end": 20,
-            "entity": "PERSON",
-            "start": 14,
-            "value": "Potter"
-          }
-        ]
-      },
-      {
-        "text": "hallo I am mike PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 15,
+            "end": 17,
             "entity": "PERSON",
             "start": 11,
-            "value": "mike"
+            "value": "Ramesh"
           }
         ]
       },
       {
-        "text": "holla I am Martin Novak PERSON",
+        "text": "hey My name is Jack PERSON",
         "intent": "my_name_is",
         "entities": [
           {
-            "end": 23,
+            "end": 19,
             "entity": "PERSON",
-            "start": 11,
-            "value": "Martin Novak"
+            "start": 15,
+            "value": "Jack"
           }
         ]
       },
       {
-        "text": "hello My name is Harry PERSON",
+        "text": "hi I am peter",
         "intent": "my_name_is",
         "entities": [
           {
-            "end": 22,
-            "entity": "PERSON",
-            "start": 17,
-            "value": "Harry"
-          }
-        ]
-      },
-      {
-        "text": "hi I am rachel PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 14,
+            "end": 13,
             "entity": "PERSON",
             "start": 8,
-            "value": "rachel"
+            "value": "peter"
           }
         ]
       },
       {
-        "text": "howdie john here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "PERSON",
-            "start": 7,
-            "value": "john"
-          }
-        ]
-      },
-      {
-        "text": "hey there My name is Jack PERSON",
+        "text": "greetings My name is Jack",
         "intent": "my_name_is",
         "entities": [
           {
@@ -2892,158 +2874,194 @@
         ]
       },
       {
-        "text": "hey there I am peter PERSON",
+        "text": "hi Steven here",
         "intent": "my_name_is",
         "entities": [
           {
-            "end": 20,
+            "end": 9,
             "entity": "PERSON",
-            "start": 15,
-            "value": "peter"
+            "start": 3,
+            "value": "Steven"
           }
         ]
       },
       {
-        "text": "good morning My name is Simon",
+        "text": "I am mike",
         "intent": "my_name_is",
         "entities": [
           {
-            "end": 29,
+            "end": 9,
             "entity": "PERSON",
-            "start": 24,
-            "value": "Simon"
+            "start": 5,
+            "value": "mike"
           }
         ]
       },
       {
-        "text": "hi I am Potter",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "PERSON",
-            "start": 8,
-            "value": "Potter"
-          }
-        ]
-      },
-      {
-        "text": "howdie rachel here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "PERSON",
-            "start": 7,
-            "value": "rachel"
-          }
-        ]
-      },
-      {
-        "text": "hey there My name is john PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "PERSON",
-            "start": 21,
-            "value": "john"
-          }
-        ]
-      },
-      {
-        "text": "hey I am rachel",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "PERSON",
-            "start": 9,
-            "value": "rachel"
-          }
-        ]
-      },
-      {
-        "text": "greetings Potter here",
+        "text": "howdie I am john",
         "intent": "my_name_is",
         "entities": [
           {
             "end": 16,
             "entity": "PERSON",
-            "start": 10,
-            "value": "Potter"
+            "start": 12,
+            "value": "john"
           }
         ]
       },
       {
-        "text": "good evening My name is Potter",
+        "text": "good morning My name is Ramesh",
         "intent": "my_name_is",
         "entities": [
           {
             "end": 30,
             "entity": "PERSON",
             "start": 24,
-            "value": "Potter"
+            "value": "Ramesh"
           }
         ]
       },
       {
-        "text": "good morning I am nick",
+        "text": "hallo john here",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "PERSON",
+            "start": 6,
+            "value": "john"
+          }
+        ]
+      },
+      {
+        "text": "good morning I am rachel PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "PERSON",
+            "start": 18,
+            "value": "rachel"
+          }
+        ]
+      },
+      {
+        "text": "hey there My name is Jack",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "Jack"
+          }
+        ]
+      },
+      {
+        "text": "good evening I am john PERSON",
         "intent": "my_name_is",
         "entities": [
           {
             "end": 22,
             "entity": "PERSON",
             "start": 18,
+            "value": "john"
+          }
+        ]
+      },
+      {
+        "text": "holla nick here",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "PERSON",
+            "start": 6,
             "value": "nick"
           }
         ]
       },
       {
-        "text": "greetings I am mike PERSON",
+        "text": "I am Steven PERSON",
         "intent": "my_name_is",
         "entities": [
           {
-            "end": 19,
+            "end": 11,
             "entity": "PERSON",
-            "start": 15,
-            "value": "mike"
-          }
-        ]
-      },
-      {
-        "text": "good morning My name is Harry PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "PERSON",
-            "start": 24,
-            "value": "Harry"
-          }
-        ]
-      },
-      {
-        "text": "hey there Steven here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "PERSON",
-            "start": 10,
+            "start": 5,
             "value": "Steven"
           }
         ]
       },
       {
-        "text": "guten tag I am Simon PERSON",
+        "text": "greetings My name is Steven",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "Steven"
+          }
+        ]
+      },
+      {
+        "text": "guten tag My name is peter PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "peter"
+          }
+        ]
+      },
+      {
+        "text": "guten tag I am Harry",
         "intent": "my_name_is",
         "entities": [
           {
             "end": 20,
             "entity": "PERSON",
             "start": 15,
-            "value": "Simon"
+            "value": "Harry"
+          }
+        ]
+      },
+      {
+        "text": "hi rachel here",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "PERSON",
+            "start": 3,
+            "value": "rachel"
+          }
+        ]
+      },
+      {
+        "text": "hey there My name is Ramesh",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "PERSON",
+            "start": 21,
+            "value": "Ramesh"
+          }
+        ]
+      },
+      {
+        "text": "hey My name is Potter PERSON",
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "PERSON",
+            "start": 15,
+            "value": "Potter"
           }
         ]
       }
