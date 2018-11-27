@@ -49,6 +49,7 @@ class GenerateQuery:
 
         print(json.dumps(self.prediction, indent=2))
 
+
         return self.prediction
     
 
@@ -156,7 +157,7 @@ class GenerateQuery:
                 result = session.run(str(self.pypherObject), **dict(params))
                 query_result = result.data()
 
-        return [query, params, query_result]
+        return [query, params, query_result, extracted_intent]
 
 
     def convertTextToQuery(self, bundle_slot=None):
@@ -166,11 +167,11 @@ class GenerateQuery:
         query_result = None
         params = None
 
-        [query, params, query_result] = self.getSimpleQuery\
+        [query, params, query_result, extracted_intent] = self.getSimpleQuery\
                 (self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params, bundle_slot) 
 
         if query == None or params == None or query_result == None:
             print ("\n no Query written regarding this intention or intent prediction is not valid")      
 
-        return [query, params, query_result]
+        return [query, params, query_result, extracted_intent]
     
