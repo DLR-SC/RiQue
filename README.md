@@ -1,6 +1,6 @@
 # RiQue (Request into Query)
 
-This system take input as request/command and returns neo4j graph database query. This query is then sent to the Hololens which is connected with the neo4j graph database and as a response, result of a query is displayed on the hololens. However, this system can also be used independently. For that, user has to execute [Json File To Neo4j database](https://github.com/DLR-SC/RiQue/blob/master/neo4j/JsonToNeo4j.ipynb) file which creates neo4j database in user's local system. After that database is queried based on output of RiQue and results are returned. Following diagram explains the input and output of the RiQue:
+This system take input as request/command and returns neo4j graph database query. This query is then sent to the Hololens which is connected with the neo4j graph database and as a response, result of a query is displayed on the hololens. However, this system can also be used independently. For that, user has to execute [Json File To Neo4j database](https://github.com/DLR-SC/RiQue/blob/master/neo4j/JsonToNeo4j.py) file which creates neo4j database in user's local system. After that database is queried based on output of RiQue and results are returned. Following diagram explains the input and output of the RiQue:
 
 <p align="center">
   <img width="480" height="68" src="./images/RiQue_diagram.jpg">
@@ -18,7 +18,7 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 ## Steps
 
-* First convert json to neo4j by executing ```neo4j/JsonToNeo4j.ipynb``` (Remember to start the neo4j server and configure it)
+* First convert json to neo4j by executing ```neo4j/JsonToNeo4j.py``` (Remember to start the neo4j server and configure it)
 * Navigate to SentenceToQuery directory, now in one terminal: Run ``` python  train_rasa_module.py 'train-all' ``` to train and save the rasa nlu and core models
    **If models are already saved, then this step is optional**
 * In second terminal: Run action server using ``` python -m rasa_core_sdk.endpoint --actions actions ```
