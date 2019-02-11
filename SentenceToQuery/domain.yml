@@ -15,22 +15,15 @@ slots:
    type: text
    initial_value: 'remote component environment'
 
-  PERSON:
-    type: text
-
   node:
     type: text
 
   compilationUnit:
     type: text
 
-  Methods:
+  methods:
     type: text
-    
-  # BundlesName slot is to show info for specific bundle
 
-  BundlesName:
-    type: text
     
 entities:
 
@@ -46,8 +39,7 @@ entities:
   - compilationUnit
   - Methods
   - imports
-  - exports 
-  - BundlesName
+  - exports
   - components
 
 intents:
@@ -69,7 +61,7 @@ actions:
 - utter_happy
 - utter_my_name_is
 - action_give_project_information
-- action_show_show_detail_info_bundles
+- action_show_detail_info_bundles
 - action_show_exports_in_bundle
 - utter_how_can_i_help_you
 - action_show_node_information

@@ -1,42 +1,35 @@
 from queryGeneration import GenerateQuery
+import json
+
 
 class Utility:
 
-	def getQuery(self,recent_message, dispatcher, bundle_slot=None):
+    @staticmethod
+    def get_query(dispatcher, tracker):
+        response = dict()
+        g_query = GenerateQuery(tracker)
+        [query, params, extracted_intent, error] = g_query.convert_text_to_query()
+        if error is not None:
+            response['error'] = error
 
-		gQuery = GenerateQuery(recent_message)
-		parse_msg = gQuery.predictIntentionAndEntity()
-		[query, params, result, extracted_intent] = gQuery.convertTextToQuery(bundle_slot)
-		
-		# restructure query
-		for key, value in params.items():
-			if (key in query):
-				# because key present in param does nto have $ sign
-				modified_key = "$" + key
-				query = query.replace(modified_key, '"'+str(value)+'"')
+        if params is not None:
+            # # restructure query
+            for key, value in params.items():
+                if key in query:
+                    # because key present in param does nto have $ sign
+                    modified_key = "$" + key
+                    query = query.replace(modified_key, '"' + str(value) + '"')
+            response['query'] = query
+            response['intent'] = extracted_intent
 
-		# dispatcher.utter_message("===== Query =====")
-		dispatcher.utter_message(query)
-		intents = self.standarizeIntentNames()
-		dispatcher.utter_message(intents[str(extracted_intent)])
-		# dispatcher.utter_message("=== query params =====")
-		# dispatcher.utter_message(str(params))
-		# dispatcher.utter_message("===== result =====")
-		# dispatcher.utter_message(str(result))
+        dispatcher.utter_message(json.dumps(response))
 
-	def standarizeIntentNames(self):
+    @staticmethod
+    def standardize_intent_names(self):
+        intents = {'greet': 'Greet', 'goodbye': 'Good Bye', 'showProjectInformation': 'Show project information',
+                   'showNodeInformation': 'Show node information', 'showAllNodes': 'Show all nodes',
+                   'my_name_is': 'Greet with name', 'countAllNodes': 'Count all nodes',
+                   'showDetailInfoBundles': 'Show information about specific bundle',
+                   'showLargestCompilationUnit': 'Show largest compilation unit'}
 
-		intents = {}
-		intents['greet'] = 'Greet'
-		intents['goodbye'] = 'Good Bye'
-		intents['showProjectInformation'] = 'Show project information'
-		intents['showNodeInformation'] = 'Show node information'
-		intents['showAllNodes'] = 'Show all nodes'
-		intents['my_name_is'] = 'Greet with name'
-		intents['countAllNodes'] = 'Count all nodes'
-		intents['showDetailInfoBundles'] = 'Show information about specific bundle'
-		intents['showLargestCompilationUnit'] = 'Show largest compilation unit'
-
-		return intents
-
-
+        return intents
