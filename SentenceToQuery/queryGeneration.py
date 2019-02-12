@@ -21,9 +21,9 @@ class GenerateQuery:
         if len(self.tracker.latest_message['entities']) > 0:
             extracted_value = self.tracker.latest_message['entities'][0]['value']
             extracted_entities = {
-                self.tracker.latest_message['entities'][entity]['entity']:
-                    self.tracker.latest_message['entities'][entity]['value']
-                for entity in range(len(self.tracker.latest_message['entities']))
+                self.tracker.latest_message['entities'][index]['entity']:
+                    self.tracker.latest_message['entities'][index]['value']
+                for index in range(len(self.tracker.latest_message['entities']))
             }
         else:
             extracted_entities = self.tracker.slots
@@ -37,11 +37,11 @@ class GenerateQuery:
             self.pypher_object.RETURN('u')
 
         elif extracted_intent == 'showAllNodes':
-            self.pypher_object.Match.node('u', labels=extracted_entities)
+            self.pypher_object.Match.node('u', labels=self.get_key_with_none_empty_value(extracted_entities))
             self.pypher_object.RETURN('u')
 
         elif extracted_intent == 'countAllNodes':
-            self.pypher_object.Match.node('u', labels=extracted_entities)
+            self.pypher_object.Match.node('u', labels=self.get_key_with_none_empty_value(extracted_entities))
             self.pypher_object.RETURN(__.count('u'))
 
         elif extracted_intent == 'showLargestCompilationUnit':
@@ -130,6 +130,16 @@ class GenerateQuery:
         query = str(self.pypher_object)
         params = self.pypher_object.bound_params
         return [query, params, extracted_intent]
+
+    @staticmethod
+    def get_key_with_none_empty_value(entities_dict):
+        for key, value in entities_dict.items():
+            print('key: ' + key)
+            if value:
+                print('value: ' + value)
+                if key != "project":
+                    return key
+        return {}
 
     def convert_text_to_query(self):
         error = None

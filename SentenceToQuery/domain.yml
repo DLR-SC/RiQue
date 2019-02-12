@@ -8,9 +8,6 @@ slots:
   services:
    type: text
 
-  eTypes:
-    type: text
-
   project:
    type: text
    initial_value: 'remote component environment'
@@ -34,7 +31,6 @@ entities:
   - bundles
   - services
   - packages
-  - eTypes
   - node
   - compilationUnit
   - Methods
@@ -58,8 +54,6 @@ actions:
 
 - utter_greet
 - utter_goodbye
-- utter_happy
-- utter_my_name_is
 - action_give_project_information
 - action_show_detail_info_bundles
 - action_show_exports_in_bundle
@@ -75,17 +69,8 @@ templates:
   utter_greet:
   - text: "Hey! How can I help you?"
 
-  utter_happy:
-  - text: "I am happy"
-
   utter_how_can_i_help_you:
   - text: "Hey! How can I help you?"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
   
   utter_goodbye:
   - text: "Bye"
-
-  utter_my_name_is:
-  - text: "Nice to meet you, {PERSON}"

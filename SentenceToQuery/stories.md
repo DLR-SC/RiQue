@@ -9,7 +9,6 @@
 
 ## name introduction
 * my_name_is
-  - utter_my_name_is
   - utter_how_can_i_help_you
 
 ## project description
