@@ -1,9 +1,9 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-from utils import Utility
+from response_builder import ResponseBuilder
 import json
 
-util = Utility()
+response_builder = ResponseBuilder()
 
 
 class DisplayGeneralQuery(Action):
@@ -14,7 +14,7 @@ class DisplayGeneralQuery(Action):
 
     def run(self, dispatcher, tracker, domain):
         if tracker.get_slot('project'):
-            util.get_query(dispatcher, tracker)
+            response_builder.get_query(dispatcher, tracker)
         else:
             response = dict()
             response['error'] = "no project slot is filled inside action give project information action"
@@ -31,7 +31,7 @@ class DisplayBundleDetailedQuery(Action):
 
     def run(self, dispatcher, tracker, domain):
         if tracker.get_slot('bundles'):
-            util.get_query(dispatcher, tracker)
+            response_builder.get_query(dispatcher, tracker)
         else:
             response = dict()
             response['error'] = "no bundles slot filled inside show detailed bundle project info"
@@ -53,7 +53,7 @@ class DisplayLargestCompilationUnit(Action):
 
     def run(self, dispatcher, tracker, domain):
         if tracker.get_slot('compilationUnit'):
-            util.get_query(dispatcher, tracker)
+            response_builder.get_query(dispatcher, tracker)
 
         else:
             dispatcher.utter_message(json.dumps({'error': "compilationUnit slot is not filled"}))
@@ -74,7 +74,7 @@ class ShowNodeInformation(Action):
 
     def run(self, dispatcher, tracker, domain):
         if tracker.get_slot('node'):
-            util.get_query(dispatcher, tracker)
+            response_builder.get_query(dispatcher, tracker)
         else:
             dispatcher.utter_message(json.dumps({'error': "no node slot filled inside action show node information"}))
 
@@ -93,7 +93,7 @@ class ShowAllNodes(Action):
         return "action_show_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
-        util.get_query(dispatcher, tracker)
+        response_builder.get_query(dispatcher, tracker)
 
         return []
 
@@ -116,7 +116,7 @@ class CountAllNodes(Action):
                 tracker.get_slot('services') | \
                 tracker.get_slot('compilationUnit') | \
                 tracker.get_slot('Methods'):
-            util.get_query(recent_message, dispatcher)
+            response_builder.get_query(recent_message, dispatcher)
         else:
             response = dict()
             response['error'] = "no slot filled count all nodes"

@@ -2,7 +2,7 @@ from queryGeneration import GenerateQuery
 import json
 
 
-class Utility:
+class ResponseBuilder:
 
     @staticmethod
     def get_query(dispatcher, tracker):
