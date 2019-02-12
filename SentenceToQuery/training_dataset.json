@@ -720,7 +720,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce decrypter component common (example component)"
           }
@@ -738,7 +738,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce decrypter component common (example component)"
           }
@@ -756,7 +756,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 34,
             "value": "rce input provider component gui"
           }
@@ -774,7 +774,7 @@
           },
           {
             "end": 46,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce joiner component gui"
           }
@@ -792,7 +792,7 @@
           },
           {
             "end": 47,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 17,
             "value": "rce excel component gui bundle"
           }
@@ -810,7 +810,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -828,7 +828,7 @@
           },
           {
             "end": 61,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce parametric study component common"
           }
@@ -846,7 +846,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -864,7 +864,7 @@
           },
           {
             "end": 78,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 28,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -882,7 +882,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce decrypter component common (example component)"
           }
@@ -900,7 +900,7 @@
           },
           {
             "end": 46,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce excel component gui bundle"
           }
@@ -918,7 +918,7 @@
           },
           {
             "end": 58,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce xml merger component common"
           }
@@ -936,7 +936,7 @@
           },
           {
             "end": 58,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce xml loader component execution"
           }
@@ -954,7 +954,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 28,
             "value": "rce parametric study component common"
           }
@@ -972,7 +972,7 @@
           },
           {
             "end": 47,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce xml merger component common"
           }
@@ -990,7 +990,7 @@
           },
           {
             "end": 47,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce xml merger component common"
           }
@@ -1008,7 +1008,7 @@
           },
           {
             "end": 46,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce joiner component gui"
           }
@@ -1026,7 +1026,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce cluster component gui"
           }
@@ -1044,7 +1044,7 @@
           },
           {
             "end": 70,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 20,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1062,7 +1062,7 @@
           },
           {
             "end": 56,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce xml merger component common"
           }
@@ -1080,7 +1080,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce excel component gui bundle"
           }
@@ -1098,7 +1098,7 @@
           },
           {
             "end": 76,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -1116,7 +1116,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce xml loader component execution"
           }
@@ -1134,7 +1134,7 @@
           },
           {
             "end": 75,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1152,7 +1152,7 @@
           },
           {
             "end": 50,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce xml loader component execution"
           }
@@ -1170,7 +1170,7 @@
           },
           {
             "end": 70,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce xml loader component execution"
           }
@@ -1188,7 +1188,7 @@
           },
           {
             "end": 81,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce decrypter component common (example component)"
           }
@@ -1206,7 +1206,7 @@
           },
           {
             "end": 55,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce joiner component gui"
           }
@@ -1224,7 +1224,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 20,
             "value": "rce xml merger component common"
           }
@@ -1242,7 +1242,7 @@
           },
           {
             "end": 82,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 32,
             "value": "rce decrypter component common (example component)"
           }
@@ -1260,7 +1260,7 @@
           },
           {
             "end": 52,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 18,
             "value": "rce xml loader component execution"
           }
@@ -1278,7 +1278,7 @@
           },
           {
             "end": 44,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 19,
             "value": "rce cluster component gui"
           }
@@ -1296,7 +1296,7 @@
           },
           {
             "end": 83,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 46,
             "value": "rce parametric study component common"
           }
@@ -1314,7 +1314,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -1332,7 +1332,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce joiner component gui"
           }
@@ -1350,7 +1350,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce xml loader component execution"
           }
@@ -1368,7 +1368,7 @@
           },
           {
             "end": 62,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce parametric study component common"
           }
@@ -1386,7 +1386,7 @@
           },
           {
             "end": 52,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce toolkit - common modules"
           }
@@ -1404,7 +1404,7 @@
           },
           {
             "end": 62,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 32,
             "value": "rce excel component gui bundle"
           }
@@ -1422,7 +1422,7 @@
           },
           {
             "end": 56,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce xml loader component execution"
           }
@@ -1440,7 +1440,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce input provider component gui"
           }
@@ -1458,7 +1458,7 @@
           },
           {
             "end": 78,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 28,
             "value": "rce decrypter component common (example component)"
           }
@@ -1476,7 +1476,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 19,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1494,7 +1494,7 @@
           },
           {
             "end": 57,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce input provider component gui"
           }
@@ -1512,7 +1512,7 @@
           },
           {
             "end": 59,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce input provider component gui"
           }
@@ -1530,7 +1530,7 @@
           },
           {
             "end": 59,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce xml loader component execution"
           }
@@ -1548,7 +1548,7 @@
           },
           {
             "end": 55,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce input provider component gui"
           }
@@ -1566,7 +1566,7 @@
           },
           {
             "end": 60,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -1584,7 +1584,7 @@
           },
           {
             "end": 79,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce decrypter component common (example component)"
           }
@@ -1602,7 +1602,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -1620,7 +1620,7 @@
           },
           {
             "end": 86,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1638,7 +1638,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce input provider component gui"
           }
@@ -1656,7 +1656,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce decrypter component common (example component)"
           }
@@ -1674,7 +1674,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 35,
             "value": "rce xml loader component execution"
           }
@@ -1692,7 +1692,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1710,7 +1710,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1728,7 +1728,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce input provider component gui"
           }
@@ -1746,7 +1746,7 @@
           },
           {
             "end": 43,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 18,
             "value": "rce cluster component gui"
           }
@@ -1764,7 +1764,7 @@
           },
           {
             "end": 74,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce decrypter component common (example component)"
           }
@@ -1782,7 +1782,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce decrypter component common (example component)"
           }
@@ -1800,7 +1800,7 @@
           },
           {
             "end": 55,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce xml merger component common"
           }
@@ -1818,7 +1818,7 @@
           },
           {
             "end": 41,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce cluster component gui"
           }
@@ -1836,7 +1836,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -1854,7 +1854,7 @@
           },
           {
             "end": 75,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce xml loader component execution"
           }
@@ -1872,7 +1872,7 @@
           },
           {
             "end": 76,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -1890,7 +1890,7 @@
           },
           {
             "end": 77,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1908,7 +1908,7 @@
           },
           {
             "end": 54,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce input provider component gui"
           }
@@ -1926,7 +1926,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce xml merger component common"
           }
@@ -1944,7 +1944,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -1962,7 +1962,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -1980,7 +1980,7 @@
           },
           {
             "end": 54,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce toolkit - common modules"
           }
@@ -1998,7 +1998,7 @@
           },
           {
             "end": 60,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -2016,7 +2016,7 @@
           },
           {
             "end": 47,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 15,
             "value": "rce input provider component gui"
           }
@@ -2034,7 +2034,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 19,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2052,7 +2052,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce toolkit - common modules"
           }
@@ -2070,7 +2070,7 @@
           },
           {
             "end": 62,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce parametric study component common"
           }
@@ -2088,7 +2088,7 @@
           },
           {
             "end": 78,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 28,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2106,7 +2106,7 @@
           },
           {
             "end": 54,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce input provider component gui"
           }
@@ -2124,7 +2124,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce toolkit - common modules"
           }
@@ -2142,7 +2142,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 40,
             "value": "rce input provider component gui"
           }
@@ -2160,7 +2160,7 @@
           },
           {
             "end": 67,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce parametric study component common"
           }
@@ -2178,7 +2178,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce parametric study component common"
           }
@@ -2196,7 +2196,7 @@
           },
           {
             "end": 71,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2214,7 +2214,7 @@
           },
           {
             "end": 67,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce parametric study component common"
           }
@@ -2232,7 +2232,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce joiner component gui"
           }
@@ -2250,7 +2250,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2268,7 +2268,7 @@
           },
           {
             "end": 57,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce xml merger component common"
           }
@@ -2286,7 +2286,7 @@
           },
           {
             "end": 67,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 17,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2304,7 +2304,7 @@
           },
           {
             "end": 76,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -2322,7 +2322,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -2340,7 +2340,7 @@
           },
           {
             "end": 55,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce cluster component gui"
           }
@@ -2358,7 +2358,7 @@
           },
           {
             "end": 50,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce toolkit - common modules"
           }
@@ -2376,7 +2376,7 @@
           },
           {
             "end": 59,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce input provider component gui"
           }
@@ -2394,7 +2394,7 @@
           },
           {
             "end": 56,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce xml loader component execution"
           }
@@ -2412,7 +2412,7 @@
           },
           {
             "end": 79,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce decrypter component common (example component)"
           }
@@ -2430,7 +2430,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 28,
             "value": "rce parametric study component common"
           }
@@ -2448,7 +2448,7 @@
           },
           {
             "end": 57,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce excel component gui bundle"
           }
@@ -2466,7 +2466,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -2484,7 +2484,7 @@
           },
           {
             "end": 76,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -2502,7 +2502,7 @@
           },
           {
             "end": 50,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 18,
             "value": "rce input provider component gui"
           }
@@ -2520,7 +2520,7 @@
           },
           {
             "end": 59,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce toolkit - common modules"
           }
@@ -2538,7 +2538,7 @@
           },
           {
             "end": 48,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce input provider component gui"
           }
@@ -2556,7 +2556,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2574,7 +2574,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce joiner component gui"
           }
@@ -2592,7 +2592,7 @@
           },
           {
             "end": 59,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 34,
             "value": "rce cluster component gui"
           }
@@ -2610,7 +2610,7 @@
           },
           {
             "end": 90,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 40,
             "value": "rce decrypter component common (example component)"
           }
@@ -2628,7 +2628,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce toolkit - common modules"
           }
@@ -2646,7 +2646,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce cluster component gui"
           }
@@ -2664,7 +2664,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 28,
             "value": "rce cluster component gui"
           }
@@ -2682,7 +2682,7 @@
           },
           {
             "end": 79,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2700,7 +2700,7 @@
           },
           {
             "end": 58,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 33,
             "value": "rce cluster component gui"
           }
@@ -2718,7 +2718,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -2736,7 +2736,7 @@
           },
           {
             "end": 61,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce excel component gui bundle"
           }
@@ -2754,7 +2754,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 32,
             "value": "rce xml merger component common"
           }
@@ -2772,7 +2772,7 @@
           },
           {
             "end": 55,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce toolkit - common modules"
           }
@@ -2790,7 +2790,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce xml loader component execution"
           }
@@ -2808,7 +2808,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce toolkit - common modules"
           }
@@ -2826,7 +2826,7 @@
           },
           {
             "end": 44,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce toolkit - common modules"
           }
@@ -2844,7 +2844,7 @@
           },
           {
             "end": 58,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce xml loader component execution"
           }
@@ -2862,7 +2862,7 @@
           },
           {
             "end": 59,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce parametric study component common"
           }
@@ -2880,7 +2880,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 32,
             "value": "rce xml merger component common"
           }
@@ -2898,7 +2898,7 @@
           },
           {
             "end": 56,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce cluster component gui"
           }
@@ -2916,7 +2916,7 @@
           },
           {
             "end": 86,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2934,7 +2934,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -2952,7 +2952,7 @@
           },
           {
             "end": 50,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 19,
             "value": "rce xml merger component common"
           }
@@ -2970,7 +2970,7 @@
           },
           {
             "end": 64,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce parametric study component common"
           }
@@ -2988,7 +2988,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -3006,7 +3006,7 @@
           },
           {
             "end": 84,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 34,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3024,7 +3024,7 @@
           },
           {
             "end": 49,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce cluster component gui"
           }
@@ -3042,7 +3042,7 @@
           },
           {
             "end": 50,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce toolkit - common modules"
           }
@@ -3060,7 +3060,7 @@
           },
           {
             "end": 56,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 32,
             "value": "rce joiner component gui"
           }
@@ -3078,7 +3078,7 @@
           },
           {
             "end": 55,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce cluster component gui"
           }
@@ -3096,7 +3096,7 @@
           },
           {
             "end": 47,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 22,
             "value": "rce cluster component gui"
           }
@@ -3114,7 +3114,7 @@
           },
           {
             "end": 57,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce xml loader component execution"
           }
@@ -3132,7 +3132,7 @@
           },
           {
             "end": 89,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3150,7 +3150,7 @@
           },
           {
             "end": 44,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 19,
             "value": "rce cluster component gui"
           }
@@ -3168,7 +3168,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 28,
             "value": "rce parametric study component common"
           }
@@ -3186,7 +3186,7 @@
           },
           {
             "end": 74,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 37,
             "value": "rce parametric study component common"
           }
@@ -3204,7 +3204,7 @@
           },
           {
             "end": 50,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce cluster component gui"
           }
@@ -3222,7 +3222,7 @@
           },
           {
             "end": 81,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3240,7 +3240,7 @@
           },
           {
             "end": 41,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 17,
             "value": "rce joiner component gui"
           }
@@ -3258,7 +3258,7 @@
           },
           {
             "end": 77,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3276,7 +3276,7 @@
           },
           {
             "end": 53,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce parametric study component common"
           }
@@ -3294,7 +3294,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 32,
             "value": "rce xml loader component execution"
           }
@@ -3312,7 +3312,7 @@
           },
           {
             "end": 81,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3330,7 +3330,7 @@
           },
           {
             "end": 40,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 15,
             "value": "rce cluster component gui"
           }
@@ -3348,7 +3348,7 @@
           },
           {
             "end": 64,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 27,
             "value": "rce parametric study component common"
           }
@@ -3366,7 +3366,7 @@
           },
           {
             "end": 49,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce cluster component gui"
           }
@@ -3384,7 +3384,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 19,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3402,7 +3402,7 @@
           },
           {
             "end": 57,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce toolkit - common modules"
           }
@@ -3420,7 +3420,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce parametric study component common"
           }
@@ -3438,7 +3438,7 @@
           },
           {
             "end": 74,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce decrypter component common (example component)"
           }
@@ -3456,7 +3456,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce parametric study component common"
           }
@@ -3474,7 +3474,7 @@
           },
           {
             "end": 44,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 19,
             "value": "rce cluster component gui"
           }
@@ -3492,7 +3492,7 @@
           },
           {
             "end": 61,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce input provider component gui"
           }
@@ -3510,7 +3510,7 @@
           },
           {
             "end": 59,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce excel component gui bundle"
           }
@@ -3528,7 +3528,7 @@
           },
           {
             "end": 41,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 17,
             "value": "rce joiner component gui"
           }
@@ -3546,7 +3546,7 @@
           },
           {
             "end": 56,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce cluster component gui"
           }
@@ -3564,7 +3564,7 @@
           },
           {
             "end": 74,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 37,
             "value": "rce parametric study component common"
           }
@@ -3582,7 +3582,7 @@
           },
           {
             "end": 46,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce cluster component gui"
           }
@@ -3600,7 +3600,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 26,
             "value": "rce parametric study component common"
           }
@@ -3618,7 +3618,7 @@
           },
           {
             "end": 82,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 32,
             "value": "rce decrypter component common (example component)"
           }
@@ -3636,7 +3636,7 @@
           },
           {
             "end": 60,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -3654,7 +3654,7 @@
           },
           {
             "end": 58,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 34,
             "value": "rce joiner component gui"
           }
@@ -3672,7 +3672,7 @@
           },
           {
             "end": 60,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce excel component gui bundle"
           }
@@ -3690,7 +3690,7 @@
           },
           {
             "end": 48,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce cluster component gui"
           }
@@ -3708,7 +3708,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 35,
             "value": "rce toolkit - common modules"
           }
@@ -3726,7 +3726,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce parametric study component common"
           }
@@ -3744,7 +3744,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 34,
             "value": "rce xml merger component common"
           }
@@ -3762,7 +3762,7 @@
           },
           {
             "end": 55,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 24,
             "value": "rce xml merger component common"
           }
@@ -3780,7 +3780,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce decrypter component common (example component)"
           }
@@ -3798,7 +3798,7 @@
           },
           {
             "end": 71,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 34,
             "value": "rce parametric study component common"
           }
@@ -3816,7 +3816,7 @@
           },
           {
             "end": 54,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 23,
             "value": "rce xml merger component common"
           }
@@ -3834,7 +3834,7 @@
           },
           {
             "end": 85,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 35,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3852,7 +3852,7 @@
           },
           {
             "end": 51,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -3870,7 +3870,7 @@
           },
           {
             "end": 52,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 15,
             "value": "rce parametric study component common"
           }
@@ -3888,7 +3888,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 16,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3906,7 +3906,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce input provider component gui"
           }
@@ -3924,7 +3924,7 @@
           },
           {
             "end": 60,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -3942,7 +3942,7 @@
           },
           {
             "end": 56,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 25,
             "value": "rce xml merger component common"
           }
@@ -4032,7 +4032,7 @@
           },
           {
             "end": 62,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 37,
             "value": "rce cluster component gui"
           }
@@ -4050,7 +4050,7 @@
           },
           {
             "end": 89,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4068,7 +4068,7 @@
           },
           {
             "end": 101,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 51,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4086,7 +4086,7 @@
           },
           {
             "end": 89,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4104,7 +4104,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 33,
             "value": "rce excel component gui bundle"
           }
@@ -4122,7 +4122,7 @@
           },
           {
             "end": 74,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce excel component gui bundle"
           }
@@ -4140,7 +4140,7 @@
           },
           {
             "end": 68,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 34,
             "value": "rce xml loader component execution"
           }
@@ -4158,7 +4158,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce xml merger component common"
           }
@@ -4176,7 +4176,7 @@
           },
           {
             "end": 81,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 49,
             "value": "rce input provider component gui"
           }
@@ -4194,7 +4194,7 @@
           },
           {
             "end": 84,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 53,
             "value": "rce xml merger component common"
           }
@@ -4212,7 +4212,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce toolkit - common modules"
           }
@@ -4230,7 +4230,7 @@
           },
           {
             "end": 62,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce joiner component gui"
           }
@@ -4248,7 +4248,7 @@
           },
           {
             "end": 68,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce cluster component gui"
           }
@@ -4266,7 +4266,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce toolkit - common modules"
           }
@@ -4284,7 +4284,7 @@
           },
           {
             "end": 85,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 48,
             "value": "rce parametric study component common"
           }
@@ -4302,7 +4302,7 @@
           },
           {
             "end": 89,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4320,7 +4320,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce toolkit - common modules"
           }
@@ -4338,7 +4338,7 @@
           },
           {
             "end": 90,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 40,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4356,7 +4356,7 @@
           },
           {
             "end": 67,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce joiner component gui"
           }
@@ -4374,7 +4374,7 @@
           },
           {
             "end": 74,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce xml merger component common"
           }
@@ -4422,7 +4422,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce cluster component gui"
           }
@@ -4440,7 +4440,7 @@
           },
           {
             "end": 60,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce joiner component gui"
           }
@@ -4458,7 +4458,7 @@
           },
           {
             "end": 93,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce decrypter component common (example component)"
           }
@@ -4476,7 +4476,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce cluster component gui"
           }
@@ -4494,7 +4494,7 @@
           },
           {
             "end": 82,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 51,
             "value": "rce xml merger component common"
           }
@@ -4512,7 +4512,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce xml merger component common"
           }
@@ -4530,7 +4530,7 @@
           },
           {
             "end": 57,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 33,
             "value": "rce joiner component gui"
           }
@@ -4548,7 +4548,7 @@
           },
           {
             "end": 89,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce decrypter component common (example component)"
           }
@@ -4566,7 +4566,7 @@
           },
           {
             "end": 62,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 37,
             "value": "rce cluster component gui"
           }
@@ -4584,7 +4584,7 @@
           },
           {
             "end": 77,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 45,
             "value": "rce input provider component gui"
           }
@@ -4602,7 +4602,7 @@
           },
           {
             "end": 70,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 40,
             "value": "rce excel component gui bundle"
           }
@@ -4620,7 +4620,7 @@
           },
           {
             "end": 79,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 49,
             "value": "rce excel component gui bundle"
           }
@@ -4638,7 +4638,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4656,7 +4656,7 @@
           },
           {
             "end": 64,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 40,
             "value": "rce joiner component gui"
           }
@@ -4674,7 +4674,7 @@
           },
           {
             "end": 81,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce parametric study component common"
           }
@@ -4692,7 +4692,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 42,
             "value": "rce excel component gui bundle"
           }
@@ -4710,7 +4710,7 @@
           },
           {
             "end": 86,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 49,
             "value": "rce parametric study component common"
           }
@@ -4728,7 +4728,7 @@
           },
           {
             "end": 82,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 48,
             "value": "rce xml loader component execution"
           }
@@ -4746,7 +4746,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce xml loader component execution"
           }
@@ -4764,7 +4764,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce joiner component gui"
           }
@@ -4842,7 +4842,7 @@
           },
           {
             "end": 68,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce excel component gui bundle"
           }
@@ -4860,7 +4860,7 @@
           },
           {
             "end": 83,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 46,
             "value": "rce parametric study component common"
           }
@@ -4878,7 +4878,7 @@
           },
           {
             "end": 77,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 45,
             "value": "rce input provider component gui"
           }
@@ -4896,7 +4896,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce input provider component gui"
           }
@@ -4914,7 +4914,7 @@
           },
           {
             "end": 74,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce xml merger component common"
           }
@@ -4932,7 +4932,7 @@
           },
           {
             "end": 81,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 51,
             "value": "rce excel component gui bundle"
           }
@@ -4950,7 +4950,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce xml merger component common"
           }
@@ -4968,7 +4968,7 @@
           },
           {
             "end": 67,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce toolkit - common modules"
           }
@@ -4986,7 +4986,7 @@
           },
           {
             "end": 100,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 50,
             "value": "rce decrypter component common (example component)"
           }
@@ -5004,7 +5004,7 @@
           },
           {
             "end": 76,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 42,
             "value": "rce xml loader component execution"
           }
@@ -5022,7 +5022,7 @@
           },
           {
             "end": 91,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce decrypter component common (example component)"
           }
@@ -5040,7 +5040,7 @@
           },
           {
             "end": 99,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 49,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -5058,7 +5058,7 @@
           },
           {
             "end": 68,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce excel component gui bundle"
           }
@@ -5076,7 +5076,7 @@
           },
           {
             "end": 64,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 40,
             "value": "rce joiner component gui"
           }
@@ -5094,7 +5094,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce toolkit - common modules"
           }
@@ -5112,7 +5112,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 42,
             "value": "rce xml merger component common"
           }
@@ -5130,7 +5130,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 49,
             "value": "rce joiner component gui"
           }
@@ -5148,7 +5148,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce input provider component gui"
           }
@@ -5166,7 +5166,7 @@
           },
           {
             "end": 61,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 33,
             "value": "rce toolkit - common modules"
           }
@@ -5184,7 +5184,7 @@
           },
           {
             "end": 73,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 48,
             "value": "rce cluster component gui"
           }
@@ -5244,7 +5244,7 @@
           },
           {
             "end": 63,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 35,
             "value": "rce toolkit - common modules"
           }
@@ -5262,7 +5262,7 @@
           },
           {
             "end": 64,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 40,
             "value": "rce joiner component gui"
           }
@@ -5280,7 +5280,7 @@
           },
           {
             "end": 77,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce xml loader component execution"
           }
@@ -5298,7 +5298,7 @@
           },
           {
             "end": 77,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce xml loader component execution"
           }
@@ -5316,7 +5316,7 @@
           },
           {
             "end": 69,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce excel component gui bundle"
           }
@@ -5334,7 +5334,7 @@
           },
           {
             "end": 64,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 30,
             "value": "rce xml loader component execution"
           }
@@ -5352,7 +5352,7 @@
           },
           {
             "end": 68,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 37,
             "value": "rce xml merger component common"
           }
@@ -5370,7 +5370,7 @@
           },
           {
             "end": 75,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 41,
             "value": "rce xml loader component execution"
           }
@@ -5388,7 +5388,7 @@
           },
           {
             "end": 70,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 39,
             "value": "rce xml merger component common"
           }
@@ -5406,7 +5406,7 @@
           },
           {
             "end": 68,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 31,
             "value": "rce parametric study component common"
           }
@@ -5424,7 +5424,7 @@
           },
           {
             "end": 66,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 42,
             "value": "rce joiner component gui"
           }
@@ -5442,7 +5442,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce parametric study component common"
           }
@@ -5460,7 +5460,7 @@
           },
           {
             "end": 80,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 48,
             "value": "rce input provider component gui"
           }
@@ -5478,7 +5478,7 @@
           },
           {
             "end": 72,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 38,
             "value": "rce xml loader component execution"
           }
@@ -5496,7 +5496,7 @@
           },
           {
             "end": 76,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce input provider component gui"
           }
@@ -5514,7 +5514,7 @@
           },
           {
             "end": 86,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -5532,7 +5532,7 @@
           },
           {
             "end": 92,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 42,
             "value": "rce decrypter component common (example component)"
           }
@@ -5550,7 +5550,7 @@
           },
           {
             "end": 71,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 43,
             "value": "rce toolkit - common modules"
           }
@@ -5568,7 +5568,7 @@
           },
           {
             "end": 94,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 44,
             "value": "rce decrypter component common (example component)"
           }
@@ -5646,7 +5646,7 @@
           },
           {
             "end": 60,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 36,
             "value": "rce joiner component gui"
           }
@@ -5676,7 +5676,7 @@
           },
           {
             "end": 65,
-            "entity": "BundlesName",
+            "entity": "bundles",
             "start": 33,
             "value": "rce input provider component gui"
           }
@@ -10352,486 +10352,6 @@
         "intent": "goodbye",
         "entities": [
           
-        ]
-      },
-      {
-        "text": "I 'm mike PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "PERSON",
-            "start": 5,
-            "value": "mike"
-          }
-        ]
-      },
-      {
-        "text": "hallo My name is Simon",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 22,
-            "entity": "PERSON",
-            "start": 17,
-            "value": "Simon"
-          }
-        ]
-      },
-      {
-        "text": "I am Potter PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "PERSON",
-            "start": 5,
-            "value": "Potter"
-          }
-        ]
-      },
-      {
-        "text": "hey I am Simon PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "PERSON",
-            "start": 9,
-            "value": "Simon"
-          }
-        ]
-      },
-      {
-        "text": "hey there Potter here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "PERSON",
-            "start": 10,
-            "value": "Potter"
-          }
-        ]
-      },
-      {
-        "text": "hallo I am nick",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "PERSON",
-            "start": 11,
-            "value": "nick"
-          }
-        ]
-      },
-      {
-        "text": "hallo My name is mike PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "PERSON",
-            "start": 17,
-            "value": "mike"
-          }
-        ]
-      },
-      {
-        "text": "bonjour I am nick PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "PERSON",
-            "start": 13,
-            "value": "nick"
-          }
-        ]
-      },
-      {
-        "text": "good morning My name is Jack PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "PERSON",
-            "start": 24,
-            "value": "Jack"
-          }
-        ]
-      },
-      {
-        "text": "hey there mike here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "PERSON",
-            "start": 10,
-            "value": "mike"
-          }
-        ]
-      },
-      {
-        "text": "good evening My name is peter PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "PERSON",
-            "start": 24,
-            "value": "peter"
-          }
-        ]
-      },
-      {
-        "text": "I am Martin Novak PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "PERSON",
-            "start": 5,
-            "value": "Martin Novak"
-          }
-        ]
-      },
-      {
-        "text": "good evening I am Ramesh",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "PERSON",
-            "start": 18,
-            "value": "Ramesh"
-          }
-        ]
-      },
-      {
-        "text": "hey Steven here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "PERSON",
-            "start": 4,
-            "value": "Steven"
-          }
-        ]
-      },
-      {
-        "text": "hi My name is Simon",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "PERSON",
-            "start": 14,
-            "value": "Simon"
-          }
-        ]
-      },
-      {
-        "text": "bonjour My name is Potter PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "PERSON",
-            "start": 19,
-            "value": "Potter"
-          }
-        ]
-      },
-      {
-        "text": "greetings I am Steven PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "PERSON",
-            "start": 15,
-            "value": "Steven"
-          }
-        ]
-      },
-      {
-        "text": "holla I am Jack",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "PERSON",
-            "start": 11,
-            "value": "Jack"
-          }
-        ]
-      },
-      {
-        "text": "hey there Simon here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "PERSON",
-            "start": 10,
-            "value": "Simon"
-          }
-        ]
-      },
-      {
-        "text": "guten tag My name is Steven",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "PERSON",
-            "start": 21,
-            "value": "Steven"
-          }
-        ]
-      },
-      {
-        "text": "good evening I am john",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 22,
-            "entity": "PERSON",
-            "start": 18,
-            "value": "john"
-          }
-        ]
-      },
-      {
-        "text": "guten tag My name is Harry",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "PERSON",
-            "start": 21,
-            "value": "Harry"
-          }
-        ]
-      },
-      {
-        "text": "hallo Harry here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "PERSON",
-            "start": 6,
-            "value": "Harry"
-          }
-        ]
-      },
-      {
-        "text": "hey My name is john PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "PERSON",
-            "start": 15,
-            "value": "john"
-          }
-        ]
-      },
-      {
-        "text": "holla I am mike PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "PERSON",
-            "start": 11,
-            "value": "mike"
-          }
-        ]
-      },
-      {
-        "text": "hallo My name is Jack",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "PERSON",
-            "start": 17,
-            "value": "Jack"
-          }
-        ]
-      },
-      {
-        "text": "I am Jack PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "PERSON",
-            "start": 5,
-            "value": "Jack"
-          }
-        ]
-      },
-      {
-        "text": "hey there My name is rachel",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "PERSON",
-            "start": 21,
-            "value": "rachel"
-          }
-        ]
-      },
-      {
-        "text": "howdie Ramesh here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "PERSON",
-            "start": 7,
-            "value": "Ramesh"
-          }
-        ]
-      },
-      {
-        "text": "howdie I am Simon",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "PERSON",
-            "start": 12,
-            "value": "Simon"
-          }
-        ]
-      },
-      {
-        "text": "greetings I am rachel",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "PERSON",
-            "start": 15,
-            "value": "rachel"
-          }
-        ]
-      },
-      {
-        "text": "guten tag My name is Steven PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "PERSON",
-            "start": 21,
-            "value": "Steven"
-          }
-        ]
-      },
-      {
-        "text": "I am peter",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "PERSON",
-            "start": 5,
-            "value": "peter"
-          }
-        ]
-      },
-      {
-        "text": "hello My name is Potter",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "PERSON",
-            "start": 17,
-            "value": "Potter"
-          }
-        ]
-      },
-      {
-        "text": "good morning mike here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "PERSON",
-            "start": 13,
-            "value": "mike"
-          }
-        ]
-      },
-      {
-        "text": "I 'm Jack",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "PERSON",
-            "start": 5,
-            "value": "Jack"
-          }
-        ]
-      },
-      {
-        "text": "good evening I am Potter PERSON",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "PERSON",
-            "start": 18,
-            "value": "Potter"
-          }
-        ]
-      },
-      {
-        "text": "holla My name is Ramesh",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "PERSON",
-            "start": 17,
-            "value": "Ramesh"
-          }
-        ]
-      },
-      {
-        "text": "howdie Harry here",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 12,
-            "entity": "PERSON",
-            "start": 7,
-            "value": "Harry"
-          }
-        ]
-      },
-      {
-        "text": "My name is peter",
-        "intent": "my_name_is",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "PERSON",
-            "start": 11,
-            "value": "peter"
-          }
         ]
       }
     ]

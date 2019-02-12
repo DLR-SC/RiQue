@@ -1,112 +1,87 @@
-import pypher
-import json
 import warnings
 import ruamel.yaml as yaml
+from pypher import __
+from pypher.builder import Param, Pypher
 
 warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 
-from pypher import __
-from pypher.builder import Param, Pypher
-from neo4j.v1 import GraphDatabase
-from train_rasa_module import TrainBot
-from rasa_core.interpreter import RasaNLUInterpreter
- 
 
 class GenerateQuery:
-    
-    
-    def __init__(self, sentence):
-        
-        self.trainedBot = TrainBot()
-        self.interpret = RasaNLUInterpreter(self.trainedBot.model_path_nlu)
-        self.extracted_intents = None
-        self.extracted_values = None # entities values
-        self.prediction = None
-        self.pypherObject = Pypher()
-        self.uri = "bolt://localhost:7687"
-        self.driver = GraphDatabase.driver(self.uri, auth=("neo4j", "123456"))
-        self.sentence = sentence
-        
 
-    def predictIntentionAndEntity(self):
-        
+    def __init__(self, tracker):
 
-        self.prediction = self.interpret.parse(self.sentence)
-        print ("length of entities ", len(self.prediction.get("entities")))
-        self.extracted_entities = None
-        if len(self.prediction.get("entities")) > 0:
-            # self.extracted_entities = None
-            self.extracted_entities = self.prediction.get("entities")[0]['entity']
-            self.extracted_values = self.prediction.get("entities")[0]['value']
-            
-        if len(self.prediction.get("entities")) > 1:
-            self.extracted_entities = dict()
-            self.extracted_entities = \
-                {self.prediction.get("entities")[entity]['entity']: self.prediction.get("entities")[entity]['value'] 
-                        for entity in range(len(self.prediction.get("entities")))}
-            
-        self.extracted_intents = self.prediction.get("intent")['name']
+        self.extracted_intents = dict()
+        self.extracted_values = dict()
+        self.pypher_object = Pypher()
+        self.tracker = tracker
 
-        print(json.dumps(self.prediction, indent=2))
+    def get_simple_query(self):
+        extracted_intent = self.tracker.latest_message['intent']['name']
 
-
-        return self.prediction
-    
-
-    def getSimpleQuery(self, extracted_entites, extracted_intent, 
-                extracted_value, query, query_result, params, bundle_slot=None):
-
+        if len(self.tracker.latest_message['entities']) > 0:
+            extracted_value = self.tracker.latest_message['entities'][0]['value']
+            extracted_entities = {
+                self.tracker.latest_message['entities'][index]['entity']:
+                    self.tracker.latest_message['entities'][index]['value']
+                for index in range(len(self.tracker.latest_message['entities']))
+            }
+        else:
+            extracted_entities = self.tracker.slots
+        if len(extracted_entities) <= 0:
+            return []
 
         if extracted_intent == 'showNodeInformation':
-            self.pypherObject.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', extracted_value))
-            self.pypherObject.RETURN('u')
+            if extracted_entities['node'] is None:
+                return []
+            self.pypher_object.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', extracted_entities['node']))
+            self.pypher_object.RETURN('u')
 
         elif extracted_intent == 'showAllNodes':
-            self.pypherObject.Match.node('u', labels=extracted_entites)
-            self.pypherObject.RETURN('u')
+            self.pypher_object.Match.node('u', labels=self.get_key_with_none_empty_value(extracted_entities))
+            self.pypher_object.RETURN('u')
 
         elif extracted_intent == 'countAllNodes':
-            self.pypherObject.Match.node('u', labels=extracted_entites)
-            self.pypherObject.RETURN(__.count('u'))
-            
+            self.pypher_object.Match.node('u', labels=self.get_key_with_none_empty_value(extracted_entities))
+            self.pypher_object.RETURN(__.count('u'))
+
         elif extracted_intent == 'showLargestCompilationUnit':
 
-            if bundle_slot["Methods"] is not None:
+            if self.tracker.get_slot('Methods') is not None:
 
-                self.pypherObject.Match.node('bundle', labels='bundles').relationship\
-                        ('pkg', labels="Pkg_fragment").node('k').relationship \
-                        ('kl', labels='compiled_By').node().relationship\
-                        ('cp', labels = "compiledUnits_topLevelType").node('n').relationship \
-                        ('rl', 'Methods_Contains').node('mthd')
+                self.pypher_object.Match.node('bundle', labels='bundles').relationship \
+                    ('pkg', labels="Pkg_fragment").node('k').relationship \
+                    ('kl', labels='compiled_By').node().relationship \
+                    ('cp', labels="compiledUnits_topLevelType").node('n').relationship \
+                    ('rl', 'Methods_Contains').node('mthd')
 
-                self.pypherObject.RETURN('bundle.name', 'n.name', __.count('mthd'))
-                self.pypherObject.OrderBy(__.count('mthd'))
+                self.pypher_object.RETURN('bundle.name', 'n.name', __.count('mthd'))
+                self.pypher_object.OrderBy(__.count('mthd'))
 
             else:
-                self.pypherObject.Match.node('bundle', labels='bundles').relationship\
-                    ('pkg', labels="Pkg_fragment").node('k').relationship\
+                self.pypher_object.Match.node('bundle', labels='bundles').relationship \
+                    ('pkg', labels="Pkg_fragment").node('k').relationship \
                     ('kl', labels='compiled_By').node('cmp')
 
-                if bundle_slot['BundlesName'] is not None:
-                    self.pypherObject.WHERE(__.bundle.__name__ == bundle_slot['BundlesName'])
+                if self.tracker.get_slot('bundles') is not None:
+                    self.pypher_object.WHERE(__.bundle.__name__ == self.tracker.get_slot('bundles'))
 
-                self.pypherObject.RETURN('bundle.name', 'cmp.name', 'cmp.Loc')
-                self.pypherObject.OrderBy(__.cmp.__Loc__)
+                self.pypher_object.RETURN('bundle.name', 'cmp.name', 'cmp.Loc')
+                self.pypher_object.OrderBy(__.cmp.__Loc__)
 
-            self.pypherObject.Desc()
-            self.pypherObject.Limit(1)
+            self.pypher_object.Desc()
+            self.pypher_object.Limit(1)
 
         elif extracted_intent == 'showDetailInfoBundles':
 
             bundle_name = None
             key_value = None
-            # iterate through all intenties
-            for key, value in self.extracted_entities.items():
+            # iterate through all entities
+            for key, value in self.tracker.slots.items():
 
-                #key_value is assigned according to relation names
-                if key == 'BundlesName':
+                # key_value is assigned according to relation names
+                if key == 'bundles':
                     bundle_name = value
-                elif key == 'Imports' or key == 'Exports':
+                elif key == 'imports' or key == 'Exports':
                     key_value = value
                 elif key == 'packages':
                     key_value = 'uses_pkgs'
@@ -120,58 +95,57 @@ class GenerateQuery:
             # this is relation name
             if key_value == 'compiled_By':
 
-                self.pypherObject.Match.node('u', labels='bundles').relationship \
+                self.pypher_object.Match.node('u', labels='bundles').relationship \
                     ('f', labels="Pkg_fragment").node('n').relationship \
                     ('c', labels="compiled_By").node("m")
-            
+
             elif key_value == 'Methods_Contains':
-                self.pypherObject.Match.node('u', labels='bundles').relationship\
+                self.pypher_object.Match.node('u', labels='bundles').relationship \
                     ('pkg', labels="Pkg_fragment").node('k').relationship \
                     ('kl', labels='compiled_By').node('n').relationship \
-                    ('r', labels = 'compiledUnits_topLevelType').node('nl').relationship\
-                    ('rl', labels = 'Methods_Contains').node('m')
+                    ('r', labels='compiledUnits_topLevelType').node('nl').relationship \
+                    ('rl', labels='Methods_Contains').node('m')
 
             else:
-                self.pypherObject.Match.node('u', labels='bundles').relationship\
+                self.pypher_object.Match.node('u', labels='bundles').relationship \
                     ('r', labels=key_value).node('m')
 
-            self.pypherObject.WHERE(__.u.__name__ == bundle_name)
+            self.pypher_object.WHERE(__.u.__name__ == bundle_name)
 
             # this can be changed according to req. if we need all info or just names of packages
             # query = str(self.pypherObject.RETURN('u.name', 'm.name'))
-            self.pypherObject.RETURN('u.name','m.name')
+            self.pypher_object.RETURN('u.name', 'm.name')
 
         elif self.extracted_intents == 'showProjectInformation':
-            self.pypherObject.Match.node('u')
-            self.pypherObject.WHERE(__.u.__name__ == bundle_slot['project']) #
-            self.pypherObject.RETURN('u')
+            self.pypher_object.Match.node('u')
+            self.pypher_object.WHERE(__.u.__name__ == self.tracker.get_slot('bundles'))
+            self.pypher_object.RETURN('u')
 
         else:
-            self.pypherObject.Match.node('u', labels=extracted_entites).WHERE.u.property('name') == extracted_value
-            self.pypherObject.RETURN('u')
+            if extracted_value is not None:
+                self.pypher_object.Match.node('u', labels=extracted_entities).WHERE.u.property(
+                    'name') == extracted_value
+                self.pypher_object.RETURN('u')
 
-        query = str(self.pypherObject)
-        params = self.pypherObject.bound_params
+        query = str(self.pypher_object)
+        params = self.pypher_object.bound_params
+        return [query, params, extracted_intent]
 
-        with self.driver.session() as session:
-                result = session.run(str(self.pypherObject), **dict(params))
-                query_result = result.data()
+    @staticmethod
+    def get_key_with_none_empty_value(entities_dict):
+        for key, value in entities_dict.items():
+            print('key: ' + key)
+            if value:
+                print('value: ' + value)
+                if key != "project":
+                    return key
+        return {}
 
-        return [query, params, query_result, extracted_intent]
+    def convert_text_to_query(self):
+        error = None
+        [query, params, extracted_intent] = self.get_simple_query()
 
+        if query is None or params is None or extracted_intent is None:
+            error = "no Query written regarding this intention or intent prediction is not valid"
 
-    def convertTextToQuery(self, bundle_slot=None):
-
-
-        query = None 
-        query_result = None
-        params = None
-
-        [query, params, query_result, extracted_intent] = self.getSimpleQuery\
-                (self.extracted_entities, self.extracted_intents, self.extracted_values, query, query_result, params, bundle_slot) 
-
-        if query == None or params == None or query_result == None:
-            print ("\n no Query written regarding this intention or intent prediction is not valid")      
-
-        return [query, params, query_result, extracted_intent]
-    
+        return [query, params, self.tracker.latest_message['intent'], error]

@@ -1,244 +1,126 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-import pypher
-from pypher import Pypher, __
-from pypher.builder import Param
-from utils import Utility
-from rasa_core.events import AllSlotsReset, Restarted
+from response_builder import ResponseBuilder
+import json
 
-util = Utility()
+response_builder = ResponseBuilder()
+
 
 class DisplayGeneralQuery(Action):
 
-
     def name(self):
 
-      return "action_give_project_information"
+        return "action_give_project_information"
 
     def run(self, dispatcher, tracker, domain):
-      # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
+        if tracker.get_slot('project'):
+            response_builder.get_query(dispatcher, tracker)
+        else:
+            response = dict()
+            response['error'] = "no project slot is filled inside action give project information action"
+            dispatcher.utter_custom_message(response)
 
-      # dispatcher.utter_message("action give project info being called ")
-
-      recent_message = (tracker.latest_message)['text']
-
-      if tracker.get_slot('project'):
-
-          util.getQuery(recent_message, dispatcher, tracker.current_slot_values())
-
-          # dispatcher.utter_message("project info being uttered ..")
-
-      else:
-          
-          dispatcher.utter_message("no project slot is filled inside action give project information action")
-
-      return []
+        return []
 
 
 class DisplayBundleDetailedQuery(Action):
 
-
     def name(self):
 
-      return "action_show_show_detail_info_bundles"
+        return "action_show_detail_info_bundles"
 
     def run(self, dispatcher, tracker, domain):
-      # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
+        if tracker.get_slot('bundles'):
+            response_builder.get_query(dispatcher, tracker)
+        else:
+            response = dict()
+            response['error'] = "no bundles slot filled inside show detailed bundle project info"
+            dispatcher.utter_custom_message(response)
 
-      #dispatcher.utter_message("action show detail info bundle")
+        return []
 
-      recent_message = (tracker.latest_message)['text']
-
-      # dispatcher.utter_message(tracker.current_state)
-
-      if tracker.get_slot('BundlesName'):
-
-          # dispatcher.utter_message("Slot value ")
-          # dispatcher.utter_message(tracker.get_slot('BundlesName'))
-          
-          util.getQuery(recent_message, dispatcher)
-
-          # dispatcher.utter_message("bundles slot found and action bundle executed")
-
-      else:
-          dispatcher.utter_message("no bundles slot filled  inside show detailed bundle project info")
-
-      return []
 
 '''
 Get compilation units with highest number of code lines
 '''
 
-class DisplayLargestCompilationUnit(Action):
 
+class DisplayLargestCompilationUnit(Action):
 
     def name(self):
 
-      return "action_show_largest_compilationUnit"
+        return "action_show_largest_compilationUnit"
 
     def run(self, dispatcher, tracker, domain):
-      # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
+        if tracker.get_slot('compilationUnit'):
+            response_builder.get_query(dispatcher, tracker)
 
-    # tracker.get_slot('city')[bool(tracker.get_slot('city'))] 
-      #dispatcher.utter_message("action show largest compilation units")
+        else:
+            dispatcher.utter_message(json.dumps({'error': "compilationUnit slot is not filled"}))
 
-      recent_message = (tracker.latest_message)['text']
-
-      # dispatcher.utter_message(tracker.current_state)
-
-      if tracker.get_slot('compilationUnit'):
-          # print(tracker.current_slot_values())
-          util.getQuery(recent_message, dispatcher, tracker.current_slot_values())
-
-          # dispatcher.utter_message("compilation slot found and show largest compilation unit executed")
-
-      else:
-          dispatcher.utter_message("compilationUnit slot is not filled")
-
-      return []
+        return []
 
 
 '''
 Show specific node information
 '''
 
-class showNodeInformation(Action):
-  
+
+class ShowNodeInformation(Action):
+
     def name(self):
 
-          return "action_show_node_information"
+        return "action_show_node_information"
 
     def run(self, dispatcher, tracker, domain):
+        if tracker.get_slot('node'):
+            response_builder.get_query(dispatcher, tracker)
+        else:
+            dispatcher.utter_message(json.dumps({'error': "no node slot filled inside action show node information"}))
 
-      #dispatcher.utter_message("show node information ")
+        return []
 
-      recent_message = (tracker.latest_message)['text']
-
-      # print(tracker.current_slot_values())
-
-      if tracker.get_slot('node'):
-
-          util.getQuery(recent_message, dispatcher)
-          #dispatcher.utter_message("node slot got filled and action show node information executed")
-
-      else:
-
-          dispatcher.utter_message("no node slot filled inside action show node information")
-
-      return []
 
 '''
 show nodes
 '''
 
-class showAllNodes(Action):
-  
+
+class ShowAllNodes(Action):
+
     def name(self):
 
-          return "action_show_all_nodes"
+        return "action_show_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
+        response_builder.get_query(dispatcher, tracker)
 
-      #dispatcher.utter_message("show all the nodes information ")
+        return []
 
-      recent_message = (tracker.latest_message)['text']
-
-      #dispatcher.utter_message("get current slot values ")
-
-      # print(tracker.current_slot_values())
-
-      if tracker.get_slot('packages'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('bundles'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('services'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('compilationUnit'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('Methods'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      else:
-
-          dispatcher.utter_message("no slot filled inside action show all information")
-
-      return []
 
 '''
 count all nodes
 '''
 
-class countAllNodes(Action):
-  
+
+class CountAllNodes(Action):
 
     def name(self):
 
-          return "action_count_all_nodes"
-
-
-    def run(self, dispatcher, tracker, domain):
-
-      #dispatcher.utter_message("count all nodes")
-
-      recent_message = (tracker.latest_message)['text']
-
-      #dispatcher.utter_message("get current slot values ")
-
-      # print(tracker.current_slot_values())
-
-      if tracker.get_slot('packages'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('bundles'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('services'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('compilationUnit'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      elif tracker.get_slot('Methods'):
-
-          util.getQuery(recent_message, dispatcher)
-
-      else:
-
-          dispatcher.utter_message("no slot filled count all nodes")
-
-      return []
-
-'''
-This class resets the slots
-reset all the slots except project 
-because this slot is not being used for other intents
-'''
-
-class ActionReset(Action):
-
-    def name(self):
-      return 'action_reset'
-
+        return "action_count_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
+        recent_message = tracker.latest_message['text']
+        if tracker.get_slot('packages') | \
+                tracker.get_slot('bundles') | \
+                tracker.get_slot('services') | \
+                tracker.get_slot('compilationUnit') | \
+                tracker.get_slot('Methods'):
+            response_builder.get_query(recent_message, dispatcher)
+        else:
+            response = dict()
+            response['error'] = "no slot filled count all nodes"
+            dispatcher.utter_message(response)
 
-      return_slots = []
+        return []
 
-      for slot in tracker.slots:
-        if slot != 'project':
-          return_slots.append(SlotSet(slot, None))
-
-      return return_slots
