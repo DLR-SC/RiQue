@@ -2,14 +2,9 @@
 * greet
   - utter_greet
 
-
 ## say goodbye
 * goodbye
   - utter_goodbye
-
-## name introduction
-* my_name_is
-  - utter_how_can_i_help_you
 
 ## project description
 * showProjectInformation

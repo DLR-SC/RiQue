@@ -57,7 +57,6 @@ actions:
 - action_give_project_information
 - action_show_detail_info_bundles
 - action_show_exports_in_bundle
-- utter_how_can_i_help_you
 - action_show_node_information
 - action_show_all_nodes
 - action_count_all_nodes
