@@ -1,11 +1,11 @@
-from queryGeneration import GenerateQuery
+from query_generator import GenerateQuery
 import json
 
 
 class ResponseBuilder:
 
     @staticmethod
-    def get_query(dispatcher, tracker):
+    def get_query(tracker):
         response = dict()
         g_query = GenerateQuery(tracker)
         [query, params, extracted_intent, error] = g_query.convert_text_to_query()
@@ -21,8 +21,7 @@ class ResponseBuilder:
                     query = query.replace(modified_key, '"' + str(value) + '"')
             response['query'] = query
             response['intent'] = extracted_intent
-
-        dispatcher.utter_message(json.dumps(response))
+        return response
 
     @staticmethod
     def standardize_intent_names(self):

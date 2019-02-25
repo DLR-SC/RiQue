@@ -17,7 +17,7 @@ class GenerateQuery:
 
     def get_simple_query(self):
         extracted_intent = self.tracker.latest_message['intent']['name']
-
+        extracted_value = None
         if len(self.tracker.latest_message['entities']) > 0:
             extracted_value = self.tracker.latest_message['entities'][0]['value']
             extracted_entities = {
@@ -65,7 +65,7 @@ class GenerateQuery:
                 if self.tracker.get_slot('bundles') is not None:
                     self.pypher_object.WHERE(__.bundle.__name__ == self.tracker.get_slot('bundles'))
 
-                self.pypher_object.RETURN('bundle.name', 'cmp.name', 'cmp.Loc')
+                self.pypher_object.RETURN('cmp')
                 self.pypher_object.OrderBy(__.cmp.__Loc__)
 
             self.pypher_object.Desc()
@@ -116,15 +116,15 @@ class GenerateQuery:
             # query = str(self.pypherObject.RETURN('u.name', 'm.name'))
             self.pypher_object.RETURN('u.name', 'm.name')
 
-        elif self.extracted_intents == 'showProjectInformation':
+        elif extracted_intent == 'showProjectInformation':
             self.pypher_object.Match.node('u')
-            self.pypher_object.WHERE(__.u.__name__ == self.tracker.get_slot('bundles'))
+            self.pypher_object.WHERE(__.u.__name__ == self.tracker.get_slot('project'))
             self.pypher_object.RETURN('u')
 
         else:
             if extracted_value is not None:
-                self.pypher_object.Match.node('u', labels=extracted_entities).WHERE.u.property(
-                    'name') == extracted_value
+                self.pypher_object.Match.node('u', labels=extracted_entities)\
+                    .WHERE.u.property('name') == extracted_value
                 self.pypher_object.RETURN('u')
 
         query = str(self.pypher_object)

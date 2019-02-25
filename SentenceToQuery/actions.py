@@ -13,12 +13,12 @@ class DisplayGeneralQuery(Action):
         return "action_give_project_information"
 
     def run(self, dispatcher, tracker, domain):
+        response = dict()
         if tracker.get_slot('project'):
-            response_builder.get_query(dispatcher, tracker)
+            response = response_builder.get_query(tracker)
         else:
-            response = dict()
             response['error'] = "no project slot is filled inside action give project information action"
-            dispatcher.utter_custom_message(response)
+        dispatcher.utter_message(json.dumps(response))
 
         return []
 
@@ -30,12 +30,12 @@ class DisplayBundleDetailedQuery(Action):
         return "action_show_detail_info_bundles"
 
     def run(self, dispatcher, tracker, domain):
+        response = dict()
         if tracker.get_slot('bundles'):
-            response_builder.get_query(dispatcher, tracker)
+            response = response_builder.get_query(tracker)
         else:
-            response = dict()
             response['error'] = "no bundles slot filled inside show detailed bundle project info"
-            dispatcher.utter_custom_message(response)
+        dispatcher.utter_message(json.dumps(response))
 
         return []
 
@@ -52,12 +52,8 @@ class DisplayLargestCompilationUnit(Action):
         return "action_show_largest_compilationUnit"
 
     def run(self, dispatcher, tracker, domain):
-        if tracker.get_slot('compilationUnit'):
-            response_builder.get_query(dispatcher, tracker)
-
-        else:
-            dispatcher.utter_message(json.dumps({'error': "compilationUnit slot is not filled"}))
-
+        response = response_builder.get_query(tracker)
+        dispatcher.utter_message(json.dumps(response))
         return []
 
 
@@ -73,10 +69,12 @@ class ShowNodeInformation(Action):
         return "action_show_node_information"
 
     def run(self, dispatcher, tracker, domain):
+        response = dict()
         if tracker.get_slot('node'):
-            response_builder.get_query(dispatcher, tracker)
+            response = response_builder.get_query(tracker)
         else:
-            dispatcher.utter_message(json.dumps({'error': "no node slot filled inside action show node information"}))
+            response['error'] = "no node slot filled inside action show node information"
+        dispatcher.utter_message(json.dumps(response))
 
         return []
 
@@ -93,8 +91,8 @@ class ShowAllNodes(Action):
         return "action_show_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
-        response_builder.get_query(dispatcher, tracker)
-
+        response = response_builder.get_query(tracker)
+        dispatcher.utter_message(json.dumps(response))
         return []
 
 
@@ -110,17 +108,7 @@ class CountAllNodes(Action):
         return "action_count_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
-        recent_message = tracker.latest_message['text']
-        if tracker.get_slot('packages') | \
-                tracker.get_slot('bundles') | \
-                tracker.get_slot('services') | \
-                tracker.get_slot('compilationUnit') | \
-                tracker.get_slot('Methods'):
-            response_builder.get_query(recent_message, dispatcher)
-        else:
-            response = dict()
-            response['error'] = "no slot filled count all nodes"
-            dispatcher.utter_message(response)
-
+        response = response_builder.get_query(tracker)
+        dispatcher.utter_message(json.dumps(response))
         return []
 
