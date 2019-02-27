@@ -10,13 +10,8 @@ class GenerateQuery:
 
     @staticmethod
     def reformat_query(pypher_object):
-        print('reformat_query:')
         query = str(pypher_object)
-        print('query:', query)
-
         for key, value in pypher_object.bound_params.items():
-            print('key: ', key)
-            print('value: ', value)
             if key in query:
                 # because key present in param does nto have $ sign
                 modified_key = "$" + key
@@ -55,10 +50,8 @@ class GenerateQuery:
         :param node_type: type of nodes to count.
         :return: the query to count all nodes. Optional counts nodes of a type.
         """
-        print('node_type in countAllNodes: ', node_type)
         pypher_object = Pypher()
         if node_type is None:
-            print('node_type is none')
             pypher_object.Match.node('u')
         else:
             pypher_object.Match.node('u', labels=node_type)
