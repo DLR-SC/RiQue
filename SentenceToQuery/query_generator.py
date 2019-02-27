@@ -8,144 +8,147 @@ warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 
 class GenerateQuery:
 
-    def __init__(self, tracker):
+    @staticmethod
+    def reformat_query(pypher_object):
+        print('reformat_query:')
+        query = str(pypher_object)
+        print('query:', query)
 
-        self.extracted_intents = dict()
-        self.extracted_values = dict()
-        self.pypher_object = Pypher()
-        self.tracker = tracker
-
-    def get_simple_query(self):
-        extracted_intent = self.tracker.latest_message['intent']['name']
-        extracted_value = None
-        if len(self.tracker.latest_message['entities']) > 0:
-            extracted_value = self.tracker.latest_message['entities'][0]['value']
-            extracted_entities = {
-                self.tracker.latest_message['entities'][index]['entity']:
-                    self.tracker.latest_message['entities'][index]['value']
-                for index in range(len(self.tracker.latest_message['entities']))
-            }
-        else:
-            extracted_entities = self.tracker.slots
-        if len(extracted_entities) <= 0:
-            return []
-
-        if extracted_intent == 'showNodeInformation':
-            if extracted_entities['node'] is None:
-                return []
-            self.pypher_object.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', extracted_entities['node']))
-            self.pypher_object.RETURN('u')
-
-        elif extracted_intent == 'showAllNodes':
-            self.pypher_object.Match.node('u', labels=self.get_key_with_none_empty_value(extracted_entities))
-            self.pypher_object.RETURN('u')
-
-        elif extracted_intent == 'countAllNodes':
-            self.pypher_object.Match.node('u', labels=self.get_key_with_none_empty_value(extracted_entities))
-            self.pypher_object.RETURN(__.count('u'))
-
-        elif extracted_intent == 'showLargestCompilationUnit':
-
-            if self.tracker.get_slot('Methods') is not None:
-
-                self.pypher_object.Match.node('bundle', labels='bundles').relationship \
-                    ('pkg', labels="Pkg_fragment").node('k').relationship \
-                    ('kl', labels='compiled_By').node().relationship \
-                    ('cp', labels="compiledUnits_topLevelType").node('n').relationship \
-                    ('rl', 'Methods_Contains').node('mthd')
-
-                self.pypher_object.RETURN('bundle.name', 'n.name', __.count('mthd'))
-                self.pypher_object.OrderBy(__.count('mthd'))
-
-            else:
-                self.pypher_object.Match.node('bundle', labels='bundles').relationship \
-                    ('pkg', labels="Pkg_fragment").node('k').relationship \
-                    ('kl', labels='compiled_By').node('cmp')
-
-                if self.tracker.get_slot('bundles') is not None:
-                    self.pypher_object.WHERE(__.bundle.__name__ == self.tracker.get_slot('bundles'))
-
-                self.pypher_object.RETURN('cmp')
-                self.pypher_object.OrderBy(__.cmp.__Loc__)
-
-            self.pypher_object.Desc()
-            self.pypher_object.Limit(1)
-
-        elif extracted_intent == 'showDetailInfoBundles':
-
-            bundle_name = None
-            key_value = None
-            # iterate through all entities
-            for key, value in self.tracker.slots.items():
-
-                # key_value is assigned according to relation names
-                if key == 'bundles':
-                    bundle_name = value
-                elif key == 'imports' or key == 'Exports':
-                    key_value = value
-                elif key == 'packages':
-                    key_value = 'uses_pkgs'
-                elif key == 'components':
-                    key_value = 'uses_components'
-                elif key == 'compilationUnit':
-                    key_value = 'compiled_By'
-                elif key == 'Methods':
-                    key_value = 'Methods_Contains'
-
-            # this is relation name
-            if key_value == 'compiled_By':
-
-                self.pypher_object.Match.node('u', labels='bundles').relationship \
-                    ('f', labels="Pkg_fragment").node('n').relationship \
-                    ('c', labels="compiled_By").node("m")
-
-            elif key_value == 'Methods_Contains':
-                self.pypher_object.Match.node('u', labels='bundles').relationship \
-                    ('pkg', labels="Pkg_fragment").node('k').relationship \
-                    ('kl', labels='compiled_By').node('n').relationship \
-                    ('r', labels='compiledUnits_topLevelType').node('nl').relationship \
-                    ('rl', labels='Methods_Contains').node('m')
-
-            else:
-                self.pypher_object.Match.node('u', labels='bundles').relationship \
-                    ('r', labels=key_value).node('m')
-
-            self.pypher_object.WHERE(__.u.__name__ == bundle_name)
-
-            # this can be changed according to req. if we need all info or just names of packages
-            # query = str(self.pypherObject.RETURN('u.name', 'm.name'))
-            self.pypher_object.RETURN('u.name', 'm.name')
-
-        elif extracted_intent == 'showProjectInformation':
-            self.pypher_object.Match.node('u')
-            self.pypher_object.WHERE(__.u.__name__ == self.tracker.get_slot('project'))
-            self.pypher_object.RETURN('u')
-
-        else:
-            if extracted_value is not None:
-                self.pypher_object.Match.node('u', labels=extracted_entities)\
-                    .WHERE.u.property('name') == extracted_value
-                self.pypher_object.RETURN('u')
-
-        query = str(self.pypher_object)
-        params = self.pypher_object.bound_params
-        return [query, params, extracted_intent]
+        for key, value in pypher_object.bound_params.items():
+            print('key: ', key)
+            print('value: ', value)
+            if key in query:
+                # because key present in param does nto have $ sign
+                modified_key = "$" + key
+                query = query.replace(modified_key, '"' + str(value) + '"')
+        return query
 
     @staticmethod
-    def get_key_with_none_empty_value(entities_dict):
-        for key, value in entities_dict.items():
-            print('key: ' + key)
-            if value:
-                print('value: ' + value)
-                if key != "project":
-                    return key
-        return {}
+    def get_node_information_query(node_name):
+        """
+        :param node_name: name of the node to get information about.
+        :return: the query for showing general information of one node (any entity) with a specific name.
+        """
+        pypher_object = Pypher()
+        pypher_object.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', node_name))
+        pypher_object.RETURN('u')
+        return GenerateQuery.reformat_query(pypher_object)
 
-    def convert_text_to_query(self):
-        error = None
-        [query, params, extracted_intent] = self.get_simple_query()
+    @staticmethod
+    def get_show_all_nodes_query(node_type=None):
+        """
+        :param node_type: type of nodes to show.
+        :return: the query to show all nodes. Optional: Type of nodes to be recognized.
+        """
+        # should be bundle, copilationUnit or package. Could be extracted via tracker.slots.get('nodeType').
+        pypher_object = Pypher()
+        if node_type is None:
+            pypher_object.Match.node('u')
+        else:
+            pypher_object.Match.node('u', labels=node_type)
+        pypher_object.RETURN('u')
+        return GenerateQuery.reformat_query(pypher_object)
 
-        if query is None or params is None or extracted_intent is None:
-            error = "no Query written regarding this intention or intent prediction is not valid"
+    @staticmethod
+    def get_count_all_nodes_query(node_type=None):
+        """
+        :param node_type: type of nodes to count.
+        :return: the query to count all nodes. Optional counts nodes of a type.
+        """
+        print('node_type in countAllNodes: ', node_type)
+        pypher_object = Pypher()
+        if node_type is None:
+            print('node_type is none')
+            pypher_object.Match.node('u')
+        else:
+            pypher_object.Match.node('u', labels=node_type)
+        pypher_object.RETURN(__.count('u'))
+        return GenerateQuery.reformat_query(pypher_object)
 
-        return [query, params, self.tracker.latest_message['intent'], error]
+    @staticmethod
+    def get_largest_compilation_unit_query(bundle_name=None, order="mthd"):
+        """
+        :param bundle_name: in entire project or in one specific bundle. Default is in all bundles.
+        :param order: largest by lines of code (loc) or number of methods (mthd). Default is "mthd".
+        :return: the query for the largest compilation unit.
+        'large' in this context means lines of code or number of methods.
+        It also can be the largest CU in a bundle or in general.
+
+        """
+        pypher_object = Pypher()
+        if order == "loc":
+            pypher_object.Match.node('bundle', labels='bundles').relationship \
+                ('pkg', labels="Pkg_fragment").node('k').relationship \
+                ('kl', labels='compiled_By').node('cmp')
+            if bundle_name:
+                pypher_object.WHERE(__.bundle.__name__ == bundle_name)
+            pypher_object.RETURN('cmp')
+            pypher_object.OrderBy(__.cmp.__Loc__)
+        else:
+            pypher_object.Match.node('bundle', labels='bundles').relationship \
+                ('pkg', labels="Pkg_fragment").node('k').relationship \
+                ('kl', labels='compiled_By').node().relationship \
+                ('cp', labels="compiledUnits_topLevelType").node('n').relationship \
+                ('rl', 'Methods_Contains').node('mthd')
+            if bundle_name:
+                pypher_object.WHERE(__.bundle.__name__ == bundle_name)
+            pypher_object.RETURN('bundle.name', 'n.name', __.count('mthd'))
+            pypher_object.OrderBy(__.count('mthd'))
+        pypher_object.Desc()
+        pypher_object.Limit(1)
+        return GenerateQuery.reformat_query(pypher_object)
+
+    @staticmethod
+    def get_detailed_bundle_info_query(bundle_name, aspect=None):
+        """
+        :param bundle_name: retrieve specific information for this bundle.
+        :param aspect: should be 'bundles', 'imports', 'Exports', 'packages','components','compilationUnit','Methods'.
+        :return: the query for (general or specific) information about one bundle.
+        """
+        if aspect is None:
+            return GenerateQuery.get_node_information_query(bundle_name)
+
+        pypher_object = Pypher()
+        if aspect == 'compilationUnit':
+            pypher_object.Match.node('u', labels='bundles').relationship \
+                ('f', labels="Pkg_fragment").node('n').relationship \
+                ('c', labels="compiled_By").node("m")
+
+        elif aspect == 'methods':
+            pypher_object.Match.node('u', labels='bundles').relationship \
+                ('pkg', labels="Pkg_fragment").node('k').relationship \
+                ('kl', labels='compiled_By').node('n').relationship \
+                ('r', labels='compiledUnits_topLevelType').node('nl').relationship \
+                ('rl', labels='Methods_Contains').node('m')
+
+        else:
+            if aspect == 'packages':
+                labels = 'uses_pkgs'
+            elif aspect == 'components':
+                labels = 'uses_components'
+            else:
+                labels = aspect
+
+            pypher_object.Match.node('u', labels='bundles').relationship \
+                ('r', labels=labels).node('m')
+
+        pypher_object.WHERE(__.u.__name__ == bundle_name)
+
+        # this can be changed according to req. if we need all info or just names of packages
+        # query = str(self.pypherObject.RETURN('u.name', 'm.name'))
+        pypher_object.RETURN('u.name', 'm.name')
+        return GenerateQuery.reformat_query(pypher_object)
+
+    @staticmethod
+    def get_project_information(project_name):
+        """
+        :param project_name: the name of the current project.
+        :return: the query for general information about the current project.
+        """
+        pypher_object = Pypher()
+        pypher_object.Match.node('u')
+        pypher_object.WHERE(__.u.__name__ == project_name)
+        pypher_object.RETURN('u')
+        return GenerateQuery.reformat_query(pypher_object)
+
+

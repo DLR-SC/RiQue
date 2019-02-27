@@ -21,6 +21,9 @@ slots:
   methods:
     type: text
 
+  nodeType:
+    type: text
+
     
 entities:
 
