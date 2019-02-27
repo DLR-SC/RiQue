@@ -11,7 +11,7 @@ class DisplayGeneralQuery(Action):
 
     def run(self, dispatcher, tracker, domain):
         query = None
-        intent = tracker.latest_message['intent']['name']
+        intent = tracker.latest_message['intent']
         error = None
         if tracker.get_slot('project'):
             query = GenerateQuery.get_project_information(tracker.get_slot('project'))
@@ -30,7 +30,7 @@ class DisplayBundleDetailedQuery(Action):
 
     def run(self, dispatcher, tracker, domain):
         query = None
-        intent = tracker.latest_message['intent']['name']
+        intent = tracker.latest_message['intent']
         error = None
         if tracker.get_slot('bundles'):
             query_aspect = tracker.get_slot('nodeType')
@@ -55,7 +55,7 @@ class DisplayLargestCompilationUnit(Action):
         return "action_show_largest_compilationUnit"
 
     def run(self, dispatcher, tracker, domain):
-        intent = tracker.latest_message['intent']['name']
+        intent = tracker.latest_message['intent']
         bundle_name = tracker.get_slot('bundles')
         order = tracker.get_slot('nodeType')
         query = GenerateQuery.get_largest_compilation_unit_query(bundle_name, order)
@@ -76,7 +76,7 @@ class ShowNodeInformation(Action):
         return "action_show_node_information"
 
     def run(self, dispatcher, tracker, domain):
-        intent = tracker.latest_message['intent']['name']
+        intent = tracker.latest_message['intent']
         query = None
         error = None
         if tracker.get_slot('node'):
@@ -100,7 +100,7 @@ class ShowAllNodes(Action):
         return "action_show_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
-        intent = tracker.latest_message['intent']['name']
+        intent = tracker.latest_message['intent']
         if tracker.get_slot('nodeType'):
             query = GenerateQuery.get_show_all_nodes_query(tracker.get_slot('nodeType'))
         else:
@@ -122,7 +122,7 @@ class CountAllNodes(Action):
         return "action_count_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
-        intent = tracker.latest_message['intent']['name']
+        intent = tracker.latest_message['intent']
         if tracker.get_slot('nodeType'):
             query = GenerateQuery.get_count_all_nodes_query(tracker.get_slot('nodeType'))
         else:
