@@ -11,7 +11,6 @@ from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
 
-from train_nlu import trainNluModel
 from rasa_nlu.training_data import load_data
 from rasa_nlu.model import Trainer
 from rasa_nlu import config
