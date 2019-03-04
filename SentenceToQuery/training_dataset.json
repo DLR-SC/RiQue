@@ -720,7 +720,7 @@
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce decrypter component common (example component)"
           }
@@ -732,13 +732,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "building"
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce decrypter component common (example component)"
           }
@@ -756,7 +756,7 @@
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 34,
             "value": "rce input provider component gui"
           }
@@ -768,13 +768,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 11,
             "value": "methods"
           },
           {
             "end": 46,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce joiner component gui"
           }
@@ -786,13 +786,13 @@
         "entities": [
           {
             "end": 13,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "packages"
           },
           {
             "end": 47,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 17,
             "value": "rce excel component gui bundle"
           }
@@ -810,7 +810,7 @@
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -822,13 +822,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "packages",
+            "entity": "package",
             "start": 14,
             "value": "region"
           },
           {
             "end": 61,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce parametric study component common"
           }
@@ -846,7 +846,7 @@
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -864,7 +864,7 @@
           },
           {
             "end": 78,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -882,7 +882,7 @@
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce decrypter component common (example component)"
           }
@@ -894,13 +894,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 5,
             "value": "methods"
           },
           {
             "end": 46,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce excel component gui bundle"
           }
@@ -912,13 +912,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "buildings"
           },
           {
             "end": 58,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce xml merger component common"
           }
@@ -930,13 +930,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "packages",
+            "entity": "package",
             "start": 14,
             "value": "region"
           },
           {
             "end": 58,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce xml loader component execution"
           }
@@ -948,13 +948,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "building"
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "rce parametric study component common"
           }
@@ -972,7 +972,7 @@
           },
           {
             "end": 47,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce xml merger component common"
           }
@@ -990,7 +990,7 @@
           },
           {
             "end": 47,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce xml merger component common"
           }
@@ -1008,7 +1008,7 @@
           },
           {
             "end": 46,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce joiner component gui"
           }
@@ -1020,13 +1020,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 15,
             "value": "methods"
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce cluster component gui"
           }
@@ -1044,7 +1044,7 @@
           },
           {
             "end": 70,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 20,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1056,13 +1056,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "packages",
+            "entity": "package",
             "start": 15,
             "value": "region"
           },
           {
             "end": 56,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce xml merger component common"
           }
@@ -1074,13 +1074,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 12,
             "value": "methods"
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce excel component gui bundle"
           }
@@ -1098,7 +1098,7 @@
           },
           {
             "end": 76,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -1110,13 +1110,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "buildings"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce xml loader component execution"
           }
@@ -1134,7 +1134,7 @@
           },
           {
             "end": 75,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1146,13 +1146,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "regions"
           },
           {
             "end": 50,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce xml loader component execution"
           }
@@ -1164,13 +1164,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "compilation"
           },
           {
             "end": 70,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce xml loader component execution"
           }
@@ -1182,13 +1182,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "packages",
+            "entity": "package",
             "start": 19,
             "value": "packages"
           },
           {
             "end": 81,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce decrypter component common (example component)"
           }
@@ -1200,13 +1200,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 14,
             "value": "building"
           },
           {
             "end": 55,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce joiner component gui"
           }
@@ -1218,13 +1218,13 @@
         "entities": [
           {
             "end": 16,
-            "entity": "packages",
+            "entity": "package",
             "start": 10,
             "value": "region"
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 20,
             "value": "rce xml merger component common"
           }
@@ -1242,7 +1242,7 @@
           },
           {
             "end": 82,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "rce decrypter component common (example component)"
           }
@@ -1254,13 +1254,13 @@
         "entities": [
           {
             "end": 14,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 7,
             "value": "methods"
           },
           {
             "end": 52,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 18,
             "value": "rce xml loader component execution"
           }
@@ -1272,13 +1272,13 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 8,
             "value": "package"
           },
           {
             "end": 44,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "rce cluster component gui"
           }
@@ -1290,13 +1290,13 @@
         "entities": [
           {
             "end": 37,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
             "value": "compilation"
           },
           {
             "end": 83,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 46,
             "value": "rce parametric study component common"
           }
@@ -1308,13 +1308,13 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "region"
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -1332,7 +1332,7 @@
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce joiner component gui"
           }
@@ -1350,7 +1350,7 @@
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce xml loader component execution"
           }
@@ -1362,13 +1362,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "packages",
+            "entity": "package",
             "start": 13,
             "value": "packages"
           },
           {
             "end": 62,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce parametric study component common"
           }
@@ -1380,13 +1380,13 @@
         "entities": [
           {
             "end": 15,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 7,
             "value": "building"
           },
           {
             "end": 52,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce toolkit - common modules"
           }
@@ -1398,13 +1398,13 @@
         "entities": [
           {
             "end": 23,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "building"
           },
           {
             "end": 62,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "rce excel component gui bundle"
           }
@@ -1416,13 +1416,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 10,
             "value": "packages"
           },
           {
             "end": 56,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce xml loader component execution"
           }
@@ -1434,13 +1434,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "compilation"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce input provider component gui"
           }
@@ -1452,13 +1452,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "packages"
           },
           {
             "end": 78,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "rce decrypter component common (example component)"
           }
@@ -1470,13 +1470,13 @@
         "entities": [
           {
             "end": 15,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 8,
             "value": "methods"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1494,7 +1494,7 @@
           },
           {
             "end": 57,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce input provider component gui"
           }
@@ -1512,7 +1512,7 @@
           },
           {
             "end": 59,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce input provider component gui"
           }
@@ -1524,13 +1524,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "packages",
+            "entity": "package",
             "start": 14,
             "value": "regions"
           },
           {
             "end": 59,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce xml loader component execution"
           }
@@ -1542,13 +1542,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "regions"
           },
           {
             "end": 55,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce input provider component gui"
           }
@@ -1560,13 +1560,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 12,
             "value": "building"
           },
           {
             "end": 60,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -1584,7 +1584,7 @@
           },
           {
             "end": 79,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce decrypter component common (example component)"
           }
@@ -1596,13 +1596,13 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "region"
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -1614,13 +1614,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "building"
           },
           {
             "end": 86,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1632,13 +1632,13 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "region"
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce input provider component gui"
           }
@@ -1650,13 +1650,13 @@
         "entities": [
           {
             "end": 13,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 5,
             "value": "building"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce decrypter component common (example component)"
           }
@@ -1668,13 +1668,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "building"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 35,
             "value": "rce xml loader component execution"
           }
@@ -1686,13 +1686,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "regions"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1704,13 +1704,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "packages",
+            "entity": "package",
             "start": 20,
             "value": "region"
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1728,7 +1728,7 @@
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce input provider component gui"
           }
@@ -1740,13 +1740,13 @@
         "entities": [
           {
             "end": 14,
-            "entity": "packages",
+            "entity": "package",
             "start": 7,
             "value": "regions"
           },
           {
             "end": 43,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 18,
             "value": "rce cluster component gui"
           }
@@ -1758,13 +1758,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 13,
             "value": "methods"
           },
           {
             "end": 74,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce decrypter component common (example component)"
           }
@@ -1776,13 +1776,13 @@
         "entities": [
           {
             "end": 14,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 5,
             "value": "buildings"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce decrypter component common (example component)"
           }
@@ -1800,7 +1800,7 @@
           },
           {
             "end": 55,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce xml merger component common"
           }
@@ -1818,7 +1818,7 @@
           },
           {
             "end": 41,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce cluster component gui"
           }
@@ -1830,13 +1830,13 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 10,
             "value": "regions"
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -1848,13 +1848,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
             "value": "buildings"
           },
           {
             "end": 75,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce xml loader component execution"
           }
@@ -1866,13 +1866,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "region"
           },
           {
             "end": 76,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -1884,13 +1884,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 10,
             "value": "building"
           },
           {
             "end": 77,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -1902,13 +1902,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 10,
             "value": "packages"
           },
           {
             "end": 54,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce input provider component gui"
           }
@@ -1920,13 +1920,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "packages",
+            "entity": "package",
             "start": 26,
             "value": "packages"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce xml merger component common"
           }
@@ -1944,7 +1944,7 @@
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -1962,7 +1962,7 @@
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -1980,7 +1980,7 @@
           },
           {
             "end": 54,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce toolkit - common modules"
           }
@@ -1998,7 +1998,7 @@
           },
           {
             "end": 60,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -2010,13 +2010,13 @@
         "entities": [
           {
             "end": 11,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "region"
           },
           {
             "end": 47,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 15,
             "value": "rce input provider component gui"
           }
@@ -2028,13 +2028,13 @@
         "entities": [
           {
             "end": 15,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 8,
             "value": "methods"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2046,13 +2046,13 @@
         "entities": [
           {
             "end": 16,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 5,
             "value": "compilation"
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce toolkit - common modules"
           }
@@ -2064,13 +2064,13 @@
         "entities": [
           {
             "end": 16,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 8,
             "value": "building"
           },
           {
             "end": 62,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce parametric study component common"
           }
@@ -2082,13 +2082,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 17,
             "value": "methods"
           },
           {
             "end": 78,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2106,7 +2106,7 @@
           },
           {
             "end": 54,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce input provider component gui"
           }
@@ -2118,13 +2118,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "package",
             "start": 13,
             "value": "region"
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce toolkit - common modules"
           }
@@ -2136,13 +2136,13 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
             "value": "building"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 40,
             "value": "rce input provider component gui"
           }
@@ -2154,13 +2154,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "packages",
+            "entity": "package",
             "start": 19,
             "value": "package"
           },
           {
             "end": 67,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce parametric study component common"
           }
@@ -2172,13 +2172,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "compilation"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce parametric study component common"
           }
@@ -2190,13 +2190,13 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "packages"
           },
           {
             "end": 71,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2214,7 +2214,7 @@
           },
           {
             "end": 67,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce parametric study component common"
           }
@@ -2232,7 +2232,7 @@
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce joiner component gui"
           }
@@ -2244,13 +2244,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 12,
             "value": "methods"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2262,13 +2262,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 15,
             "value": "regions"
           },
           {
             "end": 57,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce xml merger component common"
           }
@@ -2280,13 +2280,13 @@
         "entities": [
           {
             "end": 13,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "packages"
           },
           {
             "end": 67,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 17,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2298,13 +2298,13 @@
         "entities": [
           {
             "end": 17,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 8,
             "value": "buildings"
           },
           {
             "end": 76,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -2316,13 +2316,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "regions"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -2340,7 +2340,7 @@
           },
           {
             "end": 55,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce cluster component gui"
           }
@@ -2352,13 +2352,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "package"
           },
           {
             "end": 50,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce toolkit - common modules"
           }
@@ -2370,13 +2370,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 10,
             "value": "building"
           },
           {
             "end": 59,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce input provider component gui"
           }
@@ -2388,13 +2388,13 @@
         "entities": [
           {
             "end": 13,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 5,
             "value": "building"
           },
           {
             "end": 56,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce xml loader component execution"
           }
@@ -2406,13 +2406,13 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "regions"
           },
           {
             "end": 79,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce decrypter component common (example component)"
           }
@@ -2424,13 +2424,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 10,
             "value": "buildings"
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "rce parametric study component common"
           }
@@ -2442,13 +2442,13 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 17,
             "value": "region"
           },
           {
             "end": 57,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce excel component gui bundle"
           }
@@ -2466,7 +2466,7 @@
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce decrypter component common (example component)"
           }
@@ -2484,7 +2484,7 @@
           },
           {
             "end": 76,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce decrypter component common (example component)"
           }
@@ -2496,13 +2496,13 @@
         "entities": [
           {
             "end": 14,
-            "entity": "packages",
+            "entity": "package",
             "start": 7,
             "value": "package"
           },
           {
             "end": 50,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 18,
             "value": "rce input provider component gui"
           }
@@ -2514,13 +2514,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "compilation"
           },
           {
             "end": 59,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce toolkit - common modules"
           }
@@ -2532,13 +2532,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "package"
           },
           {
             "end": 48,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce input provider component gui"
           }
@@ -2550,13 +2550,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 19,
             "value": "methods"
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2574,7 +2574,7 @@
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce joiner component gui"
           }
@@ -2586,13 +2586,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "packages",
+            "entity": "package",
             "start": 23,
             "value": "regions"
           },
           {
             "end": 59,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 34,
             "value": "rce cluster component gui"
           }
@@ -2604,13 +2604,13 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
             "value": "building"
           },
           {
             "end": 90,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 40,
             "value": "rce decrypter component common (example component)"
           }
@@ -2622,13 +2622,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "regions"
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce toolkit - common modules"
           }
@@ -2640,13 +2640,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
             "value": "buildings"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce cluster component gui"
           }
@@ -2658,13 +2658,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "building"
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "rce cluster component gui"
           }
@@ -2676,13 +2676,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "compilation"
           },
           {
             "end": 79,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2694,13 +2694,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "compilation"
           },
           {
             "end": 58,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 33,
             "value": "rce cluster component gui"
           }
@@ -2712,13 +2712,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "region"
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -2736,7 +2736,7 @@
           },
           {
             "end": 61,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce excel component gui bundle"
           }
@@ -2748,13 +2748,13 @@
         "entities": [
           {
             "end": 23,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 12,
             "value": "compilation"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "rce xml merger component common"
           }
@@ -2766,13 +2766,13 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "package"
           },
           {
             "end": 55,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce toolkit - common modules"
           }
@@ -2784,13 +2784,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 20,
             "value": "methods"
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce xml loader component execution"
           }
@@ -2808,7 +2808,7 @@
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce toolkit - common modules"
           }
@@ -2820,13 +2820,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "package"
           },
           {
             "end": 44,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce toolkit - common modules"
           }
@@ -2844,7 +2844,7 @@
           },
           {
             "end": 58,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce xml loader component execution"
           }
@@ -2856,13 +2856,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 10,
             "value": "packages"
           },
           {
             "end": 59,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce parametric study component common"
           }
@@ -2874,13 +2874,13 @@
         "entities": [
           {
             "end": 23,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "building"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "rce xml merger component common"
           }
@@ -2892,13 +2892,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "packages",
+            "entity": "package",
             "start": 19,
             "value": "packages"
           },
           {
             "end": 56,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce cluster component gui"
           }
@@ -2910,13 +2910,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "building"
           },
           {
             "end": 86,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -2928,13 +2928,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "regions"
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -2952,7 +2952,7 @@
           },
           {
             "end": 50,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "rce xml merger component common"
           }
@@ -2964,13 +2964,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 7,
             "value": "compilation"
           },
           {
             "end": 64,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce parametric study component common"
           }
@@ -2988,7 +2988,7 @@
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce xml merger component common"
           }
@@ -3000,13 +3000,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "packages",
+            "entity": "package",
             "start": 23,
             "value": "regions"
           },
           {
             "end": 84,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 34,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3018,13 +3018,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 13,
             "value": "methods"
           },
           {
             "end": 49,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce cluster component gui"
           }
@@ -3036,13 +3036,13 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "package"
           },
           {
             "end": 50,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce toolkit - common modules"
           }
@@ -3060,7 +3060,7 @@
           },
           {
             "end": 56,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "rce joiner component gui"
           }
@@ -3072,13 +3072,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 19,
             "value": "methods"
           },
           {
             "end": 55,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce cluster component gui"
           }
@@ -3096,7 +3096,7 @@
           },
           {
             "end": 47,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 22,
             "value": "rce cluster component gui"
           }
@@ -3114,7 +3114,7 @@
           },
           {
             "end": 57,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce xml loader component execution"
           }
@@ -3126,13 +3126,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "compilation"
           },
           {
             "end": 89,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3150,7 +3150,7 @@
           },
           {
             "end": 44,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "rce cluster component gui"
           }
@@ -3162,13 +3162,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "packages"
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "rce parametric study component common"
           }
@@ -3180,13 +3180,13 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "compilation"
           },
           {
             "end": 74,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 37,
             "value": "rce parametric study component common"
           }
@@ -3198,13 +3198,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "packages",
+            "entity": "package",
             "start": 14,
             "value": "regions"
           },
           {
             "end": 50,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce cluster component gui"
           }
@@ -3216,13 +3216,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 14,
             "value": "building"
           },
           {
             "end": 81,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3234,13 +3234,13 @@
         "entities": [
           {
             "end": 13,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "packages"
           },
           {
             "end": 41,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 17,
             "value": "rce joiner component gui"
           }
@@ -3258,7 +3258,7 @@
           },
           {
             "end": 77,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3270,13 +3270,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "package"
           },
           {
             "end": 53,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce parametric study component common"
           }
@@ -3294,7 +3294,7 @@
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "rce xml loader component execution"
           }
@@ -3312,7 +3312,7 @@
           },
           {
             "end": 81,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3324,13 +3324,13 @@
         "entities": [
           {
             "end": 11,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "region"
           },
           {
             "end": 40,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 15,
             "value": "rce cluster component gui"
           }
@@ -3342,13 +3342,13 @@
         "entities": [
           {
             "end": 23,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 16,
             "value": "methods"
           },
           {
             "end": 64,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 27,
             "value": "rce parametric study component common"
           }
@@ -3360,13 +3360,13 @@
         "entities": [
           {
             "end": 15,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 7,
             "value": "building"
           },
           {
             "end": 49,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce cluster component gui"
           }
@@ -3378,13 +3378,13 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 7,
             "value": "packages"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3396,13 +3396,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "buildings"
           },
           {
             "end": 57,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce toolkit - common modules"
           }
@@ -3414,13 +3414,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 12,
             "value": "building"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce parametric study component common"
           }
@@ -3432,13 +3432,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "packages",
+            "entity": "package",
             "start": 13,
             "value": "regions"
           },
           {
             "end": 74,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce decrypter component common (example component)"
           }
@@ -3450,13 +3450,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "buildings"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce parametric study component common"
           }
@@ -3468,13 +3468,13 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 7,
             "value": "packages"
           },
           {
             "end": 44,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "rce cluster component gui"
           }
@@ -3492,7 +3492,7 @@
           },
           {
             "end": 61,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce input provider component gui"
           }
@@ -3510,7 +3510,7 @@
           },
           {
             "end": 59,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce excel component gui bundle"
           }
@@ -3522,13 +3522,13 @@
         "entities": [
           {
             "end": 13,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "packages"
           },
           {
             "end": 41,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 17,
             "value": "rce joiner component gui"
           }
@@ -3540,13 +3540,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 20,
             "value": "methods"
           },
           {
             "end": 56,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce cluster component gui"
           }
@@ -3558,13 +3558,13 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "compilation"
           },
           {
             "end": 74,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 37,
             "value": "rce parametric study component common"
           }
@@ -3576,13 +3576,13 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "region"
           },
           {
             "end": 46,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce cluster component gui"
           }
@@ -3594,13 +3594,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 15,
             "value": "package"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "rce parametric study component common"
           }
@@ -3618,7 +3618,7 @@
           },
           {
             "end": 82,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "rce decrypter component common (example component)"
           }
@@ -3630,13 +3630,13 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 19,
             "value": "region"
           },
           {
             "end": 60,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -3648,13 +3648,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "packages",
+            "entity": "package",
             "start": 23,
             "value": "regions"
           },
           {
             "end": 58,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 34,
             "value": "rce joiner component gui"
           }
@@ -3666,13 +3666,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "building"
           },
           {
             "end": 60,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce excel component gui bundle"
           }
@@ -3684,13 +3684,13 @@
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "package"
           },
           {
             "end": 48,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce cluster component gui"
           }
@@ -3702,13 +3702,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "buildings"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 35,
             "value": "rce toolkit - common modules"
           }
@@ -3720,13 +3720,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "buildings"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce parametric study component common"
           }
@@ -3738,13 +3738,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "packages",
+            "entity": "package",
             "start": 23,
             "value": "package"
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 34,
             "value": "rce xml merger component common"
           }
@@ -3756,13 +3756,13 @@
         "entities": [
           {
             "end": 20,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "packages"
           },
           {
             "end": 55,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "rce xml merger component common"
           }
@@ -3780,7 +3780,7 @@
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce decrypter component common (example component)"
           }
@@ -3792,13 +3792,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 23,
             "value": "methods"
           },
           {
             "end": 71,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 34,
             "value": "rce parametric study component common"
           }
@@ -3816,7 +3816,7 @@
           },
           {
             "end": 54,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 23,
             "value": "rce xml merger component common"
           }
@@ -3828,13 +3828,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "buildings"
           },
           {
             "end": 85,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 35,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3852,7 +3852,7 @@
           },
           {
             "end": 51,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 21,
             "value": "rce excel component gui bundle"
           }
@@ -3864,13 +3864,13 @@
         "entities": [
           {
             "end": 11,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "region"
           },
           {
             "end": 52,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 15,
             "value": "rce parametric study component common"
           }
@@ -3882,13 +3882,13 @@
         "entities": [
           {
             "end": 12,
-            "entity": "packages",
+            "entity": "package",
             "start": 5,
             "value": "package"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -3900,13 +3900,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 14,
             "value": "building"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce input provider component gui"
           }
@@ -3918,13 +3918,13 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "regions"
           },
           {
             "end": 60,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 29,
             "value": "rce xml merger component common"
           }
@@ -3936,13 +3936,13 @@
         "entities": [
           {
             "end": 16,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 5,
             "value": "compilation"
           },
           {
             "end": 56,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 25,
             "value": "rce xml merger component common"
           }
@@ -3954,13 +3954,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "compilation"
           },
           {
             "end": 52,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 45,
             "value": "methods"
           }
@@ -3972,9 +3972,9 @@
         "entities": [
           {
             "end": 41,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 33,
-            "value": "building"
+            "value": "compilationUnit"
           }
         ]
       },
@@ -3984,13 +3984,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
-            "value": "compilation"
+            "value": "compilationUnit"
           },
           {
             "end": 53,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 46,
             "value": "methods"
           }
@@ -4002,9 +4002,9 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
-            "value": "compilation"
+            "value": "compilationUnit"
           }
         ]
       },
@@ -4014,9 +4014,9 @@
         "entities": [
           {
             "end": 39,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
-            "value": "building"
+            "value": "compilationUnit"
           }
         ]
       },
@@ -4026,13 +4026,13 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 62,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 37,
             "value": "rce cluster component gui"
           }
@@ -4044,13 +4044,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 22,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 89,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4062,13 +4062,13 @@
         "entities": [
           {
             "end": 42,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 34,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 101,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 51,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4080,13 +4080,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
-            "value": "buildings"
+            "value": "compilationUnit"
           },
           {
             "end": 89,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4098,13 +4098,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
-            "value": "compilation"
+            "value": "compilationUnit"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 33,
             "value": "rce excel component gui bundle"
           }
@@ -4116,13 +4116,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
-            "value": "buildings"
+            "value": "compilationUnit"
           },
           {
             "end": 74,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce excel component gui bundle"
           }
@@ -4134,13 +4134,13 @@
         "entities": [
           {
             "end": 25,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
-            "value": "buildings"
+            "value": "compilationUnit"
           },
           {
             "end": 68,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 34,
             "value": "rce xml loader component execution"
           }
@@ -4152,13 +4152,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce xml merger component common"
           }
@@ -4170,13 +4170,13 @@
         "entities": [
           {
             "end": 40,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
-            "value": "buildings"
+            "value": "compilationUnit"
           },
           {
             "end": 81,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 49,
             "value": "rce input provider component gui"
           }
@@ -4188,13 +4188,13 @@
         "entities": [
           {
             "end": 44,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 33,
-            "value": "compilation"
+            "value": "compilationUnit"
           },
           {
             "end": 84,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 53,
             "value": "rce xml merger component common"
           }
@@ -4206,13 +4206,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
-            "value": "compilation"
+            "value": "compilationUnit"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce toolkit - common modules"
           }
@@ -4224,13 +4224,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 62,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce joiner component gui"
           }
@@ -4242,13 +4242,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 68,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce cluster component gui"
           }
@@ -4260,13 +4260,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
-            "value": "compilation"
+            "value": "compilationUnit"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce toolkit - common modules"
           }
@@ -4278,13 +4278,13 @@
         "entities": [
           {
             "end": 39,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 85,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 48,
             "value": "rce parametric study component common"
           }
@@ -4296,13 +4296,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 22,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 89,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4314,13 +4314,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
-            "value": "buildings"
+            "value": "compilationUnit"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce toolkit - common modules"
           }
@@ -4332,13 +4332,13 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 90,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 40,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4350,13 +4350,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
-            "value": "compilation"
+            "value": "compilationUnit"
           },
           {
             "end": 67,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce joiner component gui"
           }
@@ -4368,13 +4368,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
-            "value": "building"
+            "value": "compilationUnit"
           },
           {
             "end": 74,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce xml merger component common"
           }
@@ -4386,7 +4386,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "buildings"
           }
@@ -4398,13 +4398,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "buildings"
           },
           {
             "end": 50,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 43,
             "value": "methods"
           }
@@ -4416,13 +4416,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "building"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce cluster component gui"
           }
@@ -4434,13 +4434,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "building"
           },
           {
             "end": 60,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce joiner component gui"
           }
@@ -4452,13 +4452,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "buildings"
           },
           {
             "end": 93,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce decrypter component common (example component)"
           }
@@ -4470,13 +4470,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
             "value": "buildings"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce cluster component gui"
           }
@@ -4488,13 +4488,13 @@
         "entities": [
           {
             "end": 42,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "compilation"
           },
           {
             "end": 82,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 51,
             "value": "rce xml merger component common"
           }
@@ -4506,13 +4506,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
             "value": "building"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce xml merger component common"
           }
@@ -4524,13 +4524,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "compilation"
           },
           {
             "end": 57,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 33,
             "value": "rce joiner component gui"
           }
@@ -4542,13 +4542,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "compilation"
           },
           {
             "end": 89,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce decrypter component common (example component)"
           }
@@ -4560,13 +4560,13 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "building"
           },
           {
             "end": 62,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 37,
             "value": "rce cluster component gui"
           }
@@ -4578,13 +4578,13 @@
         "entities": [
           {
             "end": 36,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 28,
             "value": "building"
           },
           {
             "end": 77,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 45,
             "value": "rce input provider component gui"
           }
@@ -4596,13 +4596,13 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "compilation"
           },
           {
             "end": 70,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 40,
             "value": "rce excel component gui bundle"
           }
@@ -4614,13 +4614,13 @@
         "entities": [
           {
             "end": 40,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "buildings"
           },
           {
             "end": 79,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 49,
             "value": "rce excel component gui bundle"
           }
@@ -4632,13 +4632,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "building"
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -4650,13 +4650,13 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 22,
             "value": "buildings"
           },
           {
             "end": 64,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 40,
             "value": "rce joiner component gui"
           }
@@ -4668,13 +4668,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "building"
           },
           {
             "end": 81,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce parametric study component common"
           }
@@ -4686,13 +4686,13 @@
         "entities": [
           {
             "end": 33,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
             "value": "buildings"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 42,
             "value": "rce excel component gui bundle"
           }
@@ -4704,13 +4704,13 @@
         "entities": [
           {
             "end": 40,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "buildings"
           },
           {
             "end": 86,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 49,
             "value": "rce parametric study component common"
           }
@@ -4722,13 +4722,13 @@
         "entities": [
           {
             "end": 39,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "building"
           },
           {
             "end": 82,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 48,
             "value": "rce xml loader component execution"
           }
@@ -4740,13 +4740,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "building"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce xml loader component execution"
           }
@@ -4758,13 +4758,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "compilation"
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce joiner component gui"
           }
@@ -4776,7 +4776,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "buildings"
           }
@@ -4788,13 +4788,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "building"
           },
           {
             "end": 44,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 37,
             "value": "methods"
           }
@@ -4806,7 +4806,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 10,
             "value": "buildings"
           }
@@ -4818,13 +4818,13 @@
         "entities": [
           {
             "end": 23,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 14,
             "value": "buildings"
           },
           {
             "end": 56,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 49,
             "value": "methods"
           }
@@ -4836,13 +4836,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "buildings"
           },
           {
             "end": 68,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce excel component gui bundle"
           }
@@ -4854,13 +4854,13 @@
         "entities": [
           {
             "end": 37,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
             "value": "compilation"
           },
           {
             "end": 83,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 46,
             "value": "rce parametric study component common"
           }
@@ -4872,13 +4872,13 @@
         "entities": [
           {
             "end": 36,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "compilation"
           },
           {
             "end": 77,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 45,
             "value": "rce input provider component gui"
           }
@@ -4890,13 +4890,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
             "value": "buildings"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce input provider component gui"
           }
@@ -4908,13 +4908,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
             "value": "compilation"
           },
           {
             "end": 74,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce xml merger component common"
           }
@@ -4926,13 +4926,13 @@
         "entities": [
           {
             "end": 42,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 34,
             "value": "building"
           },
           {
             "end": 81,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 51,
             "value": "rce excel component gui bundle"
           }
@@ -4944,13 +4944,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "building"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce xml merger component common"
           }
@@ -4962,13 +4962,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "compilation"
           },
           {
             "end": 67,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce toolkit - common modules"
           }
@@ -4980,13 +4980,13 @@
         "entities": [
           {
             "end": 41,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 33,
             "value": "building"
           },
           {
             "end": 100,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 50,
             "value": "rce decrypter component common (example component)"
           }
@@ -4998,13 +4998,13 @@
         "entities": [
           {
             "end": 33,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "building"
           },
           {
             "end": 76,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 42,
             "value": "rce xml loader component execution"
           }
@@ -5016,13 +5016,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
             "value": "building"
           },
           {
             "end": 91,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce decrypter component common (example component)"
           }
@@ -5034,13 +5034,13 @@
         "entities": [
           {
             "end": 40,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "buildings"
           },
           {
             "end": 99,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 49,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -5052,13 +5052,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "buildings"
           },
           {
             "end": 68,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce excel component gui bundle"
           }
@@ -5070,13 +5070,13 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "compilation"
           },
           {
             "end": 64,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 40,
             "value": "rce joiner component gui"
           }
@@ -5088,13 +5088,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "buildings"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce toolkit - common modules"
           }
@@ -5106,13 +5106,13 @@
         "entities": [
           {
             "end": 33,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 22,
             "value": "compilation"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 42,
             "value": "rce xml merger component common"
           }
@@ -5124,13 +5124,13 @@
         "entities": [
           {
             "end": 40,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "buildings"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 49,
             "value": "rce joiner component gui"
           }
@@ -5142,13 +5142,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "compilation"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce input provider component gui"
           }
@@ -5160,13 +5160,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "buildings"
           },
           {
             "end": 61,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 33,
             "value": "rce toolkit - common modules"
           }
@@ -5178,13 +5178,13 @@
         "entities": [
           {
             "end": 39,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "building"
           },
           {
             "end": 73,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 48,
             "value": "rce cluster component gui"
           }
@@ -5196,7 +5196,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "compilation"
           }
@@ -5208,13 +5208,13 @@
         "entities": [
           {
             "end": 36,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 28,
             "value": "building"
           },
           {
             "end": 59,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 52,
             "value": "methods"
           }
@@ -5226,7 +5226,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "buildings"
           }
@@ -5238,13 +5238,13 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "building"
           },
           {
             "end": 63,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 35,
             "value": "rce toolkit - common modules"
           }
@@ -5256,13 +5256,13 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "compilation"
           },
           {
             "end": 64,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 40,
             "value": "rce joiner component gui"
           }
@@ -5274,13 +5274,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "buildings"
           },
           {
             "end": 77,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce xml loader component execution"
           }
@@ -5292,13 +5292,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
             "value": "building"
           },
           {
             "end": 77,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce xml loader component execution"
           }
@@ -5310,13 +5310,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "compilation"
           },
           {
             "end": 69,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce excel component gui bundle"
           }
@@ -5328,13 +5328,13 @@
         "entities": [
           {
             "end": 21,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "building"
           },
           {
             "end": 64,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "rce xml loader component execution"
           }
@@ -5346,13 +5346,13 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "building"
           },
           {
             "end": 68,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 37,
             "value": "rce xml merger component common"
           }
@@ -5364,13 +5364,13 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "compilation"
           },
           {
             "end": 75,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 41,
             "value": "rce xml loader component execution"
           }
@@ -5382,13 +5382,13 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "buildings"
           },
           {
             "end": 70,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 39,
             "value": "rce xml merger component common"
           }
@@ -5400,13 +5400,13 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "buildings"
           },
           {
             "end": 68,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 31,
             "value": "rce parametric study component common"
           }
@@ -5418,13 +5418,13 @@
         "entities": [
           {
             "end": 33,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 22,
             "value": "compilation"
           },
           {
             "end": 66,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 42,
             "value": "rce joiner component gui"
           }
@@ -5436,13 +5436,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
             "value": "building"
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce parametric study component common"
           }
@@ -5454,13 +5454,13 @@
         "entities": [
           {
             "end": 39,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 31,
             "value": "building"
           },
           {
             "end": 80,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 48,
             "value": "rce input provider component gui"
           }
@@ -5472,13 +5472,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "buildings"
           },
           {
             "end": 72,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 38,
             "value": "rce xml loader component execution"
           }
@@ -5490,13 +5490,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "building"
           },
           {
             "end": 76,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce input provider component gui"
           }
@@ -5508,13 +5508,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "buildings"
           },
           {
             "end": 86,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce cpacs vampzero initializer component execution"
           }
@@ -5526,13 +5526,13 @@
         "entities": [
           {
             "end": 33,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "building"
           },
           {
             "end": 92,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 42,
             "value": "rce decrypter component common (example component)"
           }
@@ -5544,13 +5544,13 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "buildings"
           },
           {
             "end": 71,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 43,
             "value": "rce toolkit - common modules"
           }
@@ -5562,13 +5562,13 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "building"
           },
           {
             "end": 94,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 44,
             "value": "rce decrypter component common (example component)"
           }
@@ -5580,13 +5580,13 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "buildings"
           },
           {
             "end": 52,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 45,
             "value": "methods"
           }
@@ -5598,7 +5598,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
             "value": "building"
           }
@@ -5610,7 +5610,7 @@
         "entities": [
           {
             "end": 36,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "buildings"
           }
@@ -5622,13 +5622,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "building"
           },
           {
             "end": 50,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 43,
             "value": "methods"
           }
@@ -5640,13 +5640,13 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "building"
           },
           {
             "end": 60,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 36,
             "value": "rce joiner component gui"
           }
@@ -5658,7 +5658,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 7,
             "value": "compilation"
           }
@@ -5670,13 +5670,13 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "compilation"
           },
           {
             "end": 65,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 33,
             "value": "rce input provider component gui"
           }
@@ -6648,7 +6648,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "bundles"
           }
@@ -6660,7 +6660,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 16,
             "value": "methods"
           }
@@ -6672,7 +6672,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 8,
             "value": "service"
           }
@@ -6684,7 +6684,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "package"
           }
@@ -6696,7 +6696,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "compilation"
           }
@@ -6708,7 +6708,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 8,
             "value": "compilation"
           }
@@ -6720,7 +6720,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 8,
             "value": "package"
           }
@@ -6732,7 +6732,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 16,
             "value": "service"
           }
@@ -6744,7 +6744,7 @@
         "entities": [
           {
             "end": 21,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 15,
             "value": "island"
           }
@@ -6756,7 +6756,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 9,
             "value": "methods"
           }
@@ -6768,7 +6768,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "bundles"
           }
@@ -6780,7 +6780,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 19,
             "value": "services"
           }
@@ -6792,7 +6792,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "buildings"
           }
@@ -6804,7 +6804,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "packages"
           }
@@ -6816,7 +6816,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 8,
             "value": "methods"
           }
@@ -6828,7 +6828,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "region"
           }
@@ -6840,7 +6840,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "compilation"
           }
@@ -6852,7 +6852,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "bundles"
           }
@@ -6864,7 +6864,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "packages"
           }
@@ -6876,7 +6876,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 19,
             "value": "service"
           }
@@ -6888,7 +6888,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "buildings"
           }
@@ -6900,7 +6900,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "islands"
           }
@@ -6912,7 +6912,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "packages"
           }
@@ -6924,7 +6924,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 18,
             "value": "islands"
           }
@@ -6936,7 +6936,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "building"
           }
@@ -6948,7 +6948,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 19,
             "value": "methods"
           }
@@ -6960,7 +6960,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "package"
           }
@@ -6972,7 +6972,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 15,
             "value": "package"
           }
@@ -6984,7 +6984,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "package"
           }
@@ -6996,7 +6996,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "compilation"
           }
@@ -7008,7 +7008,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "islands"
           }
@@ -7020,7 +7020,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 9,
             "value": "service"
           }
@@ -7032,7 +7032,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "package"
           }
@@ -7044,7 +7044,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "island"
           }
@@ -7056,7 +7056,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "buildings"
           }
@@ -7068,7 +7068,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "islands"
           }
@@ -7080,7 +7080,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 8,
             "value": "bundles"
           }
@@ -7092,7 +7092,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "buildings"
           }
@@ -7104,7 +7104,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "packages",
+            "entity": "package",
             "start": 19,
             "value": "package"
           }
@@ -7116,7 +7116,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 9,
             "value": "methods"
           }
@@ -7128,7 +7128,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "building"
           }
@@ -7140,7 +7140,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "island"
           }
@@ -7152,7 +7152,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "region"
           }
@@ -7164,7 +7164,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 9,
             "value": "services"
           }
@@ -7176,7 +7176,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "regions"
           }
@@ -7188,7 +7188,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "building"
           }
@@ -7200,7 +7200,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 18,
             "value": "bundles"
           }
@@ -7212,7 +7212,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 16,
             "value": "services"
           }
@@ -7224,7 +7224,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "package"
           }
@@ -7236,7 +7236,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 16,
             "value": "service"
           }
@@ -7248,7 +7248,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "packages",
+            "entity": "package",
             "start": 8,
             "value": "packages"
           }
@@ -7260,7 +7260,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "region"
           }
@@ -7272,7 +7272,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 8,
             "value": "services"
           }
@@ -7284,7 +7284,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "building"
           }
@@ -7296,7 +7296,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "islands"
           }
@@ -7308,7 +7308,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 19,
             "value": "region"
           }
@@ -7320,7 +7320,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 9,
             "value": "services"
           }
@@ -7332,7 +7332,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 18,
             "value": "methods"
           }
@@ -7344,7 +7344,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 12,
             "value": "compilation"
           }
@@ -7356,7 +7356,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 12,
             "value": "islands"
           }
@@ -7368,7 +7368,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "region"
           }
@@ -7380,7 +7380,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "regions"
           }
@@ -7392,7 +7392,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "buildings"
           }
@@ -7404,7 +7404,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "building"
           }
@@ -7416,7 +7416,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 15,
             "value": "islands"
           }
@@ -7428,7 +7428,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "building"
           }
@@ -7440,7 +7440,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "island"
           }
@@ -7452,7 +7452,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 9,
             "value": "service"
           }
@@ -7464,7 +7464,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "packages"
           }
@@ -7476,7 +7476,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "bundles"
           }
@@ -7488,7 +7488,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "compilation"
           }
@@ -7500,7 +7500,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "region"
           }
@@ -7512,7 +7512,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "package"
           }
@@ -7524,7 +7524,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 8,
             "value": "package"
           }
@@ -7536,7 +7536,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 11,
             "value": "methods"
           }
@@ -7548,7 +7548,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 12,
             "value": "building"
           }
@@ -7560,7 +7560,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "regions"
           }
@@ -7572,7 +7572,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 18,
             "value": "service"
           }
@@ -7584,7 +7584,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 12,
             "value": "islands"
           }
@@ -7596,7 +7596,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "package",
             "start": 12,
             "value": "regions"
           }
@@ -7608,7 +7608,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 12,
             "value": "building"
           }
@@ -7620,7 +7620,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 19,
             "value": "services"
           }
@@ -7632,7 +7632,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "packages"
           }
@@ -7644,7 +7644,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "bundles"
           }
@@ -7656,7 +7656,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "package"
           }
@@ -7668,7 +7668,7 @@
         "entities": [
           {
             "end": 14,
-            "entity": "packages",
+            "entity": "package",
             "start": 8,
             "value": "region"
           }
@@ -7680,7 +7680,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "islands"
           }
@@ -7692,7 +7692,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "region"
           }
@@ -7704,7 +7704,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "islands"
           }
@@ -7716,7 +7716,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "region"
           }
@@ -7728,7 +7728,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "building"
           }
@@ -7740,7 +7740,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 8,
             "value": "methods"
           }
@@ -7752,7 +7752,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 16,
             "value": "methods"
           }
@@ -7764,7 +7764,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "building"
           }
@@ -7776,7 +7776,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "buildings"
           }
@@ -7788,7 +7788,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 16,
             "value": "service"
           }
@@ -7800,7 +7800,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "region"
           }
@@ -7812,7 +7812,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "bundles"
           }
@@ -7824,7 +7824,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "building"
           }
@@ -7836,7 +7836,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "packages"
           }
@@ -7848,7 +7848,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "building"
           }
@@ -7860,7 +7860,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "packages"
           }
@@ -7872,7 +7872,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "buildings"
           }
@@ -7884,7 +7884,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "islands"
           }
@@ -7896,7 +7896,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 16,
             "value": "service"
           }
@@ -7908,7 +7908,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "package"
           }
@@ -7920,7 +7920,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "packages"
           }
@@ -7932,7 +7932,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "bundles"
           }
@@ -7944,7 +7944,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "packages"
           }
@@ -7956,7 +7956,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "island"
           }
@@ -7968,7 +7968,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 8,
             "value": "building"
           }
@@ -7980,7 +7980,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "bundles"
           }
@@ -7992,7 +7992,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "compilation"
           }
@@ -8004,7 +8004,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 15,
             "value": "islands"
           }
@@ -8016,7 +8016,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "regions"
           }
@@ -8028,7 +8028,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 16,
             "value": "services"
           }
@@ -8040,7 +8040,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 11,
             "value": "islands"
           }
@@ -8052,7 +8052,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 16,
             "value": "methods"
           }
@@ -8064,7 +8064,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "compilation"
           }
@@ -8076,7 +8076,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "compilation"
           }
@@ -8088,7 +8088,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 11,
             "value": "island"
           }
@@ -8100,7 +8100,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 11,
             "value": "service"
           }
@@ -8112,7 +8112,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 15,
             "value": "services"
           }
@@ -8124,7 +8124,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "packages"
           }
@@ -8136,7 +8136,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 15,
             "value": "package"
           }
@@ -8148,7 +8148,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "compilation"
           }
@@ -8160,7 +8160,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 18,
             "value": "bundles"
           }
@@ -8172,7 +8172,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 11,
             "value": "region"
           }
@@ -8184,7 +8184,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "packages"
           }
@@ -8196,7 +8196,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 19,
             "value": "buildings"
           }
@@ -8208,7 +8208,7 @@
         "entities": [
           {
             "end": 14,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 8,
             "value": "island"
           }
@@ -8220,7 +8220,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "island"
           }
@@ -8232,7 +8232,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "building"
           }
@@ -8244,7 +8244,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "bundles"
           }
@@ -8256,7 +8256,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 16,
             "value": "building"
           }
@@ -8268,7 +8268,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 9,
             "value": "islands"
           }
@@ -8280,7 +8280,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "islands"
           }
@@ -8292,7 +8292,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 11,
             "value": "compilation"
           }
@@ -8304,7 +8304,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 11,
             "value": "service"
           }
@@ -8316,7 +8316,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "package"
           }
@@ -8328,7 +8328,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "package"
           }
@@ -8340,7 +8340,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "island"
           }
@@ -8352,7 +8352,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "packages"
           }
@@ -8364,7 +8364,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 9,
             "value": "building"
           }
@@ -8376,7 +8376,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 9,
             "value": "methods"
           }
@@ -8388,7 +8388,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 16,
             "value": "service"
           }
@@ -8400,7 +8400,7 @@
         "entities": [
           {
             "end": 16,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 9,
             "value": "service"
           }
@@ -8412,7 +8412,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 16,
             "value": "bundles"
           }
@@ -8424,7 +8424,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 15,
             "value": "methods"
           }
@@ -8436,7 +8436,7 @@
         "entities": [
           {
             "end": 15,
-            "entity": "packages",
+            "entity": "package",
             "start": 9,
             "value": "region"
           }
@@ -8448,7 +8448,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 14,
             "value": "building"
           }
@@ -8460,7 +8460,7 @@
         "entities": [
           {
             "end": 34,
-            "entity": "packages",
+            "entity": "package",
             "start": 28,
             "value": "region"
           }
@@ -8472,7 +8472,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "packages",
+            "entity": "package",
             "start": 20,
             "value": "package"
           }
@@ -8484,7 +8484,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 15,
             "value": "methods"
           }
@@ -8496,7 +8496,7 @@
         "entities": [
           {
             "end": 21,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 14,
             "value": "islands"
           }
@@ -8508,7 +8508,7 @@
         "entities": [
           {
             "end": 37,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 30,
             "value": "islands"
           }
@@ -8520,7 +8520,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 17,
             "value": "islands"
           }
@@ -8532,7 +8532,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "packages",
+            "entity": "package",
             "start": 23,
             "value": "region"
           }
@@ -8544,7 +8544,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 18,
             "value": "service"
           }
@@ -8556,7 +8556,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 21,
             "value": "services"
           }
@@ -8568,7 +8568,7 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "building"
           }
@@ -8580,7 +8580,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "regions"
           }
@@ -8592,7 +8592,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 13,
             "value": "methods"
           }
@@ -8604,7 +8604,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 20,
             "value": "methods"
           }
@@ -8616,7 +8616,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 7,
             "value": "compilation"
           }
@@ -8628,7 +8628,7 @@
         "entities": [
           {
             "end": 37,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 30,
             "value": "service"
           }
@@ -8640,7 +8640,7 @@
         "entities": [
           {
             "end": 34,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 27,
             "value": "methods"
           }
@@ -8652,7 +8652,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "building"
           }
@@ -8664,7 +8664,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 14,
             "value": "services"
           }
@@ -8676,7 +8676,7 @@
         "entities": [
           {
             "end": 35,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 28,
             "value": "islands"
           }
@@ -8688,7 +8688,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 20,
             "value": "island"
           }
@@ -8700,7 +8700,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "packages",
+            "entity": "package",
             "start": 24,
             "value": "region"
           }
@@ -8712,7 +8712,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "compilation"
           }
@@ -8724,7 +8724,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 19,
             "value": "bundles"
           }
@@ -8736,7 +8736,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 26,
             "value": "bundles"
           }
@@ -8748,7 +8748,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 18,
             "value": "services"
           }
@@ -8760,7 +8760,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "packages"
           }
@@ -8772,7 +8772,7 @@
         "entities": [
           {
             "end": 36,
-            "entity": "packages",
+            "entity": "package",
             "start": 28,
             "value": "packages"
           }
@@ -8784,7 +8784,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 17,
             "value": "packages"
           }
@@ -8796,7 +8796,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "buildings"
           }
@@ -8808,7 +8808,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 18,
             "value": "island"
           }
@@ -8820,7 +8820,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "packages",
+            "entity": "package",
             "start": 24,
             "value": "regions"
           }
@@ -8832,7 +8832,7 @@
         "entities": [
           {
             "end": 38,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 32,
             "value": "island"
           }
@@ -8844,7 +8844,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "compilation"
           }
@@ -8856,7 +8856,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 13,
             "value": "islands"
           }
@@ -8868,7 +8868,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 24,
             "value": "island"
           }
@@ -8880,7 +8880,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 10,
             "value": "buildings"
           }
@@ -8892,7 +8892,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 22,
             "value": "methods"
           }
@@ -8904,7 +8904,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 22,
             "value": "service"
           }
@@ -8916,7 +8916,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "bundles",
+            "entity": "bundle",
             "start": 15,
             "value": "bundles"
           }
@@ -8928,7 +8928,7 @@
         "entities": [
           {
             "end": 35,
-            "entity": "packages",
+            "entity": "package",
             "start": 27,
             "value": "packages"
           }
@@ -8940,7 +8940,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "buildings"
           }
@@ -8952,7 +8952,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 18,
             "value": "island"
           }
@@ -8964,7 +8964,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "regions"
           }
@@ -8976,7 +8976,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 10,
             "value": "services"
           }
@@ -8988,7 +8988,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 21,
             "value": "services"
           }
@@ -9000,7 +9000,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "packages",
+            "entity": "package",
             "start": 25,
             "value": "packages"
           }
@@ -9012,7 +9012,7 @@
         "entities": [
           {
             "end": 35,
-            "entity": "packages",
+            "entity": "package",
             "start": 28,
             "value": "regions"
           }
@@ -9024,7 +9024,7 @@
         "entities": [
           {
             "end": 21,
-            "entity": "packages",
+            "entity": "package",
             "start": 14,
             "value": "package"
           }
@@ -9036,7 +9036,7 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "building"
           }
@@ -9048,7 +9048,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 21,
             "value": "island"
           }
@@ -9060,7 +9060,7 @@
         "entities": [
           {
             "end": 38,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 32,
             "value": "island"
           }
@@ -9072,7 +9072,7 @@
         "entities": [
           {
             "end": 38,
-            "entity": "packages",
+            "entity": "package",
             "start": 30,
             "value": "packages"
           }
@@ -9084,7 +9084,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 18,
             "value": "service"
           }
@@ -9096,7 +9096,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 24,
             "value": "bundles"
           }
@@ -9108,7 +9108,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "compilation"
           }
@@ -9120,7 +9120,7 @@
         "entities": [
           {
             "end": 38,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 32,
             "value": "island"
           }
@@ -9132,7 +9132,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 20,
             "value": "compilation"
           }
@@ -9144,7 +9144,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 13,
             "value": "island"
           }
@@ -9156,7 +9156,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 22,
             "value": "bundles"
           }
@@ -9168,7 +9168,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "compilation"
           }
@@ -9180,7 +9180,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "packages",
+            "entity": "package",
             "start": 24,
             "value": "packages"
           }
@@ -9192,7 +9192,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 19,
             "value": "islands"
           }
@@ -9204,7 +9204,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 19,
             "value": "region"
           }
@@ -9216,7 +9216,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "packages",
+            "entity": "package",
             "start": 10,
             "value": "packages"
           }
@@ -9228,7 +9228,7 @@
         "entities": [
           {
             "end": 38,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 30,
             "value": "building"
           }
@@ -9240,7 +9240,7 @@
         "entities": [
           {
             "end": 34,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 27,
             "value": "methods"
           }
@@ -9252,7 +9252,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 20,
             "value": "service"
           }
@@ -9264,7 +9264,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 23,
             "value": "islands"
           }
@@ -9276,7 +9276,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 15,
             "value": "regions"
           }
@@ -9288,7 +9288,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 25,
             "value": "islands"
           }
@@ -9300,7 +9300,7 @@
         "entities": [
           {
             "end": 38,
-            "entity": "packages",
+            "entity": "package",
             "start": 30,
             "value": "packages"
           }
@@ -9312,7 +9312,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "compilation"
           }
@@ -9324,7 +9324,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 25,
             "value": "islands"
           }
@@ -9336,7 +9336,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 20,
             "value": "services"
           }
@@ -9348,7 +9348,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 21,
             "value": "bundles"
           }
@@ -9360,7 +9360,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 26,
             "value": "service"
           }
@@ -9372,7 +9372,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 20,
             "value": "island"
           }
@@ -9384,7 +9384,7 @@
         "entities": [
           {
             "end": 23,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 15,
             "value": "services"
           }
@@ -9396,7 +9396,7 @@
         "entities": [
           {
             "end": 13,
-            "entity": "packages",
+            "entity": "package",
             "start": 7,
             "value": "region"
           }
@@ -9408,7 +9408,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 22,
             "value": "island"
           }
@@ -9420,7 +9420,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "packages",
+            "entity": "package",
             "start": 24,
             "value": "region"
           }
@@ -9432,7 +9432,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "packages",
+            "entity": "package",
             "start": 22,
             "value": "region"
           }
@@ -9444,7 +9444,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "packages",
+            "entity": "package",
             "start": 21,
             "value": "packages"
           }
@@ -9456,7 +9456,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 22,
             "value": "buildings"
           }
@@ -9468,7 +9468,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 26,
             "value": "methods"
           }
@@ -9480,7 +9480,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 18,
             "value": "buildings"
           }
@@ -9492,7 +9492,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 14,
             "value": "building"
           }
@@ -9504,7 +9504,7 @@
         "entities": [
           {
             "end": 34,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 27,
             "value": "islands"
           }
@@ -9516,7 +9516,7 @@
         "entities": [
           {
             "end": 34,
-            "entity": "packages",
+            "entity": "package",
             "start": 28,
             "value": "region"
           }
@@ -9528,7 +9528,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 22,
             "value": "services"
           }
@@ -9540,7 +9540,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 17,
             "value": "building"
           }
@@ -9552,7 +9552,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 26,
             "value": "islands"
           }
@@ -9564,7 +9564,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 24,
             "value": "methods"
           }
@@ -9576,7 +9576,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "packages",
+            "entity": "package",
             "start": 22,
             "value": "regions"
           }
@@ -9588,7 +9588,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "packages",
+            "entity": "package",
             "start": 21,
             "value": "package"
           }
@@ -9600,7 +9600,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 22,
             "value": "bundles"
           }
@@ -9612,7 +9612,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "packages",
+            "entity": "package",
             "start": 25,
             "value": "region"
           }
@@ -9624,7 +9624,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "compilation"
           }
@@ -9636,7 +9636,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 18,
             "value": "island"
           }
@@ -9648,7 +9648,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 21,
             "value": "bundles"
           }
@@ -9660,7 +9660,7 @@
         "entities": [
           {
             "end": 36,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 27,
             "value": "buildings"
           }
@@ -9672,7 +9672,7 @@
         "entities": [
           {
             "end": 36,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 30,
             "value": "island"
           }
@@ -9684,7 +9684,7 @@
         "entities": [
           {
             "end": 34,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 26,
             "value": "building"
           }
@@ -9696,7 +9696,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 25,
             "value": "islands"
           }
@@ -9708,7 +9708,7 @@
         "entities": [
           {
             "end": 37,
-            "entity": "packages",
+            "entity": "package",
             "start": 30,
             "value": "regions"
           }
@@ -9720,7 +9720,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 21,
             "value": "service"
           }
@@ -9732,7 +9732,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 23,
             "value": "building"
           }
@@ -9744,7 +9744,7 @@
         "entities": [
           {
             "end": 40,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 34,
             "value": "island"
           }
@@ -9756,7 +9756,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "regions"
           }
@@ -9768,7 +9768,7 @@
         "entities": [
           {
             "end": 38,
-            "entity": "packages",
+            "entity": "package",
             "start": 31,
             "value": "regions"
           }
@@ -9780,7 +9780,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "packages",
+            "entity": "package",
             "start": 23,
             "value": "packages"
           }
@@ -9792,7 +9792,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 17,
             "value": "services"
           }
@@ -9804,7 +9804,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "packages",
+            "entity": "package",
             "start": 21,
             "value": "region"
           }
@@ -9816,7 +9816,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 27,
             "value": "island"
           }
@@ -9828,7 +9828,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "packages",
+            "entity": "package",
             "start": 21,
             "value": "regions"
           }
@@ -9840,7 +9840,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 23,
             "value": "service"
           }
@@ -9852,7 +9852,7 @@
         "entities": [
           {
             "end": 27,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 20,
             "value": "bundles"
           }
@@ -9864,7 +9864,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 18,
             "value": "methods"
           }
@@ -9876,7 +9876,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "building"
           }
@@ -9888,7 +9888,7 @@
         "entities": [
           {
             "end": 13,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 6,
             "value": "islands"
           }
@@ -9900,7 +9900,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 19,
             "value": "bundles"
           }
@@ -9912,7 +9912,7 @@
         "entities": [
           {
             "end": 21,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 13,
             "value": "building"
           }
@@ -9924,7 +9924,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 21,
             "value": "compilation"
           }
@@ -9936,7 +9936,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 26,
             "value": "island"
           }
@@ -9948,7 +9948,7 @@
         "entities": [
           {
             "end": 28,
-            "entity": "packages",
+            "entity": "package",
             "start": 21,
             "value": "regions"
           }
@@ -9960,7 +9960,7 @@
         "entities": [
           {
             "end": 35,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 24,
             "value": "compilation"
           }
@@ -9972,7 +9972,7 @@
         "entities": [
           {
             "end": 34,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 27,
             "value": "islands"
           }
@@ -9984,7 +9984,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "packages",
+            "entity": "package",
             "start": 17,
             "value": "package"
           }
@@ -9996,7 +9996,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 19,
             "value": "island"
           }
@@ -10008,7 +10008,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 14,
             "value": "packages"
           }
@@ -10020,7 +10020,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 15,
             "value": "compilation"
           }
@@ -10032,7 +10032,7 @@
         "entities": [
           {
             "end": 32,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 25,
             "value": "islands"
           }
@@ -10044,7 +10044,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 15,
             "value": "package"
           }
@@ -10056,7 +10056,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 20,
             "value": "island"
           }
@@ -10068,7 +10068,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "bundles",
+            "entity": "nodeType",
             "start": 11,
             "value": "islands"
           }
@@ -10080,7 +10080,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 16,
             "value": "region"
           }
@@ -10092,7 +10092,7 @@
         "entities": [
           {
             "end": 37,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 28,
             "value": "buildings"
           }
@@ -10104,7 +10104,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "packages",
+            "entity": "package",
             "start": 18,
             "value": "package"
           }
@@ -10116,7 +10116,7 @@
         "entities": [
           {
             "end": 21,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 14,
             "value": "service"
           }
@@ -10128,7 +10128,7 @@
         "entities": [
           {
             "end": 21,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 14,
             "value": "methods"
           }
@@ -10140,7 +10140,7 @@
         "entities": [
           {
             "end": 24,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 17,
             "value": "service"
           }
@@ -10152,7 +10152,7 @@
         "entities": [
           {
             "end": 33,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 25,
             "value": "services"
           }
@@ -10164,7 +10164,7 @@
         "entities": [
           {
             "end": 21,
-            "entity": "services",
+            "entity": "nodeType",
             "start": 14,
             "value": "service"
           }
@@ -10176,7 +10176,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "packages",
+            "entity": "package",
             "start": 14,
             "value": "packages"
           }
@@ -10188,7 +10188,7 @@
         "entities": [
           {
             "end": 31,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 24,
             "value": "methods"
           }
@@ -10200,7 +10200,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "packages",
+            "entity": "package",
             "start": 10,
             "value": "regions"
           }
@@ -10212,7 +10212,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "Methods",
+            "entity": "nodeType",
             "start": 15,
             "value": "methods"
           }
@@ -10224,7 +10224,7 @@
         "entities": [
           {
             "end": 25,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 14,
             "value": "compilation"
           }
@@ -10236,7 +10236,7 @@
         "entities": [
           {
             "end": 36,
-            "entity": "compilationUnit",
+            "entity": "nodeType",
             "start": 25,
             "value": "compilation"
           }

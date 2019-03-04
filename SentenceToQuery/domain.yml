@@ -1,12 +1,9 @@
 slots:
-  bundles:
+  bundle:
     type: text
 
-  packages:
+  package:
     type: text
-
-  services:
-   type: text
 
   project:
    type: text
@@ -16,9 +13,6 @@ slots:
     type: text
 
   compilationUnit:
-    type: text
-
-  methods:
     type: text
 
   nodeType:
