@@ -13,19 +13,22 @@ class GenerateQuery:
         query = str(pypher_object)
         for key, value in pypher_object.bound_params.items():
             if key in query:
-                # because key present in param does nto have $ sign
+                # because key present in param does not have $ sign
                 modified_key = "$" + key
                 query = query.replace(modified_key, '"' + str(value) + '"')
         return query
 
     @staticmethod
-    def get_node_information_query(node_name):
+    def get_node_information_query(node_name, node_type=None):
         """
         :param node_name: name of the node to get information about.
         :return: the query for showing general information of one node (any entity) with a specific name.
         """
         pypher_object = Pypher()
-        pypher_object.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', node_name))
+        if node_type is None:
+            pypher_object.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', node_name))
+        else:
+            pypher_object.Match.node('u', labels=node_type).where.u.__name__.CONTAINS(Param('per_param', node_name))
         pypher_object.RETURN('u')
         return GenerateQuery.reformat_query(pypher_object)
 
@@ -70,22 +73,21 @@ class GenerateQuery:
         """
         pypher_object = Pypher()
         if order == "loc":
-            pypher_object.Match.node('bundle', labels='bundles').relationship \
-                ('pkg', labels="Pkg_fragment").node('k').relationship \
-                ('kl', labels='compiled_By').node('cmp')
+            pypher_object.Match.node('bundle', labels='bundles')\
+                .relationship('pkg', labels="Pkg_fragment").node('k')\
+                .relationship('kl', labels='compiled_By').node('cmp')
             if bundle_name:
                 pypher_object.WHERE(__.bundle.__name__ == bundle_name)
             pypher_object.RETURN('cmp')
             pypher_object.OrderBy(__.cmp.__Loc__)
         else:
-            pypher_object.Match.node('bundle', labels='bundles').relationship \
-                ('pkg', labels="Pkg_fragment").node('k').relationship \
-                ('kl', labels='compiled_By').node().relationship \
-                ('cp', labels="compiledUnits_topLevelType").node('n').relationship \
-                ('rl', 'Methods_Contains').node('mthd')
+            pypher_object.Match.node('bundle', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k')\
+                .relationship('kl', labels='compiled_By').node()\
+                .relationship('cp', labels="compiledUnits_topLevelType").node('n')\
+                .relationship('rl', 'Methods_Contains').node('mthd')
             if bundle_name:
                 pypher_object.WHERE(__.bundle.__name__ == bundle_name)
-            pypher_object.RETURN('bundle.name', 'n.name', __.count('mthd'))
+            pypher_object.RETURN('n', __.count('mthd'))
             pypher_object.OrderBy(__.count('mthd'))
         pypher_object.Desc()
         pypher_object.Limit(1)
@@ -99,20 +101,18 @@ class GenerateQuery:
         :return: the query for (general or specific) information about one bundle.
         """
         if aspect is None:
-            return GenerateQuery.get_node_information_query(bundle_name)
+            return GenerateQuery.get_node_information_query(bundle_name, 'bundles')
 
         pypher_object = Pypher()
         if aspect == 'compilationUnit':
-            pypher_object.Match.node('u', labels='bundles').relationship \
-                ('f', labels="Pkg_fragment").node('n').relationship \
-                ('c', labels="compiled_By").node("m")
+            pypher_object.Match.node('u', labels='bundles').relationship('f', labels="Pkg_fragment").node('n')\
+                .relationship('c', labels="compiled_By").node("m")
 
         elif aspect == 'methods':
-            pypher_object.Match.node('u', labels='bundles').relationship \
-                ('pkg', labels="Pkg_fragment").node('k').relationship \
-                ('kl', labels='compiled_By').node('n').relationship \
-                ('r', labels='compiledUnits_topLevelType').node('nl').relationship \
-                ('rl', labels='Methods_Contains').node('m')
+            pypher_object.Match.node('u', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k')\
+                .relationship('kl', labels='compiled_By').node('n')\
+                .relationship('r', labels='compiledUnits_topLevelType').node('nl')\
+                .relationship('rl', labels='Methods_Contains').node('m')
 
         else:
             if aspect == 'packages':
@@ -122,10 +122,9 @@ class GenerateQuery:
             else:
                 labels = aspect
 
-            pypher_object.Match.node('u', labels='bundles').relationship \
-                ('r', labels=labels).node('m')
+            pypher_object.Match.node('u', labels='bundles').relationship('r', labels=labels).node('m')
 
-        pypher_object.WHERE(__.u.__name__ == bundle_name)
+        pypher_object.Match.node('u').where.u.__name__.CONTAINS(Param('per_param', bundle_name))
 
         # this can be changed according to req. if we need all info or just names of packages
         # query = str(self.pypherObject.RETURN('u.name', 'm.name'))
