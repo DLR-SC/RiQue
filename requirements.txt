@@ -5,8 +5,8 @@ scikit-learn==0.19.1
 scipy==1.1.0
 sklearn-crfsuite==0.3.6
 tensorflow~=1.10.0
-rasa_nlu~=0.13.2
-rasa_core==0.11.7
+rasa_nlu~=0.14.3
+rasa_core==0.13.2
 rasa_core_sdk~=0.11.3
 python_cypher==0.14.2
 py2neo>=4.1.0
