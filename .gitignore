@@ -3,3 +3,4 @@ SentenceToQuery/__pycache__/
 SentenceToQuery/rasa_core.log
 neo4j/\.ipynb_checkpoints/
 SentenceToQuery/models/*
+SentenceToQuery/.myrasa
