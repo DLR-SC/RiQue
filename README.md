@@ -42,7 +42,6 @@ The chatbot models and files are maintained in ```SentenceToQuery```, whereas th
 
 * User: Give info of current working project
 * Response by bot: Outputs details about rce project
-
 ```
 ### Conversation 2 (search information of node with name)
 
@@ -52,7 +51,6 @@ The chatbot models and files are maintained in ```SentenceToQuery```, whereas th
 
 * User: give info of database node
 * Reponse by bot: Outputs result of query 
-
 ```
 
 ### Conversation 3 (search information of node based on string matching (user don't have to include complete name) )
@@ -60,8 +58,6 @@ The chatbot models and files are maintained in ```SentenceToQuery```, whereas th
 ```
 * User: show me details of remote component node
 * Reponse by bot: Outputs information of all nodes that starts with **remote component**
-
-
 ```
 
 ### Conversation 4 (Show all the nodes) 
@@ -88,7 +84,6 @@ The chatbot models and files are maintained in ```SentenceToQuery```, whereas th
 
 * User: show all the services
 * Response by bot: Outputs all services in the project
-
 ```
 
 
@@ -112,7 +107,6 @@ The chatbot models and files are maintained in ```SentenceToQuery```, whereas th
 
 * User: give me count of all the services units
 * Response by bot: Outputs count of all services in the project
-
 ```
 
 ### Conversation 6 (Show information related to specific bundle) 
@@ -135,7 +129,6 @@ The chatbot models and files are maintained in ```SentenceToQuery```, whereas th
 
 * User: show exports of rce components doe execution bundle
 * Response by bot: Outputs exports of rce components doe execution bundle
-
 ```
 
 ### Conversation 7 (Show methods of specific bundle) 
@@ -149,7 +142,6 @@ The chatbot models and files are maintained in ```SentenceToQuery```, whereas th
 
 * User: give methods of rce components doe execution bundle
 * Response by bot: Outputs methods name 
-
 ```
 
 ### Conversation 8 (Show largest Compilation Unit  in bundle based on code lines) 
