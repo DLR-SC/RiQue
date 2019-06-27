@@ -32,9 +32,9 @@ class DisplayBundleDetailedQuery(Action):
         query = None
         intent = tracker.latest_message['intent']
         error = None
-        if tracker.get_slot('bundles'):
+        if tracker.get_slot('bundle'):
             query_aspect = tracker.get_slot('nodeType')
-            query = GenerateQuery.get_detailed_bundle_info_query(tracker.get_slot('bundles'), query_aspect)
+            query = GenerateQuery.get_detailed_bundle_info_query(tracker.get_slot('bundle'), query_aspect)
         else:
             error = "no bundles slot filled inside show detailed bundle project info"
         response = ResponseBuilderUtils.build_response(query, intent, error)
@@ -56,7 +56,7 @@ class DisplayLargestCompilationUnit(Action):
 
     def run(self, dispatcher, tracker, domain):
         intent = tracker.latest_message['intent']
-        bundle_name = tracker.get_slot('bundles')
+        bundle_name = tracker.get_slot('bundle')
         order = tracker.get_slot('nodeType')
         query = GenerateQuery.get_largest_compilation_unit_query(bundle_name, order)
         response = ResponseBuilderUtils.build_response(query, intent)
@@ -81,6 +81,12 @@ class ShowNodeInformation(Action):
         error = None
         if tracker.get_slot('node'):
             query = GenerateQuery.get_node_information_query(tracker.get_slot('node'))
+        elif tracker.get_slot('bundle'):
+            print("bundle:" + tracker.get_slot('bundle'))
+            query = GenerateQuery.get_node_information_query(tracker.get_slot('bundle'), 'bundles')
+        elif tracker.get_slot('compilationUnit'):
+            print("compilationunit:" + tracker.get_slot('compilationUnit'))
+            query = GenerateQuery.get_node_information_query(tracker.get_slot('compilationUnit'), 'compilationUnit')
         else:
             error = "no node slot filled inside action show node information"
         response = ResponseBuilderUtils.build_response(query, intent, error)
@@ -137,7 +143,7 @@ class ResponseBuilderUtils:
     @staticmethod
     def build_response(query, intent, error=None):
         response = dict()
-        if error is not None:
+        if error:
             response['error'] = error
         response['query'] = query
         response['intent'] = intent
