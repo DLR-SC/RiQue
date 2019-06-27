@@ -20,8 +20,8 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 * Start neo4j server `service neo4j start`
 * To convert json to neo4j 
-	`cd neo4j`
-	`python JsonToNeo4j.py username password` (Use neo4j username and password)
+	* `cd neo4j`
+	* `python JsonToNeo4j.py username password` (Use neo4j username and password)
 * Navigate to SentenceToQuery directory and run `python train_rasa_module.py 'train-all'` to train and save the rasa nlu and core models
    **If models are already saved, then this step is optional**
 * Now run action server using `python -m rasa_core_sdk.endpoint --actions actions`
