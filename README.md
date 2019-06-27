@@ -10,21 +10,24 @@ This system take input as request/command and returns neo4j graph database query
 
 This project is developed and tested in Ubuntu 16.04
 
-For easier installation, clone this repository, create new ```python 3.6.5``` environment and execute: ```pip install -r requirements.txt```
+For easier installation, clone this repository, create new `python 3.6.5` environment and execute: `pip install -r requirements.txt`
 
-To install spacy language module: ```python -m spacy download en```
+To install spacy language module: `python -m spacy download en`
 
 To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https://datawookie.netlify.com/blog/2016/09/installing-neo4j-on-ubuntu-16.04/)
 
 ## Steps
 
-* First convert json to neo4j by executing ```neo4j/JsonToNeo4j.py``` (Remember to start the neo4j server and configure it)
-* Navigate to SentenceToQuery directory, now in one terminal: Run ``` python train_rasa_module.py 'train-all' ``` to train and save the rasa nlu and core models
+* Start neo4j server `service neo4j start`
+* To convert json to neo4j 
+	`cd neo4j`
+	`python JsonToNeo4j.py username password` (Use neo4j username and password)
+* Navigate to SentenceToQuery directory and run `python train_rasa_module.py 'train-all'` to train and save the rasa nlu and core models
    **If models are already saved, then this step is optional**
-* In second terminal: Run action server using ``` python -m rasa_core_sdk.endpoint --actions actions ```
-* In third terminal: Pass user messages and end points to rasa core using:
-     ``` python train_rasa_module.py 'bot' ``` or ``` python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml ```
-* Now you can pass the messages as [shown here](https://github.com/Pseipel/Island-Voiz#general-conversation-examples) to the bot and wait for the responses 
+* Now run action server using `python -m rasa_core_sdk.endpoint --actions actions`
+* In another terminal, Pass user messages and end points to rasa core using:
+	`python train_rasa_module.py 'bot'` or `python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml`
+* Now you can pass the messages as shown below 
 
 ## Information about how sentences are converted to Neo4j query can be found here: ![SentenceToQuery](https://github.com/DLR-SC/RiQue/tree/master/SentenceToQuery)
 
