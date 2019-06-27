@@ -1,9 +1,6 @@
 from rasa_core_sdk import Action
-from rasa_core_sdk.events import SlotSet
-from response_builder import ResponseBuilder
+from query_generator import GenerateQuery
 import json
-
-response_builder = ResponseBuilder()
 
 
 class DisplayGeneralQuery(Action):
@@ -13,13 +10,15 @@ class DisplayGeneralQuery(Action):
         return "action_give_project_information"
 
     def run(self, dispatcher, tracker, domain):
-        response = dict()
+        query = None
+        intent = tracker.latest_message['intent']
+        error = None
         if tracker.get_slot('project'):
-            response = response_builder.get_query(tracker)
+            query = GenerateQuery.get_project_information(tracker.get_slot('project'))
         else:
-            response['error'] = "no project slot is filled inside action give project information action"
+            error = "no project slot is filled inside action give project information action"
+        response = ResponseBuilderUtils.build_response(query, intent, error)
         dispatcher.utter_message(json.dumps(response))
-
         return []
 
 
@@ -30,11 +29,15 @@ class DisplayBundleDetailedQuery(Action):
         return "action_show_detail_info_bundles"
 
     def run(self, dispatcher, tracker, domain):
-        response = dict()
-        if tracker.get_slot('bundles'):
-            response = response_builder.get_query(tracker)
+        query = None
+        intent = tracker.latest_message['intent']
+        error = None
+        if tracker.get_slot('bundle'):
+            query_aspect = tracker.get_slot('nodeType')
+            query = GenerateQuery.get_detailed_bundle_info_query(tracker.get_slot('bundle'), query_aspect)
         else:
-            response['error'] = "no bundles slot filled inside show detailed bundle project info"
+            error = "no bundles slot filled inside show detailed bundle project info"
+        response = ResponseBuilderUtils.build_response(query, intent, error)
         dispatcher.utter_message(json.dumps(response))
 
         return []
@@ -52,7 +55,11 @@ class DisplayLargestCompilationUnit(Action):
         return "action_show_largest_compilationUnit"
 
     def run(self, dispatcher, tracker, domain):
-        response = response_builder.get_query(tracker)
+        intent = tracker.latest_message['intent']
+        bundle_name = tracker.get_slot('bundle')
+        order = tracker.get_slot('nodeType')
+        query = GenerateQuery.get_largest_compilation_unit_query(bundle_name, order)
+        response = ResponseBuilderUtils.build_response(query, intent)
         dispatcher.utter_message(json.dumps(response))
         return []
 
@@ -69,13 +76,21 @@ class ShowNodeInformation(Action):
         return "action_show_node_information"
 
     def run(self, dispatcher, tracker, domain):
-        response = dict()
+        intent = tracker.latest_message['intent']
+        query = None
+        error = None
         if tracker.get_slot('node'):
-            response = response_builder.get_query(tracker)
+            query = GenerateQuery.get_node_information_query(tracker.get_slot('node'))
+        elif tracker.get_slot('bundle'):
+            print("bundle:" + tracker.get_slot('bundle'))
+            query = GenerateQuery.get_node_information_query(tracker.get_slot('bundle'), 'bundles')
+        elif tracker.get_slot('compilationUnit'):
+            print("compilationunit:" + tracker.get_slot('compilationUnit'))
+            query = GenerateQuery.get_node_information_query(tracker.get_slot('compilationUnit'), 'compilationUnit')
         else:
-            response['error'] = "no node slot filled inside action show node information"
+            error = "no node slot filled inside action show node information"
+        response = ResponseBuilderUtils.build_response(query, intent, error)
         dispatcher.utter_message(json.dumps(response))
-
         return []
 
 
@@ -91,7 +106,12 @@ class ShowAllNodes(Action):
         return "action_show_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
-        response = response_builder.get_query(tracker)
+        intent = tracker.latest_message['intent']
+        if tracker.get_slot('nodeType'):
+            query = GenerateQuery.get_show_all_nodes_query(tracker.get_slot('nodeType'))
+        else:
+            query = GenerateQuery.get_show_all_nodes_query()
+        response = ResponseBuilderUtils.build_response(query, intent)
         dispatcher.utter_message(json.dumps(response))
         return []
 
@@ -108,7 +128,24 @@ class CountAllNodes(Action):
         return "action_count_all_nodes"
 
     def run(self, dispatcher, tracker, domain):
-        response = response_builder.get_query(tracker)
+        intent = tracker.latest_message['intent']
+        if tracker.get_slot('nodeType'):
+            query = GenerateQuery.get_count_all_nodes_query(tracker.get_slot('nodeType'))
+        else:
+            query = GenerateQuery.get_count_all_nodes_query()
+        response = ResponseBuilderUtils.build_response(query, intent)
         dispatcher.utter_message(json.dumps(response))
         return []
+
+
+class ResponseBuilderUtils:
+
+    @staticmethod
+    def build_response(query, intent, error=None):
+        response = dict()
+        if error:
+            response['error'] = error
+        response['query'] = query
+        response['intent'] = intent
+        return response
 

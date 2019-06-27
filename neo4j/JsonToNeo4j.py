@@ -207,7 +207,7 @@ To visualize the graph, login to  http://localhost:7474
 
 if __name__ == "__main__":
 	username = "neo4j"
-	userpass = "123456"
+	userpass = "neo4j"
 	if len(sys.argv)==3:
 		username = sys.argv[1]
 		userpass = sys.argv[2]
