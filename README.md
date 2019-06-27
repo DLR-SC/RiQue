@@ -10,23 +10,25 @@ This system take input as request/command and returns neo4j graph database query
 
 This project is developed and tested in Ubuntu 16.04
 
-For easier installation, clone this repository, create new ```python 3.6``` environment and execute: ```pip install -r requirements.txt```
+For easier installation, clone this repository, create new `python 3.6` environment and execute: `pip install -r requirements.txt`
 
-To install spacy language module: ```python -m spacy download en```
+To install spacy language module: `python -m spacy download en`
 
-To install rasa: ```pip install rasa```
+To install rasa: `pip install rasa`
 
 To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https://datawookie.netlify.com/blog/2016/09/installing-neo4j-on-ubuntu-16.04/)
 
-The chatbot models and files are maintained in ```SentenceToQuery```, whereas the property graphs are stored in ```neo4j``` folder
+The chatbot models and files are maintained in `SentenceToQuery`, whereas the property graphs are stored in `neo4j` folder
 
 ## Steps
 
-* Start neo4j server ```service neo4j start```
-* Convert json to neo4j by executing ```neo4j/JsonToNeo4j.py``` with python
-* Navigate to SentenceToQuery directory and execute ```rasa train``` to train the chatbot model
-* Now run action server using ```rasa run actions```
-* Open another terminal and execute the chatbot ```rasa shell```
+* Start neo4j server `service neo4j start`
+* To convert json to neo4j:
+	* `cd neo4j`
+	* `python JsonToNeo4j.py username password` (Use neo4j username and password)
+* Navigate to SentenceToQuery directory and execute `rasa train` to train the chatbot model
+* Now run action server using `rasa run actions`
+* Open another terminal and execute the chatbot `rasa shell`
 
 *The bot is ready to chat with you*
 
