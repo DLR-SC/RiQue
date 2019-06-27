@@ -10,24 +10,27 @@ This system take input as request/command and returns neo4j graph database query
 
 This project is developed and tested in Ubuntu 16.04
 
-For easier installation, clone this repository, create new `python 3.6.5` environment and execute: `pip install -r requirements.txt`
+For easier installation, clone this repository, create new `python 3.6` environment and execute: `pip install -r requirements.txt`
 
 To install spacy language module: `python -m spacy download en`
 
+To install rasa: `pip install rasa`
+
 To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https://datawookie.netlify.com/blog/2016/09/installing-neo4j-on-ubuntu-16.04/)
+
+The chatbot models and files are maintained in `SentenceToQuery`, whereas the property graphs are stored in `neo4j` folder
 
 ## Steps
 
 * Start neo4j server `service neo4j start`
-* To convert json to neo4j 
+* To convert json to neo4j:
 	* `cd neo4j`
 	* `python JsonToNeo4j.py username password` (Use neo4j username and password)
-* Navigate to SentenceToQuery directory and run `python train_rasa_module.py 'train-all'` to train and save the rasa nlu and core models
-   **If models are already saved, then this step is optional**
-* Now run action server using `python -m rasa_core_sdk.endpoint --actions actions`
-* In another terminal, Pass user messages and end points to rasa core using:
-	`python train_rasa_module.py 'bot'` or `python -m rasa_core.run -d models/dialogue -u projects/default/default/Neo4jNlu --endpoints endpoints.yml`
-* Now you can pass the messages as shown below 
+* Navigate to SentenceToQuery directory and execute `rasa train` to train the chatbot model
+* Now run action server using `rasa run actions`
+* Open another terminal and execute the chatbot `rasa shell`
+
+*The bot is ready to chat with you*
 
 ## Information about how sentences are converted to Neo4j query can be found here: ![SentenceToQuery](https://github.com/DLR-SC/RiQue/tree/master/SentenceToQuery)
 
@@ -41,7 +44,6 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 * User: Give info of current working project
 * Response by bot: Outputs details about rce project
-
 ```
 ### Conversation 2 (search information of node with name)
 
@@ -51,7 +53,6 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 * User: give info of database node
 * Reponse by bot: Outputs result of query 
-
 ```
 
 ### Conversation 3 (search information of node based on string matching (user don't have to include complete name) )
@@ -59,8 +60,6 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 ```
 * User: show me details of remote component node
 * Reponse by bot: Outputs information of all nodes that starts with **remote component**
-
-
 ```
 
 ### Conversation 4 (Show all the nodes) 
@@ -87,7 +86,6 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 * User: show all the services
 * Response by bot: Outputs all services in the project
-
 ```
 
 
@@ -111,7 +109,6 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 * User: give me count of all the services units
 * Response by bot: Outputs count of all services in the project
-
 ```
 
 ### Conversation 6 (Show information related to specific bundle) 
@@ -134,7 +131,6 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 * User: show exports of rce components doe execution bundle
 * Response by bot: Outputs exports of rce components doe execution bundle
-
 ```
 
 ### Conversation 7 (Show methods of specific bundle) 
@@ -148,7 +144,6 @@ To install neo4j follow: [Installation neo4j guidelines in Ubuntu 16.04](https:/
 
 * User: give methods of rce components doe execution bundle
 * Response by bot: Outputs methods name 
-
 ```
 
 ### Conversation 8 (Show largest Compilation Unit  in bundle based on code lines) 
