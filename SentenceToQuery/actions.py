@@ -1,4 +1,4 @@
-from rasa_core_sdk import Action
+from rasa_sdk import Action
 from query_generator import GenerateQuery
 import json
 
