@@ -5,3 +5,6 @@ neo4j/\.ipynb_checkpoints/
 SentenceToQuery/models/*
 SentenceToQuery/.myrasa
 SentenceToQuery/graph.html
+SentenceToQuery/rasa.db
+SentenceToQuery/tracker.db
+rasa_core.log
