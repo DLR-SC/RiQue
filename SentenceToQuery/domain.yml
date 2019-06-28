@@ -1,72 +1,61 @@
+intents:
+- countAllNodes
+- goodbye
+- greet
+- my_name_is
+- showAllNodes
+- showDetailInfoBundles
+- showLargestCompilationUnit
+- showNodeInformation
+- showProjectInformation
+entities:
+- Exports
+- GPE
+- Imports
+- Methods
+- PERSON
+- bundle
+- bundles
+- compilationUnit
+- components
+- exports
+- imports
+- node
+- nodeType
+- package
+- packages
+- project
+- restaurant
+- services
 slots:
   bundle:
     type: text
-
-  package:
-    type: text
-
-  project:
-   type: text
-   initial_value: 'remote component environment'
-
-  node:
-    type: text
-
   compilationUnit:
     type: text
-
+  node:
+    type: text
   nodeType:
     type: text
-
-    
-entities:
-
-  - GPE
-  - project
-  - PERSON
-  - restaurant
-  - bundles
-  - services
-  - packages
-  - node
-  - compilationUnit
-  - Methods
-  - imports
-  - exports
-  - components
-
-intents:
-
-  - greet
-  - goodbye
-  - showProjectInformation
-  - showNodeInformation
-  - showAllNodes
-  - my_name_is
-  - countAllNodes
-  - showDetailInfoBundles
-  - showLargestCompilationUnit
-
+  package:
+    type: text
+  project:
+    type: text
+    initial_value: remote component environment
+templates:
+  utter_greet:
+  - text: Hey! How can I help you?
+  utter_how_can_i_help_you:
+  - text: Hey! How can I help you?
+  utter_goodbye:
+  - text: Bye
 actions:
-
-- utter_greet
-- utter_goodbye
+- action_count_all_nodes
 - action_give_project_information
+- action_reset
+- action_show_all_nodes
 - action_show_detail_info_bundles
 - action_show_exports_in_bundle
-- action_show_node_information
-- action_show_all_nodes
-- action_count_all_nodes
-- action_reset
 - action_show_largest_compilationUnit
-
-templates:
-
-  utter_greet:
-  - text: "Hey! How can I help you?"
-
-  utter_how_can_i_help_you:
-  - text: "Hey! How can I help you?"
-  
-  utter_goodbye:
-  - text: "Bye"
+- action_show_node_information
+- utter_goodbye
+- utter_greet
