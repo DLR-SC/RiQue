@@ -7,4 +7,5 @@ SentenceToQuery/.myrasa
 SentenceToQuery/graph.html
 SentenceToQuery/rasa.db
 SentenceToQuery/tracker.db
+SentenceToQuery/story_graph.dot
 rasa_core.log
