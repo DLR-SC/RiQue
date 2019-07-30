@@ -1,6 +1,7 @@
 from rasa_sdk import Action
 from query_generator import GenerateQuery
 import json
+from NLGService import Graph2NLG
 
 
 class DisplayGeneralQuery(Action):
@@ -18,7 +19,9 @@ class DisplayGeneralQuery(Action):
         else:
             error = "no project slot is filled inside action give project information action"
         response = ResponseBuilderUtils.build_response(query, intent, error)
+        nlg_response = Graph2NLG.get_nlg(response)
         dispatcher.utter_message(json.dumps(response))
+        dispatcher.utter_message(json.dumps(nlg_response))
         return []
 
 
@@ -60,7 +63,12 @@ class DisplayLargestCompilationUnit(Action):
         order = tracker.get_slot('nodeType')
         query = GenerateQuery.get_largest_compilation_unit_query(bundle_name, order)
         response = ResponseBuilderUtils.build_response(query, intent)
+        nlg_response = Graph2NLG.get_nlg(response)
+        print("NLG reponse", nlg_response)
+        dispatcher.utter_message(json.dumps("hello there"))
+        dispatcher.utter_message(nlg_response)
         dispatcher.utter_message(json.dumps(response))
+        dispatcher.utter_message(json.dumps(nlg_response))
         return []
 
 
