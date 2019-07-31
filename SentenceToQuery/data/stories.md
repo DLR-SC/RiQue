@@ -29,3 +29,28 @@
 ## show largest compilation unit
 * showLargestCompilationUnit
   - action_show_largest_compilationUnit
+
+## Zoom in and out intents
+* zoom_in
+* zoom_out
+
+## Move the pane
+* move_up
+* move_down
+* move_down
+* move_left
+* move_right
+
+## Selecting and deselecting components
+* select_component
+* deselect_component
+
+## Selecting particular component
+* select_biggest_component
+* select_smallest_component
+
+## Count components
+* count_components
+
+## Provide a summary information
+* summarize_information
