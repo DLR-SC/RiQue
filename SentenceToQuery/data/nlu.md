@@ -1,12 +1,35 @@
+## intent:greet
+- bonjour
+- hey there
+- holla
+- good evening
+- greetings
+- hey
+- hi
+- hallo
+
+## intent:goodbye
+- bye
+- goodbye
+- All right then!
+- see you around
+- bye, see you later
+- Ciao
+- bye, take care
+- bye, have a nice day
+- Tye tye!
+
 ## intent:zoom_in
 - zoom in
 - scale up
 - enlarge
 - upsize
+
 ## intent:zoom_out
 - zoom out
 - scale down
 - downsize
+
 ## intent:move_up
 - go up
 - go upwards
@@ -16,6 +39,7 @@
 - move to the top
 - up
 - upwards
+
 ## intent:move_down
 - go down
 - go downwards
@@ -25,6 +49,7 @@
 - move to the bottom
 - down
 - downwards
+
 ## intent:move_left
 - go left
 - go leftwards
@@ -35,6 +60,7 @@
 - left
 - leftwards
 - to the left
+
 ## intent:move_right
 - go right
 - go rightwards
@@ -45,6 +71,7 @@
 - right
 - rightwards
 - to the right
+
 ## intent:select_component
 - show [bundle](component_type) [de rcenvironment core component wrapper](component_name)
 - show [bundle](component_type) with the name [components joiner execution](component_name)
@@ -271,6 +298,7 @@
 - select the current [class](component_type)
 - select the current [compilation unit](component_type)
 - select the current [component](component_type)
+
 ## intent:deselect_component
 - deselect
 - deselect this component
@@ -279,6 +307,7 @@
 - go back
 - return
 - return back
+
 ## intent:select_biggest_component
 - show the biggest [bundle](component_type)
 - show the biggest [island](component_type)
@@ -970,6 +999,7 @@
 - which is the biggest [compilation unit](component_type_child) in this [area](component_type_parent)
 - where is the biggest [compilation unit](component_type_child) of this [area](component_type_parent)
 - where is the biggest [compilation unit](component_type_child) in this [area](component_type_parent)
+
 ## intent:select_smallest_component
 - show the smallest [bundle](component_type)
 - show the smallest [island](component_type)
@@ -1661,6 +1691,7 @@
 - which is the smallest [compilation unit](component_type_child) in this [area](component_type_parent)
 - where is the smallest [compilation unit](component_type_child) of this [area](component_type_parent)
 - where is the smallest [compilation unit](component_type_child) in this [area](component_type_parent)
+
 ## intent:count_components
 - how many [bundles](component_type_child) are inside this [project](component_type_parent)
 - what is the number of [bundles](component_type_child) inside this [project](component_type_parent)
@@ -2210,6 +2241,7 @@
 - how many [compilation units](component_type_child) do exist in [area](component_type_parent) [core component integration cpacs](component_name)
 - how many [compilation units](component_type_child) do exist within [area](component_type_parent) [de rcenvironment components evaluationmemory execution](component_name)
 - how many [compilation units](component_type_child) do exist on [area](component_type_parent) [components script execution python fragment](component_name)
+
 ## intent:summarize_information
 - tell me more about the [bundle](component_type) [de rcenvironment components examples decrypter common](component_name)
 - tell me more about the [island](component_type) [core log](component_name)

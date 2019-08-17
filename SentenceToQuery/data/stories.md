@@ -23,7 +23,7 @@
   - action_show_all_nodes
 
 ## count all nodes e.g packages/bundles
-* countAllNodes
+* count_components
   - action_count_all_nodes
 
 ## show largest compilation unit
@@ -47,10 +47,11 @@
 
 ## Selecting particular component
 * select_biggest_component
-* select_smallest_component
+  - action_get_biggest_component
 
-## Count components
-* count_components
+## Selecting the smalelst component
+* select_smallest_component
+  - action_get_smallest_component
 
 ## Provide a summary information
 * summarize_information
