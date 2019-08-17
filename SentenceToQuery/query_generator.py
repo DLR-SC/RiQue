@@ -7,7 +7,6 @@ warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 
 
 class GenerateQuery:
-
     @staticmethod
     def reformat_query(pypher_object):
         query = str(pypher_object)
@@ -17,6 +16,26 @@ class GenerateQuery:
                 modified_key = "$" + key
                 query = query.replace(modified_key, '"' + str(value) + '"')
         return query
+
+    @staticmethod
+    def get_biggest_component(child_comp, parent_comp):
+        """
+        :param child_comp: children component name
+        :param parent_comp: parent component name
+        :return: Biggest children component present in parent component
+        """
+        cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child DESC LIMIT 1'
+        return cy_query
+
+    @staticmethod
+    def get_smallest_component(comp):
+        """
+        :param comp: component name
+        :return: Biggest children component present in parent component
+        """
+        cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child LIMIT 1'
+        return cy_query
+
 
     @staticmethod
     def get_node_information_query(node_name, node_type=None):
@@ -48,18 +67,15 @@ class GenerateQuery:
         return GenerateQuery.reformat_query(pypher_object)
 
     @staticmethod
-    def get_count_all_nodes_query(node_type=None):
+    def get_count_all_nodes_query(child_comp, parent_comp):
         """
         :param node_type: type of nodes to count.
         :return: the query to count all nodes. Optional counts nodes of a type.
         """
-        pypher_object = Pypher()
-        if node_type is None:
-            pypher_object.Match.node('u')
-        else:
-            pypher_object.Match.node('u', labels=node_type)
-        pypher_object.RETURN(__.count('u'))
-        return GenerateQuery.reformat_query(pypher_object)
+        notation = {'bundles':u'Bundle', 'islands':u'Bundle', 'packages':U'Package','compilation units':u'Class','components':u'ServiceComponent','classes':u'Class'}
+        node = notation[child_comp]
+        cy_query = u'MATCH (:'+ node +') RETURN COUNT(*)'
+        return cy_query
 
     @staticmethod
     def get_largest_compilation_unit_query(bundle_name=None, order="mthd"):
@@ -80,17 +96,6 @@ class GenerateQuery:
                 pypher_object.WHERE(__.bundle.__name__ == bundle_name)
             pypher_object.RETURN('cmp')
             pypher_object.OrderBy(__.cmp.__Loc__)
-        else:
-            pypher_object.Match.node('bundle', labels='bundles').relationship('pkg', labels="Pkg_fragment").node('k')\
-                .relationship('kl', labels='compiled_By').node()\
-                .relationship('cp', labels="compiledUnits_topLevelType").node('n')\
-                .relationship('rl', 'Methods_Contains').node('mthd')
-            if bundle_name:
-                pypher_object.WHERE(__.bundle.__name__ == bundle_name)
-            pypher_object.RETURN('n', __.count('mthd'))
-            pypher_object.OrderBy(__.count('mthd'))
-        pypher_object.Desc()
-        pypher_object.Limit(1)
         return GenerateQuery.reformat_query(pypher_object)
 
     @staticmethod
@@ -142,5 +147,3 @@ class GenerateQuery:
         pypher_object.WHERE(__.u.__name__ == project_name)
         pypher_object.RETURN('u')
         return GenerateQuery.reformat_query(pypher_object)
-
-
