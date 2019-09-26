@@ -2,11 +2,18 @@ import warnings
 import ruamel.yaml as yaml
 from pypher import __
 from pypher.builder import Param, Pypher
+from py2neo import Graph
 
 warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 
-
 class GenerateQuery:
+
+    @staticmethod
+    def get_nlg(graph_query):
+        graph = Graph(auth=("neo4j","pass"))
+        graph_response = graph.evaluate(graph_query)
+        return graph_response
+
     @staticmethod
     def reformat_query(pypher_object):
         query = str(pypher_object)
@@ -25,7 +32,11 @@ class GenerateQuery:
         :return: Biggest children component present in parent component
         """
         cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child DESC LIMIT 1'
-        return cy_query
+        graph_response = GenerateQuery.get_nlg(cy_query)
+        graph_response['query']=cy_query
+        graph_response['result']=graph_response['name']
+        graph_response['path']=graph_response['fileName']
+        return graph_response
 
     @staticmethod
     def get_smallest_component(comp):
@@ -34,7 +45,11 @@ class GenerateQuery:
         :return: Biggest children component present in parent component
         """
         cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child LIMIT 1'
-        return cy_query
+        graph_response = GenerateQuery.get_nlg(cy_query)
+        graph_response['query']=cy_query
+        graph_response['result']=graph_response['name']
+        graph_response['path']=graph_response['fileName']
+        return graph_response
 
 
     @staticmethod
@@ -75,7 +90,10 @@ class GenerateQuery:
         notation = {'bundles':u'Bundle', 'islands':u'Bundle', 'packages':U'Package','compilation units':u'Class','components':u'ServiceComponent','classes':u'Class'}
         node = notation[child_comp]
         cy_query = u'MATCH (:'+ node +') RETURN COUNT(*)'
-        return cy_query
+        graph_response = dict()
+        graph_response['query']=cy_query
+        graph_response['result']=GenerateQuery.get_nlg(cy_query)
+        return graph_response
 
     @staticmethod
     def get_largest_compilation_unit_query(bundle_name=None, order="mthd"):
@@ -147,3 +165,5 @@ class GenerateQuery:
         pypher_object.WHERE(__.u.__name__ == project_name)
         pypher_object.RETURN('u')
         return GenerateQuery.reformat_query(pypher_object)
+        
+

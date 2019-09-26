@@ -1,12 +1,6 @@
 from rasa_sdk import Action
 from query_generator import GenerateQuery
 import json
-from py2neo import Graph
-
-def get_nlg(graph_query):
-    graph = Graph(auth=("neo4j","sss"))
-    graph_response = graph.evaluate(graph_query)
-    return graph_response
 
 # Actions for new intents
 class GetBiggestComponent(Action):
@@ -19,11 +13,8 @@ class GetBiggestComponent(Action):
         child_comp = tracker.get_slot('component_type_child')
         parent_comp = tracker.get_slot('component_type_parent')
         error = None
-        query = GenerateQuery.get_biggest_component(child_comp, parent_comp)
-        response = ResponseBuilderUtils.build_response(query, intent, error)
-        graph_response = get_nlg(response['query'])
-        graph_response['intent']=intent
-        full_response = {'name':graph_response, 'intent':intent}
+        graph_response = GenerateQuery.get_biggest_component(child_comp, parent_comp)
+        graph_response['intent_name'] = intent['name']
         dispatcher.utter_message(json.dumps(graph_response))
         return []
 
@@ -37,11 +28,9 @@ class GetSmallestComponent(Action):
         entity = tracker.latest_message['entities']
         comp = entity[0]['value']
         error = None
-        query = GenerateQuery.get_smallest_component(comp)
-        response = ResponseBuilderUtils.build_response(query, intent, error)
-        graph_response = get_nlg(response['query'])
-        full_response = {'data':graph_response, 'intent':graph_response['name']}
-        dispatcher.utter_message(json.dumps(graph_response['name']))
+        graph_response = GenerateQuery.get_smallest_component(comp)
+        graph_response['intent_name'] = intent['name']
+        dispatcher.utter_message(json.dumps(graph_response))
         return []
 
 class Greet(Action):
@@ -184,16 +173,15 @@ class count_components(Action):
         # entity[0] gives the output and ['value'] gives the entity value
         child_comp = entity[0]['value']
         error = None
-        query = GenerateQuery.get_count_all_nodes_query(child_comp, parent_comp)
-        graph_response = get_nlg(query)
-        response = ResponseBuilderUtils.build_response(graph_response, intent, error)
-        dispatcher.utter_message(json.dumps(response))
+        graph_response = GenerateQuery.get_count_all_nodes_query(child_comp, parent_comp)
+        graph_response['intent_name'] = intent['name']
+        dispatcher.utter_message(json.dumps(graph_response))
         return []
 
 class ResponseBuilderUtils:
 
     @staticmethod
-    def build_response(query, intent, error=None):
+    def build_response(graph_response, intent, error=None):
         response = dict()
         if error:
             response['error'] = error
