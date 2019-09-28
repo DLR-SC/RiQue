@@ -91,6 +91,7 @@ class GenerateQuery:
         node = notation[child_comp]
         cy_query = u'MATCH (:'+ node +') RETURN COUNT(*)'
         graph_response = dict()
+        graph_response['node']=node
         graph_response['query']=cy_query
         graph_response['result']=GenerateQuery.get_nlg(cy_query)
         return graph_response

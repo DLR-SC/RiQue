@@ -77,5 +77,13 @@ actions:
 - action_show_exports_in_bundle
 - action_show_largest_compilationUnit
 - action_show_node_information
-- utter_goodbye
-- utter_greet
+- action_goodbye
+- action_greet
+- action_select_component
+- action_deselect_component
+- action_zoom_in
+- action_zoom_out
+- action_move_up
+- action_move_down
+- action_move_left
+- action_move_right
