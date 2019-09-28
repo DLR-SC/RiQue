@@ -34,8 +34,6 @@ class GenerateQuery:
         cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child DESC LIMIT 1'
         graph_response = GenerateQuery.get_nlg(cy_query)
         graph_response['query']=cy_query
-        graph_response['result']=graph_response['name']
-        graph_response['path']=graph_response['fileName']
         return graph_response
 
     @staticmethod
@@ -50,7 +48,6 @@ class GenerateQuery:
         graph_response['result']=graph_response['name']
         graph_response['path']=graph_response['fileName']
         return graph_response
-
 
     @staticmethod
     def get_node_information_query(node_name, node_type=None):

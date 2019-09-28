@@ -279,7 +279,10 @@ class ResponseBuilderUtils:
         response = dict()
         if error:
             response['error'] = error
-        response['query'] = query
-        response['intent'] = intent
+        response['recipient_id']='default'
+        response['intent_name']=intent['name']
+        response['intent_conf']=intent['confidence']
+        response['natural_language_response']='I found the following response'
+        response['data']=graph_response
         return response
 
