@@ -6,15 +6,14 @@ from py2neo import Graph
 
 warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 
-
 class GenerateQuery:
 
     @staticmethod
     def get_nlg(graph_query):
-        graph = Graph(auth=("neo4j","sss"))
+        graph = Graph(auth=("neo4j","pass"))
         graph_response = graph.evaluate(graph_query)
         return graph_response
-    
+
     @staticmethod
     def reformat_query(pypher_object):
         query = str(pypher_object)
@@ -34,8 +33,7 @@ class GenerateQuery:
         """
         cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child DESC LIMIT 1'
         graph_response = GenerateQuery.get_nlg(cy_query)
-        graph_response['result']=graph_response['name']
-        graph_response['path']=graph_response['fileName']
+        graph_response['query']=cy_query
         return graph_response
 
     @staticmethod
@@ -46,6 +44,7 @@ class GenerateQuery:
         """
         cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child LIMIT 1'
         graph_response = GenerateQuery.get_nlg(cy_query)
+        graph_response['query']=cy_query
         graph_response['result']=graph_response['name']
         graph_response['path']=graph_response['fileName']
         return graph_response
@@ -89,9 +88,9 @@ class GenerateQuery:
         node = notation[child_comp]
         cy_query = u'MATCH (:'+ node +') RETURN COUNT(*)'
         graph_response = dict()
-        count_resp = GenerateQuery.get_nlg(cy_query)
-        graph_response['result']=count_resp
-        graph_response['path']=''
+        graph_response['node']=node
+        graph_response['query']=cy_query
+        graph_response['result']=GenerateQuery.get_nlg(cy_query)
         return graph_response
 
     @staticmethod
@@ -164,3 +163,5 @@ class GenerateQuery:
         pypher_object.WHERE(__.u.__name__ == project_name)
         pypher_object.RETURN('u')
         return GenerateQuery.reformat_query(pypher_object)
+        
+

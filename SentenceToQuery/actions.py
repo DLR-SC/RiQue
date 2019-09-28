@@ -14,8 +14,8 @@ class GetBiggestComponent(Action):
         parent_comp = tracker.get_slot('component_type_parent')
         error = None
         graph_response = GenerateQuery.get_biggest_component(child_comp, parent_comp)
-        response = ResponseBuilderUtils.build_response(graph_response, intent, error)
-        dispatcher.utter_message(json.dumps(response))
+        graph_response['intent_name'] = intent['name']
+        dispatcher.utter_message(json.dumps(graph_response))
         return []
 
 class GetSmallestComponent(Action):
@@ -29,8 +29,8 @@ class GetSmallestComponent(Action):
         comp = entity[0]['value']
         error = None
         graph_response = GenerateQuery.get_smallest_component(comp)
-        response = ResponseBuilderUtils.build_response(graph_response, intent, error)
-        dispatcher.utter_message(json.dumps(response))
+        graph_response['intent_name'] = intent['name']
+        dispatcher.utter_message(json.dumps(graph_response))
         return []
 
 class Greet(Action):
@@ -38,7 +38,101 @@ class Greet(Action):
         return "action_greet"
 
     def run (self, dispatcher, tracker, domain):
-        response = ""
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+
+
+class Goodbye(Action):
+    def name(self):
+        return "action_goodbye"
+
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+        
+class SelectComponent(Action):
+    def name(self):
+        return "action_select_component"
+
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+        
+class DeselectComponent(Action):
+    def name(self):
+        return "action_deselect_component"
+
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+
+class ZoomIn(Action):
+    def name(self):
+        return "action_zoom_in"
+        
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+
+class ZoomOut(Action):
+    def name(self):
+        return "action_zoom_out"
+        
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+
+class MoveUp(Action):
+    def name(self):
+        return "action_move_up"
+        
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+
+class MoveDown(Action):
+    def name(self):
+        return "action_move_down"
+        
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+
+class MoveLeft(Action):
+    def name(self):
+        return "action_move_left"
+        
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
+        
+class MoveRight(Action):
+    def name(self):
+        return "action_move_right"
+        
+    def run (self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent']
+        response = {'intent_name':intent['name']}
+        dispatcher.utter_message(json.dumps(response))
+        return []
 
 # Old actions
 class DisplayGeneralQuery(Action):
@@ -173,9 +267,9 @@ class count_components(Action):
         # entity[0] gives the output and ['value'] gives the entity value
         child_comp = entity[0]['value']
         error = None
-        query = GenerateQuery.get_count_all_nodes_query(child_comp, parent_comp)
-        response = ResponseBuilderUtils.build_response(query, intent, error)
-        dispatcher.utter_message(json.dumps(response))
+        graph_response = GenerateQuery.get_count_all_nodes_query(child_comp, parent_comp)
+        graph_response['intent_name'] = intent['name']
+        dispatcher.utter_message(json.dumps(graph_response))
         return []
 
 class ResponseBuilderUtils:

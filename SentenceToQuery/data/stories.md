@@ -1,10 +1,10 @@
 ## greet
 * greet
-  - utter_greet
+  - action_greet
 
 ## say goodbye
 * goodbye
-  - utter_goodbye
+  - action_goodbye
 
 ## project description
 * showProjectInformation
@@ -13,7 +13,7 @@
 ## bundles information
 * showDetailInfoBundles
   - action_show_detail_info_bundles
-  
+
 ## search for specific node information
 * showNodeInformation
   - action_show_node_information
@@ -30,20 +30,37 @@
 * showLargestCompilationUnit
   - action_show_largest_compilationUnit
 
-## Zoom in and out intents
+## Zoom in
 * zoom_in
+  - action_zoom_in
+  
+## Zoom out
 * zoom_out
+  - action_zoom_out
 
 ## Move the pane
 * move_up
+  - action_move_up
+  
+## Move the pane
 * move_down
-* move_down
-* move_left
-* move_right
+  - action_move_down
 
-## Selecting and deselecting components
+## Move the pane
+* move_left
+  - action_move_left
+  
+## Move the pane
+* move_right
+  - action_move_right
+
+## Selecting components
 * select_component
+  - action_select_component
+  
+## deselecting components
 * deselect_component
+  - action_deselect_component
 
 ## Selecting particular component
 * select_biggest_component
