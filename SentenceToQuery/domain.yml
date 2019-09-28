@@ -1,72 +1,89 @@
+intents:
+- countAllNodes
+- count_components
+- deselect_component
+- goodbye
+- greet
+- move_down
+- move_left
+- move_right
+- move_up
+- my_name_is
+- select_biggest_component
+- select_component
+- select_smallest_component
+- showAllNodes
+- showDetailInfoBundles
+- showLargestCompilationUnit
+- showNodeInformation
+- showProjectInformation
+- summarize_information
+- zoom_in
+- zoom_out
+entities:
+- Exports
+- GPE
+- Imports
+- Methods
+- PERSON
+- bundle
+- bundles
+- compilationUnit
+- component_name
+- component_type
+- component_type_child
+- component_type_parent
+- components
+- exports
+- imports
+- node
+- nodeType
+- package
+- packages
+- project
+- restaurant
+- services
 slots:
   bundle:
     type: text
-
-  package:
-    type: text
-
-  project:
-   type: text
-   initial_value: 'remote component environment'
-
-  node:
-    type: text
-
   compilationUnit:
     type: text
-
+  node:
+    type: text
   nodeType:
     type: text
-
-    
-entities:
-
-  - GPE
-  - project
-  - PERSON
-  - restaurant
-  - bundles
-  - services
-  - packages
-  - node
-  - compilationUnit
-  - Methods
-  - imports
-  - exports
-  - components
-
-intents:
-
-  - greet
-  - goodbye
-  - showProjectInformation
-  - showNodeInformation
-  - showAllNodes
-  - my_name_is
-  - countAllNodes
-  - showDetailInfoBundles
-  - showLargestCompilationUnit
-
+  package:
+    type: text
+  project:
+    type: text
+    initial_value: remote component environment
+templates:
+  utter_greet:
+  - text: Hello
+  - text: Hey! How can I help you?
+  utter_how_can_i_help_you:
+  - text: Hey! How can I help you?
+  utter_goodbye:
+  - text: Goodbye
+  - text: Bye
 actions:
-
-- utter_greet
-- utter_goodbye
+- action_count_all_nodes
+- action_get_biggest_component
+- action_get_smallest_component
 - action_give_project_information
+- action_reset
+- action_show_all_nodes
 - action_show_detail_info_bundles
 - action_show_exports_in_bundle
-- action_show_node_information
-- action_show_all_nodes
-- action_count_all_nodes
-- action_reset
 - action_show_largest_compilationUnit
-
-templates:
-
-  utter_greet:
-  - text: "Hey! How can I help you?"
-
-  utter_how_can_i_help_you:
-  - text: "Hey! How can I help you?"
-  
-  utter_goodbye:
-  - text: "Bye"
+- action_show_node_information
+- action_goodbye
+- action_greet
+- action_select_component
+- action_deselect_component
+- action_zoom_in
+- action_zoom_out
+- action_move_up
+- action_move_down
+- action_move_left
+- action_move_right
