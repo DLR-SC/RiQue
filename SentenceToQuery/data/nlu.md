@@ -7,6 +7,8 @@
 - hey
 - hi
 - hallo
+- hello
+- hola
 
 ## intent:goodbye
 - bye
@@ -63,14 +65,14 @@
 
 ## intent:zoom_in
 - zoom in
+- in
 - scale up
 - enlarge
 - upsize
 
 ## intent:zoom_out
 - zoom out
-- zoom out of this
-- zoom out please
+- out
 - scale down
 - downsize
 

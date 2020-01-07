@@ -1,13 +1,13 @@
 language: en
-pipeline: pretrained_embeddings_spacy
+pipeline: "supervised_embeddings"
 policies:
 - batch_size: 50
-  epochs: 200
+  epochs: 300
   max_training_samples: 300
   name: KerasPolicy
 - fallback_action_name: action_default_fallback
   name: FallbackPolicy
-- max_history: 5
+- max_history: 3
   name: MemoizationPolicy
 - name: FormPolicy
 - name: MappingPolicy
