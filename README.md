@@ -12,7 +12,7 @@ This system take input as request/command and returns neo4j graph database query
 
 This project is developed and tested in Ubuntu 16.04
 
-For easier installation, clone this repository, create new `python 3.6` environment and execute: `pip install -r requirements.txt`
+For easier installation, clone this repository, create new `python 3.6.2` environment and execute: `pip install -r requirements.txt`
 
 To install spacy language module: `python -m spacy download en`
 
