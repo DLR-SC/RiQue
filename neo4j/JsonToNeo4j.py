@@ -8,7 +8,7 @@ import spacy
 # write cypher query
 query = '''
 
-WITH {json} as document
+WITH $json as document
 UNWIND document.bundles AS p
 MERGE(rce: project {name:toLower(document.name), 
     className: toLower(document.eClass), timeStamp: document.modelTimestamp})
@@ -152,7 +152,7 @@ MERGE (v: Version {name:("Version " + p.version.major)}) SET
  
 
 // Iterate through packages on ground level (fields inside packages are not completed)
-WITH {json} as document
+WITH $json as document
 UNWIND document.packages AS s
      MERGE (pkg: ext_packages {name:tolower(s.name), className:s.eClass}) 
         SET pkg.qualifiedName = tolower(s.qualifiedName)
@@ -182,7 +182,7 @@ MERGE(rce)-[:has_packages]->(pkg)
      
 // Iterate through services
 
-WITH {json} as document
+WITH $json as document
 UNWIND document.services AS s
 
 MERGE (ser: services {name:tolower(s.interfaceName), className:s.eClass}) 
@@ -192,7 +192,7 @@ MERGE(rce)-[:has_services]->(ser)
 
 // Iterate through externalTypes
 
-//WITH {json} as document
+//WITH $json as document
 //UNWIND document.externalTypes AS e
  
 //MERGE (eTyp: eTypes {name:tolower(e.qualifiedName), className:tolower(e.eClass)}) 
