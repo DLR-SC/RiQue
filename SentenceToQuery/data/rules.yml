@@ -1,0 +1,93 @@
+version: "3.1"
+
+rules:
+  
+- rule: greet
+  steps:
+  - intent: greet
+  - action: action_greet
+
+- rule: say goodbye
+  steps:
+  - intent: goodbye
+  - action: action_goodbye
+
+- rule: project description
+  steps:
+  - intent: showProjectInformation
+  - action: action_give_project_information
+
+- rule: bundles information
+  steps:
+  - intent: showDetailInfoBundles
+  - action: action_show_detail_info_bundles
+
+- rule: search for specific node information
+  steps:
+  - intent: showNodeInformation
+  - action: action_show_node_information
+
+- rule: show all nodes e.g packages/bundles
+  steps:
+  - intent: showAllNodes
+  - action: action_show_all_nodes
+
+- rule: count all nodes e.g packages/bundles
+  steps:
+  - intent: count_components
+  - action: action_count_all_nodes
+
+- rule: show largest compilation unit
+  steps:
+  - intent: showLargestCompilationUnit
+  - action: action_show_largest_compilationUnit
+
+- rule: Zoom in
+  steps:
+  - intent: zoom_in
+  - action: action_zoom_in
+  
+- rule: Zoom out
+  steps:
+  - intent: zoom_out
+  - action: action_zoom_out
+
+- rule: Move the pane
+  steps:
+  - intent: move_up
+  - action: action_move_up
+  
+- rule: Move the pane
+  steps:
+  - intent: move_down
+  - action: action_move_down
+
+- rule: Move the pane
+  steps:
+  - intent: move_left
+  - action: action_move_left
+  
+- rule: Move the pane
+  steps:
+  - intent: move_right
+  - action: action_move_right
+
+- rule: Selecting components
+  steps:
+  - intent: select_component
+  - action: action_select_component
+  
+- rule: deselecting components
+  steps:
+  - intent: deselect_component
+  - action: action_deselect_component
+
+- rule: Selecting particular component
+  steps:
+  - intent: select_biggest_component
+  - action: action_get_biggest_component
+
+- rule: Selecting the smalelst component
+  steps:
+  - intent: select_smallest_component
+  - action: action_get_smallest_component

@@ -10,7 +10,7 @@ class GenerateQuery:
 
     @staticmethod
     def get_nlg(graph_query):
-        graph = Graph(auth=("neo4j","pass"))
+        graph = Graph(auth=("neo4j","islandviz"))
         graph_response = graph.evaluate(graph_query)
         return graph_response
 
@@ -25,13 +25,13 @@ class GenerateQuery:
         return query
 
     @staticmethod
-    def get_biggest_component(child_comp, parent_comp):
+    def get_biggest_component(comp):
         """
         :param child_comp: children component name
         :param parent_comp: parent component name
         :return: Biggest children component present in parent component
         """
-        cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child DESC LIMIT 1'
+        cy_query = u'MATCH (b:bundles)-[r:imports]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child DESC LIMIT 1'
         graph_response = GenerateQuery.get_nlg(cy_query)
         graph_response['query']=cy_query
         return graph_response
@@ -42,7 +42,7 @@ class GenerateQuery:
         :param comp: component name
         :return: Biggest children component present in parent component
         """
-        cy_query = u'MATCH (b:Bundle)-[r:REQUIRES|CONTAINS]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child LIMIT 1'
+        cy_query = u'MATCH (b:bundles)-[r:imports]->(c) WITH b, COUNT(c) as child RETURN b ORDER BY child LIMIT 1'
         graph_response = GenerateQuery.get_nlg(cy_query)
         graph_response['query']=cy_query
         graph_response['result']=graph_response['name']

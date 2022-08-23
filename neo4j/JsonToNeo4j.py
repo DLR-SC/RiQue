@@ -207,7 +207,7 @@ To visualize the graph, login to  http://localhost:7474
 
 if __name__ == "__main__":
 	username = "neo4j"
-	userpass = "neo4j"
+	userpass = "islandviz"
 	if len(sys.argv)==3:
 		username = sys.argv[1]
 		userpass = sys.argv[2]

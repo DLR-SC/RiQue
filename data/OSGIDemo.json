@@ -1,0 +1,1433 @@
+{
+  "eClass" : "http://www.example.org/OSGiApplicationModel#//OSGiApplication",
+  "name" : "OSGiDemo",
+  "modelTimestamp" : "2016-04-11T20:42:19+02:00",
+  "bundles" : [ {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "Helloservice",
+    "symbolicName" : "eu.tobix.osgi.helloservice",
+    "imports" : [ {
+      "$ref" : "//@bundles.4/@packageFragments.0"
+    } ],
+    "exports" : [ {
+      "$ref" : "//@bundles.0/@packageFragments.1"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.15"
+    }, {
+      "$ref" : "//@packages.5"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    }, {
+      "$ref" : "//@packages.13"
+    } ],
+    "components" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//ServiceComponent",
+      "name" : "eu.tobix.osgi.helloservice.ServiceAComponent",
+      "implementation" : {
+        "$ref" : "//@bundles.0/@packageFragments.0/@compilationUnits.0/@topLevelType"
+      },
+      "providedServices" : [ {
+        "$ref" : "//@services.0"
+      } ],
+      "referencedServices" : [ {
+        "$ref" : "//@services.1"
+      } ],
+      "bundle" : {
+        "$ref" : "//@bundles.0"
+      }
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//ServiceComponent",
+      "name" : "eu.tobix.osgi.helloservice.ServiceBComponent",
+      "implementation" : {
+        "$ref" : "//@bundles.0/@packageFragments.0/@compilationUnits.1/@topLevelType"
+      },
+      "providedServices" : [ {
+        "$ref" : "//@services.1"
+      } ],
+      "bundle" : {
+        "$ref" : "//@bundles.0"
+      }
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.15"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "ServiceAImpl.java",
+        "LOC" : 23,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.8"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.0/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "ServiceAImpl",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.helloservice.impl.ServiceAImpl",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.0/@packageFragments.0/@compilationUnits.0"
+          },
+          "references" : [ {
+            "$ref" : "//@bundles.0/@packageFragments.1/@compilationUnits.0/@topLevelType"
+          }, {
+            "$ref" : "//@bundles.4/@packageFragments.0/@compilationUnits.0/@topLevelType"
+          } ],
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.1"
+          }, {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "fields" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Field",
+            "name" : "b",
+            "visibility" : "PRIVATE"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getFooA",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          }, {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "setServiceB",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          }, {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "unsetServiceB",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      }, {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "ServiceBImpl.java",
+        "LOC" : 12,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.8"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.0/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "ServiceBImpl",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.helloservice.impl.ServiceBImpl",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.0/@packageFragments.0/@compilationUnits.1"
+          },
+          "references" : [ {
+            "$ref" : "//@bundles.4/@packageFragments.0/@compilationUnits.0/@topLevelType"
+          } ],
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.1"
+          }, {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getFooB",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.13"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.0"
+      },
+      "version" : {
+        "$ref" : "//@packages.13/@versions.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "ServiceA.java",
+        "LOC" : 5,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.8"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.0/@packageFragments.1"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Interface",
+          "name" : "ServiceA",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.helloservice.spi.ServiceA",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.0/@packageFragments.1/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "abstractMethods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//AbstractMethod",
+            "name" : "getFooA",
+            "visibility" : "DEFAULT"
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "HelloOSGi",
+    "symbolicName" : "eu.tobix.osgi.helloosgi",
+    "requiredBundles" : [ {
+      "$ref" : "//@bundles.5"
+    }, {
+      "$ref" : "//@bundles.7"
+    } ],
+    "imports" : [ {
+      "$ref" : "//@bundles.6/@packageFragments.1"
+    }, {
+      "$ref" : "//@bundles.3/@packageFragments.2"
+    }, {
+      "$ref" : "//@bundles.0/@packageFragments.1"
+    }, {
+      "$ref" : "//@bundles.6/@packageFragments.0"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.11"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    } ],
+    "components" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//ServiceComponent",
+      "name" : "eu.tobix.osgi.helloosgi",
+      "implementation" : {
+        "$ref" : "//@bundles.1/@packageFragments.0/@compilationUnits.1/@topLevelType"
+      },
+      "referencedServices" : [ {
+        "$ref" : "//@services.0"
+      } ],
+      "bundle" : {
+        "$ref" : "//@bundles.1"
+      }
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.11"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.1"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "TestActivator.java",
+        "LOC" : 39,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.1"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.1/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "TestActivator",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.helloosgi.TestActivator",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.1/@packageFragments.0/@compilationUnits.0"
+          },
+          "references" : [ {
+            "$ref" : "//@bundles.5/@packageFragments.0/@compilationUnits.0/@topLevelType"
+          } ],
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.3"
+          }, {
+            "$ref" : "//@externalTypes.4"
+          }, {
+            "$ref" : "//@externalTypes.5"
+          }, {
+            "$ref" : "//@externalTypes.2"
+          }, {
+            "$ref" : "//@externalTypes.0"
+          }, {
+            "$ref" : "//@externalTypes.6"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "start",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          }, {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "stop",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      }, {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "TestComponent.java",
+        "LOC" : 21,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.7"
+        }, {
+          "$ref" : "//@versionControl/@history.8"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.1/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "TestComponent",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.helloosgi.TestComponent",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.1/@packageFragments.0/@compilationUnits.1"
+          },
+          "references" : [ {
+            "$ref" : "//@bundles.0/@packageFragments.1/@compilationUnits.0/@topLevelType"
+          } ],
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          }, {
+            "$ref" : "//@externalTypes.2"
+          } ],
+          "fields" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Field",
+            "name" : "serviceA",
+            "visibility" : "PRIVATE"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getServiceMessage",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          }, {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "setServiceA",
+            "visibility" : "DEFAULT",
+            "LOC" : 0
+          }, {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "unsetServiceA",
+            "visibility" : "DEFAULT",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "EmbeddedJar",
+    "symbolicName" : "eu.tobix.osgi.embeddedjar",
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "TestExport",
+    "symbolicName" : "eu.tobix.osgi.testexport",
+    "exports" : [ {
+      "$ref" : "//@bundles.3/@packageFragments.1"
+    }, {
+      "$ref" : "//@bundles.3/@packageFragments.2"
+    }, {
+      "$ref" : "//@bundles.3/@packageFragments.0"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.8"
+    }, {
+      "$ref" : "//@packages.2"
+    }, {
+      "$ref" : "//@packages.10"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    }, {
+      "$ref" : "//@packages.3"
+    }, {
+      "$ref" : "//@packages.4"
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.8"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.3"
+      },
+      "version" : {
+        "$ref" : "//@packages.8/@versions.1"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "SomeOtherClass.java",
+        "LOC" : 9,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.5"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.3/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "SomeOtherClass",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.testexport.another.versionedexport.SomeOtherClass",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.3/@packageFragments.0/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.3"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.3"
+      },
+      "version" : {
+        "$ref" : "//@packages.3/@versions.1"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "SomeClass.java",
+        "LOC" : 9,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.5"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.3/@packageFragments.1"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "SomeClass",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.testexport.duplicateexport.SomeClass",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.3/@packageFragments.1/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.4"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.3"
+      },
+      "version" : {
+        "$ref" : "//@packages.4/@versions.1"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "AwesomeClass.java",
+        "LOC" : 9,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.5"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.3/@packageFragments.2"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "AwesomeClass",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.testexport.versionedexport.AwesomeClass",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.3/@packageFragments.2/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "Servicebinterface",
+    "symbolicName" : "eu.tobix.osgi.servicebinterface",
+    "exports" : [ {
+      "$ref" : "//@bundles.4/@packageFragments.0"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.1"
+    }, {
+      "$ref" : "//@packages.6"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.1"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.4"
+      },
+      "version" : {
+        "$ref" : "//@packages.1/@versions.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "ServiceB.java",
+        "LOC" : 5,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.8"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.4/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Interface",
+          "name" : "ServiceB",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.servicebinterface.spi.ServiceB",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.4/@packageFragments.0/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "abstractMethods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//AbstractMethod",
+            "name" : "getFooB",
+            "visibility" : "DEFAULT"
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "RequiredBundlev2",
+    "symbolicName" : "eu.tobix.osgi.requiredbundlev2",
+    "exports" : [ {
+      "$ref" : "//@bundles.5/@packageFragments.0"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.12"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.12"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.5"
+      },
+      "version" : {
+        "$ref" : "//@packages.12/@versions.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "RequiredType.java",
+        "LOC" : 8,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.4"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.5/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "RequiredType",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.requiredbundle.RequiredType",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.5/@packageFragments.0/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "modifier" : [ "STATIC" ],
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "TestExportv2",
+    "symbolicName" : "eu.tobix.osgi.testexportv2",
+    "exports" : [ {
+      "$ref" : "//@bundles.6/@packageFragments.1"
+    }, {
+      "$ref" : "//@bundles.6/@packageFragments.2"
+    }, {
+      "$ref" : "//@bundles.6/@packageFragments.0"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.8"
+    }, {
+      "$ref" : "//@packages.2"
+    }, {
+      "$ref" : "//@packages.10"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    }, {
+      "$ref" : "//@packages.3"
+    }, {
+      "$ref" : "//@packages.4"
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.8"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.6"
+      },
+      "version" : {
+        "$ref" : "//@packages.8/@versions.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "SomeOtherClass.java",
+        "LOC" : 9,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.5"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.6/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "SomeOtherClass",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.testexport.another.versionedexport.SomeOtherClass",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.6/@packageFragments.0/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.3"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.6"
+      },
+      "version" : {
+        "$ref" : "//@packages.3/@versions.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "SomeClass.java",
+        "LOC" : 9,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.5"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.6/@packageFragments.1"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "SomeClass",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.testexport.duplicateexport.SomeClass",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.6/@packageFragments.1/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.4"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.6"
+      },
+      "version" : {
+        "$ref" : "//@packages.4/@versions.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "AwesomeClass.java",
+        "LOC" : 9,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.5"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.6/@packageFragments.2"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "AwesomeClass",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.testexport.versionedexport.AwesomeClass",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.6/@packageFragments.2/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "RequiredBundle",
+    "symbolicName" : "eu.tobix.osgi.requiredbundle",
+    "exports" : [ {
+      "$ref" : "//@bundles.7/@packageFragments.0"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.12"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.12"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.7"
+      },
+      "version" : {
+        "$ref" : "//@packages.12/@versions.1"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "RequiredType.java",
+        "LOC" : 7,
+        "history" : [ {
+          "$ref" : "//@versionControl/@history.4"
+        } ],
+        "packageFragment" : {
+          "$ref" : "//@bundles.7/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "RequiredType",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.requiredbundle.RequiredType",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.7/@packageFragments.0/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "modifier" : [ "STATIC" ],
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Bundle",
+    "name" : "Helloosgifragment",
+    "symbolicName" : "eu.tobix.osgi.helloosgifragment",
+    "exports" : [ {
+      "$ref" : "//@bundles.8/@packageFragments.0"
+    } ],
+    "packages" : [ {
+      "$ref" : "//@packages.11"
+    }, {
+      "$ref" : "//@packages.7"
+    }, {
+      "$ref" : "//@packages.14"
+    }, {
+      "$ref" : "//@packages.9"
+    }, {
+      "$ref" : "//@packages.0"
+    } ],
+    "packageFragments" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//PackageFragment",
+      "package" : {
+        "$ref" : "//@packages.11"
+      },
+      "bundle" : {
+        "$ref" : "//@bundles.8"
+      },
+      "version" : {
+        "$ref" : "//@packages.11/@versions.0"
+      },
+      "compilationUnits" : [ {
+        "eClass" : "http://www.example.org/OSGiApplicationModel#//CompilationUnit",
+        "name" : "ProtectedType.java",
+        "LOC" : 7,
+        "packageFragment" : {
+          "$ref" : "//@bundles.8/@packageFragments.0"
+        },
+        "topLevelType" : {
+          "eClass" : "http://www.example.org/OSGiApplicationModel#//Class",
+          "name" : "ProtectedType",
+          "visibility" : "PUBLIC",
+          "qualifiedName" : "eu.tobix.osgi.helloosgi.ProtectedType",
+          "compilationUnit" : {
+            "$ref" : "//@bundles.8/@packageFragments.0/@compilationUnits.0"
+          },
+          "externalReferences" : [ {
+            "$ref" : "//@externalTypes.0"
+          } ],
+          "constructors" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Constructor",
+            "LOC" : 0,
+            "visibility" : "PUBLIC"
+          } ],
+          "methods" : [ {
+            "eClass" : "http://www.example.org/OSGiApplicationModel#//Method",
+            "name" : "getMessage",
+            "visibility" : "PUBLIC",
+            "modifier" : [ "STATIC" ],
+            "LOC" : 0
+          } ]
+        }
+      } ]
+    } ],
+    "version" : {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : "qualifier"
+    }
+  } ],
+  "versionControl" : {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//VersionControl",
+    "workingCopyRevision" : 10,
+    "history" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Add required (empty) src directory in embeddedjar-bundle.",
+      "timestamp" : "2016-01-05T14:11:01+01:00",
+      "id" : "10",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      }
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Rename file for testing purposes.",
+      "timestamp" : "2016-01-05T14:10:31+01:00",
+      "id" : "9",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      },
+      "files" : [ {
+        "$ref" : "//@bundles.1/@packageFragments.0/@compilationUnits.0"
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Moved a file for testing purposes.",
+      "timestamp" : "2016-01-02T18:03:30+01:00",
+      "id" : "8",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      }
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Ignore files.",
+      "timestamp" : "2015-12-22T16:49:48+01:00",
+      "id" : "7",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      }
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Require Bundle.",
+      "timestamp" : "2015-12-22T16:30:50+01:00",
+      "id" : "6",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      },
+      "files" : [ {
+        "$ref" : "//@bundles.7/@packageFragments.0/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.5/@packageFragments.0/@compilationUnits.0"
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "mics.",
+      "timestamp" : "2015-12-22T16:30:48+01:00",
+      "id" : "5",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      },
+      "files" : [ {
+        "$ref" : "//@bundles.6/@packageFragments.1/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.3/@packageFragments.2/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.6/@packageFragments.0/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.6/@packageFragments.2/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.3/@packageFragments.0/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.3/@packageFragments.1/@compilationUnits.0"
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Added Bundle with embedded third party jar.",
+      "timestamp" : "2015-12-22T16:30:43+01:00",
+      "id" : "4",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      }
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Working DS-Components.",
+      "timestamp" : "2015-12-22T16:30:21+01:00",
+      "id" : "3",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      },
+      "files" : [ {
+        "$ref" : "//@bundles.1/@packageFragments.0/@compilationUnits.1"
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Initial Commit.",
+      "timestamp" : "2015-12-22T16:30:18+01:00",
+      "id" : "2",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      },
+      "files" : [ {
+        "$ref" : "//@bundles.4/@packageFragments.0/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.0/@packageFragments.0/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.0/@packageFragments.0/@compilationUnits.1"
+      }, {
+        "$ref" : "//@bundles.0/@packageFragments.1/@compilationUnits.0"
+      }, {
+        "$ref" : "//@bundles.1/@packageFragments.0/@compilationUnits.1"
+      } ]
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "message" : "Empty file.",
+      "timestamp" : "2015-12-22T16:26:44+01:00",
+      "id" : "1",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.0"
+      }
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Commit",
+      "timestamp" : "2015-12-21T15:40:58+01:00",
+      "id" : "0",
+      "author" : {
+        "$ref" : "//@versionControl/@authors.1"
+      }
+    } ],
+    "authors" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Author",
+      "name" : "tobias"
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Author"
+    } ]
+  },
+  "packages" : [ {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "",
+    "name" : "unnamed package",
+    "subPackages" : [ {
+      "$ref" : "//@packages.9"
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.servicebinterface.spi",
+    "name" : "spi",
+    "fragments" : [ {
+      "$ref" : "//@bundles.4/@packageFragments.0"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.6"
+    },
+    "versions" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.testexport.another",
+    "name" : "another",
+    "subPackages" : [ {
+      "$ref" : "//@packages.8"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.10"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.testexport.duplicateexport",
+    "name" : "duplicateexport",
+    "fragments" : [ {
+      "$ref" : "//@bundles.6/@packageFragments.1"
+    }, {
+      "$ref" : "//@bundles.3/@packageFragments.1"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.10"
+    },
+    "versions" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.testexport.versionedexport",
+    "name" : "versionedexport",
+    "fragments" : [ {
+      "$ref" : "//@bundles.6/@packageFragments.2"
+    }, {
+      "$ref" : "//@bundles.3/@packageFragments.2"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.10"
+    },
+    "versions" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 2,
+      "minor" : 3,
+      "micro" : 4,
+      "qualifier" : ""
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 9,
+      "micro" : 0,
+      "qualifier" : ""
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.helloservice",
+    "name" : "helloservice",
+    "subPackages" : [ {
+      "$ref" : "//@packages.15"
+    }, {
+      "$ref" : "//@packages.13"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.7"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.servicebinterface",
+    "name" : "servicebinterface",
+    "subPackages" : [ {
+      "$ref" : "//@packages.1"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.7"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi",
+    "name" : "osgi",
+    "subPackages" : [ {
+      "$ref" : "//@packages.12"
+    }, {
+      "$ref" : "//@packages.6"
+    }, {
+      "$ref" : "//@packages.10"
+    }, {
+      "$ref" : "//@packages.11"
+    }, {
+      "$ref" : "//@packages.5"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.14"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.testexport.another.versionedexport",
+    "name" : "versionedexport",
+    "fragments" : [ {
+      "$ref" : "//@bundles.6/@packageFragments.0"
+    }, {
+      "$ref" : "//@bundles.3/@packageFragments.0"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.2"
+    },
+    "versions" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 2,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 1,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu",
+    "name" : "eu",
+    "subPackages" : [ {
+      "$ref" : "//@packages.14"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.0"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.testexport",
+    "name" : "testexport",
+    "subPackages" : [ {
+      "$ref" : "//@packages.2"
+    }, {
+      "$ref" : "//@packages.3"
+    }, {
+      "$ref" : "//@packages.4"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.7"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.helloosgi",
+    "name" : "helloosgi",
+    "fragments" : [ {
+      "$ref" : "//@bundles.8/@packageFragments.0"
+    }, {
+      "$ref" : "//@bundles.1/@packageFragments.0"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.7"
+    },
+    "versions" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.requiredbundle",
+    "name" : "requiredbundle",
+    "fragments" : [ {
+      "$ref" : "//@bundles.5/@packageFragments.0"
+    }, {
+      "$ref" : "//@bundles.7/@packageFragments.0"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.7"
+    },
+    "versions" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    }, {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.helloservice.spi",
+    "name" : "spi",
+    "fragments" : [ {
+      "$ref" : "//@bundles.0/@packageFragments.1"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.5"
+    },
+    "versions" : [ {
+      "eClass" : "http://www.example.org/OSGiApplicationModel#//Version",
+      "major" : 0,
+      "minor" : 0,
+      "micro" : 0,
+      "qualifier" : ""
+    } ]
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix",
+    "name" : "tobix",
+    "subPackages" : [ {
+      "$ref" : "//@packages.7"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.9"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Package",
+    "qualifiedName" : "eu.tobix.osgi.helloservice.impl",
+    "name" : "impl",
+    "fragments" : [ {
+      "$ref" : "//@bundles.0/@packageFragments.0"
+    } ],
+    "parentPackage" : {
+      "$ref" : "//@packages.5"
+    }
+  } ],
+  "services" : [ {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Service",
+    "interfaceName" : "eu.tobix.osgi.helloservice.spi.ServiceA",
+    "interface" : {
+      "$ref" : "//@bundles.0/@packageFragments.1/@compilationUnits.0/@topLevelType"
+    }
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//Service",
+    "interfaceName" : "eu.tobix.osgi.servicebinterface.spi.ServiceB",
+    "interface" : {
+      "$ref" : "//@bundles.4/@packageFragments.0/@compilationUnits.0/@topLevelType"
+    }
+  } ],
+  "externalTypes" : [ {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//ExternalType",
+    "qualifiedName" : "java.lang.String"
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//ExternalType",
+    "qualifiedName" : "java.lang.Override"
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//ExternalType",
+    "qualifiedName" : "java.lang.System"
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//ExternalType",
+    "qualifiedName" : "org.osgi.framework.BundleActivator"
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//ExternalType",
+    "qualifiedName" : "org.osgi.framework.BundleContext"
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//ExternalType",
+    "qualifiedName" : "java.lang.Exception"
+  }, {
+    "eClass" : "http://www.example.org/OSGiApplicationModel#//ExternalType",
+    "qualifiedName" : "com.google.common.base.Joiner"
+  } ]
+}
